@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:5
+#: 1f46674f106647b5823be5fd84a8e0e1
+msgid "NitroPad X230"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:10
+#: 7869285c3ef244e28973c3192c277b35
+msgid ""
+"**Warning:** The CPU in this computer no longer receives microcode "
+"updates from Intel. Without microcode updates, Qubes OS cannot ensure "
+"that this computer is secure against CPU vulnerabilities. While this "
+"computer remains certified for Qubes OS Release 4, we recommend that "
+"prospective buyers consider a newer Qubes-certified computer instead."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:12
+#: f4563ffa5b334de99d07e761aec1d753
+msgid ""
+"The `NitroPad X230 "
+"<https://shop.nitrokey.com/shop/product/nitropad-x230-67>`__ is "
+":doc:`officially certified </user/hardware/certified-hardware/certified-"
+"hardware>` for Qubes OS Release 4."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:14
+#: ba06587430374573bf736523ea8e39b8
+msgid "|Photo of the NitroPad X230|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:32
+#: ee47b386da6f44169c193fdb9e588932
+msgid "Photo of the NitroPad X230"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:16
+#: cfa660ebff3f40b4bdf846419225768d
+msgid ""
+"The `NitroPad X230 "
+"<https://shop.nitrokey.com/shop/product/nitropad-x230-67>`__ offers users"
+" unprecedented control over the security of their hardware. Key features "
+"include:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:18
+#: bbd2d13ffe7b4621948efd008f16c507
+msgid ""
+"Tamper detection through measured boot with `coreboot "
+"<https://www.coreboot.org/>`__, `Heads "
+"<https://github.com/osresearch/heads/>`__, and Nitrokey USB hardware, "
+"including support for :doc:`Anti Evil Maid (AEM) </user/security-in-qubes"
+"/anti-evil-maid>`"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:20
+#: f34a705517e14f4f9bcf5b6080b652d2
+msgid ""
+"Deactivated `Intel Management Engine "
+"<https://libreboot.org/faq.html#intelme>`__"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:22
+#: 9b0969caf91f4af3bd262e056c306cda
+msgid "User-replaceable cryptographic keys"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:24
+#: b2ced601f97b41b8987aac3745d1f005
+msgid "Included Nitrokey USB key"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:26
+#: 36f4a02836484768a4615aa68e903c2f
+msgid ""
+"Professional ThinkPad hardware based on the `ThinkPad X230 "
+"<https://www.thinkwiki.org/wiki/Category:X230>`__"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-x230.rst:28
+#: 017048a8f6094436b6b60124ae365b9e
+msgid ""
+"Security-conscious shipping to mitigate against third-party `interdiction"
+" <https://en.wikipedia.org/wiki/Interdiction>`__"
+msgstr ""
+

@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:5
+#: 4ac909c3c8244594825c33edfafdac9d
+msgid "NitroPad V56"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:8
+#: 9822d82b3f074937b6c9f2d1eaf730bd
+msgid ""
+"The `NitroPad V56 <https://shop.nitrokey.com/shop/nitropad-v56-684>`__ is"
+" :doc:`officially certified </user/hardware/certified-hardware/certified-"
+"hardware>` for Qubes OS Release 4."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:10
+#: 869826130f89435fa01e4f3ae61ab7ad
+msgid "|Photo of the NitroPad V56|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:150
+#: f0d111fe63df483198042327410b2b28
+msgid "Photo of the NitroPad V56"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:13
+#: 04227a43087c4aaaae9b3e7930b4827c
+msgid "Qubes-certified options"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:16
+#: a7b99c77569a4e97a248ffd6b8413507
+msgid ""
+"The configuration options required for Qubes certification are detailed "
+"below."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:19
+#: c06597e06a9a49c7bbb578bcd6bcd361
+msgid "Processor and graphics card"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:22
+#: a70f80c582d942779b4538258f55036d
+msgid "Certified: Intel Core Ultra 5 Processor 125H, Intel Arc iGPU with AI Boost"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:24
+#: d701303e726d4e40bae262eaeb743bf6
+msgid "Certified: Intel Core Ultra 7 Processor 155H, Intel Arc iGPU with AI Boost"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:26
+#: bf911bafbe9b47dc93676313820247d7
+msgid "The Nvidia GPU options are not currently certified."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:31
+#: aa8eaaa8aae8494b9155b1c163db3acb
+msgid "Memory (RAM) DDR5, 5600 MHz"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:34
+#: bb128400f269403fad3869a031cfb61b
+msgid "Certified: All options 16 GB (2x8 GB) and higher"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:39
+#: af9f9fea13d743ce9cbdc8fb79b63f7d
+msgid "1st Hard Disk SSD NVMe PCIe 4.0 x4"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:42
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:50
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:58
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:78
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:86
+#: 667be95fa28b44e59f59e88dbe287c60 8129179474f64350b37baa136faa17f6
+#: d001e9cb0d4442bfa0c4fd0ea11bf289 d9c8d050e3c446c5898061200153b361
+#: f9d3752829494d989c8af2e24ea4dfcf
+msgid "Certified: Any of the available options in this section"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:47
+#: 8fe5c1cd20134581a0391868541548a2
+msgid "2nd Hard Disk SSD NVMe PCIe 4.0 x4"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:55
+#: 84207d03dab84c72b481f0bc4eec1365
+msgid "Keyboard"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:63
+#: 5fabbbdc83de45c6995189d6ee31f51e
+msgid "Wireless interfaces"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:66
+#: bfdbb981a5f14c429d208c9afc4c868f
+msgid ""
+"Certified: Wi-Fi 6E + Bluetooth 5.3, Intel AX-210/211 (non vPro) WLAN "
+"module 2.4 Gbps, 802.11ax"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:68
+#: b9e81328ddc34cb9bf5987e255863ae3
+msgid ""
+"Certified: Wi-Fi 7 + Bluetooth 5.42, Intel BE200 (non vPro) WLAN module "
+"5.8 Gbps, 802.11be"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:70
+#: 76e9167993da46af99b708e0d4fde3d9
+msgid "Certified: No wireless"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:75
+#: 03c85cd2dfcf48f8bcb511eb00a00f7a
+msgid "Webcam and microphone"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:83
+#: d00ce50a32fe4a3689659f86d5982f68
+msgid "Type"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:91
+#: a59eb56e43f749abb238d7021ba01f80
+msgid "Firmware"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:94
+#: 18abf725116c40e68438527aed6830dd
+msgid "Certified: Dasharo TianoCore UEFI without Measured boot, without Nitrokey"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:96
+#: 03d1b5ac5ef449c49b1deafacecbc9ee
+msgid ""
+"The option “Dasharo HEADS with Measured Boot, requires Nitrokey!” is not "
+"yet certified."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:101
+#: c3157bb91ef6478eabfa36fbefa96957
+msgid "Operating system"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:104
+#: 93b6d3ed3e1743c09b43b70883a4953e
+msgid "Certified: Qubes OS 4.2.3 or newer (within Release 4)."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:106
+#: 7463ef68de7e49069e3823dd4da0c30f
+msgid "Releases older than 4.2.3 are not certified."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:108
+#: 3a908a5fd33e4072bdf81696afab38ea
+msgid ""
+"You may choose either to have Nitrokey preinstall Qubes OS for you, or "
+"you may choose to install Qubes OS yourself. This choice does not affect "
+"certification."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:113
+#: 9996c3ace72047e6b9e9c4e46a8db5d0
+msgid "Nitrokey"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:116
+#: 1da6541f762a4ee195f34418caa0c781
+msgid "Certified: None – for TianoCore only!"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:118
+#: 1d7e568af8354b43ba5ce1ac1675414e
+msgid ""
+"The Nitrokey options are currently not applicable to Qubes hardware "
+"certification. (See the Firmware section above.)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:123
+#: 615daeb905f247a7a453b0666525e7fe
+msgid "Shipment of Nitrokey"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:126
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:134
+#: 6563e389a31247109b0b3c3f899d5b36 8ea0d3391f0d4edeb388d8b970afd507
+msgid "This section does not affect Qubes hardware certification."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:131
+#: 3725d57e24fd41eb81aa61cb866d5517
+msgid "Tamper-evident packaging"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:139
+#: de71bc38506f4edb9b5bd4dd33a141b3
+msgid "Disclaimers"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:142
+#: 67e841c5781f4ee58823126cbffb9d02
+msgid ""
+"In order for Wi-Fi to function properly, ``sys-net`` must currently be "
+"based on a Fedora template. The firmware package in Debian templates is "
+"currently too old for the certified Wi-Fi cards."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:144
+#: bab90d192d3c44ba80888e2331e2d978
+msgid ""
+"Currently requires ``kernel-latest``: If you install Qubes OS yourself, "
+"you must select the ``Install Qubes OS RX using kernel-latest`` option on"
+" the GRUB menu when booting the installer. This non-default kernel option"
+" is currently required for the NitroPad V56 to function properly."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropad-v56.rst:146
+#: 51ca56f8b0ef424c9132ae617d4e9100
+msgid ""
+"Due to a `known bug <https://github.com/Dasharo/dasharo-"
+"issues/issues/976>`__, the bottom-right USB-C port is currently limited "
+"to USB 2.0 speeds."
+msgstr ""
+

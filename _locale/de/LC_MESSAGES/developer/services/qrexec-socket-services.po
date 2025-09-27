@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer/services/qrexec-socket-services.rst:3
+#: 98f423c2d2a44b038c79c621c66833b5
+msgid "Qrexec: socket-based services"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:6
+#: 03935de3e09947d1943cd7223844d5c0
+msgid ""
+"*This page describes how to implement and use new socket-backed services "
+"for qrexec. See* :doc:`qrexec </developer/services/qrexec>` *for general "
+"overview of the qrexec framework.*"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:8
+#: 8d345758f5c14574af7a1439391f93ec
+msgid ""
+"As of Qubes 4.1, qrexec allows implementing services not only as "
+"executable files, but also as Unix sockets. This allows Qubes RPC "
+"requests to be handled by a server running in a VM and listening for "
+"connections."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:11
+#: 8d441eb35bd04dc286c909745dd3b050
+msgid "How it works"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:14
+#: 0b3b3abdc6ed4543b3b6c388453c48b7
+msgid ""
+"When a Qubes RPC service is invoked, qrexec searches for a file that "
+"handles it in the qubes-rpc directories (``/etc/qubes-rpc`` or "
+"``/usr/local/etc/qubes-rpc``). If the file is a Unix socket, qrexec will "
+"try to connect to it."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:16
+#: b4af633b9b85422b9c07e44266ce20f0
+msgid ""
+"Before passing user input, the socket service will receive a null-"
+"terminated service descriptor, i.e. the part after ``QUBESRPC``. When "
+"running in a VM, this is:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:24
+#: 45bf6c9d67374b1fb81564f11e189c1d
+msgid "When running in dom0, it is:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:32
+#: efc33cb99b6843c8a421e52ee0f431f3
+msgid ""
+"(The target type can be ``name``, in which case target is a domain name, "
+"or ``keyword``, in which the target is a keyword like ``@dispvm``)."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:34
+#: f59c3bd7a9e44721888ebd0900d65177
+msgid ""
+"Afterwards, data provided by the service’s user (as stdin) is sent into "
+"the socket, and data received from the socket is sent back to the user "
+"(as stdout). When the service closes the socket, an exit code of 0 is "
+"sent back to the user."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:37
+#: 263d9963df084b88a350a1aaa4f9b6fa
+msgid "Differences from executable-based services"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:40
+#: a1ddd45c581b456aae3ef2f153617a72
+msgid ""
+"From the user point of view, the socket-based service behaves almost like"
+" an executable-based one. Here are the differences:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:42
+#: bddcbd572e7b46a684d82f055170e6eb
+msgid ""
+"There is no stderr (the socket provides only one output stream). "
+"Currently, that means stderr will also never be closed on user’s end."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:44
+#: b1e932a3552b4e059edacf0edea0e057
+msgid ""
+"There is no exit code. When the socket connection is closed, exit code 0 "
+"is sent to the user."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:49
+#: b05dae345fd345e69cbd48903fa52b81
+msgid "Recommended use"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:52
+#: 985efd59beaf419c877edaf8bb16828f
+msgid ""
+"Create a program that binds to path *outside* ``/etc/qubes-rpc``, such as"
+" ``/var/run/my-daemon.sock``. Put a symlink in ``/etc/qubes-rpc``, e.g. "
+"``ln -s /var/run/my-daemon.sock /etc/qubes-rpc/qubes.Service``."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:54
+#: 436dff907342404eb5597865b7285060
+msgid ""
+"If your program handles multiple services, create multiple symlinks. You "
+"can dispatch based on the service descriptor."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:56
+#: 772f7b604e3f40a4927180a945e2904b
+msgid "Do not run the program as root."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:58
+#: b9f2339c3a714c46887cff0726660c39
+msgid ""
+"You can use systemd and socket activation so that the program is started "
+"only when the service is invoked. See the below example."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:61
+#: a9138fa8ab33414eac21ce75bfde86a3
+msgid "Example: ``qrexec-policy-agent``"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:64
+#: 76e0251944c0417b94a77532f574fb39
+msgid ""
+"``qrexec-policy-agent`` is the program that handles “ask” prompts for "
+"Qubes RPC calls. It is a good example of an application that:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:66
+#: c4546cf888cc419e91f421f5d630897a
+msgid "Uses Python and asyncio."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:68
+#: 9d8c4de9ed00476c955b77d62877988c
+msgid "Runs as a daemon, to save some overhead on starting process."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:70
+#: a60ff7a9cfa64a848d0b056a5c927cfa
+msgid "Runs as a normal user. This is achieved using user’s instance of systemd."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:72
+#: efc053d790d645c3ba1b47c13117ef15
+msgid ""
+"Uses systemd socket activation. This way it can be installed in all VMs, "
+"but started only if it’s ever needed."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:76
+#: eef56bc6a1f4457fadbc04b8a1e222eb
+msgid ""
+"See the `qubes-core-qrexec <https://github.com/QubesOS/qubes-core-"
+"qrexec/>`__ repository for details."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:79
+#: a8566dabc1884e96bfbb9bea2805f264
+msgid "Systemd unit files"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:82
+#: 1518deaca97543c2844f435d1f375e08
+msgid ""
+"**/lib/systemd/user/qubes-qrexec-policy-agent.service**: This is the "
+"service configuration."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:101
+#: b589241b78f14c15b75ab4fc44a1029c
+msgid ""
+"**/lib/systemd/user/qubes-qrexec-policy-agent.socket**: This is the "
+"socket file that will activate the service."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:119
+#: 128bd81ebe4c4cc791f22f0426d188bb
+msgid ""
+"Note the ``ConditionUser`` and ``ConditionGroup`` that ensure that the "
+"socket and service is started only as the right user"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:121
+#: d7c4dd646ce748469c8f5aa3843656ae
+msgid ""
+"Start the socket using ``systemctl --user start``. Enable it using "
+"``systemctl --user enable``, so that it starts automatically."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:130
+#: 40b0ebf4877a4f02af7d975efda78ebe
+msgid "Alternatively, you can enable the service by creating a symlink:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:139
+#: 353bfc884ac24ca191437129bbe6e48a
+msgid "Link in qubes-rpc"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:142
+#: b79c9ebcbe9745c3b22074807e0951d3
+msgid ""
+"``qrexec-policy-agent`` will handle a Qubes RPC service called "
+"``policy.Ask``, so we add a link:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:151
+#: 7770974b9cd64bdcb77becb3092debab
+msgid "Python server with socket activation"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:154
+#: 48e75162e6f94f07b6ddf2ea032419e2
+msgid ""
+"Socket activation in systemd works by starting our program with the "
+"socket file already bound at a specific file descriptor. It’s a simple "
+"mechanism based on a few environment variables, but the canonical way is "
+"to use the ``sd_listen_fds()`` function from systemd library (or, in our "
+"case, its Python version)."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:156
+#: 1a7d9edb74804e8ab91ba65ac03c5ef1
+msgid "Install the Python systemd library:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:164
+#: 78a8a8c722d34e8ea6d73b6c425ad22d
+msgid "Here is the server code:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:231
+#: febc600e4de84ebb867b69a837000d3f
+msgid ""
+"You can also use ``qrexec/server.py`` from `qubes-core-qrexec "
+"<https://github.com/QubesOS/qubes-core-qrexec/>`__ repository, which is a"
+" variant of the above code - but note that currently it’s somewhat more "
+"specific (JSON requests and ASCII responses; no target handling in "
+"service descriptors)."
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:234
+#: 4f15ba243583400d964764db5610ad51
+msgid "Using the service"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:237
+#: e69e8141f426431fb74fb1dea7395b61
+msgid "The service is invoked in the same way as a standard Qubes RPC service:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:245
+#: 75c000589e034958aa3bf2953c768044
+msgid ""
+"You can also connect to it locally, but remember to include the service "
+"descriptor:"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:254
+#: e72bb0f015c54e81b173feb816579e12
+msgid "Further reading"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:257
+#: a9c464b04b6446a09f6ce1a57dfa96fe
+msgid ":doc:`Qrexec overview </developer/services/qrexec>`"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:259
+#: 5900ab49070f4488a82a46ee960a4a19
+msgid ":doc:`Qrexec internals </developer/services/qrexec-internals>`"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:261
+#: 61290e04814a44fc9b22f8427daa9b39
+msgid ""
+"`qubes-core-qrexec <https://github.com/QubesOS/qubes-core-qrexec/>`__ "
+"repository - contains the above example"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:263
+#: dfb63ce510d549b4b2714936f94c3b36
+msgid ""
+"`systemd.socket "
+"<https://www.freedesktop.org/software/systemd/man/systemd.socket.html>`__"
+" - socket unit configuration"
+msgstr ""
+
+#: ../../developer/services/qrexec-socket-services.rst:265
+#: 7f1667b1ef4f412b9d147a6c7991fa1f
+msgid ""
+"`Streams in Python asyncio <https://docs.python.org/3/library/asyncio-"
+"stream.html>`__"
+msgstr ""
+

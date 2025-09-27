@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer/general/devel-books.rst:3 51ed0fec11f243e598a7a5517d8950dc
+msgid "Developer books"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:6 0ab00532e4504e4aac513ff332034555
+msgid ""
+"Below is a list of various books that might be useful in learning some "
+"basics needed for Qubes development."
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:8 29799945a45441a98613485fd7aa9842
+msgid "A must-read about Xen internals:"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:10 de940ec3da8942d5acc042f032f265b2
+msgid ""
+"`The Definitive Guide to the Xen Hypervisor <https://www.amazon.com"
+"/Definitive-Guide-Xen-Hypervisor/dp/013234971X>`__, by David Chisnall"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:14 e95e22fd1aa14b309cfdd658aac00e24
+msgid "Some good books about the Linux kernel:"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:16 7616bcbde97f4823931541137c61f481
+msgid ""
+"`Linux Kernel Development <https://www.amazon.com/Linux-Kernel-"
+"Development-Robert-Love/dp/0672329468>`__, by Robert Love"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:18 62aee443e39e4a55ac4f9132daae52a2
+msgid ""
+"`Linux Device Drivers <https://www.amazon.com/Linux-Device-Drivers-"
+"Jonathan-Corbet/dp/0596005903>`__, by Jonathan Corbet"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:22 b0f2784b442743d89dc603f1f0ec6b29
+msgid "Solid intro into Trusted Computing:"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:24 1710fbd02d7a48929ac789949634f607
+msgid ""
+"`Dynamics of a Trusted Platform <https://www.amazon.com/Dynamics-Trusted-"
+"Platform-Buildin-Grawrock/dp/1934053082>`__, by David Grawrock (original "
+"Intel architect for TXT)"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:28 4549fce326ed48a6be2305dd6707eee7
+msgid "Good book about GIT:"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:30 2d5e512040ca4b188af871bcc91b440a
+msgid ""
+"`Pro Git <https://git-scm.com/book/en/v2>`__, by Scott Chacon and Ben "
+"Straub (complete book available free online)"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:34 324e9d2153a34279a821f03e8d0f96ff
+msgid "Useful books about Python:"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:36 ca51fb87fb554aee8d10fdb5c924861e
+msgid ""
+"`Programming in Python 3 <https://www.qtrac.eu/py3book.html>`__, by Mark "
+"Summerfield"
+msgstr ""
+
+#: ../../developer/general/devel-books.rst:38 3fa11d8814b2495db03909e38b09c327
+msgid ""
+"`Rapid GUI Programming with Python and Qt "
+"<https://www.qtrac.eu/pyqtbook.html>`__, by Mark Summerfield (Although "
+"note that :ref:`Qt is being replaced by GTK <developer/general/usability-"
+"ux:gnome, kde, and xfce>` in Qubes code.)"
+msgstr ""
+

@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer/releases/2_0/release-notes.rst:3
+#: eab98a70c98e47aa8eca166d2441b70b
+msgid "Qubes R2.0 release notes"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:6
+#: c3c65944b045450d80182455933d8252
+msgid ""
+"Detailed release notes in `this blog post "
+"<https://blog.invisiblethings.org/2014/09/26/announcing-qubes-os-"
+"release-2.html>`__"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:9
+#: a6f7b9ee780944d79c4609767ca1699d
+msgid "New features since 1.0"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:12
+#: 8d1f1bda5bf749e085b7023b8750fa2c
+msgid "Support for generic fully virtualized VMs (without qemu in the TCB!)"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:14
+#: cf6e127cde0f4caf8bbb8b05331b8f44
+msgid ""
+"Support for Windows-based AppVMs integration (clipboard, file exchange, "
+"qrexec, pv drivers)"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:16
+#: 2859df6b232d48218344496bfffe69e9
+msgid "Secure audio input to select AppVMs (Hello Skype users!)"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:18
+#: 8906d098494044758431684d93e99c5a
+msgid ""
+"Clipboard is now also controlled by central policies, unified with other "
+"qrexec policies."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:20
+#: bec02aaa47364b97956d6c07466d5ef0
+msgid "Out of the box TorVM support"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:22
+#: bf60a501b1a145508deaf8bcf654ef08
+msgid "Experimental support for PVUSB"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:24
+#: fd6bd1d0087e456f8c97bfbb2bf71e2f
+msgid "Updated Xorg packages in Dom0 to support new GPUs"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:26
+#: 49c1aa2af72545d59e9d091ffd6f37d1
+msgid "DisposableVM customization support"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:28
+#: bc29d34f29b9485195ed91f8fbab6eee
+msgid "Introduced Xfce 4.10 environment for Dom0 as an alternative to KDE"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:30
+#: cacf4fcbc48c4ec986882892daa51fa2
+msgid "Advanced infrastructure for system backups"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:32
+#: 48f12489ece6458295bc3aca1ade093c
+msgid "Ability to autostart selected VM at system startup"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:34
+#: 7842e2f0bad14f3289f177fcee8b1c7e
+msgid "Support for dynamic screen resolution change"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:36
+#: 44d28248197e499ca7e53ee44081669b
+msgid "Dom0 distribution upgraded to Fedora 20"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:41
+#: f8659c89da4e426c9cf1429708ffe4be
+msgid "Known issues"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:44
+#: 156d4daccc104af1aa5207b568d1b964
+msgid ""
+"On some graphics cards the Xfce4 Window Manager (one of the two supported"
+" Dom0 Windows Managers in Qubes R2, the other being KDE) might behave "
+"“strangely”, e.g. decorations might not be drawn sometimes. Also the "
+"accompanying lightdm login manager might incorrectly display the "
+"wallpaper. If you’re facing those problems, it’s advisable to use the KDE"
+" Window Manager and kdm instead of Xfce4 and lightdm (this is default if "
+"one chooses the KDE only installation option in the installer)."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:46
+#: a196648d3cfd4aa092f34ce06b89c67d
+msgid ""
+"Some icons in the Qubes Manager application might not be drawn correctly "
+"when using the Xfce4 environment in Dom0. If this bothers you, please use"
+" the KDE environment instead."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:48
+#: adeee1c3e05040fb8fabbf3225c3ada3
+msgid ""
+"If your GPU is not correctly supported by the Dom0 kernel (e.g. the 3D "
+"desktop effects do not run smoothly) then you might experience "
+"“heaviness” with Windows 7-based AppVMs. In that case, please solve the "
+"problem with your GPU support in Dom0 in the first place (by using a "
+"different kernel), or install Qubes OS on a different system."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:50
+#: d62eda3179a14d5b861fca76cd3d3e3f
+msgid ""
+"Under some circumstances, Qubes backup can create broken backup, without "
+"any visible message (#902). It is advisable to verify a backup to spot "
+"the problem. If you encounter this problem, backup VM directory manually."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:52
+#: a35ef3c49a2b474b9c32c5b1d9d65e2b
+msgid ""
+"System shutdown sometimes is very slow (#903). To mitigate the problem, "
+"shutdown all the VMs first."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:54
+#: 1dd13a199647499698f2297e8c2af380
+msgid ""
+"For other known issues take a look at `our trac tickets <https://wiki"
+".qubes-"
+"os.org/query?status=accepted&status=assigned&status=new&status=reopened&type=defect&milestone=Release+2.1+(post+R2)&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority>`__"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:58
+#: e8ce9e8284c8461da407244c18b24e12
+msgid ""
+"It is advised to install updates just after system installation to apply "
+"bug fixes for (some of) the above problems."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:61
+#: d3230829f90049e6bb00163900f853ea
+msgid "Downloads"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:64
+#: e2e5151f9bbb44f99acd155cf58bf472
+msgid "See `Qubes Downloads <https://www.qubes-os.org/downloads/>`__."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:67
+#: e500cb4ad77c4b5594ece256775da118
+msgid "Installation instructions"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:70
+#: d2f1375286e04a7a9b853a0e28475605
+msgid ""
+"See :doc:`Installation Guide </user/downloading-installing-upgrading"
+"/installation-guide>`."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:73
+#: 51f4f7309db14d69be9417195f9e2bbc
+msgid "Upgrading"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:77
+#: bf2351b7f3484330a541a503163482fb
+msgid "From Qubes R2 rc1"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:80
+#: 476bb2495ce141858406f63b24b7ae29
+msgid ""
+"Upgrading from Qubes R2 rc1 should be a simple matter of installing "
+"updates for :doc:`dom0 </user/advanced-topics/how-to-install-software-in-"
+"dom0>` and :doc:`VMs </user/how-to-guides/how-to-install-software>`."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:83
+#: 7eec664495354a099f3a8ae0bdf46b3b
+msgid "From Qubes R2 beta 3 and older"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:86
+#: 8e088ce1c76d47898f3593835d353c32
+msgid ""
+"The easiest and safest way to upgrade to Qubes R2 (especially from older "
+"releases) is to install it from scratch and use :doc:`qubes backup and "
+"restore tools </user/how-to-guides/how-to-back-up-restore-and-migrate>` "
+"for migrating of all of the user VMs."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:88
+#: 1b41327dec554f1ca15f8cc28774d372
+msgid ""
+"Users of R2 beta 3 can upgrade using procedure that has been described "
+":doc:`here </user/downloading-installing-upgrading/upgrade/2>`."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:90
+#: 109fefa313f24021b7bdac08b4373f6c
+msgid ""
+"**Note:** if the user has custom Template VMs (i.e. other than the "
+"default template, e.g. created from it by cloning), or Standalone VMs, "
+"then the user should perform manual upgrade from R2B3 to R2rc1, as "
+"described under the link given above."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:93
+#: 73b54fbcba934e3e8e00f0b3c885834b
+msgid "Migrating between beta releases"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:97
+#: 71e78b37838b472383a0316684f93501
+msgid "From Qubes R1 to R2 beta1"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:100
+#: 540101efa2c4411eb31f3919e1cb7b81
+msgid ""
+"If you’re already running Qubes Release 1, you don’t need to reinstall, "
+"it’s just enough to update the packages in your Dom0 and the template "
+"VM(s). This procedure is described :doc:`here </user/downloading-"
+"installing-upgrading/upgrade/2>`."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:103
+#: 5a2e1f1dfff44d419f8c8f3b20359ccb
+msgid "From Qubes R1 or R2 Beta 1 to R2 beta2"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:106
+#: 791f1b248088494faaef1bf7810c2a98
+msgid ""
+"Because of the distribution change in R2B2 (from fc13 to fc18) it’s "
+"preferred that users reinstall Qubes R2B2 from scratch, and use "
+":doc:`qubes backup and restore tools </user/how-to-guides/how-to-back-up-"
+"restore-and-migrate>` for migrating of all of the user VMs."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:108
+#: 4624f14c219f45f2a2a8db97f6cf241a
+msgid ""
+"Advanced users (and advanced users only) can also try a manual upgrade "
+"procedure that has been described :doc:`here </user/downloading-"
+"installing-upgrading/upgrade/2b2>`. It’s advisable to backup your VMs "
+"before proceeding anyway!"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:111
+#: 5521365e7c3140f0a8d698ce4025ac24
+msgid "Upgrading from Qubes R1 or R2 Beta 2 to R2 beta 3"
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:114
+#: e65856e2d87e4710921cad4cf1d009e6
+msgid ""
+"The easiest and safest way to upgrade to Qubes R2B3 is to install it from"
+" scratch and use :doc:`qubes backup and restore tools </user/how-to-"
+"guides/how-to-back-up-restore-and-migrate>` for migrating of all of the "
+"user VMs."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:116
+#: 1353ad763d774b68b5992e26552520fe
+msgid ""
+"Users can also try a manual upgrade procedure that has been described "
+":doc:`here </user/downloading-installing-upgrading/upgrade/2b3>`."
+msgstr ""
+
+#: ../../developer/releases/2_0/release-notes.rst:118
+#: 8d469a5acd864ea787e799f0f056500f
+msgid ""
+"**Note:** if the user has custom Template VMs (i.e. other than the "
+"default template, e.g. created from it by cloning), or Standalone VMs, "
+"then the user should perform manual upgrade from R2B2 to R2B3, as "
+"described under the link given above."
+msgstr ""
+

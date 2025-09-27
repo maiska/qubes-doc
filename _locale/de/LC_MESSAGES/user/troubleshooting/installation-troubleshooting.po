@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:3
+#: d8cc96121cc14e34a3d0d9019d63200a
+msgid "Installation troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:7
+#: 469fc6cd7dd4498193f9d1349ab6e45e
+msgid "\"An unknown error has occurred\" error during installation"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:10
+#: d94b5f7ea5bc47678d37c3f8943b238a
+msgid ""
+"Some people have encountered this error message when trying to install "
+"Qubes on drives that already have data on them. The solution is to exit "
+"the installer, wipe all data or delete all partitions, then restart the "
+"Qubes installation."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:13
+#: b9bf44fd49a549a3af281c9defca2a73
+msgid "Trouble installing from USB stick"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:16
+#: dcc9b7c693a14e0ea57085da54c7530f
+msgid ""
+"If you are facing issues when booting using UEFI mode, see the :doc:`UEFI"
+" troubleshooting guide </user/troubleshooting/uefi-troubleshooting>`."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:18
+#: a590de0ffd3143029eb16eec7fb5c3b0
+msgid ""
+"There are a variety of other problems that could arise when using a USB "
+"installation medium, and some of the issues can be fixed by doing one or "
+"more of the following:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:20
+#: 0088729f83cf4440b23059de502e5e65
+msgid ""
+"**Use a different USB drive:** If possible, try several drives of "
+"different sizes and formats. This determines whether the problem stems "
+"from the flash drive or Qubes installer. Some laptops cannot read from an"
+" external boot device larger than 8GB. If you encounter a black screen "
+"when performing an installation from a USB stick, ensure you are using a "
+"USB drive less than 8GB, or a partition on that USB less than 8GB and of "
+"format FAT32. Note that the Qubes installation image is over 4GB, so it "
+"may not fit on a smaller USB. If a machine can not boot from a bigger "
+"USB, it may be too old to run Qubes."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:22
+#: 573ed5f250e542f2b1571ff9f88956d3
+msgid ""
+"**Verify your Qubes ISO:** Errors will occur if the Qubes installer is "
+"corrupted. Ensure that the installer is correct and complete before "
+"writing it to a flash drive by :doc:`verifying the ISO </project-security"
+"/verifying-signatures>`."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:24
+#: 6dbbec2828f14777845776c2e352b089
+msgid ""
+"**Change the method you used to** :ref:`write your ISO to a USB key <user"
+"/downloading-installing-upgrading/installation-guide:copying the iso onto"
+" the installation medium>` **:** Some people use the ``dd`` command "
+"(recommended), others use tools like Rufus, balenaEtcher or the GNOME "
+"Disk Utility. If installation fails after using one tool, try a different"
+" one. For example, if you are facing trouble installing Qubes after "
+"writing the ISO using Rufus, then try using other tools like balenaEtcher"
+" or the ``dd`` command. In case the boot partition is not set to “active”"
+" after copying the ISO, you can use some other tool like ``gparted`` on a"
+" Linux system to activate it."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:29
+#: 4993740b80ec488596e5ae289d3f368a
+msgid ""
+"\"**Warning:** dracut-initqueue timeout - starting timeout scripts\" "
+"during installation"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:32
+#: c8b3763dc7044330891767bf8540ae80
+msgid ""
+"This error message is related to the faulty creation of the USB "
+"installation medium. If you receive this error message during "
+"installation, please make sure you have followed the instructions on "
+":ref:`how to write your ISO to a USB key <user/downloading-installing-"
+"upgrading/installation-guide:copying the iso onto the installation "
+"medium>`. Specifically, the ``dd`` command listed on that page has been "
+"verified to solve this issue on multiple Qubes installation versions."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:40
+#: f0a0d71bc90447fc94263cc0ea6e11bc
+msgid ""
+"See `here <https://github.com/QubesOS/qubes-issues/issues/6447>`__ for a "
+"discussion of this error message."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:43
+#: 569ffed25faf46c1a9e56c925e623fa9
+msgid ""
+"Boot screen does not appear / system does not detect your installation "
+"medium"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:46
+#: 069630e188c641219f60a1a40393c96b
+msgid ""
+"If the boot screen does not appear, there are several options to "
+"troubleshoot. First, try rebooting your computer. If it still loads your "
+"currently installed operating system or does not detect your installation"
+" medium, make sure the boot order is set up appropriately."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:48
+#: ad4f808d68b74994ac261e92c37339bf
+msgid ""
+"The process to change the boot order varies depending on the currently "
+"installed system and the motherboard manufacturer."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:50
+#: 77a25af8de154617974f794191602248
+msgid ""
+"If **Windows 10** is installed on your machine, you may need to follow "
+"specific instructions to change the boot order. This may require an "
+"`advanced reboot <https://support.microsoft.com/en-"
+"us/help/4026206/windows-10-find-safe-mode-and-other-startup-settings>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:53
+#: 747ae7bf90dc4577914f9ce54d08cfd9
+msgid ""
+"\"Not asking for VNC because we don't have a network\" / \"X startup "
+"failed, aborting installation\" / \"Pane is dead\" error during "
+"installation"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:56
+#: 96a337b24d394ab18dae6df7e9eb7b04
+msgid ""
+"The boot mode in use may be causing these error messages. Try to install "
+"after enabling both UEFI and legacy boot modes. If that doesn’t help, "
+"then disable one and try the other. Visit the :doc:`UEFI Troubleshooting "
+"guide </user/troubleshooting/uefi-troubleshooting>` if other errors arise"
+" during UEFI booting."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:58
+#: ded962de1555401d8b901a0366c4f28a
+msgid ""
+"These errors may also occur due to an incompatible Nvidia graphics card. "
+"If you have one, follow the following instructions:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:60
+#: fc336949b5c0420cb3cd9e461ff0f199
+msgid "Disable secure/fast boot and use legacy mode"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:62
+#: 099a5de009414fc98b7eeabf9d56e7fa
+msgid ""
+"Enter GRUB, move the selection to the first choice, and then press the "
+"Tab key."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:64
+#: e2efc3f1aaff448a838def679f7cbd25
+msgid ""
+"Now, you are in edit mode. Move the text cursor with your arrow key and "
+"after ``kernel=`` line, add:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:73
+#: 893f12cd24ec47baa87d221493a103ce
+msgid "If the above code doesn’t fix the problem, replace it with:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:80
+#: 58807641694b498f92bbdcc87d24c620
+msgid ""
+"For more information, look at the `Nvidia Troubleshooting guide "
+"<https://forum.qubes-os.org/t/19021#disabling-nouveau>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:83
+#: bf09b48d1acc4e2f8a984767445d006c
+msgid "Installation freezes at \"Setting up Networking\""
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:86
+#: cb5d6e8189df4c86b182a20a371a7691
+msgid ""
+"If you are facing this problem on an Apple computer, check out the "
+"`Macbook Troubleshooting guide <https://forum.qubes-os.org/t/19020>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:88
+#: 3c1f431c4ead4a39ba348a8da1b90b18
+msgid ""
+"If you are installing Qubes 4.0 on an external storage device, you may "
+"have forgotten to disable ``sys-usb`` during the :ref:`initial setup "
+"<user/downloading-installing-upgrading/installation-guide:initial "
+"setup>`, which is generally required for that setup to work."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:90
+#: d90d3f4f58ec446f94463ce0f394a314
+msgid ""
+"This issue occurs due to the network card, which may be missing some "
+"drivers or is incompatible with Qubes."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:92
+#: 83961c9207314f7cba57f27ba437f838
+msgid ""
+"First, install all available drivers for the card. You can install the "
+"drivers without internet access by first downloading them on another "
+"machine, then transferring them over to the current machine (e.g., with a"
+" USB drive)."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:94
+#: 304d51bd2b754a2ebe54fea377279db8
+msgid ""
+"If installing the available drivers does not help, disable the network "
+"card in the BIOS and perform the installation before re-enabling the "
+"card. If this solves the issue, it confirms the PCI card is incompatible "
+"with Qubes. In this case, you may want to consider replacing it with a "
+"network card of a different brand. Broadcom cards are notoriously "
+"problematic with Qubes."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:97
+#: db89c825949f405aa9fc0db572ffb9fc
+msgid "\"Unsupported Hardware Detected\" error"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:100
+#: dd863e506f974fb5a0e8253412f8b083
+msgid ""
+"During Qubes installation, you may come across the error message which "
+"reads “Unsupported Hardware Detected. Missing features: IOMMU/VT-d/AMD-"
+"Vi, Interrupt Remapping. Without these features, Qubes OS will not "
+"function normally”."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:102
+#: ea65e1e800294f659d7526ddf1ba309c
+msgid ""
+"This error message indicates that IOMMU-virtualization hasn’t been "
+"activated in the BIOS. Return to the :ref:`hardware requirements <user"
+"/downloading-installing-upgrading/installation-guide:hardware "
+"requirements>` section to learn how to activate it. If the setting is not"
+" configured correctly, it means that your hardware won’t be able to "
+"leverage some Qubes security features, such as a strict isolation of the "
+"networking and USB hardware."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:104
+#: c0fe9e04d13143b4acb6d70b4e1f148b
+msgid ""
+"In Qubes 4.0, the default installation won’t function properly without "
+"IOMMU, as default sys-net and sys-usb qubes require IOMMU. It is possible"
+" to configure them to reduce isolation and not use IOMMU by changing "
+"virtualization mode of these two VMs to “PV”."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:106
+#: d9de53742b864d4eaeeee9af8d03101e
+msgid ""
+"In Qubes 4.1, the default sys-net and sys-usb qubes need additional "
+"configuration to be usable without an IOMMU. Otherwise they will fail to "
+"start with this error message:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:114
+#: 6f1d6c757bd040469ddeb2f295ca5566
+msgid ""
+"To confirm that a missing IOMMU is causing this problem, check for the "
+"following error message in ``/var/log/libvirt/libxl/libxl-driver.log``:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:122
+#: cf60d3a38f2a43f09d52243b73383727
+msgid ""
+"Here are the steps to fix this. Note that this allows sys-net and sys-usb"
+" to take complete control of the system, as described in the :ref:`FAQ "
+"here <introduction/faq:why is vt-d\\/amd-vi\\/amd iommu important?>`:"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:124
+#: ae807adddda14769b971ee688973476e
+msgid "Change the virtualization mode of sys-net and sys-usb to “PV”"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:126
+#: ed1c6b4a18424eb1a5ab2c51d9993e43
+msgid ""
+"Add ``qubes.enable_insecure_pv_passthrough`` to ``GRUB_CMDLINE_LINUX`` in"
+" ``/etc/default/grub``"
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:128
+#: bf41e79c0f574785a6dc4f4fffc7fc7f
+msgid ""
+"Run ``sudo grub2-mkconfig -o /boot/efi/EFI/qubes/grub.cfg``. If you are "
+"using a non-UEFI BIOS (where ``/boot/efi/EFI`` doesn’t exist), use the "
+"command ``sudo grub-mkconfig -o /boot/grub2/grub.cfg`` instead."
+msgstr ""
+
+#: ../../user/troubleshooting/installation-troubleshooting.rst:130
+#: fa13391c1bf143a299ad07055b3d4c0c
+msgid "Reboot"
+msgstr ""
+

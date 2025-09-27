@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/video-tours.rst:3 fb530c2de7bc449192d76dc9a1fadbb9
+msgid "Video tours"
+msgstr ""
+
+#: ../../introduction/video-tours.rst:7 ec3cffbb8ccb4d72b0119452c2a99f01
+msgid "Qubes OS Summit 2022"
+msgstr ""
+
+#: ../../introduction/video-tours.rst:10 cc3534d9efe94a98867847096001c685
+msgid ""
+"Watch all the talks from Qubes OS Summit 2022, which took place September"
+" 9-11, 2022 in Berlin, Germany."
+msgstr ""
+
+#: ../../introduction/video-tours.rst:41 43732bea097d48d685b62e4a52393e38
+msgid ""
+"Micah Lee presents \"Qubes OS: The Operating System That Can Protect You "
+"Even If You Get Hacked\""
+msgstr ""
+
+#: ../../introduction/video-tours.rst:44 321b32b795864b6f90261e56bf5d9fad
+msgid ""
+"`Micah Lee <https://micahflee.com/>`__, a long-time Qubes `advocate "
+"<https://www.qubes-os.org/endorsements/>`__, presented `Qubes OS: The "
+"Operating System That Can Protect You Even If You Get Hacked "
+"<https://archive.org/details/QubesOSTheOperatingSystemThatCanProtectYouEvenIfYouGetHackedTalkByMicahLee>`__"
+" at the Circle of HOPE conference, which took place July 20-22, 2018 in "
+"New York City."
+msgstr ""
+
+#: ../../introduction/video-tours.rst:56 d1adb1e98ce344bb98a4f27ae18aa361
+msgid ""
+"Explaining Computers presents \"Qubes OS: Security Oriented Operating "
+"System\""
+msgstr ""
+

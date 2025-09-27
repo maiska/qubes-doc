@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:3
+#: d1f1a195b4c3469794af1d9578e5fee2
+msgid "How to upgrade to Qubes 4.3"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:6
+#: c76d04d18d6046e0b263e4df5cbc98f0
+msgid ""
+"This page explains how to upgrade from Qubes 4.2 to Qubes 4.3. There are "
+"two ways to upgrade: a clean installation or an in-place upgrade. In "
+"general, a clean installation is simpler and less error-prone, but an in-"
+"place upgrade allows you to preserve your customizations."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:9
+#: 7712ec7793b2456e99887638d2fce66c
+msgid "Back up"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:12
+#: 7ec71648dd5e495cad97aad5e4da63eb
+msgid ""
+"Before attempting either an in-place upgrade or a clean installation, we "
+"strongly recommend that you first :doc:`back up your system </user/how-"
+"to-guides/how-to-back-up-restore-and-migrate>` so that you don’t lose any"
+" data."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:15
+#: 416d9b7095d94ecf8f6438baba6f410f
+msgid "Clean installation"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:18
+#: 98291871341f4b9ca1a7448365c8300f
+msgid ""
+"If you would prefer to perform a clean installation rather than upgrading"
+" in-place:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:20
+#: 20ecf2c5d5bf4c699c6ad78d4b84d9eb
+msgid ""
+"(optional) Run the updater to ensure all of your qubes are in their "
+"latest version."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:22
+#: 18d048d8ed914b0e9da34fd136593666
+msgid ""
+"Create a :ref:`backup <user/how-to-guides/how-to-back-up-restore-and-"
+"migrate:creating a backup>` of your current installation."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:24
+#: 66325d24d02c4b84848c602be6781032
+msgid "`Download <https://www.qubes-os.org/downloads/>`__ the latest 4.3 release."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:26
+#: 215f3a50a3f24551a1a650b6c618d2d2
+msgid ""
+"Follow the :doc:`installation guide </user/downloading-installing-"
+"upgrading/installation-guide>` to install Qubes 4.3."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:28
+#: 2213011940344cd8a3f5f53b21e4a653
+msgid ""
+":ref:`Restore from your backup <user/how-to-guides/how-to-back-up-"
+"restore-and-migrate:restoring from a backup>` on your new 4.3 "
+"installation."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:30
+#: 3a6ed62fd4b6462691b74dc26689c357
+msgid ""
+"Install the ``qubes-dist-upgrade`` tool. This is the inplace upgrade "
+"tool, which is not what we’re doing. However it will be needed in order "
+"to upgrade the templates to the 4.3 version. You install it with the "
+"following command in the dom0 terminal:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:37
+#: 3027eb25428a40ce8d2433a78a4dc60f
+msgid ""
+"Change your templates to use the 4.3 repositories instead of the 4.2 "
+"ones. You do this with the following command in the dom0 terminal:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:44
+#: d8f47d33a6d84070bb381f6b877c3dd1
+msgid ""
+"**Note**: This step is critical to ensure the templates will receive "
+"updates once Qubes 4.2 reaches end-of-life (EOL)."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:48
+#: 9e39606e649e4269a11a9b168d4ff1fa
+msgid "In-place upgrade"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:51
+#: ec19ce5035c54678820afd373fa262c2
+msgid ""
+"**Warning:** It is not possible to upgrade directly from releases earlier"
+" than 4.2. If you’re still on an earlier release, please either perform a"
+" `clean installation of 4.3 <#clean-installation>`__ or :doc:`upgrade to "
+"4.2 </user/downloading-installing-upgrading/upgrade/4_2>` first."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:53
+#: a8d983f9caf64c2db615778f366327e9
+msgid ""
+"The upgrade may take several hours, and will download several gigabytes "
+"of data."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:55
+#: 4a533253449746dca1f0ac776e97d4e9
+msgid ""
+"In place upgrade is a complex operation. For this reason, we provide a "
+"``qubes-dist-upgrade`` tool to handle all the necessary steps "
+"automatically. You can install it with the following command in the dom0 "
+"terminal:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:63
+#: f089492171ea41d284c247e9df0053ef
+msgid ""
+"The upgrade consists of six stages — three before restarting the system —"
+" labeled “STAGE 1” through “STAGE 3” in the options list below, and three"
+" after restarting the system — labeled as “STAGE 4” through “STAGE 6” "
+"below."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:65
+#: 9f0e342c0c7f47a59a29abacb08cdd9f
+msgid ""
+"Full list of options can be obtained with ``qubes-dist-upgrade "
+"--releasever=4.3 --help``:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:114
+#: 6bb42b4ea80141afa80550b9d33c2f3a
+msgid ""
+"After installing the tool, before-reboot stages can be performed at once "
+"with:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:122
+#: 21235d822ee64361b9c1fc6f0bd298e7
+msgid ""
+"Optionally, an ``--assumeyes`` (or ``-y``) option can be used to "
+"automatically accept all the actions without confirmation."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:124
+#: 1b7552d9dd884191b6bc88b8f0bbd7d8
+msgid ""
+"Alternatively, each upgrade stage can be started separately (see the list"
+" of options above)."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:126
+#: 5d634a5e1c334496a0f87ac83618dbfb
+msgid ""
+"After completing “STAGE 1” through “STAGE 3”, restart the system. Then "
+"perform the final steps:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:134
+#: 99773da7a1e64f74a28b91e66b0ad7b0
+msgid ""
+"After performing those steps, it’s recommended to restart the system one "
+"last time."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:136
+#: c213e399bf0146a89a4201f307244302
+msgid "When this completes, you can start using Qubes OS 4.3."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:139
+#: 7dd86a13c22d4b80b64953b79a7e30bc
+msgid "Update"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/4_3.rst:142
+#: 23782bcaab514dc483498d7d83ea7f89
+msgid ""
+"After upgrading or performing a clean installation, we strongly recommend"
+" :doc:`updating your system </user/how-to-guides/how-to-update>`."
+msgstr ""
+

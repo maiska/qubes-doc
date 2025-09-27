@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:3
+#: b0e9cdf49d584a008f5eb605df75adad
+msgid "How to edit a policy"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:5
+#: b5b16ef48cc141c59eebe1cb1f5c8a78
+msgid "There are three ways to edit a :term:`policy <policies>`:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:7
+#: fad0d9d6fc894dd69c50b385e7da900f
+msgid ""
+"with :program:`Qubes OS Global Config`, the **recommended way** for the "
+"most common policies"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:9
+#: 34e535dbdc704a7eb470fcb7b8148f8b
+msgid ""
+"with :program:`Qubes Policy Editor`, a graphical text editor dedicated to"
+" this task"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:11
+#: c2ba67e785064e738bd258d588760f07
+msgid ""
+"with :program:`qubes-policy-editor`, a command-line text editor that will"
+" validate the file before saving it."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:14
+#: cfc42c54089c47309ce9877540120f9e
+msgid ""
+"In this how-to, we will restrict the clipboard policy to prevent an "
+"*untrusted* qube from pasting something in a *vault* qube, **as an "
+"example**."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:19
+#: 702fd12fa49849ab85bddee06e8ec1f4
+msgid "Edit a policy with :program:`Qubes OS Global Config`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:21
+#: ac51e756c7a342558310585fa53eabc2
+msgid ""
+":program:`Qubes OS Global Config` allows you to edit the most common "
+"policies. Following our clipboard example:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:23
+#: f32643578ea740e1af7152faa1ce6dbf
+msgid "you need to go to the :guilabel:`Clipboard` tab."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:25
+#: 3383c560427a4247b24103fd022d5888
+msgid "Under :guilabel:`Custom policy`, select :guilabel:`Add`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:27
+#: 021d0c7f8bbc4de0995038fee4307fe0
+msgid ""
+"Change the drop-down items to get this: \":guilabel:`untrusted` will "
+":guilabel:`never` be allowed to paste into the clipboard of "
+":guilabel:`vault`\""
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:29
+#: db26b0053da341ad890a20696aaeb22f
+msgid "if there is any inconsistency, a pop-up will warn you about that"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:31
+#: bce40585caed486e8980118e22b523ca
+msgid ""
+"Click on :guilabel:`Accept` and at the bottom of the window, select "
+"either :guilabel:`OK` or :guilabel:`Apply`."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:34
+#: 0b20bf85c926429dbde2ccff743193b6
+msgid "Edit a policy with :program:`Qubes Policy Editor`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:36
+#: e1ce85204cd648689d59f5c260f93a7b
+msgid "Open :program:`Qubes Policy Editor`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:38
+#: 193a77ce2d6744588894cbc9b0696aca
+msgid "You have to either:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:40
+#: f1d9bdc688cf40ea975d0a32e6fee841
+msgid ""
+"open an existing file using :menuselection:`&File --> &Open`  or "
+":kbd:`Ctrl` + :kbd:`O`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:41
+#: 5f6e4360ff564b40b2ea60f32c1a1d33
+msgid ""
+"or create a new file using :menuselection:`&File --> &New` or :kbd:`Ctrl`"
+" + :kbd:`N`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:43
+#: 5abff18aca6b4d46af0f0b947c86a64b
+#, python-brace-format
+msgid ""
+"In that case, you need to choose a filename. The filename can only "
+"contain alphanumeric characters, underscores and hyphens. The common "
+"practice is to use a name like :file:`{30}-{user}.policy` where:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:45
+#: 08fc9f4a042f4cc48f878b8d8473e4b6
+#, python-brace-format
+msgid ""
+":samp:`{30}` indicates the priority (i.e. the default policies start with"
+" ``90`` while the policies from :program:`Qubes OS Global Config` start "
+"with ``50``)"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:46
+#: 2cb4cc331480484192823e17dd9f8494
+#, python-brace-format
+msgid ":samp:`{user}` could be any name"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:48
+#: 0c65ef1fc6a340dfb746373f5322b610
+msgid ""
+"In order to override some clipboard policy, :file:`30-clipboard` could be"
+" a good name. Starting with ``30`` makes sure that the file will be read "
+"before any file starting with ``31`` or more, especially :file:`50"
+"-config-clipboard.policy` (this file is automatically created if you "
+":ref:`edit-a-policy-with-qubes-os-global-config`). If you want to create "
+"a policy that will never override the policies from :program:`Qubes OS "
+"Global Config`, use a name starting with a number between ``51`` and "
+"``89``. The default policies from Qubes OS start with ``90``, so using a "
+"number equal or superior might be useless."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:50
+#: c689b70d49514976904d1e59a661f779
+msgid ""
+"Add a line to the file. In order to prevent the *untrusted* qube from "
+"pasting to the *vault* qube, the line should be:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:56
+#: 5879828daa654beaa3bbdea60a826e39
+msgid ""
+"If you have made any edits and if the format is correct, you will be able"
+" to select :guilabel:`Save Changes` and :guilabel:`Save and Exit`, or to "
+"press :kbd:`Ctrl` + :kbd:`S`."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:59
+#: fcca46cf69b242269d091ee7b1be6a0f
+msgid "Edit a policy with :program:`qubes-policy-editor`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:61
+#: 0f427732ed49436d9fb78809411c5b77
+msgid ""
+":program:`qubes-policy-editor` is a command-line tool that ensures that "
+"the syntax of the policy is valid. You have to run it as root:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:67
+#: 4250b3fd3b3e4e9eaf8c0452d989864c
+msgid ""
+"An editor will open; it will be your default editor if you have set the "
+"environment variable ``$EDITOR`` or ``$VISUAL``, otherwise it will fall "
+"back to :program:`vi`. After saving the file, :program:`qubes-policy-"
+"editor` will check the content and tell you if there is something wrong "
+"with the syntax."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:69
+#: 6e02e32d4e58484587801e353d6d864a
+msgid ""
+"It will open :file:`30-user.policy` by default but you can invoke the "
+"program with any valid filename (only alphanumeric characters, "
+"underscores and hyphens), without the ``.policy`` extension:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:75
+#: 9a27f6ae46d74288b670e25d02524fa6
+msgid ""
+"In that case, :program:`qubes-policy-editor` will also check that the "
+"filename of the policy is correct."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:78
+#: fefca98f998d4003b86277dcfb3b7e7c
+msgid "See also"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:80
+#: 14e45d24776b49ebaf9a6495238737ad
+msgid ":doc:`/developer/services/qrexec`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-edit-a-policy.rst:81
+#: b76c79ba935f43abbfe40540ca083d43
+msgid ""
+"`qubes-core-qrexec's documentation <https://dev.qubes-os.org/projects"
+"/qubes-core-qrexec/en/latest/>`__"
+msgstr ""
+

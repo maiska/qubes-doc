@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:3
+#: 26a03ba6421e4b638b58939ccb1df68c
+msgid "Upgrading to R3.2"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:6
+#: 4e75de9728ad4cea8c75247e28448197
+msgid ""
+"**Before attempting either an in-place upgrade or a clean installation, "
+"we strongly recommend that users** :doc:`back up their systems </user"
+"/how-to-guides/how-to-back-up-restore-and-migrate>` **.**"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:8
+#: bb20cfed8679424bb423cb9d276352f4
+msgid ""
+"Current Qubes R3.1 systems can be upgraded in-place to the latest R3.2 by"
+" following the procedure below."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:11
+#: d9b1c734122741ff89b06ec0feef77df
+msgid "Upgrading dom0"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:14
+#: dd0aa177a51c46a39dd2df89751837d4
+msgid "Close Qubes Manager (right click on its tray icon -> Exit)"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:16
+#: ada39b39df894587925b21d811123522
+msgid "Open a terminal in Dom0. (E.g., Start -> System Settings -> Konsole.)"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:18
+#: 683dc3791375478986109b62f1a9e0eb
+msgid "Install ``qubes-release`` package carrying R3.2 repository information."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:26
+#: d62af918c733486a83d07409814cf991
+msgid ""
+"If you made any manual changes to repository definitions, new definitions"
+" will be installed as ``/etc/yum.repos.d/qubes-dom0.repo.rpmnew`` (you’ll"
+" see a message about it during package installation). In such a case, you"
+" need to manually apply the changes to ``/etc/yum.repos.d/qubes-"
+"dom0.repo`` or simply replace it with .rpmnew file."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:28
+#: 48476ab89a4c40bca55a2c3253677182
+msgid ""
+"If you are using Debian-based VM as UpdateVM (``sys-firewall`` by "
+"default), you need to download few more packages manually, but **do not "
+"install them** yet:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:49
+#: efdf7539c326471c92a80a5957b8ef6e
+msgid "Upgrade dom0 to R3.2:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:57
+#: ff51d9f2a21f480b87547c7861c7f018
+msgid ""
+"You may wish to disable the screensaver “Lock screen” feature for this "
+"step, as during the update XScreensaver may encounter an “Authentication "
+"failed” issue, requiring a hard reboot. Alternatively, you may simply "
+"move the mouse regularly."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:61
+#: 43907b4626a644e495242dd29c3098aa
+msgid ""
+"If the previous step completed successfully, your ``qubes-core-dom0`` "
+"version should be ``3.2.3`` or higher. This can be verified with the "
+"command ``yum info qubes-core-dom0``. If it’s not, repeat the previous "
+"step with the ``--clean`` option."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:63
+#: 61e7310ba4a44f9aa6839032e2520e9b
+msgid "Update configuration files."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:65
+#: 1bf0b217e5d34943996b9aa4611d5066
+msgid ""
+"Some of configuration files were saved with ``.rpmnew`` extension as the "
+"actual files were modified. During upgrade, you’ll see information about "
+"such cases, like:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:75
+#: d4ef7ae067904f8e81c8cccbf81bcedf
+msgid ""
+"This will happen for every configuration you have modified manually and "
+"for a few that has been modified by Qubes scripts. If you are not sure "
+"what to do about them, below is a list of commands to deal with few "
+"common cases (either keep the old one, or replace with the new one):"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:91
+#: 31d084d6dc7a4e18956baf2172971cdb
+msgid "Reboot dom0."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:95
+#: da90aece63444ef6953d4a04889953e7
+msgid ""
+"Please note that if you use :doc:`Anti Evil Maid </user/security-in-qubes"
+"/anti-evil-maid>`, it won’t be able to unseal the passphrase the first "
+"time the system boots after performing this in-place upgrade procedure "
+"since the Xen, kernel, and initramfs binaries will have changed. Once the"
+" system boots up again, you can reseal your Anti Evil Maid passphrase to "
+"the new configuration. Please consult the Anti Evil Maid "
+":doc:`documentation </user/security-in-qubes/anti-evil-maid>` for "
+"instructions on how to do that."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:97
+#: 983882e0f69842d59acaa73227393873
+msgid "At first login after upgrade you may got a message like this:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:99
+#: 12a084c6e05d47aca157b2df31e30628
+msgid ""
+"``Your saved session type 'kde-plasma' is not valid any more.     Please "
+"select a new one, otherwise 'default' will be used.``"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:101
+#: ce95ca764aee4cb0b38ed4237b43785f
+msgid ""
+"This is result of upgrade KDE4 (``kde-plasma``) to KDE5 (``plasma``). "
+"Simply choose your favorite desktop environment and continue."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:104
+#: 4be03606cd074b6a8a77b6521e6e2533
+msgid "Upgrade all Template and Standalone VM(s)"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:107
+#: e1dc049f4a6d45d39d89761f7377af07
+msgid ""
+"By default, in Qubes R3.1, there are few templates and no standalones. "
+"However, users are free to create standalones More information on using "
+"multiple templates, as well as standalones, can be found :doc:`here "
+"</user/how-to-guides/how-to-install-software>`. The steps described in "
+"this section should be repeated in **all** the user’s Template and "
+"Standalone VMs."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:110
+#: c67a5ff7fd9d455b898e0cdb56d04ca1
+msgid "Upgrade Fedora templates:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:113
+#: 4b273f6b7fb7466194bf5cf83e96db50
+msgid ""
+"**Note:** This will only upgrade your Fedora template from Qubes 3.1 to "
+"Qubes 3.2. This will *not* upgrade your Fedora template from Fedora 23 to"
+" Fedora 24. In order to do that, please see the :ref:`Fedora 23 template "
+"upgrade instructions <user/templates/fedora/fedora:upgrading>`."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:115
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:149
+#: 6703d970c96a47e898120f800ba64445 79f1a1c9aec84764a60a83d85df236c0
+msgid ""
+"Open a terminal in the template (or standalone). (E.g., use Qubes VM "
+"Manager’s right-click menu, choose “Run Command in VM,” and type ``gnome-"
+"terminal`` there.)"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:117
+#: cca5658fbdba43cfaa39c45cb5e214be
+msgid "Install the ``qubes-upgrade-vm`` package:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:125
+#: f0c6e1695f734efe8294505dabc034f9
+msgid "Proceed with a normal upgrade in the template:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:133
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:169
+#: 47b5fda5938e45068d56bee7525e83f0 5b5738e8a1724f4bbfa3f99f32fe7a04
+msgid "Add new packages (only needed in default template):"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:141
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:185
+#: 53243d5ff60643b8abb1c46af67987ae 58dd6b5ee98d436f98641a68738b3946
+msgid "Shut down the template."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:146
+#: cd328139d1c945ed974bff60d9e0d30a
+msgid "Upgrade Debian (and Whonix) templates:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:151
+#: 11252fabfe944552819a4d6a7ac57ad8
+msgid "Update repository definition:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:160
+#: 198f15865d674bd0a1eff6f4acb03a72
+msgid "Proceed with a normal update in the template:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:177
+#: 234f2768f713413ba50b15850f1eb7f9
+msgid "Remove unnecessary now file:"
+msgstr ""
+

@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer/general/how-to-edit-the-website.rst:3
+#: 70cc86e74d164a97885b784883eada3f
+msgid "How to edit the website"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:6
+#: a3d21f5437a142599d617751ef3f2e5f
+msgid ""
+"*Also see the* :doc:`Website style guide </developer/general/website-"
+"style-guide>`."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:8
+#: bcdb296e322649529512ebd088cbbf60
+msgid ""
+"The Qubes OS website content is stored in the `qubesos.github.io "
+"<https://github.com/QubesOS/qubesos.github.io>`__ repository and its "
+"submodules. By cloning and regularly pulling from this repo, users can "
+"maintain their own up-to-date offline copy of the Qubes OS website rather"
+" than relying solely on the web."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:11
+#: 838d792e34474c68ad7101350e74d74c
+msgid ""
+"This guide refers only to the hosted website on `qubes-os.org <https"
+"://qubes-os.org>`__. It was the reference point before the documentation "
+"was converted from Markdown to reStructuredText and remains as a guide if"
+" you want to contribute to the Qubes OS website. If you want to "
+"contribute to the Qubes OS documentation, please visit :doc:`How to edit "
+"the documentation </developer/general/how-to-edit-the-rst-"
+"documentation>`."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:18
+#: 1c33551e52144b6d943cafcc677bbbb7
+msgid "How to submit a pull request"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:20
+#: db4f993325a640708d599da70e095393
+msgid ""
+"We keep all relevant files in `qubesos.github.io "
+"<https://github.com/QubesOS/qubesos.github.io>`__, as well as `qubes-"
+"attachment <https://github.com/QubesOS/qubes-attachment>`__, `qubes-hcl "
+"<https://github.com/QubesOS/qubes-hcl>`__ and `qubes-posts "
+"<https://github.com/QubesOS/qubes-posts>`__ - dedicated Git repositories "
+"hosted on `GitHub <https://github.com/>`__."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:25
+#: 6f661b111738481a8a4416eb367f3194
+msgid "A few notes to consider:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:27
+#: 3e7e00b8453942faba43b1f8cb9d67f5
+msgid ""
+"Since Qubes is a security-oriented project, every change will be "
+"`reviewed <#security>`__ before it’s accepted. This allows us to maintain"
+" quality control and protect our users."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:28
+#: a389c5a78bc244de97b39ff0934485da
+msgid ""
+"To give your contribution a better chance of being accepted, please "
+"follow our :doc:`website style guide </developer/general/website-style-"
+"guide>`."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:29
+#: 64549e2e30ae437aa818b2cf40c8f3ae
+msgid ""
+"We don’t want you to spend time and effort on a contribution that we "
+"can’t accept. If your contribution would take a lot of time, please "
+":doc:`file an issue </introduction/issue-tracking>` for it first so that "
+"we can make sure we’re on the same page before significant works begins."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:30
+#: 3712da049fbd45a8a34a5d9cf25f1807
+msgid ""
+"Finally, if you’ve written something that doesn’t belong in "
+"`qubesos.github.io <https://github.com/QubesOS/qubesos.github.io>`__ but "
+"would be beneficial to the Qubes community, please consider adding it to "
+"the :doc:`documentation </developer/general/how-to-edit-the-rst-"
+"documentation>` or the :ref:`external documentation <developer/general"
+"/rst-documentation-style-guide:core vs. external documentation>`."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:32
+#: 3806ae6463ae4e29aa4622ca58af2faa
+msgid ""
+"For an example how to submit a pull request please refer to the example "
+"given in :ref:`How to submit a pull request <developer/general/how-to-"
+"edit-the-rst-documentation:how to submit a pull request>` with the "
+"documentation."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:35
+#: a6b09f7bee974aa498bdba347e2c61c1
+msgid "The Qubes OS website"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:37
+#: 161d5f07f4874fb794d7ec9ce6ba4b4e
+msgid ""
+"The Qubes OS site is generated with `Jekyll <https://jekyllrb.com/>`__, a"
+" static‑site engine that transforms Markdown, HTML, and data files into a"
+" fully rendered, deploy‑ready website."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:39
+#: 6c0a3cd4d31b4497880752cb5727c323
+msgid "These are the relevant repositories:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:41
+#: a4608c02508547cab2ded07fbfdd9979
+msgid ""
+"the main `qubesos.github.io "
+"<https://github.com/QubesOS/qubesos.github.io>`__, as well as its "
+"submodules:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:42
+#: 55cf5dc961444d34879423bdba88028a
+msgid "`qubes-attachment <https://github.com/QubesOS/qubes-attachment>`__,"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:43
+#: cac8fcd4e2c04ab4adee48d72fca8430
+msgid "`qubes-hcl <https://github.com/QubesOS/qubes-hcl>`__ and"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:44
+#: 2b9c38ee8c7745f1aabe14f50ca8fce2
+msgid "`qubes-posts <https://github.com/QubesOS/qubes-posts>`__."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:47
+#: 5385830242eb49bda074bd5d7473d2d1
+msgid ""
+"The contents of the `qubes-posts <https://github.com/QubesOS/qubes-"
+"posts>`__ repository is reflected in the `News section <https://www"
+".qubes-os.org/news/>`__:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:49
+#: 64aae55470784ffb91c1565af416ce2f
+msgid "|news-section|"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:217
+#: d04cd384c9454918b34af68ba6bac0e9
+msgid "Depicts the News section of the Qubes OS website"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:51
+#: 9cb03068b8254942b2755f960b2a300d
+msgid ""
+"This repository is maintained by the Qubes OS team and serves the purpose"
+" of announcing relevant project news. This repository and its contents "
+"should be left as is."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:53
+#: 698aeb3f6bf3434fa3950cb6d43626a9
+msgid ""
+"The contents of the `qubes-hcl <https://github.com/QubesOS/qubes-hcl>`__ "
+"repository can be seen in the `Hardware Compatibility List (HCL) table "
+"<https://www.qubes-os.org/hcl/>`__:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:55
+#: 69a3e8ba0f0d4982b87ebf624c2c6947
+msgid "|hcl-section|"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:219
+#: 72a0fff91da4425ba33f66dac759f31b
+msgid "Depicts the Hardware Compatibility List table on the Qubes OS website"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:57
+#: 9843de05e0614bfeba20ff883a2da32e
+msgid ""
+"This repository is also maintained by the Qubes OS team and its contents "
+"should be left as is. Of course you can :ref:`generate and submit a "
+"Hardware Compatibility List (HCL) report <user/hardware/how-to-use-the-"
+"hcl:generating and submitting new reports>` at any time."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:59
+#: 7270cca0e59946b282a61d13e4c63ac3
+msgid ""
+"The `qubes-attachment <https://github.com/QubesOS/qubes-hcl>`__ "
+"repository contains images and files that are used by or referenced in "
+"the website. Here you can add new images if needed. Then, submit your "
+"image(s) in a separate pull request to the `qubes-attachment "
+"<https://github.com/QubesOS/qubes-attachment>`__ repository using the "
+"same path and filename. This is the only permitted way to include images."
+" Do not link to images on other websites."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:65
+#: ac3b5ccaf26746288389a1d6ea264436
+msgid "Quick intro to Jekyll"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:68
+#: 8d9a0db09fa44430aa33ec93078a8f9e
+msgid ""
+"`Jekyll <https://jekyllrb.com/>`__ is a static‑site generator that turns "
+"plain‑text files (Markdown, HTML, YAML, etc.) into a full website you can"
+" host on GitHub Pages. It works by:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:70
+#: 992b02dc3b5b404d9e5167a3956e636c
+msgid ""
+"*Reading data*: YAML front‑matter in :file:`pages/_posts` and files under"
+" :file:`_data` give variables you can reuse."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:71
+#: 48608607260448dba685efee8ef94d9e
+msgid ""
+"*Applying layouts*: HTML layout files wrap your content, letting you keep"
+" a consistent header/footer, navigation, etc."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:72
+#: ac6af33297e6480da4f5efc59647a156
+msgid ""
+"*Processing includes*: Reusable snippets (HTML/`Liquid "
+"<https://jekyllrb.com/docs/liquid/>`__) can be dropped into pages."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:73
+#: 63ee2defa6724cdba61eb5145f2879d3
+msgid ""
+"*Compiling assets*: SASS/SCSS files become CSS, JavaScript is copied "
+"as‑is."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:74
+#: b8035b1a61984420847653cf7daf6468
+msgid ""
+"*Generating the output*: All source files are rendered into a "
+":file:`_site` folder that contains the ready‑to‑serve static files."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:76
+#: a0e380ce7b1042c7a24e8e2a7758d0b6
+msgid ""
+"The main `qubesos.github.io "
+"<https://github.com/QubesOS/qubesos.github.io>`__ contains the following "
+"directories:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:126
+#: 9e62b2274fbe4dd7a324a1d0508b5127
+msgid "Cheatsheet"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:133
+#: 4694ecd1152e47218168bf85e36c58db
+msgid "Goal"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:134
+#: 21791a3166c4472bbffdf9a7b1cee549
+msgid "Where to edit"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:135
+#: 4c3e82d04151495f9f7d3916d1aafe2a
+msgid "Typical steps"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:136
+#: a7cb2359e05f406da44d438fed77eaa8
+msgid "Change site‑wide text (e.g., site title, navigation)"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:137
+#: a1b5b14bbca3440985f019784a4ea697
+msgid "``_data/*.yml``, ``_config.yml``"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:138
+#: 774978373de448f08ffe7e782d2ea921
+msgid "Update the key/value pair, then rebuild."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:139
+#: 96c2347559b34959a628c1c75833ab82
+msgid "Modify the look of all pages"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:140
+#: aa9bfe780b704db3abfc4658bef0cf57
+msgid "``_layouts/*.html`` and/or ``_sass/*.scss``"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:141
+#: e41029754a25463983834a477656a242
+msgid "Edit the HTML skeleton or SASS variables, then run preview."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:142
+#: cd1ad08d83a442fb9718f79ec9b91102
+msgid "Insert a reusable component (e.g., a call‑out box)"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:143
+#: fd6a69ed0a6d414795c074b20ca877e2
+msgid "``_includes/*.html``"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:144
+#: 405f269f73d04f4486273a3181b7d803
+#, python-brace-format, python-format
+msgid ""
+"Create the snippet, then reference it with ``{% include snippet.html %}``"
+" in any page or post."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:145
+#: dde8a7322db8477d9ebf405d7178062f
+msgid "Add a new static asset (image, PDF)"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:146
+#: 1053e5150b1646d19d9121ba472e378e
+msgid ""
+"``attachment/`` (`qubes-attachment <https://github.com/QubesOS/qubes-"
+"attachment>`__)"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:147
+#: 4271f981ecb244fd95982255c375b3ec
+msgid "Drop the file there and link to it using a relative URL."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:148
+#: 8d615afdd164410dbe60a1494fc167fa
+msgid "Update JavaScript behavior"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:149
+#: 5e88090b33d84586915d8f54ad7dc62a
+msgid "``js/*.js``"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:150
+#: d9933fe800f04bb38c559db2ffe02b55
+msgid "Edit the script, ensure it’s referenced in the appropriate layout or page."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:154
+#: 3bffc19efbb0448ab29bf7542b2ae04f
+msgid "How to serve the website locally"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:156
+#: 37b7f8c29c5d423599bd09301149c694
+msgid ""
+"You can serve the website offline on your local machine by following "
+"`these instructions "
+"<https://github.com/QubesOS/qubesos.github.io#instructions>`__ or the "
+"instructions below. This can be useful for making sure that your changes "
+"render the way you expect, especially when your changes affect "
+"formatting, images, tables, styling, etc."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:159
+#: 8e8de3e22e224b49a1b56e9e0aea214b
+msgid "Create a template qube:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:165
+#: 0754a98be7e540a292c4b3ecb26956ab
+msgid "Install packages:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:175
+#: 12c9a008fe954cf9a185b1b369c8caa5
+msgid ""
+"Create a ``jekyll-app-vm`` based on the ``jekyll-tvm`` template, install "
+"and configure in ``jekyll-app-vm``:"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:190
+#: 3158fc3ec66248618b81809c374c9eb7
+msgid ""
+"You can view the local site at `http://localhost:4000 "
+"<http://localhost:4000>`__."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:193
+#: 9ca5ccff14cf4039849f4dcd096431c3
+msgid "Quick checklist for a typical edit"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:195
+#: 0e1b4a388a3d4ac29057c54e89c71b07
+msgid ""
+"Locate the right folder – use the table above to know where the content "
+"lives."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:196
+#: f28528bb40e540f2aa163b8a507d807c
+msgid ""
+"Edit the file – Markdown for content, HTML/SASS for layout/style, YAML "
+"for data."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:197
+#: 58a0bd6c7ed34860835eabd235cf37fd
+msgid "Run a local build to verify the change looks correct."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:198
+#: 1bfe4d309112473eb9b5dd0c77bc2a8c
+msgid "Commit & push – include a clear commit message describing the edit."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:199
+#: 4e41b9c8fba34f2da5cbf9fa677cf46a
+msgid "Create a Pull Request"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:201
+#: 4902aa9d016b4ebfb1d173a231913951
+msgid ""
+"Feel free to ask if you need more detail on any specific folder or on how"
+" to set up the development environment!"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:204
+#: 384c964720284451bfa68d4276c0b8ca
+msgid "Security"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:206
+#: a28590a398c4463088b95fec3cc87901
+msgid ""
+"*Also see:* :ref:`Should I trust this website? <introduction/faq:should i"
+" trust this website?>`"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:208
+#: 84fe795770174b219b9ad466dfcf96ed
+msgid ""
+"All pull requests (PRs) against `qubesos.github.io "
+"<https://github.com/QubesOS/qubesos.github.io>`__ must pass review prior "
+"to be merged. This process is designed to ensure that contributed text is"
+" accurate and non-malicious. This process is a best effort that should "
+"provide a reasonable degree of assurance, but it is not foolproof. For "
+"example, all text characters are checked for ANSI escape sequences. "
+"However, binaries, such as images, are simply checked to ensure they "
+"appear or function the way they should when the website is rendered. They"
+" are not further analyzed in an attempt to determine whether they are "
+"malicious."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:210
+#: 37c92e4f8b234613b55512c2676b8f1a
+msgid ""
+"Once a pull request passes review, the reviewer should add a signed "
+"comment stating, \"Passed review as of ``<LATEST_COMMIT>``\" (or "
+"similar). The website maintainer then verifies that the pull request is "
+"mechanically sound (no merge conflicts, broken links, ANSI escapes, "
+"etc.). If so, the website maintainer then merges the pull request, adds a"
+" PGP-signed tag to the latest commit (usually the merge commit), then "
+"pushes to the remote. In cases in which another reviewer is not required,"
+" the website maintainer may review the pull request (in which case no "
+"signed comment is necessary, since it would be redundant with the signed "
+"tag)."
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:213
+#: dc64f7ac6b9041a6b164603b76d44c6b
+msgid "Questions, problems, and improvements"
+msgstr ""
+
+#: ../../developer/general/how-to-edit-the-website.rst:215
+#: 2f700639d90642f6bb886a454e75600b
+msgid ""
+"If you have a question about something you read in the website or about "
+"how to edit the it, please post it on the `forum <https://forum.qubes-"
+"os.org/>`__ or send it to the appropriate :doc:`mailing list "
+"</introduction/support>`. If you see that something in the website should"
+" be fixed or improved, please `contribute <#how-to-submit-a-pull-"
+"request>`__ the change yourself. To report an issue with the wesbite, "
+"please follow our standard :doc:`issue reporting guidelines "
+"</introduction/issue-tracking>`. (If you report an issue with the "
+"website, you will likely be asked to submit a pull request for it, unless"
+" there is a clear indication in your report that you are not willing or "
+"able to do so.)"
+msgstr ""
+

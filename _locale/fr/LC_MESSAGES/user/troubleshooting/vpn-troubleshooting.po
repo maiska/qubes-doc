@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:3
+#: 94cbbf4c7ad14eff91a2c079c80db6ca
+msgid "VPN troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:7
+#: f97b47faab3b413c923f9b9a9075559e
+msgid "Tips"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:10
+#: 47ae7a2135f84b3c8c069a07e2ca180b
+msgid "If using qubes-vpn, check the VPN service’s log in the VPN VM by running:"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:18
+#: 0ef94f16a5224aceb4407dd4ed162e17
+msgid "Always test your basic VPN connection before adding scripts."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:20
+#: 9dad49d45a9c433497f028e33d6baa43
+msgid ""
+"Test DNS: Ping a familiar domain name from an appVM. It should print the "
+"IP address for the domain."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:22
+#: a80c58db99af4e0996cddb3f1d364df7
+msgid ""
+"Use ``iptables -L -v`` and ``iptables -L -v -t nat`` to check firewall "
+"rules. The latter shows the critical PR-QBS chain that enables DNS "
+"forwarding."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:27
+#: c1513bf663564268b3e78d1b1d8b6ac3
+msgid "VPN does not reconnect after suspend"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:30
+#: 934e8e47599e4273bd84a6af13b4a4d5
+msgid "This applies when using OpenVPN."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:32
+#: a334fc00e2064dfaa44fc8e7d33a3ed0
+msgid ""
+"After suspend/resume, OpenVPN may not automatically reconnect. In order "
+"to get it to work, you must kill the OpenVPN process and restart it."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:35
+#: 976c671518974a6f86878922065dfd15
+msgid "VPN stuck at \"Ready to start link\""
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:38
+#: 2419961eae6f4826a2da2e8d6c85be3b
+msgid ""
+"After setting up OpenVPN and restarting the VM, you may be repeatedly "
+"getting the popup “Ready to start link”, but the VPN isn’t connected."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:40
+#: 2b16e7a71e7b4be49bfaa0b24e4dedec
+msgid ""
+"To figure out the root of the problem, check the VPN logs in "
+"``/var/log/syslog`` or use ``journalctl``. The logs may reveal issues "
+"like missing OpenVPN libraries, which you can then install."
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:43
+#: 1016cc44fc0649be9bce6b5b316ee067
+msgid "``notify-send`` induced failure"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:46
+#: 3356a9f3e30749ed8276a7e3473ba008
+msgid ""
+"`Some VPN guides <https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-"
+"gateway/19061>`__ use complex scripts that include a call to ``notify-"
+"send``, yet some images may not contain this tool or may not have it "
+"working properly. For instance calling ``notify-send`` on a ``fedora-36``"
+" template VM gives:"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:54
+#: 1d4a7d94d209446c9ece10845f5f761c
+msgid "To check this tool is working properly run:"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:61
+#: 18e5b162102b4183ac1dc08462b8f965
+msgid ""
+"You should see the ``info`` message appear on the top of your screen. If "
+"that is the case then ``notify-send`` is not the issue. If it is not, and"
+" you have an error of some sort you can:"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:63
+#: 11366317f64940f5a9f677ebfc6020a3
+msgid ""
+"Remove all calls to ``notify-send`` from scripts you are using to start "
+"VPN"
+msgstr ""
+
+#: ../../user/troubleshooting/vpn-troubleshooting.rst:65
+#: efc46f2602be4dc9b2b4919505963696
+msgid ""
+"Use another template qube that has a working ``notify-send`` or find "
+"proper guide and make your current template run ``notify-send`` work "
+"properly."
+msgstr ""
+

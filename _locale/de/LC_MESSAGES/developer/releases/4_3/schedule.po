@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer/releases/4_3/schedule.rst:3 6ee7c1ab808041a18d28f3c9823a2bb4
+msgid "Qubes R4.3 release schedule"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:6 b9cb3216193645f9a56fa21d096d75c5
+msgid ""
+"**Please note:** *This page is still an unfinished draft in progress. It "
+"is being updated as Qubes 4.3 development and testing continues.*"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:8 ea3bcd910c6c49a79831aa8ddaba1213
+msgid ""
+"The table below is based on our :ref:`release schedule policy "
+"<developer/releases/version-scheme:release schedule>`."
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:15
+#: 65c4235e71074c23b3b7aec48247a16d
+msgid "Date"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:16
+#: a4de806ebe3b4326bc8a2b3e1dc4c4f2
+msgid "Stage"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:17
+#: c9ad5c1b745e4107a90b0f1a9a1851d2
+msgid "2025-08-10"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:18
+#: 71beb9f4602e4fb2b080d63d11a812fa
+msgid "4.3.0-rc1 release"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:19
+#: eed5a82bd96941779d4f211c48871960
+msgid "2025-09-19"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:20
+#: c72839598ffe483e9931b477dc0e222d
+msgid "4.3.0-rc2 release"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:21
+#: b9c26141cdac4651a6a9b664511f3752
+msgid "2025-10-20"
+msgstr ""
+
+#: ../../developer/releases/4_3/schedule.rst:22
+#: 746deffe048a4aabbc5dc315a647c669
+msgid "4.3.0-rc3 release"
+msgstr ""
+

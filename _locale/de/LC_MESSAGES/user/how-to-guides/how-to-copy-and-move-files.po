@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:3
+#: dc3a3a0c580c46b3a03d3b10ac52c392
+msgid "How to copy and move files"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:6
+#: 94d7a552323d4637bf59a0bbc3ede715
+msgid ""
+"*This page is about copying and moving files. If you wish to simply copy "
+"and paste text, that can be done more easily using the inter-qube "
+"clipboard. See* :doc:`copying and pasting text between qubes </user/how-"
+"to-guides/how-to-copy-and-paste-text>` *. For dom0, see* :doc:`copying "
+"from (and to) dom0 </user/how-to-guides/how-to-copy-from-dom0>` *.*"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:8
+#: 8cdeb0240bcb4c368f80fffad42a2e52
+msgid ""
+"Qubes OS supports the secure copying and moving of files and directories "
+"(folders) between qubes."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:10
+#: 9d684f52be67448d9234d6a97be378f7
+msgid ""
+"For simplicity, these instructions will refer to copying/moving a single "
+"file, but they apply equally well to groups of files and directories, "
+"which are copied recursively."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:12
+#: 1922f9fc4bfd446da855967c07bf4c3b
+msgid ""
+"Open a file manager in the qube containing the file you wish to copy (the"
+" source qube), right-click on the file you wish to copy or move, and "
+"select ``Copy to Other AppVM...`` or ``Move to Other AppVM...``."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:14
+#: 1d4d2cafa86c461bb9b1fea38dd09a77
+msgid ""
+"A dialog box will appear in dom0 asking for the name of the target qube "
+"(qube B). Enter or select the desired destination qube name."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:16
+#: a1356fafcf2d4c9aa99ec7259c43bea8
+msgid ""
+"If the target qube is not already running, it will be started "
+"automatically, and the file will be copied there. It will show up in this"
+" directory (which will automatically be created if it does not already "
+"exist):"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:23
+#: 094d0bd5ef32427a916b38ee93a55e27
+msgid ""
+"If you selected **Move** rather than **Copy**, the original file in the "
+"source qube will be deleted. (Moving a file is equivalent to copying the "
+"file, then deleting the original.)"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:25
+#: 9ecdc01ecf204ddca6c0cd46f08c950e
+msgid ""
+"If you wish, you may now move the file in the target qube to a different "
+"directory and delete the ``/home/user/QubesIncoming/`` directory when no "
+"longer needed."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:29
+#: 6db7fc6e40b942b19b65553cd1d9bb8f
+msgid "The same operations are also available via these command-line tools:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:44
+#: 1dbbe6e66d854d24ac26658a071a91f5
+msgid "Security"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:47
+#: aecec4fb11bb4b1da15ebdac8609b597
+msgid ""
+"The inter-qube file copy system is secure because it doesn’t allow other "
+"qubes to steal the files that are being copied, and it doesn’t allow the "
+"source qube to overwrite arbitrary files on the destination qube. "
+"Moreover, this system doesn’t use any sort of virtual block device for "
+"file copy. Instead, we use Xen shared memory, which eliminates a lot of "
+"processing of untrusted data. For example, the receiving qube is *not* "
+"forced to parse untrusted partitions or file systems. In this respect, "
+"the inter-qube file copy system provides even more security than file "
+"copy between two physically separated (air-gapped) machines! (See "
+"`Software compartmentalization vs. physical separation "
+"<https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf>`__"
+" for more on this.)"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:49
+#: 9d172654145a4bf385cfc10dc5066e45
+msgid ""
+"However, one should keep in mind that performing a data transfer from "
+"*less trusted* to *more trusted* qubes is always potentially insecure if "
+"the data will be parsed in the target qube. This is because the data that"
+" we copy could try to exploit some hypothetical bug in software running "
+"in the target qube. For example, a seemingly-innocent JPEG that we copy "
+"from an untrusted qube might contain a specially-crafted exploit for a "
+"bug in a JPEG-parsing application in the target qube. This is a general "
+"problem and applies to any data transfer from *less trusted* to *more "
+"trusted* qubes. It even applies to the scenario of copying files between "
+"air-gapped machines. Therefore, you should always copy data only from "
+"*more trusted* to *less trusted* qubes."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-copy-and-move-files.rst:51
+#: 90083d52cc314cd59fdccc67436c39e8
+msgid ""
+"See also `this article <https://blog.invisiblethings.org/2011/03/13"
+"/partitioning-my-digital-life-into.html>`__ for more information on this "
+"topic, and some ideas of how we might solve this problem in some future "
+"version of Qubes."
+msgstr ""
+

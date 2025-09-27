@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/advanced-topics/qubes-service.rst:3
+#: 68b6e60767244f40ba04900735eebafd
+msgid "Qubes service"
+msgstr ""
+
+#: ../../user/advanced-topics/qubes-service.rst:7
+#: 368e47d8d9794a69b104c75dea8ad36b
+msgid "This page is intended for advanced users."
+msgstr ""
+
+#: ../../user/advanced-topics/qubes-service.rst:9
+#: 757e0653610e42f2873f71236e170804
+msgid ""
+"Usage documentation is in the ``qvm-service`` man page. There are also "
+"described predefined services."
+msgstr ""
+
+#: ../../user/advanced-topics/qubes-service.rst:11
+#: 76fa49e2028d461a8dd214f4f799bb9c
+msgid ""
+"Under the hood, an enabled service in a VM is signaled by a file in "
+"``/var/run/qubes-service``. This can be used to implement an almost "
+"enable/disable **per-VM** switch controlled by dom0."
+msgstr ""
+
+#: ../../user/advanced-topics/qubes-service.rst:13
+#: 70beb816130d40e8b2f69778dd035b03
+msgid ""
+"Adding support for systemd services is pretty simple. In the VM, create "
+"the following file (and directory, if needed): "
+"``/etc/systemd/system/<service name>.service.d/30_qubes.conf``. It should"
+" contain the following:"
+msgstr ""
+
+#: ../../user/advanced-topics/qubes-service.rst:22
+#: 5448822a57b24d02b240a0944e1396a6
+msgid ""
+"This will cause the service to be started only when you enable it with "
+"``qvm-service`` for this VM."
+msgstr ""
+

@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/advanced-topics/awesomewm.rst:3 2fc131daa5704c76a7b3ead11f9d6546
+msgid "AwesomeWM (window manager)"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:7 c0004be89c9f46bba1f253082f231a1b
+msgid "This page is intended for advanced users."
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:10 ebb44b41ae644885a67003d55572652d
+msgid "Qubes-specific features"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:13 8da8c0c7edea4ed9b8bf3f561dbafae9
+msgid "support for the Qubes OS window colors"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:15 7a5a03bbd7f640da8d3d1c7a25eeed0e
+msgid ""
+"rudimentary support for the Qubes application menu entries following the "
+"freedesktop standard"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:17 ed7c974881dd45c7a52a6248a5306105
+msgid "support for custom filters and menu entries"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:22 d7e9dc4f1cf142eb92b40d53273ffdf7
+msgid "Installation"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:25 8e9616671f874b4b94e4ad77a450d988
+msgid "AwesomeWM can be installed with the standard dom0 installation mechanisms."
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:32 5f7e9fe045784b709113106eb7f982c9
+msgid ""
+"That’s it. After logging out, you can select AwesomeWM in the login "
+"manager."
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:35 6ba328cebe9e455c825e276042d57c83
+msgid "Development"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:38 1ccea6f8ac4c4fd1a7f2cc33c8e0c322
+msgid ""
+"To :doc:`contribute code </introduction/contributing>` you may clone the "
+"AwesomeWM repository as follows:"
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:45 7c66af12f3c64a9083d142ee995fce9a
+msgid "For build instructions please check the repository *README*."
+msgstr ""
+
+#: ../../user/advanced-topics/awesomewm.rst:47 4363ddd93e6f4451922a855460601368
+msgid "The repository attempts to follow the upstream Fedora repository."
+msgstr ""
+

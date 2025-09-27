@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:5
+#: 8fe7bedc1d314af68a89f3de4ccb947c
+msgid "Download mirrors"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:8
+#: dc0af077b27c415f84a1719b8c664cb2
+msgid ""
+"**Note:** The Qubes OS Project has no control over or access to data "
+"collected at these mirrors."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:11
+#: 52943c62ebef4f6c91604301fb2526a5
+msgid "List of Download Mirrors"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:14
+#: 5c96d6b7db9e4b74a73e18c8fbb5abd9
+msgid ""
+"The full list of known Qubes download mirrors is available `here "
+"<https://www.qubes-os.org/downloads/#mirrors>`__."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:17
+#: 068f2571970b494990c77064dc135843
+msgid "Instructions for Mirror Operators"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:20
+#: 04aece91f6af4c53b685416f56dba8d4
+msgid ""
+"If you are interested in offering a mirror for Qubes downloads, thank "
+"you! We greatly appreciate your offer, and we hope these brief "
+"instructions are helpful in streamlining the process."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:22
+#: 063fb9e9945746e48a5e190a6f0f3a7d
+msgid "We are happy to provide rsync or HTTP master."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:24
+#: 86de28af16e6452a9ca1f87eb318412c
+msgid ""
+"Our preferred frequency is **once every 24 hours**, but anything up to "
+"once every 6-8 hours is fine."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:26
+#: 87d7494b850e4644be04366ffd2913f1
+msgid ""
+"For technical accommodations, please contact `Wojtek <https://www.qubes-"
+"os.org/team/#wojtek-porczyk>`__ or `Marek <https://www.qubes-os.org/team"
+"/#marek-marczykowski-górecki>`__."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/download-mirrors.rst:28
+#: 0081139562834318bc3bfa72b11e2bb7
+msgid ""
+"For website updates and fixes, please contact `unman <https://www.qubes-"
+"os.org/team/#unman>`__."
+msgstr ""
+

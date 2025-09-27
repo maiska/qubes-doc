@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:5
+#: 6f502ad1b74f4834ad3debb3237c6d93
+msgid "Dasharo FidelisGuard Z690"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:8
+#: b3e23edffaf94638b0247438140c7c19
+msgid ""
+"The `Dasharo FidelisGuard Z690 "
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
+"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
+"is :doc:`officially certified </user/hardware/certified-hardware"
+"/certified-hardware>` for Qubes OS Release 4."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:10
+#: fd0f9de93d97492e97e14e2fc6cb9270
+msgid "|Photo of MSI PRO Z690-A DDR4 motherboard|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:57
+#: 3a16a3ff9223495199f16048ba11a375
+msgid "Photo of MSI PRO Z690-A DDR4 motherboard"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:12
+#: 5c8dfa95368e4a70bc951a052da2407f
+msgid ""
+"The `Dasharo FidelisGuard Z690 "
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
+"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
+"is a full desktop PC build that brings the `Dasharo "
+"<https://dasharo.com/>`__ open-source firmware distribution to the MSI "
+"PRO Z690-A DDR4 motherboard with Qubes OS preinstalled. The full "
+"configuration includes:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:19
+#: 3c9d24d447bc4b1a87b97a855c4fcf42
+msgid "Part"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:20
+#: 04acdb06295e44319951f8ffff1c5a79
+msgid "Model Name"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:21
+#: 2081c66fbcc84cd9ba53a5354fb2cbc4
+msgid "CPU"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:22
+#: d62a3a55333f4101a223e72098dccf5b
+msgid "Intel Core i5-12600K, 3.7GHz"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:23
+#: c4c88c4d5d2949ed995a01c2a298165b
+msgid "Cooling"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:24
+#: 21df6276ff274c67b0caee26dcff5f16
+msgid "Noctua CPU NH-U12S Redux"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:25
+#: 2fd13a4b60444976baf8b386f064286b
+msgid "RAM"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:26
+#: d917d1d06d884b53be53f841df815e7a
+msgid "Kingston Fury Beast, DDR4, 4x8GB (32 GB Total), 3600 MHz, CL17"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:27
+#: 7163b8c946e946c08617edd8f0dd41f2
+msgid "Power Supply"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:28
+#: b894ad564fef4ef68e75a68d0d4fc808
+msgid "Seasonic Focus PX 750W 80 Plus Platinum"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:29
+#: c766f755bfff48b78a01725e141d4d0e
+msgid "Storage"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:30
+#: 60926feca57a4fe085cd7234d6a8bc5e
+msgid "SSD Intel 670p 512 GB M.2 2280 PCI-E x4 Gen3 NVMe"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:31
+#: 229f731acb4d4bb98f8091aab3678ee8
+msgid "Enclosure"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:32
+#: b33e3c3723f3417091e85f42505e6b0d
+msgid "SilentiumPC Armis AR1"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:35
+#: c76bd40b48fb4b91a9a7194fd895086b
+msgid "|Photo of Dasharo FidelisGuard Z690 with open case|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:60
+#: 99c9ad5b5ad549c1b307e38927ef399b
+msgid "Photo of Dasharo FidelisGuard Z690 with open case"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:37
+#: f351a4e37408451ca834ead9ffcd657d
+msgid ""
+"This computer comes with a “Dasharo Supporters Entrance Subscription,” "
+"which includes the following:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:39
+#: dadf6772e9324589b6cc02a974a5ac91
+msgid ""
+"Full access to `Dasharo Tools Suite (DTS) <https://docs.dasharo.com"
+"/dasharo-tools-suite/overview/>`__"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:41
+#: ba375414f17648d0a5619d980fdcb591
+msgid "The latest Dasharo releases issued by the Dasharo Team"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:43
+#: aca23a5d1df94327be11bd220f6012f4
+msgid "Special Dasharo updates for supporters"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:45
+#: 02abdd04bc7e45e8a7ad33765243203e
+msgid "Dasharo Premier Support through an invite-only Matrix channel"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:47
+#: 7a6ca7fc035f45d5a262cb11bc888c2b
+msgid "Influence on the Dasharo feature roadmap"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:51
+#: 8d692a93bdda4a3c96035088c57cbbc3
+msgid "|image1|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:63
+#: bc2f4849e10a4750ae5b2b10eb6fcc97
+msgid "image1"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:53
+#: c64ea533d24a432a895dcc1869a82399
+msgid ""
+"For further details, please see the `Dasharo FidelisGuard Z690 "
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
+"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
+"product page."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:55
+#: 39cd297a5bf54613b6c68f910d88c11d
+msgid "|Photo of the outside of the Dasharo FidelisGuard Z690|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:66
+#: a8953d8f87d0478796054d8857aa1843
+msgid "Photo of the outside of the Dasharo FidelisGuard Z690"
+msgstr ""
+
