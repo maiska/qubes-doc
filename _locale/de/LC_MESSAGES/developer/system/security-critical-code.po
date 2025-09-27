@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/system/security-critical-code.rst:3
 #: d657be7c3a1a44758b5db899c7155c14
@@ -29,20 +27,20 @@ msgstr ""
 msgid ""
 "Below is a list of security-critical (i.e., trusted) code components in "
 "Qubes OS. A successful attack against any of these components could "
-"compromise the system’s security. This code can be thought of as the "
-"Trusted Computing Base (TCB) of Qubes OS. One of the main goals of the "
-"project is to keep the TCB to an absolute minimum. The size of the "
-"current TCB is on the order of hundreds of thousands of lines of C code, "
-"which is several orders of magnitude less than other OSes. (In Windows, "
-"Linux, and Mac OSes, the amount of trusted code is typically on the order"
-" of tens of *millions* of lines of C code.)"
+"compromise the system’s security. This code can be thought of as the Trusted"
+" Computing Base (TCB) of Qubes OS. One of the main goals of the project is "
+"to keep the TCB to an absolute minimum. The size of the current TCB is on "
+"the order of hundreds of thousands of lines of C code, which is several "
+"orders of magnitude less than other OSes. (In Windows, Linux, and Mac OSes, "
+"the amount of trusted code is typically on the order of tens of *millions* "
+"of lines of C code.)"
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:8
 #: b159710fbf3e4f94addc5ebb22d193fd
 msgid ""
-"For more information, see :doc:`Qubes Security Goals </developer/system"
-"/security-design-goals>`."
+"For more information, see :doc:`Qubes Security Goals "
+"</developer/system/security-design-goals>`."
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:11
@@ -105,8 +103,8 @@ msgstr ""
 msgid ""
 "We did not create these components, but Qubes OS relies on them. At the "
 "current stage of the project, we cannot afford to spend the time to "
-"thoroughly review and audit them, so we more or less “blindly” trust that"
-" they are secure."
+"thoroughly review and audit them, so we more or less “blindly” trust that "
+"they are secure."
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:38
@@ -144,9 +142,8 @@ msgstr ""
 #: ../../developer/system/security-critical-code.rst:54
 #: 2f43f99efeaa4f0a9ef67b91568acaae
 msgid ""
-"Here are two examples of networking components that an adversary might "
-"seek to attack (or in which to exploit a vulnerability as part of an "
-"attack):"
+"Here are two examples of networking components that an adversary might seek "
+"to attack (or in which to exploit a vulnerability as part of an attack):"
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:56
@@ -162,14 +159,14 @@ msgstr ""
 #: ../../developer/system/security-critical-code.rst:62
 #: d9a89947cd674b94b18ca79eac5368bd
 msgid ""
-"Hypothetically, an adversary could compromise a NetVM, ``sys-net-1``, and"
-" try to use it to attack the VMs connected to that NetVM. However, Qubes "
-"allows for the existence of more than one NetVM, so the adversary would "
-"not be able to use ``sys-net-1`` in order to attack VMs connected to a "
-"*different* NetVM, ``sys-net-2`` without also compromising ``sys-net-2``."
-" In addition, the adversary would not be able to use ``sys-net-1`` (or, "
-"for that matter, ``sys-net-2``) to attack VMs that have networking "
-"disabled (i.e., VMs that are not connected to any NetVM)."
+"Hypothetically, an adversary could compromise a NetVM, ``sys-net-1``, and "
+"try to use it to attack the VMs connected to that NetVM. However, Qubes "
+"allows for the existence of more than one NetVM, so the adversary would not "
+"be able to use ``sys-net-1`` in order to attack VMs connected to a "
+"*different* NetVM, ``sys-net-2`` without also compromising ``sys-net-2``. In"
+" addition, the adversary would not be able to use ``sys-net-1`` (or, for "
+"that matter, ``sys-net-2``) to attack VMs that have networking disabled "
+"(i.e., VMs that are not connected to any NetVM)."
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:65
@@ -182,23 +179,21 @@ msgstr ""
 msgid ""
 "There is an important distinction between buggy code and maliciously "
 "backdoored code. We could have the most secure architecture and the most "
-"bulletproof TCB that perfectly isolates all domains from each other, but "
-"it would all be pretty useless if all the code we ran inside our domains "
-"(e.g. the code in our email clients, word processors, and web browsers) "
-"were backdoored. In that case, only network-isolated domains would be "
-"somewhat trustworthy."
+"bulletproof TCB that perfectly isolates all domains from each other, but it "
+"would all be pretty useless if all the code we ran inside our domains "
+"(e.g. the code in our email clients, word processors, and web browsers) were"
+" backdoored. In that case, only network-isolated domains would be somewhat "
+"trustworthy."
 msgstr ""
 
 #: ../../developer/system/security-critical-code.rst:70
 #: 578da87658bc4bb5b900d02d017eceaf
 msgid ""
-"This means that we must trust at least some of the vendors that supply "
-"the code we run inside our domains. (We don’t have to trust *all* of "
-"them, but we at least have to trust the few that provide the apps we use "
-"in the most critical domains.) In practice, we trust the software "
-"provided by the `Fedora Project <https://getfedora.org/>`__. This "
-"software is signed by Fedora distribution keys, so it is also critical "
-"that the tools used in domains for software updates (``dnf`` and ``rpm``)"
-" are trustworthy."
+"This means that we must trust at least some of the vendors that supply the "
+"code we run inside our domains. (We don’t have to trust *all* of them, but "
+"we at least have to trust the few that provide the apps we use in the most "
+"critical domains.) In practice, we trust the software provided by the "
+"`Fedora Project <https://getfedora.org/>`__. This software is signed by "
+"Fedora distribution keys, so it is also critical that the tools used in "
+"domains for software updates (``dnf`` and ``rpm``) are trustworthy."
 msgstr ""
-

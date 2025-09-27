@@ -1,27 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Đorđe Marušić <djordje@hzontal.org>, 2025
+# Emma Peel, 2025
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../index.rst:13
 msgid "Introduction"
-msgstr ""
+msgstr "Présentation"
 
 #: ../../index.rst:40
 msgid "Community-recommended hardware"
@@ -53,11 +57,11 @@ msgstr ""
 
 #: ../../index.rst:93
 msgid "Templates"
-msgstr ""
+msgstr "Modèles"
 
 #: ../../index.rst:109
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Dépannage"
 
 #: ../../index.rst:134
 msgid "Security in Qubes"
@@ -73,7 +77,7 @@ msgstr ""
 
 #: ../../index.rst:188
 msgid "Project Security"
-msgstr ""
+msgstr "Sécurité du projet"
 
 #: ../../index.rst:206
 msgid "Visual style guide"
@@ -365,7 +369,7 @@ msgstr ""
 
 #: ../../index.rst:3 b7ddd9502b5a4d7885aa3a01327f2e56
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../index.rst:8 46ce60ac897d474190c8ddbc100cc346
 msgid "Table of contents"
@@ -373,7 +377,7 @@ msgstr ""
 
 #: ../../index.rst:32 bd236886d2cf4cf7b24cc883d717b590
 msgid "User Documentation"
-msgstr ""
+msgstr "Documentation pour les utilisateurs"
 
 #: ../../index.rst:35 7c9ec5b1241447aa8ab82f6a7cb6e863
 msgid "Core documentation for Qubes users."
@@ -381,7 +385,7 @@ msgstr ""
 
 #: ../../index.rst:199 dbf35eeafb9b420f8a6679d3d6f7e7fa
 msgid "Developer Documentation"
-msgstr ""
+msgstr "Documentation pour les développeurs"
 
 #: ../../index.rst:202 dc68b78103484eedbf6f4e3e33faa3b7
 msgid "Core documentation for Qubes developers and advanced users."
@@ -389,9 +393,9 @@ msgstr ""
 
 #: ../../index.rst:315 f300ecda6b3b43789e818600afd78817
 msgid "External Documentation"
-msgstr ""
+msgstr "Documentation externe"
 
 #: ../../index.rst:317 1704dc30ca374ba5993e060990e38949
-msgid "Unofficial, third-party documentation from the Qubes community and others."
+msgid ""
+"Unofficial, third-party documentation from the Qubes community and others."
 msgstr ""
-

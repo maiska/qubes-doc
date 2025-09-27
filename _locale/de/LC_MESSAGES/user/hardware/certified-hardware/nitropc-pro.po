@@ -1,23 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# erinm, 2025
+# Torsten Grote, 2025
+# Ettore Atalan <atalanttore@googlemail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:5
 #: 581ed32cad534addb8f114062b2b782e
@@ -27,20 +31,20 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:10
 #: 4ffe2c1d2e314a43a6c6a6658473c4dd
 msgid ""
-"**Note:** When configuring your NitroPC Pro 2 on the Nitrokey website, "
-"there is an option for a discrete graphics card (e.g., Nvidia GeForce RTX"
-" 4070 or 4090) in addition to integrated graphics (e.g., Intel UHD 770, "
-"which is always included because it is physically built into the CPU). "
-"NitroPC Pro 2 configurations that include discrete graphics cards are "
-"*not* Qubes-certified. The only NitroPC Pro 2 configurations that are "
-"Qubes-certified are those that contain *only* integrated graphics."
+"**Note:** When configuring your NitroPC Pro 2 on the Nitrokey website, there"
+" is an option for a discrete graphics card (e.g., Nvidia GeForce RTX 4070 or"
+" 4090) in addition to integrated graphics (e.g., Intel UHD 770, which is "
+"always included because it is physically built into the CPU). NitroPC Pro 2 "
+"configurations that include discrete graphics cards are *not* Qubes-"
+"certified. The only NitroPC Pro 2 configurations that are Qubes-certified "
+"are those that contain *only* integrated graphics."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:14
 #: 26497d4d95a44946ba8d38fe8f39f3a1
 msgid ""
-"**Note:** Only the “Dasharo TianoCore UEFI without Measured Boot, without"
-" Nitrokey” firmware option is certified. The “HEADS with Measured Boot, "
+"**Note:** Only the “Dasharo TianoCore UEFI without Measured Boot, without "
+"Nitrokey” firmware option is certified. The “HEADS with Measured Boot, "
 "requires Nitrokey!” firmware option is *not* certified."
 msgstr ""
 
@@ -48,9 +52,9 @@ msgstr ""
 #: 2d21fdca6a1d458e8394ced941ed33dc
 msgid ""
 "The `NitroPC Pro "
-"<https://web.archive.org/web/20231027112856/https://shop.nitrokey.com/shop/product"
-"/nitropc-pro-523>`__ is :doc:`officially certified </user/hardware"
-"/certified-hardware/certified-hardware>` for Qubes OS Release 4."
+"<https://web.archive.org/web/20231027112856/https://shop.nitrokey.com/shop/product/nitropc-"
+"pro-523>`__ is :doc:`officially certified </user/hardware/certified-"
+"hardware/certified-hardware>` for Qubes OS Release 4."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:18
@@ -66,19 +70,19 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:20
 #: 5d06bd39ac754b00a223292e68b6594e
 msgid ""
-"Here’s a summary of the main component options available for this mid-"
-"tower desktop PC:"
+"Here’s a summary of the main component options available for this mid-tower "
+"desktop PC:"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:27
 #: 56aeb3258c744f86b69eb64bbd92afa6
 msgid "Component"
-msgstr ""
+msgstr "Komponente"
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:28
 #: bc245f00334c49f2a3220a4d342e39de
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:29
 #: 579cb325d3814f83ad4eb55eea5188c5
@@ -103,7 +107,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:33
 #: 72234763a3ac4ab8bfed81968cfca682
 msgid "Memory"
-msgstr ""
+msgstr "Arbeitsspeicher"
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:34
 #: b02dfd5d28914b2eb3fc3c99103bd4ab
@@ -153,15 +157,15 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:45
 #: c81dc8757e354ae7b1fa8145d31a1a29
 msgid ""
-"Of special note for Qubes users, the NitroPC Pro features a combined PS/2"
-" port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously "
-"with a Y-cable (not included). This allows for full control of dom0 "
-"without the need for USB keyboard or mouse passthrough. Nitrokey also "
-"offers a special tamper-evident shipping method for an additional fee. "
-"With this option, the case screws will be individually sealed and "
-"photographed, and the NitroPC Pro will be packed inside a sealed bag. "
-"Photographs of the seals will be sent to you by email, which you can use "
-"to determine whether the case was opened during transit."
+"Of special note for Qubes users, the NitroPC Pro features a combined PS/2 "
+"port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with"
+" a Y-cable (not included). This allows for full control of dom0 without the "
+"need for USB keyboard or mouse passthrough. Nitrokey also offers a special "
+"tamper-evident shipping method for an additional fee. With this option, the "
+"case screws will be individually sealed and photographed, and the NitroPC "
+"Pro will be packed inside a sealed bag. Photographs of the seals will be "
+"sent to you by email, which you can use to determine whether the case was "
+"opened during transit."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:47
@@ -191,18 +195,18 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:55
 #: bb8606e5d9554f5893c8379d491e985b
 msgid ""
-"Early access to new firmware releases for `newly-supported desktop "
-"platforms <https://docs.dasharo.com/variants/overview/#desktop>`__ "
-"(please see the `roadmap "
+"Early access to new firmware releases for `newly-supported desktop platforms"
+" <https://docs.dasharo.com/variants/overview/#desktop>`__ (please see the "
+"`roadmap "
 "<https://github.com/Dasharo/presentations/blob/8f360b3e82108d1e85585c1c324a28a08dd276a5/dug2_dasharo_roadmap.md>`__)"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:57
 #: b82027b526b24d128aec307120c01364
 msgid ""
-"Access to the Dasharo Premier Support invite-only live chat channel on "
-"the Matrix network, allowing direct access to the Dasharo Team and fellow"
-" subscribers with personalized and priority assistance"
+"Access to the Dasharo Premier Support invite-only live chat channel on the "
+"Matrix network, allowing direct access to the Dasharo Team and fellow "
+"subscribers with personalized and priority assistance"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropc-pro.rst:59
@@ -225,4 +229,3 @@ msgid ""
 "For further product details, please see the official `NitroPC Pro "
 "<https://shop.nitrokey.com/shop/product/nitropc-pro-523>`__ page."
 msgstr ""
-

@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/advanced-topics/installing-contributed-packages.rst:3
 #: 95100b0aece445c1bbd408e7c3692ad9
@@ -55,12 +53,11 @@ msgstr ""
 #: ../../user/advanced-topics/installing-contributed-packages.rst:17
 #: c8e854e00d9d44d1960138fbcbd48346
 msgid ""
-"If you want to install one of these packages, first you need to enable "
-"the repository in your system (dom0 and/or templates). This can be done "
-"by installing the ``qubes-repo-contrib`` package. This package includes "
-"the repository definition and keys necessary to download, verify, and "
-"install `QubesOS-contrib <https://github.com/QubesOS-contrib/>`__ "
-"packages."
+"If you want to install one of these packages, first you need to enable the "
+"repository in your system (dom0 and/or templates). This can be done by "
+"installing the ``qubes-repo-contrib`` package. This package includes the "
+"repository definition and keys necessary to download, verify, and install "
+"`QubesOS-contrib <https://github.com/QubesOS-contrib/>`__ packages."
 msgstr ""
 
 #: ../../user/advanced-topics/installing-contributed-packages.rst:19
@@ -81,11 +78,10 @@ msgstr ""
 #: ../../user/advanced-topics/installing-contributed-packages.rst:46
 #: e15da4ff6d6f46219fdf956ec22b9d21
 msgid ""
-"The new repository definition will be in the usual location for your "
-"distro, and it will follow the naming pattern ``qubes-contrib-*``, "
-"depending on your Qubes release and whether it is in dom0 or a template. "
-"For example, in a Fedora template on Qubes 4.0, the new repository "
-"definition would be:"
+"The new repository definition will be in the usual location for your distro,"
+" and it will follow the naming pattern ``qubes-contrib-*``, depending on "
+"your Qubes release and whether it is in dom0 or a template. For example, in "
+"a Fedora template on Qubes 4.0, the new repository definition would be:"
 msgstr ""
 
 #: ../../user/advanced-topics/installing-contributed-packages.rst:55
@@ -103,8 +99,8 @@ msgstr ""
 #: ../../user/advanced-topics/installing-contributed-packages.rst:60
 #: 2cdd212ec5524e29ad6394f7833171e2
 msgid ""
-"**Note:** The first time you install a contrib package in dom0, you must "
-"use the ``--clean`` flag."
+"**Note:** The first time you install a contrib package in dom0, you must use"
+" the ``--clean`` flag."
 msgstr ""
 
 #: ../../user/advanced-topics/installing-contributed-packages.rst:62
@@ -118,4 +114,3 @@ msgid ""
 "Please see the package’s README for specific installation and setup "
 "instructions."
 msgstr ""
-

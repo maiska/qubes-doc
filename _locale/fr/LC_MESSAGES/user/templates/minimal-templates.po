@@ -1,23 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# erinm, 2025
+# Anna Mercier <anna.cafrinedofe@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Last-Translator: Anna Mercier <anna.cafrinedofe@gmail.com>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/templates/minimal-templates.rst:3
 #: 819951120cd940e3910ad798d50ec130
@@ -33,31 +37,31 @@ msgstr ""
 #: b38d879e9b4d489cb870442dbf02daed
 msgid ""
 "The minimal :doc:`templates </user/templates/templates>` are lightweight "
-"versions of their standard template counterparts. They have only the most"
-" vital packages installed, including a minimal X and xterm installation. "
-"When properly configured and used, minimal templates can be less "
-"resource-intensive, reduce attack surface, and support more fine-grained "
-"compartmentalization. The sections below contain instructions for "
-"installing and configuring minimal templates, along with some examples of"
-" common use cases."
+"versions of their standard template counterparts. They have only the most "
+"vital packages installed, including a minimal X and xterm installation. When"
+" properly configured and used, minimal templates can be less resource-"
+"intensive, reduce attack surface, and support more fine-grained "
+"compartmentalization. The sections below contain instructions for installing"
+" and configuring minimal templates, along with some examples of common use "
+"cases."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:12
 #: 6f14f47539f14610bf58b30c734a3319
 msgid "Important"
-msgstr ""
+msgstr "Important"
 
 #: ../../user/templates/minimal-templates.rst:15
 #: 435605b6a0564b0c83eaafadb5fb3f5b
 msgid ""
 "`The minimal templates are intended only for advanced users. "
-"<https://forum.qubes-os.org/t/9717/15>`__ Most things will *not* work "
-"out-of-the-box, and you *will* have to fix them yourself. If you are not "
-"prepared to do a lot of reading, searching, learning, and "
-"troubleshooting, then you should instead stick to the standard templates,"
-" which are perfectly suitable for the vast majority of users. In "
-"particular, if you are new to Qubes, you should not attempt to use "
-"minimal templates until you have gained more experience."
+"<https://forum.qubes-os.org/t/9717/15>`__ Most things will *not* work out-"
+"of-the-box, and you *will* have to fix them yourself. If you are not "
+"prepared to do a lot of reading, searching, learning, and troubleshooting, "
+"then you should instead stick to the standard templates, which are perfectly"
+" suitable for the vast majority of users. In particular, if you are new to "
+"Qubes, you should not attempt to use minimal templates until you have gained"
+" more experience."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:17
@@ -65,34 +69,34 @@ msgstr ""
 msgid ""
 "If something works with a standard template but not the minimal version, "
 "this is most likely due to user error (e.g., a missing package or "
-"misconfiguration) rather than a bug. In such cases, please do *not* file "
-"a bug report. Instead, please see :doc:`Help, Support, Mailing Lists, and"
-" Forum </introduction/support>` for the appropriate place to ask for "
-"help. Once you have learned how to solve your problem, please "
-":doc:`contribute what you learned to the documentation "
-"</developer/general/how-to-edit-the-rst-documentation>`."
+"misconfiguration) rather than a bug. In such cases, please do *not* file a "
+"bug report. Instead, please see :doc:`Help, Support, Mailing Lists, and "
+"Forum </introduction/support>` for the appropriate place to ask for help. "
+"Once you have learned how to solve your problem, please :doc:`contribute "
+"what you learned to the documentation </developer/general/how-to-edit-the-"
+"rst-documentation>`."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:19
 #: d57035162d524fa99debe7f555b9c923
 msgid ""
-"The minimal templates are intentionally *minimal*. :ref:`Do not ask for "
-"your favorite package to be added to the minimal template by default. "
+"The minimal templates are intentionally *minimal*. :ref:`Do not ask for your"
+" favorite package to be added to the minimal template by default. "
 "<introduction/faq:could you please make my preference the default?>`"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:21
 #: 7e29068c2ac14b53917790bd6d3f25e4
 msgid ""
-"In order to reduce unnecessary risk, unused repositories have been "
-"disabled by default. If you wish to install or update any packages from "
-"those repositories, you must enable them."
+"In order to reduce unnecessary risk, unused repositories have been disabled "
+"by default. If you wish to install or update any packages from those "
+"repositories, you must enable them."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:26
 #: e560d0c2d8b644b3bc18c0c0487c8e5f
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: ../../user/templates/minimal-templates.rst:29
 #: 335d7d9bafd944d8a3477c760da6e9fa
@@ -109,7 +113,7 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:186
 #: 478d80d580924df38a48c5bfb8a96f38 c02a71c4405944958094f8df037a4a9c
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: ../../user/templates/minimal-templates.rst:35
 #: 33e835b0937243bfaa9594e46ebca7a5
@@ -126,19 +130,20 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:42
 #: c69b1a571615453788b9599fda6f6645
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../user/templates/minimal-templates.rst:45
 #: c9c2623936554edfb79b93d3d7fe7820
-msgid "The minimal templates can be installed with the following type of command:"
+msgid ""
+"The minimal templates can be installed with the following type of command:"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:52
 #: 3c1a122cf9ec4c30bc816c53bee8622f
 msgid ""
 "If your desired version is not found, it may still be in :doc:`testing "
-"</user/downloading-installing-upgrading/testing>`. You may wish to try "
-"again with the testing repository enabled:"
+"</user/downloading-installing-upgrading/testing>`. You may wish to try again"
+" with the testing repository enabled:"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:59
@@ -161,28 +166,27 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:72
 #: 455b05e2f312442a93535086a8191e2d
 msgid ""
-"It is an intentional design choice for :doc:`Passwordless Root Access in "
-"VMs </user/security-in-qubes/vm-sudo>` to be optional in minimal "
-"templates. Since the minimal templates are *minimal*, they are not "
-"configured for passwordless root by default. To update or install "
-"packages, execute the following command in dom0:"
+"It is an intentional design choice for :doc:`Passwordless Root Access in VMs"
+" </user/security-in-qubes/vm-sudo>` to be optional in minimal templates. "
+"Since the minimal templates are *minimal*, they are not configured for "
+"passwordless root by default. To update or install packages, execute the "
+"following command in dom0:"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:79
 #: b50d0b825af64b09a1e2d186ff5f82e6
 msgid ""
-"This opens a root terminal in the minimal template, from which you can "
-"use execute root commands without ``sudo``. You will have to do this "
-"every time if you choose not to enable passwordless root."
+"This opens a root terminal in the minimal template, from which you can use "
+"execute root commands without ``sudo``. You will have to do this every time "
+"if you choose not to enable passwordless root."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:81
 #: 5423be6d83454272b10887302aa5df30
 msgid ""
 "If you want to be able to use ``sudo`` inside a minimal template (or app "
-"qubes based on a minimal template), open a root terminal as just "
-"instructed, then install the ``qubes-core-agent-passwordless-root`` "
-"package."
+"qubes based on a minimal template), open a root terminal as just instructed,"
+" then install the ``qubes-core-agent-passwordless-root`` package."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:83
@@ -203,8 +207,8 @@ msgstr ""
 #: c25356c81e7a41e5b8c4dbf321facdb2
 msgid ""
 "You may wish to clone the original template and make any changes in the "
-"clone instead of the original template. You must start the clone in order"
-" to customize it."
+"clone instead of the original template. You must start the clone in order to"
+" customize it."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:91
@@ -222,8 +226,8 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:97
 #: 68944cf70fe54f4b9cf530a73064c8c1
 msgid ""
-"This following sections provide information that is specific to a "
-"particular minimal template distro."
+"This following sections provide information that is specific to a particular"
+" minimal template distro."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:103
@@ -231,65 +235,63 @@ msgstr ""
 #: 68a3d5e8008b48e5999eae301b3b766d 8f33a99e133f4028a517145bf9bf1bd2
 msgid ""
 "The following list provides an overview of which packages are needed for "
-"which purpose. As usual, the required packages are to be installed in the"
-" running template with the following command (replace ``packages`` with a"
-" space-delimited list of packages to be installed):"
+"which purpose. As usual, the required packages are to be installed in the "
+"running template with the following command (replace ``packages`` with a "
+"space-delimited list of packages to be installed):"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:111
 #: eaff68d606bd44119d78d981f17e9409
 msgid ""
-"Commonly used utilities: ``pciutils`` ``vim-minimal`` ``less`` ``psmisc``"
-" ``gnome-keyring``."
+"Commonly used utilities: ``pciutils`` ``vim-minimal`` ``less`` ``psmisc`` "
+"``gnome-keyring``."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:113
 #: 36e0c4c38b804680ae8f0c5e27b21374
 msgid ""
-"Audio: ``pulseaudio-qubes`` (QubesOS version <= 4.1.x) ``pipewire-qubes``"
-" (QubesOS >= 4.2.x)."
+"Audio: ``pulseaudio-qubes`` (QubesOS version <= 4.1.x) ``pipewire-qubes`` "
+"(QubesOS >= 4.2.x)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:115
 #: ../../user/templates/minimal-templates.rst:203
 #: 02d0bfdd8ac043b0a284b8036762d03c d5b14298f01c42be8befff941439afae
 msgid ""
-"Networking: ``qubes-core-agent-networking``, and whatever network tools "
-"you want. N.B. minimal templates do not include any browser."
+"Networking: ``qubes-core-agent-networking``, and whatever network tools you "
+"want. N.B. minimal templates do not include any browser."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:117
 #: 7b6c6d747fb74ddfa928d9040434ea88
 msgid ""
-":doc:`FirewallVM </user/security-in-qubes/firewall>`, such as the "
-"template for ``sys-firewall``: at least ``qubes-core-agent-networking`` "
-"and ``iproute``, and also ``qubes-core-agent-dom0-updates`` if you want "
-"to use it as the ``UpdateVM`` (which is normally ``sys-firewall``)."
+":doc:`FirewallVM </user/security-in-qubes/firewall>`, such as the template "
+"for ``sys-firewall``: at least ``qubes-core-agent-networking`` and "
+"``iproute``, and also ``qubes-core-agent-dom0-updates`` if you want to use "
+"it as the ``UpdateVM`` (which is normally ``sys-firewall``)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:119
 #: 1e9ea7845a8c4f3595728219b936b645
 msgid ""
-"NetVM, such as the template for ``sys-net``: ``qubes-core-agent-"
-"networking`` ``qubes-core-agent-network-manager`` ``NetworkManager-wifi``"
-" ``network-manager-applet`` ``notification-daemon`` ``gnome-keyring`` "
-"``polkit`` ``@hardware-support``. If your network devices need extra "
-"packages for the template to work as a network VM, use the ``lspci`` "
-"command to identify the devices, then run ``dnf search firmware`` "
-"(replace ``firmware`` with the appropriate device identifier) to find the"
-" needed packages and then install them. If you need utilities for "
-"debugging and analyzing network connections, install ``tcpdump`` "
-"``telnet`` ``nmap`` ``nmap-ncat``."
+"NetVM, such as the template for ``sys-net``: ``qubes-core-agent-networking``"
+" ``qubes-core-agent-network-manager`` ``NetworkManager-wifi`` ``network-"
+"manager-applet`` ``notification-daemon`` ``gnome-keyring`` ``polkit`` "
+"``@hardware-support``. If your network devices need extra packages for the "
+"template to work as a network VM, use the ``lspci`` command to identify the "
+"devices, then run ``dnf search firmware`` (replace ``firmware`` with the "
+"appropriate device identifier) to find the needed packages and then install "
+"them. If you need utilities for debugging and analyzing network connections,"
+" install ``tcpdump`` ``telnet`` ``nmap`` ``nmap-ncat``."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:121
 #: ../../user/templates/minimal-templates.rst:209
-#: beea4ba1b3f84012b7b588553fd4cb20 efcb675deabd428fbc79fcf04155d5b8
+#: efcb675deabd428fbc79fcf04155d5b8 beea4ba1b3f84012b7b588553fd4cb20
 msgid ""
-":doc:`USB qube </user/advanced-topics/usb-qubes>`, such as the template "
-"for ``sys-usb``: ``qubes-usb-proxy`` to provide USB devices to other "
-"Qubes and ``qubes-input-proxy-sender`` to provide keyboard or mouse input"
-" to dom0."
+":doc:`USB qube </user/advanced-topics/usb-qubes>`, such as the template for "
+"``sys-usb``: ``qubes-usb-proxy`` to provide USB devices to other Qubes and "
+"``qubes-input-proxy-sender`` to provide keyboard or mouse input to dom0."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:123
@@ -297,19 +299,19 @@ msgstr ""
 msgid ""
 "`VPN qube <https://forum.qubes-os.org/t/19061>`__: Use the ``dnf search "
 "\"NetworkManager VPN plugin\"`` command to look up the VPN packages you "
-"need, based on the VPN technology you’ll be using, and install them. Some"
-" GNOME related packages may be needed as well. After creation of a "
-"machine based on this template, follow the `VPN instructions "
-"<https://forum.qubes-os.org/t/19061#set-up-a-proxyvm-as-a-vpn-gateway-"
-"using-networkmanager>`__ to configure it."
+"need, based on the VPN technology you’ll be using, and install them. Some "
+"GNOME related packages may be needed as well. After creation of a machine "
+"based on this template, follow the `VPN instructions <https://forum.qubes-"
+"os.org/t/19061#set-up-a-proxyvm-as-a-vpn-gateway-using-networkmanager>`__ to"
+" configure it."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:125
 #: ../../user/templates/minimal-templates.rst:215
 #: 3c408eb900a2455c9cd63c91f8072833 a5057085fa5b45a0a75dbf26b4f9babc
 msgid ""
-"``default-mgmt-dvm``: requires ``qubes-core-agent-passwordless-root`` and"
-" ``qubes-mgmt-salt-vm-connector``."
+"``default-mgmt-dvm``: requires ``qubes-core-agent-passwordless-root`` and "
+"``qubes-mgmt-salt-vm-connector``."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:129
@@ -323,38 +325,38 @@ msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:131
 #: ../../user/templates/minimal-templates.rst:223
-#: d8749c729757407b8b6dab8c1926e17a e0d0531587064a0caa5659d238be5b95
+#: e0d0531587064a0caa5659d238be5b95 d8749c729757407b8b6dab8c1926e17a
 msgid ""
-"In Qubes 4.0, additional packages from the ``qubes-core-agent`` suite may"
-" be needed to make the customized minimal template work properly. These "
+"In Qubes 4.0, additional packages from the ``qubes-core-agent`` suite may be"
+" needed to make the customized minimal template work properly. These "
 "packages are:"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:133
 #: ../../user/templates/minimal-templates.rst:225
-#: 64234630aa7f485986ee98c0c27703a2 de082798a1f54d34a01102cd9300159f
+#: de082798a1f54d34a01102cd9300159f 64234630aa7f485986ee98c0c27703a2
 msgid ""
-"``qubes-core-agent-nautilus``: This package provides integration with the"
-" Nautilus file manager (without it, items like “copy to VM/open in "
+"``qubes-core-agent-nautilus``: This package provides integration with the "
+"Nautilus file manager (without it, items like “copy to VM/open in "
 "disposable” will not be shown in Nautilus)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:135
 #: ../../user/templates/minimal-templates.rst:227
-#: 5d6948282c0e44e1bc91a93b04505b54 884a676b58ea486aaa135e979067598b
+#: 884a676b58ea486aaa135e979067598b 5d6948282c0e44e1bc91a93b04505b54
 msgid ""
 "``qubes-core-agent-thunar``: This package provides integration with the "
-"thunar file manager (without it, items like “copy to VM/open in "
-"disposable” will not be shown in thunar)."
+"thunar file manager (without it, items like “copy to VM/open in disposable” "
+"will not be shown in thunar)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:137
 #: ../../user/templates/minimal-templates.rst:229
-#: 53f332da914043f4afd5141546544fda 8885a4c0c3424b5ea16ccac5cf42e09a
+#: 8885a4c0c3424b5ea16ccac5cf42e09a 53f332da914043f4afd5141546544fda
 msgid ""
 "``qubes-core-agent-dom0-updates``: Script required to handle ``dom0`` "
-"updates. Any template on which the qube responsible for ‘dom0’ updates "
-"(e.g. ``sys-firewall``) is based must contain this package."
+"updates. Any template on which the qube responsible for ‘dom0’ updates (e.g."
+" ``sys-firewall``) is based must contain this package."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:139
@@ -386,9 +388,9 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:147
 #: 31972eb6678f4e05b0b94c2af9cd5f4e
 msgid ""
-"``qubes-core-agent-passwordless-root``, ``polkit``: By default, the "
-"Fedora minimal template doesn’t have passwordless root. These two "
-"packages enable this feature."
+"``qubes-core-agent-passwordless-root``, ``polkit``: By default, the Fedora "
+"minimal template doesn’t have passwordless root. These two packages enable "
+"this feature."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:149
@@ -400,19 +402,19 @@ msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:153
 #: ../../user/templates/minimal-templates.rst:237
-#: 4c707329f95149379a6c3d54810b96e0 5dd772bc187143d2b230b99888b90c70
+#: 5dd772bc187143d2b230b99888b90c70 4c707329f95149379a6c3d54810b96e0
 msgid "Also, there are packages to provide additional services:"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:155
 #: ../../user/templates/minimal-templates.rst:239
-#: 3239b0dbb2464814b766cce7d7341b73 45b10f3b025c4c35a233642ac367dd6a
+#: 45b10f3b025c4c35a233642ac367dd6a 3239b0dbb2464814b766cce7d7341b73
 msgid "``qubes-gpg-split``: For implementing split GPG."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:157
 #: ../../user/templates/minimal-templates.rst:241
-#: 35d40c5761ac4c01a5f266307fee8e3d e235067e5d8447558860207b9c98d7a7
+#: e235067e5d8447558860207b9c98d7a7 35d40c5761ac4c01a5f266307fee8e3d
 msgid "``qubes-ctap``: For implementing secure forwarding of CTAP messages."
 msgstr ""
 
@@ -424,13 +426,13 @@ msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:161
 #: ../../user/templates/minimal-templates.rst:245
-#: 343d1572a7644df492a0f30c04c3ee8b 959fd531ac414795969388f108ee3c8d
+#: 959fd531ac414795969388f108ee3c8d 343d1572a7644df492a0f30c04c3ee8b
 msgid "``qubes-img-converter``: For implementing safe conversion of images."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:163
 #: ../../user/templates/minimal-templates.rst:247
-#: af5b12ce6669423385eb37747156a5d8 e99d3952408c47048b39772f3ed25cc0
+#: e99d3952408c47048b39772f3ed25cc0 af5b12ce6669423385eb37747156a5d8
 msgid "``qubes-snapd-helper``: If you want to use snaps in qubes."
 msgstr ""
 
@@ -449,10 +451,10 @@ msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:169
 #: ../../user/templates/minimal-templates.rst:253
-#: 313599e1af7a47f99114f867091d94ed d144d05442f14c00bb973b53fa12cb6d
+#: d144d05442f14c00bb973b53fa12cb6d 313599e1af7a47f99114f867091d94ed
 msgid ""
-"``qubes-mgmt-salt-vm-connector``: If you want to use salt management on "
-"the template and qubes."
+"``qubes-mgmt-salt-vm-connector``: If you want to use salt management on the "
+"template and qubes."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:173
@@ -465,21 +467,21 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:175
 #: 780223ce83c8435ba23bd089f6724378
 msgid ""
-"See `here <https://forum.qubes-os.org/t/18999>`__ for further information"
-" on customizing ``fedora-minimal``."
+"See `here <https://forum.qubes-os.org/t/18999>`__ for further information on"
+" customizing ``fedora-minimal``."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:178
 #: e495c5e8a4d040838e192e8dc8a0c212
 msgid "Logging"
-msgstr ""
+msgstr "Journalisation"
 
 #: ../../user/templates/minimal-templates.rst:181
 #: 8f1dc87d727e46dbbe6e3b858d3f7fe9
 msgid ""
-"The ``rsyslog`` logging service is not installed by default, as all "
-"logging is instead being handled by the ``systemd`` journal. Users "
-"requiring the ``rsyslog`` service should install it manually."
+"The ``rsyslog`` logging service is not installed by default, as all logging "
+"is instead being handled by the ``systemd`` journal. Users requiring the "
+"``rsyslog`` service should install it manually."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:183
@@ -490,18 +492,17 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:197
 #: a0987961f67347ac98d8f500f47d1ef7
 msgid ""
-"Commonly used utilities: ``pciutils`` ``vim-minimal`` ``less`` ``psmisc``"
-" ``gnome-keyring``"
+"Commonly used utilities: ``pciutils`` ``vim-minimal`` ``less`` ``psmisc`` "
+"``gnome-keyring``"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:199
 #: 3a02da960f9f43eaa4cab9cff0ea155e
 msgid ""
 "The ``zenity`` package is required for interactive dialogs, e.g., file "
-"selection (`#5202 <https://github.com/QubesOS/qubes-"
-"issues/issues/5202>`__) and for using the Nautilus menu option to copy "
-"some files to other qubes (`#6801 <https://github.com/QubesOS/qubes-"
-"issues/issues/6801>`__)."
+"selection (`#5202 <https://github.com/QubesOS/qubes-issues/issues/5202>`__) "
+"and for using the Nautilus menu option to copy some files to other qubes "
+"(`#6801 <https://github.com/QubesOS/qubes-issues/issues/6801>`__)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:201
@@ -512,59 +513,58 @@ msgstr ""
 #: ../../user/templates/minimal-templates.rst:205
 #: 45340398a23640cf89ccd9f2448d85c0
 msgid ""
-":doc:`FirewallVM </user/security-in-qubes/firewall>`, such as the "
-"template for ``sys-firewall``: at least ``qubes-core-agent-networking``, "
-"and also ``qubes-core-agent-dom0-updates`` if you want to use it as the "
-"``UpdateVM`` (which is normally ``sys-firewall``)."
+":doc:`FirewallVM </user/security-in-qubes/firewall>`, such as the template "
+"for ``sys-firewall``: at least ``qubes-core-agent-networking``, and also "
+"``qubes-core-agent-dom0-updates`` if you want to use it as the ``UpdateVM`` "
+"(which is normally ``sys-firewall``)."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:207
 #: ec0f5073330745a6931380d4d583066a
 msgid ""
 "NetVM, such as the template for ``sys-net``: ``qubes-core-agent-"
-"networking``, ``qubes-core-agent-network-manager``, ``ntpd`` (or other "
-"NTP Service). Wi-Fi also requires ``wpasupplicant``, and (optionally) "
-"``gnome-keyring`` for saving the Wi-Fi password. If your network devices "
-"need extra packages for a network VM, use the ``lspci`` command to "
-"identify the devices, then find the package that provides necessary "
-"firmware and install it. If you need utilities for debugging and "
-"analyzing network connections, install the following packages: "
-"``tcpdump`` ``telnet`` ``nmap`` ``ncat``."
+"networking``, ``qubes-core-agent-network-manager``, ``ntpd`` (or other NTP "
+"Service). Wi-Fi also requires ``wpasupplicant``, and (optionally) ``gnome-"
+"keyring`` for saving the Wi-Fi password. If your network devices need extra "
+"packages for a network VM, use the ``lspci`` command to identify the "
+"devices, then find the package that provides necessary firmware and install "
+"it. If you need utilities for debugging and analyzing network connections, "
+"install the following packages: ``tcpdump`` ``telnet`` ``nmap`` ``ncat``."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:211
 #: d8a5306d3c5f466497023c7bca0af019
 msgid ""
-"Qubes to which USB devices are attached: ``libpam-systemd`` (Until `#7689"
-" <https://github.com/QubesOS/qubes-issues/issues/7689>`__ is fixed, "
-"either pair it with ``qubes-core-agent-passwordless-root`` or manually "
-"activate the user session with ``loginctl activate <USER_SESSION_ID>``.)"
+"Qubes to which USB devices are attached: ``libpam-systemd`` (Until `#7689 "
+"<https://github.com/QubesOS/qubes-issues/issues/7689>`__ is fixed, either "
+"pair it with ``qubes-core-agent-passwordless-root`` or manually activate the"
+" user session with ``loginctl activate <USER_SESSION_ID>``.)"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:213
 #: b567ba4a7ce24a5a90dad09d8650ad4a
 msgid ""
-"`VPN qube <https://forum.qubes-os.org/t/19061>`__: You may need to "
-"install network-manager VPN packages, depending on the VPN technology "
-"you’ll be using. After creating a machine based on this template, follow "
-"the `VPN howto <https://forum.qubes-os.org/t/19061#set-up-a-proxyvm-as-a"
-"-vpn-gateway-using-networkmanager>`__ to configure it."
+"`VPN qube <https://forum.qubes-os.org/t/19061>`__: You may need to install "
+"network-manager VPN packages, depending on the VPN technology you’ll be "
+"using. After creating a machine based on this template, follow the `VPN "
+"howto <https://forum.qubes-os.org/t/19061#set-up-a-proxyvm-as-a-vpn-gateway-"
+"using-networkmanager>`__ to configure it."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:217
 #: cb19b5a8e8234a778d06ce2b82161943
 msgid ""
 ":doc:`Yubikey </user/security-in-qubes/mfa>`: You may need to install "
-"``xserver-xorg-input-libinput`` for 2FA responses to work in web browsers"
-" like Firefox."
+"``xserver-xorg-input-libinput`` for 2FA responses to work in web browsers "
+"like Firefox."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:219
 #: 28ff0e915ca4420da9eddfd3b3b4dd55
 msgid ""
 "Thumbnails (e.g., file previews in Nautilus): ``libgdk-pixbuf2.0-bin`` "
-"(images), ``ffmpegthumbnailer`` (videos). (Try ``apt search thumbnailer``"
-" for other file types.)"
+"(images), ``ffmpegthumbnailer`` (videos). (Try ``apt search thumbnailer`` "
+"for other file types.)"
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:249
@@ -574,14 +574,14 @@ msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:257
 #: df284e085574434cbdf9e224d1ed9e7e
-msgid "Documentation on all of these can be found in the :doc:`docs </index>`."
+msgid ""
+"Documentation on all of these can be found in the :doc:`docs </index>`."
 msgstr ""
 
 #: ../../user/templates/minimal-templates.rst:259
 #: ef603dc32af14777b2de533b89392976
 msgid ""
-"You could, of course, use ``qubes-vm-recommended`` to automatically "
-"install many of these, but in that case you are well on the way to a "
-"standard Debian template."
+"You could, of course, use ``qubes-vm-recommended`` to automatically install "
+"many of these, but in that case you are well on the way to a standard Debian"
+" template."
 msgstr ""
-

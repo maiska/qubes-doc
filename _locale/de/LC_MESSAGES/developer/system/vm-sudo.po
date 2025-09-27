@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/system/vm-sudo.rst:5 00359673808446a9be527a16709ce914
 msgid "Passwordless root access in qubes"
@@ -54,8 +52,8 @@ msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:37 b5e22ca97c9146ceb05e27af61ad07e7
 msgid ""
-"PAM (``/etc/pam.d/su.qubes`` or ``/usr/share/pam-configs/su.qubes``) "
-"``auth        sufficient  pam_succeed_if.so use_uid user ingroup qubes``"
+"PAM (``/etc/pam.d/su.qubes`` or ``/usr/share/pam-configs/su.qubes``) ``auth"
+"        sufficient  pam_succeed_if.so use_uid user ingroup qubes``"
 msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:39 63e6c274361548fea2a1bfab92d643f8
@@ -68,11 +66,11 @@ msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:43 fbab098c5f3f4ad1a81af272ded72b6f
 msgid ""
-"User can use pkexec just like sudo **Note:** above is needed mostly "
-"because Qubes user GUI session isn’t treated by PolicyKit/logind as "
-"“local” session because of the way in which X server and session is "
-"started. Perhaps we will address this issue in the future, but this is "
-"really low priority. Patches welcomed anyway."
+"User can use pkexec just like sudo **Note:** above is needed mostly because "
+"Qubes user GUI session isn’t treated by PolicyKit/logind as “local” session "
+"because of the way in which X server and session is started. Perhaps we will"
+" address this issue in the future, but this is really low priority. Patches "
+"welcomed anyway."
 msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:47 8c007a1a75404d77b3483efa908b2cfa
@@ -81,11 +79,10 @@ msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:49 f7d1f83cc3be4a89afb941e4fdf705ea
 msgid ""
-"Used for access to ‘root’ account from text console (``qvm-console-"
-"dispvm``) - the only way to access the VM when GUI isn’t working."
+"Used for access to ‘root’ account from text console (``qvm-console-dispvm``)"
+" - the only way to access the VM when GUI isn’t working."
 msgstr ""
 
 #: ../../developer/system/vm-sudo.rst:51 0dd518bed50640359217046f2c11fe46
 msgid "Can be used for easy ‘su -’ from user to root."
 msgstr ""
-

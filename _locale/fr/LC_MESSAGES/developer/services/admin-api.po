@@ -1,23 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Boxoa590, 2025
+# erinm, 2025
+# AO <ao@localizationlab.org>, 2025
+# Transifex Bot <>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Transifex Bot <>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../developer/services/admin-api.rst:3 30409b67cf384b8cbc8b85b66566b550
 msgid "Admin API"
@@ -25,9 +30,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:5 653256119e2540b49c27775c864a4932
 msgid ""
-"*You may also be interested in the article* \\ `Introducing the Qubes "
-"Admin API <https://www.qubes-os.org/news/2017/06/27/qubes-admin-"
-"api/>`__\\ *.*"
+"*You may also be interested in the article* \\ `Introducing the Qubes Admin "
+"API <https://www.qubes-os.org/news/2017/06/27/qubes-admin-api/>`__\\ *.*"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:8 81f17d15e86d470b947f57fd60f7be7e
@@ -36,8 +40,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:10 12ef5ccc8f5a4e98a66ef85fcb6f4367
 msgid ""
-"The goals of the Admin API system is to provide a way for the user to "
-"manage the domains without direct access to dom0."
+"The goals of the Admin API system is to provide a way for the user to manage"
+" the domains without direct access to dom0."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:13 8059dcb8d04b46359edd663e9d0c7e1f
@@ -50,9 +54,9 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:16 49144c1c071b40f6864bd65eec710923
 msgid ""
-"Possibility to create multi-user system, where different users are able "
-"to use different sets of domains, possibly overlapping. This would also "
-"require to have separate GUI domain."
+"Possibility to create multi-user system, where different users are able to "
+"use different sets of domains, possibly overlapping. This would also require"
+" to have separate GUI domain."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:20 72292317935746c8b1c19f97b70fe462
@@ -77,7 +81,7 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:28 fa87f522c8ce42caaf79da31e66931aa
 msgid "Threat model"
-msgstr ""
+msgstr "Modèle de menace"
 
 #: ../../developer/services/admin-api.rst:30 bb4697f4e9b7449b8962c1a1d41d4026
 msgid "TBD"
@@ -85,7 +89,7 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:33 67e57c513b9b48e5a3cfbabb42e8b675
 msgid "Components"
-msgstr ""
+msgstr "Composants"
 
 #: ../../developer/services/admin-api.rst:35 e4d0c4854fa749d986a11fa7c12849ed
 msgid "Admin API Architecture"
@@ -93,23 +97,22 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:40 7d17f438af70447ab944bab2d7e7455c
 msgid ""
-"A central entity in the Qubes Admin API system is a ``qubesd`` daemon, "
-"which holds information about all domains in the system and mediates all "
-"actions (like starting and stopping a qube) with ``libvirtd``. The "
-"``qubesd`` daemon also manages the ``qubes.xml`` file, which stores all "
-"persistent state information and dispatches events to extensions. Last "
-"but not least, ``qubesd`` is responsible for querying the RPC policy for "
-"qrexec daemon."
+"A central entity in the Qubes Admin API system is a ``qubesd`` daemon, which"
+" holds information about all domains in the system and mediates all actions "
+"(like starting and stopping a qube) with ``libvirtd``. The ``qubesd`` daemon"
+" also manages the ``qubes.xml`` file, which stores all persistent state "
+"information and dispatches events to extensions. Last but not least, "
+"``qubesd`` is responsible for querying the RPC policy for qrexec daemon."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:48 1c0edf9c276841679295f17e23eeadb6
 msgid ""
-"The ``qubesd`` daemon may be accessed from other domains through a set of"
-" qrexec API calls called the “Admin API”. This API is the intended "
-"management interface supported by the Qubes OS. The API is stable. When "
-"called, the RPC handler performs basic validation and forwards the "
-"request to the ``qubesd`` via UNIX domain socket. The socket API is "
-"private, unstable, and not yet documented."
+"The ``qubesd`` daemon may be accessed from other domains through a set of "
+"qrexec API calls called the “Admin API”. This API is the intended management"
+" interface supported by the Qubes OS. The API is stable. When called, the "
+"RPC handler performs basic validation and forwards the request to the "
+"``qubesd`` via UNIX domain socket. The socket API is private, unstable, and "
+"not yet documented."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:56 bf0b2a57ee1b465d95ce25b1a971a0f7
@@ -118,15 +121,15 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:58 058c77c3fa2b46199339ebcedf62985f
 msgid ""
-"The API should be implemented as a set of qrexec calls. This is to make "
-"it easy to set the policy using current mechanism."
+"The API should be implemented as a set of qrexec calls. This is to make it "
+"easy to set the policy using current mechanism."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:67
 #: ../../developer/services/admin-api.rst:873 c3db4f0bf33441a4be4dd866c970faa8
 #: fe55184239f14ddcbfc7f1dc110490b3
 msgid "call"
-msgstr ""
+msgstr "appel"
 
 #: ../../developer/services/admin-api.rst:68 e1a6fdbaca754ad1bfc35015add527a5
 msgid "dest"
@@ -139,8 +142,8 @@ msgid "argument"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:70
-#: ../../developer/services/admin-api.rst:873 149aec83b9564874b24fccef475cd7fa
-#: 8379a0f7bd9443ec8714a7dd5fd49d0f
+#: ../../developer/services/admin-api.rst:873 8379a0f7bd9443ec8714a7dd5fd49d0f
+#: 149aec83b9564874b24fccef475cd7fa
 msgid "inside"
 msgstr ""
 
@@ -152,7 +155,7 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:72 e42ec0485c2d48a88a72117ffb480fc5
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: ../../developer/services/admin-api.rst:73 77d12bedb07c4b7f87dbedce464b14f4
 msgid "``admin.vmclass.List``"
@@ -193,25 +196,25 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:493
 #: ../../developer/services/admin-api.rst:608
 #: ../../developer/services/admin-api.rst:614
-#: ../../developer/services/admin-api.rst:620 0579a2aa51d24cbdac92694b8ed7429e
-#: 06816a7f1e5c4acc83b2655e15c1b927 06b0a5d6b25a42cca8a648391aa82f52
-#: 0ed00e2221d34096ae5655e34418e198 15ef120d31d14c8ab9ad031da1ee42d5
-#: 21b9444a28e242ba9021e53b8cfe4ca4 222b9e957f854ea3ab8c558534b47a95
-#: 279e8659655f4b00b4bfdcf91a0304fd 2e8758a0aaf24dddbde6bf584af74558
-#: 31d84762cfb34ce8bc40c54e3a3f25ea 44f34baebd4c4514b84c18cb36ddaa1b
-#: 4e7127e45936402aa748762fd6834ada 5677722b2d344fe3a1df94c69b75f009
-#: 5dffe974b7964671a20551d80b7b12a2 6b8c70bdcff64ce7b4b1afd6bad4941f
-#: 769e9880f00c4010afd5241c9db3ca01 7c3859e6289a435c88bd41c2bb961be8
-#: 829a500cba984123a51112a90715198d 878eaddcbb364125ac193c581ecdad40
-#: 9cc342ee1e9f448aaf60e7674642a3fa 9eacd7442eaa4ba3948b29d1dda4c267
-#: a39642a1a05a4a208a83a6299d5cd396 a8652986633845aea70d937253b7b5e8
-#: aa2fab82af4a42ebad08e480c071cec4 b78a2c496dbc4e298f68dee0d9e5633d
-#: c27072685a9a443383a7bc0e50ab7fcb c5ac2e1be4c04ba8a26d4b3f62faeed9
-#: c6bdfce4ca7841aaad773c91362abb6f cbaebdfa2fd04e0cacbebb248cb06c87
-#: cfd4a37c70c64e87ab723ab31979226e d00a76d9655f480eba3ea70c4e761085
-#: d9dec718530c4b83995b10c88fbd447b e58a84559a9d493ea67151b410d0c1b5
-#: eb329d0061d94946be9dcdb1cbba2bd8 ef084fe90bc7416094859a0c954548bc
-#: f4b9438c69074f648eadc4364ffb2d96
+#: ../../developer/services/admin-api.rst:620 b78a2c496dbc4e298f68dee0d9e5633d
+#: 9eacd7442eaa4ba3948b29d1dda4c267 06b0a5d6b25a42cca8a648391aa82f52
+#: 21b9444a28e242ba9021e53b8cfe4ca4 2e8758a0aaf24dddbde6bf584af74558
+#: 6b8c70bdcff64ce7b4b1afd6bad4941f 9cc342ee1e9f448aaf60e7674642a3fa
+#: eb329d0061d94946be9dcdb1cbba2bd8 cbaebdfa2fd04e0cacbebb248cb06c87
+#: 0579a2aa51d24cbdac92694b8ed7429e 44f34baebd4c4514b84c18cb36ddaa1b
+#: 222b9e957f854ea3ab8c558534b47a95 c27072685a9a443383a7bc0e50ab7fcb
+#: 7c3859e6289a435c88bd41c2bb961be8 0ed00e2221d34096ae5655e34418e198
+#: 769e9880f00c4010afd5241c9db3ca01 cfd4a37c70c64e87ab723ab31979226e
+#: 15ef120d31d14c8ab9ad031da1ee42d5 279e8659655f4b00b4bfdcf91a0304fd
+#: f4b9438c69074f648eadc4364ffb2d96 829a500cba984123a51112a90715198d
+#: 31d84762cfb34ce8bc40c54e3a3f25ea 5677722b2d344fe3a1df94c69b75f009
+#: a8652986633845aea70d937253b7b5e8 d9dec718530c4b83995b10c88fbd447b
+#: c5ac2e1be4c04ba8a26d4b3f62faeed9 4e7127e45936402aa748762fd6834ada
+#: a39642a1a05a4a208a83a6299d5cd396 c6bdfce4ca7841aaad773c91362abb6f
+#: e58a84559a9d493ea67151b410d0c1b5 aa2fab82af4a42ebad08e480c071cec4
+#: 5dffe974b7964671a20551d80b7b12a2 d00a76d9655f480eba3ea70c4e761085
+#: 06816a7f1e5c4acc83b2655e15c1b927 878eaddcbb364125ac193c581ecdad40
+#: ef084fe90bc7416094859a0c954548bc
 msgid "``dom0``"
 msgstr ""
 
@@ -353,77 +356,77 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:875
 #: ../../developer/services/admin-api.rst:878
 #: ../../developer/services/admin-api.rst:881
-#: ../../developer/services/admin-api.rst:884 0151ae93ad4a41b1bc840fd3f297a41e
-#: 0267e5bb0a304b62a1f78fb5d83a8bc2 0343a022130f43cb990c284521d99121
-#: 04ad9fe25a0e4fbf9c0103e378a11cee 05de525eab9d49029ca34bc3e6da6c2b
-#: 067ae5064cf34e72a3ebf2f1f957596a 08e14981bcf04a4ab8610243dd82be04
-#: 0c41416b6e77490c8d47f5f386b14fca 0c9f446870834afe92e715e7e3a3f560
-#: 0fbbe4f2ebd1452ea9d2699a1052c9fc 10050836594a44cbb056816434e7f445
-#: 10f2c3fced3444fb81c8994bbbec7b54 11172b57fc47448599568bbfa45944ac
-#: 119c9d40e7024c2a805db34d67c65835 13a76114572f4701b0a24bbc61281193
-#: 14791dd7550d41ae8a6bef0483ed0580 149eaa2a27924307a84ac3f29a1e1f01
-#: 15b848c0307445a0a0d8ef3356fc0c63 17ea2e9f826b4b21a513308a61ec7778
-#: 185ea2b93261462795525e1a84438e06 186df67215374ab193ba377a0985f60c
-#: 1a0e00a5be82458eb7f791857f6a9b38 1b0efba0e13547e68eccefbb0b3cbbad
-#: 1db2a92552ce4b3e93795f8c0ad3d8ac 23535be3454a4dcdb480eb8dc92b8a55
-#: 263415f3394a426dbdc3a70d64ae710f 2772db37e2a6428aa1400e54fa76a595
-#: 277ff567bc134b908dd743bf98589bb9 28123d5d6fa243b78895c4439bde3436
-#: 2a2b71aaf72e4f0f8c8b914033199abf 2ade87733e624018bc71e5238d00e419
-#: 2f5dc0b3cdca44bbafdef14f599598b4 30b30a2a78904917b42846c5f777746c
-#: 353dba13242248a1ad52fcd5db6d4185 37f0d19dc257499dad83336c7e7d8c1a
-#: 37f54d7993fb4f6d95d60eef52e2e6c6 384d7d3ef2834971a989ef2a5710c462
-#: 3dbe5f6abb38494eb89e45287b4084c7 3f27006c6e20443484bde198a74b27d2
-#: 3f9c9b54a565432eac471bfcf317d102 403fd920451b4f63855ab2cb5679ce2b
-#: 405cf5f5880640c3b00826bce7ae850f 4060120b75cb416cb39b632c238ad658
-#: 415f2b8f1d9d46269f965c05f097e5a4 41aac265411b4a3eaaf05812a1c03b90
-#: 45f9340cbc9c439fa7c1cac869eff2d6 46d8f2822a5b43919360d47677814397
-#: 4854eb958672411e9d5e9eebb5cc3053 4a9004d67da2484db80f6b18509b2550
-#: 4de71b56337144a0954c79b491c107d4 51b445375605479c82cf0a6b92b520c7
-#: 52543652fcb742c7a1f8ccda292c4841 53becd9ddedb4b08a1cd6b11bb256336
-#: 53d73f6235d543c8be29d2b968d2fba3 5407058222b44d9c963f82cf07c8255e
-#: 54a38dccd7a246428e1f133855d83339 54e56ac2cfbf44e1aabedfbf55692ef0
-#: 55c57c943d5a4df2a3cc2499573a3852 5838b2dd6ca846c68c62d3012de8ff9f
-#: 64ddca08ac194925a139d94d0dbc20b6 6787b3bbbfaa40669e67360bd6995ab1
-#: 69a699b6cda24375b3ac5feb2a91f8e0 6a617f9a7f124850b838a1ee8ff5ce47
-#: 6cca10354122426db70ad32a1396dab0 6e07b7e3df45415abc5f597b9235f365
-#: 6eb599f00e1a47c9ade80565779202a4 6fb6e6ec1ee24789a48169348dc1edc0
-#: 705ef7f4a3ec4aaa861f40eb22cf3a3f 71ee23a9255b4823a0c4d122ef5aa9d8
-#: 7663a2c926fb4a5db8dd8f3750555182 77ce5487b6644ec899d8cdba0daaadf2
-#: 77fd661f7aac40d1b39220735f7b09f2 7c62a233643a4a0abcbb74becfe3c15c
-#: 7d70060d6a7e45058de3f2855159336b 801def2bae8b4cf1a3ed5d888a190cf3
-#: 8102003853a144df892838ade3e253a6 813c4e75b79b47ecb0dec5efb3d165e3
-#: 84c89c9981d24f2f8a25957b2c467b8d 86a2d338d21546018241d6bcaf2169ba
-#: 875e0102d5084f02bfe943732ebea849 882034fd0e22405d9e9399489d23f3a8
-#: 89b330f188d3405388515ff33933245f 89e6a55913704847b602bd9b58fb24a6
-#: 8bead72b827c415bb7c9c834618a4cc3 8c0a9fbf9d0649f383c05e668b69cc80
-#: 91a70ff339174812bacad28f477e6a59 923ae1d9a9ef46c6bad65284fadb6a8c
-#: 92e965a4693f49958b2629c274c8307d 93d2e37e9e844568b306c401da940236
-#: 952dab7b594f4b45aab662c563640549 9757073b4ca14e96be1c5b573ece9622
-#: 9b269890bfce41ee824b7cd01954ad32 9dad0370270e40f08c8451b83fc83603
-#: 9e19144176e343acac2d713b963bd8aa 9f3b2eb8b36b475fa16eb56a0fbc7310
-#: a55b75d345b7438ca21265142719d8c9 a67a47b34af74956853e1af641f75038
-#: a9d9e7cdd7b1495db1fd7164e502ccac a9e632820f504a549352d3aeb5577535
-#: ab6b49fb39694ac3bd270645efeeee85 ab815c3f69804501937c94d6072ba58b
-#: acb767087cdc45989f9b00412149ef72 ae5028dddd60436a9ab24deaf1a125b9
-#: af10a1d1f58a486b9259d3432912e140 b3b91e525c684df1a2db302febdb8910
-#: b69182b5451445a98f2269d056b03e36 b73ae148c8a849aea3f5d923b725fb59
-#: b7caa48ee6cf4e3599beea1a9e6ea5c8 b820cf869dc941e2afa90b0aada6d12d
-#: ba4a8d7c23764942973c6289a12cc7ba c0886ae07c9449d1b2c605c6fb18eebf
-#: c298fe6623b04b39a4edb852ad64b733 c4ac87d16d694538bcbbb8a095a6f4b6
-#: c56d56373a0342cf8705f9a400e130ad c8bb09f546fc437182becede3848c283
-#: cdc6139500614c1e9ff20249270deee3 d3df43f0736f4c698d979efd6a75e921
-#: d404b9f4647842da83d76b5eee287a76 d7629affa5294258aed4b0f9036a0b2e
-#: d8b119547e4049b29b12464296f2ab06 d9071accee414300b376f152f4e8bf5d
-#: da2b4ea491cb4848aa5bf0f7be4953c7 e620a014131046e29053ad48b1dc5c37
-#: e6cf8a9c26fb48f4968bb7d550f9572a e867fdadebcd4d6c80adaef33908bf42
-#: ea9346461e0c4043a72f20a4d9cd6f58 eac1ce04fe924e88aad19d4e1676c167
-#: eacd402be68d4d52a6f501ace247b3dd ec199b7e56604ad0abecc981386c3b02
-#: ee7c8ae281264e94b923a19172a78f32 ef8de1c3d0b14b659e5d2cb15fa9072b
-#: ef928e6b20204ae6bf8b01bb2f0d5699 efcad9b85d4a4cc5bd8e5c1e97814d2d
-#: efeba2d356c845fbb8700405887ea78b f0350abd475f4b09aa5f36547b8f69d0
-#: f24896644153487c9a435d520b552279 f2f86c5e37504dd399b3e5216ec545d3
-#: f3c37b8a7c5d4e549971b4b603a5ac91 f682add49f214be298bbe2a17cf42c9c
-#: f95991b82ac647f1a5f57404f8269578
+#: ../../developer/services/admin-api.rst:884 6eb599f00e1a47c9ade80565779202a4
+#: 92e965a4693f49958b2629c274c8307d 53becd9ddedb4b08a1cd6b11bb256336
+#: 0c41416b6e77490c8d47f5f386b14fca 53d73f6235d543c8be29d2b968d2fba3
+#: ee7c8ae281264e94b923a19172a78f32 46d8f2822a5b43919360d47677814397
+#: ef8de1c3d0b14b659e5d2cb15fa9072b 51b445375605479c82cf0a6b92b520c7
+#: 8102003853a144df892838ade3e253a6 f682add49f214be298bbe2a17cf42c9c
+#: 6787b3bbbfaa40669e67360bd6995ab1 ef928e6b20204ae6bf8b01bb2f0d5699
+#: c0886ae07c9449d1b2c605c6fb18eebf 149eaa2a27924307a84ac3f29a1e1f01
+#: 952dab7b594f4b45aab662c563640549 10050836594a44cbb056816434e7f445
+#: b820cf869dc941e2afa90b0aada6d12d 1db2a92552ce4b3e93795f8c0ad3d8ac
+#: ae5028dddd60436a9ab24deaf1a125b9 1b0efba0e13547e68eccefbb0b3cbbad
+#: 185ea2b93261462795525e1a84438e06 e6cf8a9c26fb48f4968bb7d550f9572a
+#: 45f9340cbc9c439fa7c1cac869eff2d6 0151ae93ad4a41b1bc840fd3f297a41e
+#: f24896644153487c9a435d520b552279 77ce5487b6644ec899d8cdba0daaadf2
+#: 2a2b71aaf72e4f0f8c8b914033199abf 41aac265411b4a3eaaf05812a1c03b90
+#: 7d70060d6a7e45058de3f2855159336b b7caa48ee6cf4e3599beea1a9e6ea5c8
+#: d404b9f4647842da83d76b5eee287a76 067ae5064cf34e72a3ebf2f1f957596a
+#: 3dbe5f6abb38494eb89e45287b4084c7 d9071accee414300b376f152f4e8bf5d
+#: ec199b7e56604ad0abecc981386c3b02 15b848c0307445a0a0d8ef3356fc0c63
+#: 89e6a55913704847b602bd9b58fb24a6 37f0d19dc257499dad83336c7e7d8c1a
+#: 186df67215374ab193ba377a0985f60c f0350abd475f4b09aa5f36547b8f69d0
+#: efeba2d356c845fbb8700405887ea78b 1a0e00a5be82458eb7f791857f6a9b38
+#: eacd402be68d4d52a6f501ace247b3dd 923ae1d9a9ef46c6bad65284fadb6a8c
+#: 3f27006c6e20443484bde198a74b27d2 23535be3454a4dcdb480eb8dc92b8a55
+#: c298fe6623b04b39a4edb852ad64b733 05de525eab9d49029ca34bc3e6da6c2b
+#: 3f9c9b54a565432eac471bfcf317d102 b73ae148c8a849aea3f5d923b725fb59
+#: 4854eb958672411e9d5e9eebb5cc3053 6cca10354122426db70ad32a1396dab0
+#: 6e07b7e3df45415abc5f597b9235f365 da2b4ea491cb4848aa5bf0f7be4953c7
+#: 69a699b6cda24375b3ac5feb2a91f8e0 b3b91e525c684df1a2db302febdb8910
+#: c56d56373a0342cf8705f9a400e130ad 882034fd0e22405d9e9399489d23f3a8
+#: f2f86c5e37504dd399b3e5216ec545d3 f95991b82ac647f1a5f57404f8269578
+#: 9e19144176e343acac2d713b963bd8aa 813c4e75b79b47ecb0dec5efb3d165e3
+#: 0c9f446870834afe92e715e7e3a3f560 cdc6139500614c1e9ff20249270deee3
+#: 37f54d7993fb4f6d95d60eef52e2e6c6 e867fdadebcd4d6c80adaef33908bf42
+#: f3c37b8a7c5d4e549971b4b603a5ac91 55c57c943d5a4df2a3cc2499573a3852
+#: 119c9d40e7024c2a805db34d67c65835 54e56ac2cfbf44e1aabedfbf55692ef0
+#: 0343a022130f43cb990c284521d99121 c8bb09f546fc437182becede3848c283
+#: a67a47b34af74956853e1af641f75038 263415f3394a426dbdc3a70d64ae710f
+#: 6a617f9a7f124850b838a1ee8ff5ce47 84c89c9981d24f2f8a25957b2c467b8d
+#: 04ad9fe25a0e4fbf9c0103e378a11cee 353dba13242248a1ad52fcd5db6d4185
+#: 2ade87733e624018bc71e5238d00e419 4a9004d67da2484db80f6b18509b2550
+#: 93d2e37e9e844568b306c401da940236 86a2d338d21546018241d6bcaf2169ba
+#: ab815c3f69804501937c94d6072ba58b d3df43f0736f4c698d979efd6a75e921
+#: 415f2b8f1d9d46269f965c05f097e5a4 89b330f188d3405388515ff33933245f
+#: 5407058222b44d9c963f82cf07c8255e af10a1d1f58a486b9259d3432912e140
+#: 4060120b75cb416cb39b632c238ad658 705ef7f4a3ec4aaa861f40eb22cf3a3f
+#: 54a38dccd7a246428e1f133855d83339 28123d5d6fa243b78895c4439bde3436
+#: ba4a8d7c23764942973c6289a12cc7ba 0267e5bb0a304b62a1f78fb5d83a8bc2
+#: 10f2c3fced3444fb81c8994bbbec7b54 52543652fcb742c7a1f8ccda292c4841
+#: 9b269890bfce41ee824b7cd01954ad32 14791dd7550d41ae8a6bef0483ed0580
+#: 9757073b4ca14e96be1c5b573ece9622 c4ac87d16d694538bcbbb8a095a6f4b6
+#: 801def2bae8b4cf1a3ed5d888a190cf3 2772db37e2a6428aa1400e54fa76a595
+#: 403fd920451b4f63855ab2cb5679ce2b 64ddca08ac194925a139d94d0dbc20b6
+#: 6fb6e6ec1ee24789a48169348dc1edc0 9dad0370270e40f08c8451b83fc83603
+#: eac1ce04fe924e88aad19d4e1676c167 08e14981bcf04a4ab8610243dd82be04
+#: 11172b57fc47448599568bbfa45944ac a55b75d345b7438ca21265142719d8c9
+#: acb767087cdc45989f9b00412149ef72 384d7d3ef2834971a989ef2a5710c462
+#: 8bead72b827c415bb7c9c834618a4cc3 0fbbe4f2ebd1452ea9d2699a1052c9fc
+#: d8b119547e4049b29b12464296f2ab06 5838b2dd6ca846c68c62d3012de8ff9f
+#: 9f3b2eb8b36b475fa16eb56a0fbc7310 efcad9b85d4a4cc5bd8e5c1e97814d2d
+#: 91a70ff339174812bacad28f477e6a59 8c0a9fbf9d0649f383c05e668b69cc80
+#: d7629affa5294258aed4b0f9036a0b2e 2f5dc0b3cdca44bbafdef14f599598b4
+#: ab6b49fb39694ac3bd270645efeeee85 e620a014131046e29053ad48b1dc5c37
+#: 71ee23a9255b4823a0c4d122ef5aa9d8 405cf5f5880640c3b00826bce7ae850f
+#: 30b30a2a78904917b42846c5f777746c 4de71b56337144a0954c79b491c107d4
+#: 17ea2e9f826b4b21a513308a61ec7778 277ff567bc134b908dd743bf98589bb9
+#: 7663a2c926fb4a5db8dd8f3750555182 b69182b5451445a98f2269d056b03e36
+#: a9e632820f504a549352d3aeb5577535 875e0102d5084f02bfe943732ebea849
+#: ea9346461e0c4043a72f20a4d9cd6f58 77fd661f7aac40d1b39220735f7b09f2
+#: 7c62a233643a4a0abcbb74becfe3c15c a9d9e7cdd7b1495db1fd7164e502ccac
+#: 13a76114572f4701b0a24bbc61281193
 msgid "`-`"
 msgstr ""
 
@@ -449,12 +452,12 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:87
 #: ../../developer/services/admin-api.rst:93
-#: ../../developer/services/admin-api.rst:100 53194e1802f14f9daf44c6789a5d29d9
-#: 732a34168ec54ba7bc22f2bb14e4cc90 a76bd64f61bc410e8f28845e0fa384d0
+#: ../../developer/services/admin-api.rst:100 732a34168ec54ba7bc22f2bb14e4cc90
+#: a76bd64f61bc410e8f28845e0fa384d0 53194e1802f14f9daf44c6789a5d29d9
 msgid "template"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst
+#: ../../developer/services/admin-api.rst:0
 #: ../../developer/services/admin-api.rst:88 2630b7fff9af4475ae0868d39daf8d98
 #: b46f116d1d8747769bbc2a0183e90da9
 msgid "``name=<name> label=<label>``"
@@ -464,18 +467,18 @@ msgstr ""
 msgid "``admin.vm.CreateInPool.<class>``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 6b96cf3c8ab144559415c4f3c25e97f9
+#: ../../developer/services/admin-api.rst:0 6b96cf3c8ab144559415c4f3c25e97f9
 msgid "``pool=<pool> pool:<volume>=<pool>``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst e1270c2ef35445bf88e33f6ddd581b15
+#: ../../developer/services/admin-api.rst:0 e1270c2ef35445bf88e33f6ddd581b15
 msgid "either use ``pool=`` to put all volumes there,"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 7bddb1f1a7f74c619377cec6b91150db
+#: ../../developer/services/admin-api.rst:0 7bddb1f1a7f74c619377cec6b91150db
 msgid ""
-"or ``pool:<volume>=`` for individual volumes - both forms are not allowed"
-" at the same time"
+"or ``pool:<volume>=`` for individual volumes - both forms are not allowed at"
+" the same time"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:99 20079877c6c64dc5ace2e1bdac76f0b8
@@ -485,18 +488,18 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:103
 #: ../../developer/services/admin-api.rst:878
 #: ../../developer/services/admin-api.rst:881
-#: ../../developer/services/admin-api.rst:884 2cfbe1d9cfa24c7cbfb8d716d944b5bb
-#: 61acfc31c6d54265a1fed90efbe41c52 c6424b10da7a4d5098a1b35b5f401b97
-#: f3f5cb2804774144b712abcd97d5b88c
+#: ../../developer/services/admin-api.rst:884 c6424b10da7a4d5098a1b35b5f401b97
+#: 2cfbe1d9cfa24c7cbfb8d716d944b5bb f3f5cb2804774144b712abcd97d5b88c
+#: 61acfc31c6d54265a1fed90efbe41c52
 msgid "name"
-msgstr ""
+msgstr "nom"
 
 #: ../../developer/services/admin-api.rst:104 1bb01e2a6adf429ba7383316e2f7dd36
 msgid ""
-"Create new DisposableVM, ``template`` is any AppVM with "
-"``dispvm_allowed`` set to True, or ``dom0`` to use default defined in "
-"``default_dispvm`` property of calling VM; VM created with this call will"
-" be automatically removed after its shutdown; the main difference from "
+"Create new DisposableVM, ``template`` is any AppVM with ``dispvm_allowed`` "
+"set to True, or ``dom0`` to use default defined in ``default_dispvm`` "
+"property of calling VM; VM created with this call will be automatically "
+"removed after its shutdown; the main difference from "
 "``admin.vm.Create.DispVM`` is automatic (random) name generation."
 msgstr ""
 
@@ -555,33 +558,33 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:584
 #: ../../developer/services/admin-api.rst:590
 #: ../../developer/services/admin-api.rst:596
-#: ../../developer/services/admin-api.rst:602 01812d5894154d8ea2cdcfafbec6822e
-#: 06eac289d5cf4bab8910351cbb2c26e0 08d2c926088b47f08b14993c05989e83
-#: 0a4c0a82b1b44fa5886f711350edaa3b 0ae3f8fac0bf49f0ab6d1a8667d1e38f
-#: 0b5b32a1d99c46d4bb77b0f64a7e2847 101cf38309db457a9af4fc201b2ba1e8
-#: 16965efb59b045f6bf1bc2b570d98fb1 1e47a4f1eef341948b679ed77322b1d8
-#: 24987dabe8d34784a21929f1e98296b7 25ec47664c1a4078af3c46c7a3dafba5
-#: 2a4c3e90c0af4684ad7f0a554413a813 2d1b22dfe1fd4f728baff4d33cd6aab8
-#: 338f4793c047451d87112eaf02711158 3fe2d05e4e034b0bbb1398e75fb15f0a
-#: 4d44335b36124ec9b4563ebb73f5e929 4e5757f6fd954f23acf8a043ae8cd208
-#: 5a9e45b793784d3995c747efce645cf3 5d6afa49e5774e2b922a455ae1f05689
-#: 68d4b3bc7dc34501b5198f6245a1e8ab 6d357b30333343e9bd67bc06b87f8a9e
-#: 728376f594aa484abf3051d5881f5f43 761bc77913fa49e29df724e1614a5a90
-#: 76c2e35e2f904fce8555a37c82bd9525 776199bcbe1d44dbb8473cf84684e30a
-#: 77971f4433fb4d9bb9b823fd49e79235 7946cb8197a445b99ed4c1666331262d
-#: 7fc8954f48864fb5acc6693767acce89 8246ac1d824a4887aa991714cae4ca41
-#: 895f6fb3fe9f442ca1da04086cd660e2 8ab42047a67d48debbb7d756b5e58724
-#: 8f2074cc883e46af8d3cb1a92187dc5f 91058ffa1c424cccac6a23c6533e1e13
-#: a68e0be80a514629991b5ba152bc0fe3 b4cd5d0310bc4c0e92f3633936ddb049
-#: b5d0acb5e5d349d49dbb9063f0e40c06 ba99c6e70c22463983af5563014e0801
-#: bab27beae8e943a49bcd7699fa861a9f bb6f42ea48024ae8ad4c80b28f6c130e
-#: c35eda01f9f64a3684ac9137ffed9467 c68f717cccac4a799e0af2f3423b8ac8
-#: c8c605a1f3a548adbbb35a5030ddf66d d2cc1462fee846019ac93c2db7322153
-#: d6ae60c7cf694375b61f6cff72d6536e d9c9a861df18408c9de285e98b742e01
-#: e548b7df86ec4fd2a850a9faea4697ba ebce99e00cfc40aa86d214c3790803bc
-#: ecc3058a95084bdb87cb8d6eaad10cea ecf7d4ec68c74b75be78056995392676
-#: f08f24d3a337487292d4a4c903443e47 f5a2dc7679ab4eebb1dd0d769b1990d6
-#: fbaef79bbb894709855eeb502143f3a2
+#: ../../developer/services/admin-api.rst:602 0b5b32a1d99c46d4bb77b0f64a7e2847
+#: 8ab42047a67d48debbb7d756b5e58724 4e5757f6fd954f23acf8a043ae8cd208
+#: 68d4b3bc7dc34501b5198f6245a1e8ab fbaef79bbb894709855eeb502143f3a2
+#: c68f717cccac4a799e0af2f3423b8ac8 c8c605a1f3a548adbbb35a5030ddf66d
+#: 338f4793c047451d87112eaf02711158 e548b7df86ec4fd2a850a9faea4697ba
+#: 6d357b30333343e9bd67bc06b87f8a9e 1e47a4f1eef341948b679ed77322b1d8
+#: 895f6fb3fe9f442ca1da04086cd660e2 4d44335b36124ec9b4563ebb73f5e929
+#: ecc3058a95084bdb87cb8d6eaad10cea 7fc8954f48864fb5acc6693767acce89
+#: 776199bcbe1d44dbb8473cf84684e30a 8f2074cc883e46af8d3cb1a92187dc5f
+#: 8246ac1d824a4887aa991714cae4ca41 0ae3f8fac0bf49f0ab6d1a8667d1e38f
+#: b4cd5d0310bc4c0e92f3633936ddb049 728376f594aa484abf3051d5881f5f43
+#: 77971f4433fb4d9bb9b823fd49e79235 76c2e35e2f904fce8555a37c82bd9525
+#: ecf7d4ec68c74b75be78056995392676 5d6afa49e5774e2b922a455ae1f05689
+#: 2d1b22dfe1fd4f728baff4d33cd6aab8 d9c9a861df18408c9de285e98b742e01
+#: 25ec47664c1a4078af3c46c7a3dafba5 bab27beae8e943a49bcd7699fa861a9f
+#: 24987dabe8d34784a21929f1e98296b7 f08f24d3a337487292d4a4c903443e47
+#: bb6f42ea48024ae8ad4c80b28f6c130e 3fe2d05e4e034b0bbb1398e75fb15f0a
+#: 7946cb8197a445b99ed4c1666331262d 06eac289d5cf4bab8910351cbb2c26e0
+#: d2cc1462fee846019ac93c2db7322153 91058ffa1c424cccac6a23c6533e1e13
+#: c35eda01f9f64a3684ac9137ffed9467 761bc77913fa49e29df724e1614a5a90
+#: 101cf38309db457a9af4fc201b2ba1e8 2a4c3e90c0af4684ad7f0a554413a813
+#: 16965efb59b045f6bf1bc2b570d98fb1 a68e0be80a514629991b5ba152bc0fe3
+#: d6ae60c7cf694375b61f6cff72d6536e 08d2c926088b47f08b14993c05989e83
+#: b5d0acb5e5d349d49dbb9063f0e40c06 ebce99e00cfc40aa86d214c3790803bc
+#: ba99c6e70c22463983af5563014e0801 5a9e45b793784d3995c747efce645cf3
+#: 0a4c0a82b1b44fa5886f711350edaa3b 01812d5894154d8ea2cdcfafbec6822e
+#: f5a2dc7679ab4eebb1dd0d769b1990d6
 msgid "vm"
 msgstr ""
 
@@ -591,8 +594,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:115
 #: ../../developer/services/admin-api.rst:145
-#: ../../developer/services/admin-api.rst:194 7f40a39aff1e4f60b4b16c35d48a6196
-#: a459e14032514cab8e863c501bd8df64 a5e5504d9b1042468076a71abc328997
+#: ../../developer/services/admin-api.rst:194 a459e14032514cab8e863c501bd8df64
+#: a5e5504d9b1042468076a71abc328997 7f40a39aff1e4f60b4b16c35d48a6196
 msgid "``<property>\\n``"
 msgstr ""
 
@@ -603,9 +606,9 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:119
 #: ../../developer/services/admin-api.rst:125
 #: ../../developer/services/admin-api.rst:131
-#: ../../developer/services/admin-api.rst:137 403f9af051bf487b923df07c15741f7a
-#: a550b61498724051ac98ffa062182238 c8db51cd97c64085a957a31aba87c7aa
-#: d78be3817fa347e9be5677bee1f83e1d
+#: ../../developer/services/admin-api.rst:137 a550b61498724051ac98ffa062182238
+#: c8db51cd97c64085a957a31aba87c7aa d78be3817fa347e9be5677bee1f83e1d
+#: 403f9af051bf487b923df07c15741f7a
 msgid "label"
 msgstr ""
 
@@ -650,26 +653,24 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:217
 #: ../../developer/services/admin-api.rst:223
 #: ../../developer/services/admin-api.rst:229
-#: ../../developer/services/admin-api.rst:235 22778461af5a4ced90d70d2bc4ef1b37
-#: 32731fa3f020426fb9197c6ab6102f27 4cdfa03c99764d5fa948616d97b51648
+#: ../../developer/services/admin-api.rst:235 d530be4c3e0841cd87c59ada2f89ad9c
+#: 22778461af5a4ced90d70d2bc4ef1b37 a2398b56d8164adb92459a6e0784ef02
 #: 4e33e4c86760423e8e0c695873fe16c1 5439410a2a054d23bc01b41238782720
-#: 59782f8227394a6a94ce61f9b1a17258 85de54e09fee4708aa3cb623085481e0
-#: 8c5762f016cd4b32bf5df590dde7c76a 997e38f08c2942f59563de37b3e946fe
-#: a2398b56d8164adb92459a6e0784ef02 ab299858e4224264bd078afd0cacbc9e
-#: d530be4c3e0841cd87c59ada2f89ad9c
+#: 85de54e09fee4708aa3cb623085481e0 997e38f08c2942f59563de37b3e946fe
+#: 59782f8227394a6a94ce61f9b1a17258 32731fa3f020426fb9197c6ab6102f27
+#: 8c5762f016cd4b32bf5df590dde7c76a ab299858e4224264bd078afd0cacbc9e
+#: 4cdfa03c99764d5fa948616d97b51648
 msgid "property"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 2039a7505cc44ebb8c045ef58d70defa
-#: 273563f49e7642f791cbca4dfd3b897b
-#, python-brace-format
+#: ../../developer/services/admin-api.rst:0 273563f49e7642f791cbca4dfd3b897b
+#: 2039a7505cc44ebb8c045ef58d70defa
 msgid "``default={True|False}``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst
+#: ../../developer/services/admin-api.rst:0
 #: ../../developer/services/admin-api.rst:164 265c536c3ad2421ca8651569d6d5b182
-#: 4bc50cc90f5c46e1a28c754730f27ea4 a6e36598e294449288a835cc82bb3f2d
-#, python-brace-format
+#: a6e36598e294449288a835cc82bb3f2d 4bc50cc90f5c46e1a28c754730f27ea4
 msgid "``type={str|int|bool|vm|label|list} <value>``"
 msgstr ""
 
@@ -677,8 +678,8 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:165 0eb400345b904ee28df1b0f9cb30fbec
 #: 943ae280b07841c99ab2dc8f4e98c176
 msgid ""
-"Type ``list`` is added in R4.1. Values are of type ``str`` and each entry"
-" is suffixed with newline character."
+"Type ``list`` is added in R4.1. Values are of type ``str`` and each entry is"
+" suffixed with newline character."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:154 1019141acafd4f67bea6aff108793ea1
@@ -692,13 +693,13 @@ msgid "``<property-name> <full-value-as-in-property.Get>\\n``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:159
-#: ../../developer/services/admin-api.rst:208 70994a6f2b02448c8e4c61e3d05127a3
-#: 87b52e6f11bc44ac8f0f5c9cce293493
+#: ../../developer/services/admin-api.rst:208 87b52e6f11bc44ac8f0f5c9cce293493
+#: 70994a6f2b02448c8e4c61e3d05127a3
 msgid ""
-"Get all the properties in one call. Each property is returned on a "
-"separate line and use the same value encoding as property.Get method, "
-"with an exception that newlines are encoded as literal ``\\n`` and "
-"literal ``\\`` are encoded as ``\\\\``."
+"Get all the properties in one call. Each property is returned on a separate "
+"line and use the same value encoding as property.Get method, with an "
+"exception that newlines are encoded as literal ``\\n`` and literal ``\\`` "
+"are encoded as ``\\\\``."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:160 e77a7a2ce10f4219896ade1fab00ce1b
@@ -710,8 +711,8 @@ msgid "``admin.property.Help``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:170
-#: ../../developer/services/admin-api.rst:219 1941e17aa94c496d914421b3122a2cdd
-#: a6110c3422604b448bfbe16aed3cae47
+#: ../../developer/services/admin-api.rst:219 a6110c3422604b448bfbe16aed3cae47
+#: 1941e17aa94c496d914421b3122a2cdd
 msgid "``help``"
 msgstr ""
 
@@ -741,11 +742,11 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:267
 #: ../../developer/services/admin-api.rst:273
 #: ../../developer/services/admin-api.rst:284
-#: ../../developer/services/admin-api.rst:513 21fa462ef944401cb5fbc8fc37f0e7eb
-#: 2b39d10881774e38bfd2b0c0a914ac3a 43c8f21852a14a23bac15db877107b1e
-#: 64589fe8217542b4bea523f78c38fd59 6a0ccd6399cf4deb93f249f1e953f7ee
-#: 7b7e2f841a3d463fb3e4aaf3d0229f60 8ebccca12a7049ea98fcdbdacbca0941
-#: b9d5947fc90c4d63a8370b9f64bca965 f5dc6fa6821c4b739d0fee0c94b8370d
+#: ../../developer/services/admin-api.rst:513 43c8f21852a14a23bac15db877107b1e
+#: 8ebccca12a7049ea98fcdbdacbca0941 b9d5947fc90c4d63a8370b9f64bca965
+#: 64589fe8217542b4bea523f78c38fd59 f5dc6fa6821c4b739d0fee0c94b8370d
+#: 7b7e2f841a3d463fb3e4aaf3d0229f60 21fa462ef944401cb5fbc8fc37f0e7eb
+#: 6a0ccd6399cf4deb93f249f1e953f7ee 2b39d10881774e38bfd2b0c0a914ac3a
 msgid "value"
 msgstr ""
 
@@ -759,8 +760,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:202 87cf61803ae64f72a6836d2adf9651f9
 msgid ""
-"Type ``list`` is added in R4.1. Each list entry is suffixed with a "
-"newline character."
+"Type ``list`` is added in R4.1. Each list entry is suffixed with a newline "
+"character."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:203 db6d69155bdc40dfb11f094ed9218f29
@@ -772,14 +773,13 @@ msgid "``admin.vm.property.GetDefault``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:213 f86279eef6224503b3ef047ff739272f
-#, python-brace-format
 msgid "``type={str|int|bool|vm|label|type} <value>``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:214 9d8da5ac85b247ddbd95cf917cf308f8
 msgid ""
-"Type ``list`` is added in R4.1. Each list entry is suffixed with a "
-"newline character"
+"Type ``list`` is added in R4.1. Each list entry is suffixed with a newline "
+"character"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:215 9a31bb13530b4b52bd48876d9ad430d1
@@ -816,10 +816,10 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:265
 #: ../../developer/services/admin-api.rst:271
 #: ../../developer/services/admin-api.rst:277
-#: ../../developer/services/admin-api.rst:283 3e22edebc87043e4b194aff3948be705
-#: 47912daa8ec147c1a820538719fa412a 91b7fe19040b402495f35500150565a0
-#: 966af0ae98b34f3bad488182377fb691 ac9b06fda3b94e61ac86d903a79e89d9
-#: b0e19d819dd544e683979cda216c7a35 c591a5c0c79a44018f82448512c14842
+#: ../../developer/services/admin-api.rst:283 ac9b06fda3b94e61ac86d903a79e89d9
+#: 966af0ae98b34f3bad488182377fb691 47912daa8ec147c1a820538719fa412a
+#: b0e19d819dd544e683979cda216c7a35 91b7fe19040b402495f35500150565a0
+#: c591a5c0c79a44018f82448512c14842 3e22edebc87043e4b194aff3948be705
 msgid "feature"
 msgstr ""
 
@@ -852,8 +852,8 @@ msgid "``admin.vm.notes.Get``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:291
-#: ../../developer/services/admin-api.rst:296 0c64336af18147188f0fe9fde4ee8cf9
-#: 874c742e054e47aab97dd593c86691df
+#: ../../developer/services/admin-api.rst:296 874c742e054e47aab97dd593c86691df
+#: 0c64336af18147188f0fe9fde4ee8cf9
 msgid "notes"
 msgstr ""
 
@@ -875,8 +875,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:307
 #: ../../developer/services/admin-api.rst:313
-#: ../../developer/services/admin-api.rst:319 01481a48bf474814b84efaae624b7b44
-#: 0c39a7fbe5854010b1c54308b4e91d2f a57ea5673c9749c4bb0b762627a487cd
+#: ../../developer/services/admin-api.rst:319 a57ea5673c9749c4bb0b762627a487cd
+#: 01481a48bf474814b84efaae624b7b44 0c39a7fbe5854010b1c54308b4e91d2f
 msgid "tag"
 msgstr ""
 
@@ -901,8 +901,8 @@ msgid "``admin.vm.firewall.Get``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:327
-#: ../../developer/services/admin-api.rst:332 6b268e4d7e2443b8ac6110fb0eff103c
-#: ebcd805ad8834d6d95750e9dfbae293f
+#: ../../developer/services/admin-api.rst:332 ebcd805ad8834d6d95750e9dfbae293f
+#: 6b268e4d7e2443b8ac6110fb0eff103c
 msgid "``<rule>\\n``"
 msgstr ""
 
@@ -937,32 +937,32 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:351
 #: ../../developer/services/admin-api.rst:357
 #: ../../developer/services/admin-api.rst:364
-#: ../../developer/services/admin-api.rst:370 4fa41a56320b40ddbc5b78748ea0f8bc
-#: 7891dca501e94ea2933086b36ae0f0de 796b7096cdbb485084c2f030834b079b
-#: 851017e0de0f41b09893f0db868bcdc8 d06a4522551c46a3916c694a2f0da17f
+#: ../../developer/services/admin-api.rst:370 796b7096cdbb485084c2f030834b079b
+#: d06a4522551c46a3916c694a2f0da17f 851017e0de0f41b09893f0db868bcdc8
+#: 7891dca501e94ea2933086b36ae0f0de 4fa41a56320b40ddbc5b78748ea0f8bc
 msgid "device"
-msgstr ""
+msgstr "périphérique"
 
 #: ../../developer/services/admin-api.rst:344
-#: ../../developer/services/admin-api.rst:358 958cf6241d874030be8c2410963ca166
-#: b2c9725676ef4d45810f2f6903a47cf6
+#: ../../developer/services/admin-api.rst:358 b2c9725676ef4d45810f2f6903a47cf6
+#: 958cf6241d874030be8c2410963ca166
 msgid "assignment-serialization"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst
+#: ../../developer/services/admin-api.rst:0
 #: ../../developer/services/admin-api.rst:354
 #: ../../developer/services/admin-api.rst:367
-#: ../../developer/services/admin-api.rst:373 1d29d82bef564c1c8dab0f763ab96853
-#: 23980f22e1a042939073b07f09417680 c9bf6cdf05c34047bfe93efe63499bef
-#: d5cd883c555948308a1d0568df0d8e41 dd138a9b12c349048e7d1669dd7a6440
+#: ../../developer/services/admin-api.rst:373 c9bf6cdf05c34047bfe93efe63499bef
+#: dd138a9b12c349048e7d1669dd7a6440 23980f22e1a042939073b07f09417680
+#: 1d29d82bef564c1c8dab0f763ab96853 d5cd883c555948308a1d0568df0d8e41
 msgid "``device`` is in form ``<backend-name>+<device-ident>``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 6f18a521e9cb440ea25b09ea4791d47a
+#: ../../developer/services/admin-api.rst:0 6f18a521e9cb440ea25b09ea4791d47a
 msgid "optional options given in ``key=value`` format, separated with spaces;"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 9e63cc988e114a9a8f45396d3a85cf85
+#: ../../developer/services/admin-api.rst:0 9e63cc988e114a9a8f45396d3a85cf85
 msgid ""
 "options can include ``persistent=True`` to \"persistently\" attach the "
 "device (default is temporary)"
@@ -976,8 +976,8 @@ msgstr ""
 msgid "``admin.vm.device.<class>.Assign``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 0c442f8efb684d26b1f633667ae18330
-#: 242efa3ff74b493c93ccf7405700f68d b0c6b024d4134330b1264c4e34398da9
+#: ../../developer/services/admin-api.rst:0 b0c6b024d4134330b1264c4e34398da9
+#: 242efa3ff74b493c93ccf7405700f68d 0c442f8efb684d26b1f633667ae18330
 msgid ""
 "``assignment-serialization`` is specified in the section Device "
 "Serialization."
@@ -1018,13 +1018,15 @@ msgstr ""
 msgid "``<device-ident> <device-serialization>\\n``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 031b0d5df0ef42bdb869a03be9bd9f3c
-#: 13ff06b27dde49a0a425134a570ac1e1 b3027e9948a04b6ea5d74e533bc982af
-msgid "optional service argument may be used to get info about a single device,"
+#: ../../developer/services/admin-api.rst:0 b3027e9948a04b6ea5d74e533bc982af
+#: 13ff06b27dde49a0a425134a570ac1e1 031b0d5df0ef42bdb869a03be9bd9f3c
+msgid ""
+"optional service argument may be used to get info about a single device,"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 9279e8132e9449eb8ff2ad29779432a4
-msgid "``device-serialization`` is specified in the section Device Serialization."
+#: ../../developer/services/admin-api.rst:0 9279e8132e9449eb8ff2ad29779432a4
+msgid ""
+"``device-serialization`` is specified in the section Device Serialization."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:387 18b1a21a1a574ba8881a3b6d36300bff
@@ -1077,21 +1079,21 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:475
 #: ../../developer/services/admin-api.rst:481
 #: ../../developer/services/admin-api.rst:487
-#: ../../developer/services/admin-api.rst:494 2ab0ca2c3ee5482ebf48fa3cdadf259b
-#: 3562abde17f94b3f81b26fb99cc48351 47552884266f4b10afa87f312a56dbcd
+#: ../../developer/services/admin-api.rst:494 f31f93a07049423eb2be69c15024619c
+#: 7fe27a80d8b24737ab6d53e9d4069767 bc5a984a8aea4b94aa752f79df83a642
+#: 80688a2ee834437983aa033f63c969a7 be4ddaf66a5e4fdb9abf7b402f1e5e5b
+#: 3562abde17f94b3f81b26fb99cc48351 fc52747f5cf244f3b7848880c75f6b53
+#: faea82e619a44e4f8a8e5981f0c302ad a9040648f8c7441f8d482640d3f35468
 #: 5345abcabe0e45c789116648f2b0697b 774e54fbc755491a815dbb3b656ffdb4
-#: 7fe27a80d8b24737ab6d53e9d4069767 80688a2ee834437983aa033f63c969a7
-#: a9040648f8c7441f8d482640d3f35468 bc5a984a8aea4b94aa752f79df83a642
-#: be4ddaf66a5e4fdb9abf7b402f1e5e5b f31f93a07049423eb2be69c15024619c
-#: faea82e619a44e4f8a8e5981f0c302ad fc52747f5cf244f3b7848880c75f6b53
+#: 2ab0ca2c3ee5482ebf48fa3cdadf259b 47552884266f4b10afa87f312a56dbcd
 msgid "pool"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:417
 #: ../../developer/services/admin-api.rst:422
 #: ../../developer/services/admin-api.rst:447
-#: ../../developer/services/admin-api.rst:508 5fc8ae206b7949df99a9cbd253b5eb37
-#: a305a9cf9939461393e0f684c60cc348 b35fbb13001b44f1bcef35cd9ff1daca
+#: ../../developer/services/admin-api.rst:508 a305a9cf9939461393e0f684c60cc348
+#: b35fbb13001b44f1bcef35cd9ff1daca 5fc8ae206b7949df99a9cbd253b5eb37
 #: e6d416072f3e4ed79953ebeb4b468faa
 msgid "``<property>=<value>\\n``"
 msgstr ""
@@ -1131,8 +1133,8 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:446
 #: ../../developer/services/admin-api.rst:458
 #: ../../developer/services/admin-api.rst:464
-#: ../../developer/services/admin-api.rst:488 0ad5b1b4f1544932b884bb579c8a374e
-#: 2bb995e121594781b1628177f32483c5 94a62d661a394588867d2082c0d3305a
+#: ../../developer/services/admin-api.rst:488 2bb995e121594781b1628177f32483c5
+#: 94a62d661a394588867d2082c0d3305a 0ad5b1b4f1544932b884bb579c8a374e
 #: f29a09f77b5e428b88bbfb6386abe223
 msgid "vid"
 msgstr ""
@@ -1160,9 +1162,9 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:465
 #: ../../developer/services/admin-api.rst:520
 #: ../../developer/services/admin-api.rst:526
-#: ../../developer/services/admin-api.rst:531 2fd73d7addf74079983d6575c4ac3334
-#: 71d15c8bd8a649089ff7886701e45f76 c633b82352ed4157b8d623c6f28287fc
-#: e02c5ea7ab0c4e5fb26a5105cc9a9e6e
+#: ../../developer/services/admin-api.rst:531 c633b82352ed4157b8d623c6f28287fc
+#: 71d15c8bd8a649089ff7886701e45f76 e02c5ea7ab0c4e5fb26a5105cc9a9e6e
+#: 2fd73d7addf74079983d6575c4ac3334
 msgid "snapshot"
 msgstr ""
 
@@ -1198,11 +1200,11 @@ msgstr ""
 msgid "token, to be used in ``admin.pool.volume.CloneTo``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 82637680d6294faebee58e3b61c63181
+#: ../../developer/services/admin-api.rst:0 82637680d6294faebee58e3b61c63181
 msgid "obtain a token to copy volume ``vid`` in ``pool``;"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 701f210ea08d41029dd1524465e7177b
+#: ../../developer/services/admin-api.rst:0 701f210ea08d41029dd1524465e7177b
 msgid ""
 "the token is one time use only, it's invalidated by "
 "``admin.pool.volume.CloneTo``, even if the operation fails"
@@ -1230,8 +1232,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:503 88c620153e6c493ca06b849f7a720f50
 msgid ""
-"``<volume>`` is per-VM volume name (``root``, ``private``, etc), "
-"``<vid>`` is pool-unique volume id"
+"``<volume>`` is per-VM volume name (``root``, ``private``, etc), ``<vid>`` "
+"is pool-unique volume id"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:504 32355409dadb4b1b8956cc5d6f5fa483
@@ -1248,14 +1250,14 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:548
 #: ../../developer/services/admin-api.rst:554
 #: ../../developer/services/admin-api.rst:560
-#: ../../developer/services/admin-api.rst:567 071565133fa5436894e7bad4fa641615
-#: 1f987d10133743e299faa61ab25fef5f 413cd9c73dae4a0ab31e5bb272b70030
-#: 4a991605f6ab40f5a38043b198595f11 5ed20cf61a05428794be9af728919e0e
-#: 66ae535d9ea44e81a8742a80ef903456 6e014eb3c4c347afb7881cb96f3466f9
-#: af9cc46c863a48d7910b0dc721e3c03e b8b2fca0adf04986b16861c34c027f9c
-#: cd90d43dd061467eaa73cc7f99f06f1a e057d16f55864e37911322b9ad230f8d
+#: ../../developer/services/admin-api.rst:567 e057d16f55864e37911322b9ad230f8d
+#: b8b2fca0adf04986b16861c34c027f9c 1f987d10133743e299faa61ab25fef5f
+#: cd90d43dd061467eaa73cc7f99f06f1a 4a991605f6ab40f5a38043b198595f11
+#: 413cd9c73dae4a0ab31e5bb272b70030 071565133fa5436894e7bad4fa641615
+#: af9cc46c863a48d7910b0dc721e3c03e 6e014eb3c4c347afb7881cb96f3466f9
+#: 5ed20cf61a05428794be9af728919e0e 66ae535d9ea44e81a8742a80ef903456
 msgid "volume"
-msgstr ""
+msgstr "volume"
 
 #: ../../developer/services/admin-api.rst:510 e9b33d39a13c4bd6be03084d14e85dd0
 msgid "``admin.vm.volume.Set.revisions_to_keep``"
@@ -1277,8 +1279,8 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:533
 #: ../../developer/services/admin-api.rst:539
 #: ../../developer/services/admin-api.rst:545 01dca9f2b6af4f58850b0640cb3652ec
-#: 3a6483d39d9e459994b9110cc5a006a3 73d5bfa9864b41e7956f5a70aa3bd44f
-#: 7a4cc1d361d64376ab630fe29d7883e2
+#: 7a4cc1d361d64376ab630fe29d7883e2 73d5bfa9864b41e7956f5a70aa3bd44f
+#: 3a6483d39d9e459994b9110cc5a006a3
 msgid "id."
 msgstr ""
 
@@ -1312,8 +1314,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:551 237978e903bd4a8887d255a669c3ae05
 msgid ""
-"new version of ``admin.vm.volume.Import``, allows new volume to be "
-"different size"
+"new version of ``admin.vm.volume.Import``, allows new volume to be different"
+" size"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:552 a9221e83cfca4decb91a676b678d487d
@@ -1332,11 +1334,11 @@ msgstr ""
 msgid "token, to be used in ``admin.vm.volume.CloneTo``"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst dd59a78f23e3418e9c07d05eed842e2b
+#: ../../developer/services/admin-api.rst:0 dd59a78f23e3418e9c07d05eed842e2b
 msgid "obtain a token to copy ``volume`` of ``vm``;"
 msgstr ""
 
-#: ../../developer/services/admin-api.rst 962cacaf718f483b87c56580a850a3f8
+#: ../../developer/services/admin-api.rst:0 962cacaf718f483b87c56580a850a3f8
 msgid ""
 "the token is one time use only, it's invalidated by "
 "``admin.vm.volume.CloneTo``, even if the operation fails"
@@ -1364,8 +1366,7 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:576 523ad44af68a44ac95dcf3a0834df3a6
 msgid ""
-"state properties: ``power_state``, ``mem``, ``mem_static_max``, "
-"``cputime``"
+"state properties: ``power_state``, ``mem``, ``mem_static_max``, ``cputime``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:577 8c8b8dec87a94ef79742b144725360a9
@@ -1395,7 +1396,7 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:609
 #: ../../developer/services/admin-api.rst:615
 #: ../../developer/services/admin-api.rst:621 409dcf42dedb480996298f749a52a7b2
-#: c6b3add2eceb475e997efb4d075dcdbf dab70295c01647d1873d82f7164e4826
+#: dab70295c01647d1873d82f7164e4826 c6b3add2eceb475e997efb4d075dcdbf
 msgid "config id"
 msgstr ""
 
@@ -1430,14 +1431,14 @@ msgid "``admin.Events``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:626
-#: ../../developer/services/admin-api.rst:632 2947ed2162ce4f85a77d52d5f7594d80
-#: 3f2afbbb189e4768aafe4061ad0b3de5
+#: ../../developer/services/admin-api.rst:632 3f2afbbb189e4768aafe4061ad0b3de5
+#: 2947ed2162ce4f85a77d52d5f7594d80
 msgid "``dom0|vm``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:629 48cf6ecd1867468fad4286d111205149
 msgid "events"
-msgstr ""
+msgstr "événements"
 
 #: ../../developer/services/admin-api.rst:631 72d4816698594ff7b8c3e96a6c566924
 msgid "``admin.vm.Stats``"
@@ -1498,8 +1499,8 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:652 36bc3f80dc33432a9460387010b45b2b
 msgid ""
 "Method ``admin.vm.Stats`` returns ``vm-stats`` events every "
-"``stats_interval`` seconds, for every running VM. Parameters of ``vm-"
-"stats`` events:"
+"``stats_interval`` seconds, for every running VM. Parameters of ``vm-stats``"
+" events:"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:656 66396fa700304edbb949b64567c57470
@@ -1508,8 +1509,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:657 91fbfeaeb4ce4f40ac0667f84652b981
 msgid ""
-"``cpu_time`` - absolute CPU time (in milliseconds) spent by the VM since "
-"its startup, normalized for one CPU"
+"``cpu_time`` - absolute CPU time (in milliseconds) spent by the VM since its"
+" startup, normalized for one CPU"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:659 927650ea165c450bb205558d77a5b793
@@ -1522,15 +1523,15 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:664 8e678042532c4ce9a8039653cb96e7f7
 msgid ""
-"First byte of a message is a message type. This is 8 bit non-zero "
-"integer. Values start at 0x30 (48, ``'0'``, zero digit in ASCII) for "
-"readability in hexdump. Next byte must be 0x00 (a separator)."
+"First byte of a message is a message type. This is 8 bit non-zero integer. "
+"Values start at 0x30 (48, ``'0'``, zero digit in ASCII) for readability in "
+"hexdump. Next byte must be 0x00 (a separator)."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:668 f81cdd29224a47408f00e0bb0f125a8d
 msgid ""
-"This alternatively can be thought of as zero-terminated string containing"
-" single ASCII digit."
+"This alternatively can be thought of as zero-terminated string containing "
+"single ASCII digit."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:672 de767c430a5243c88c27b0494b6b3c05
@@ -1547,8 +1548,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:687 acd0e0efb24341e69203697eacdd3f3f
 msgid ""
-"Events are returned as stream of messages in selected API calls. Normally"
-" server will not close the connection."
+"Events are returned as stream of messages in selected API calls. Normally "
+"server will not close the connection."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:690 21cca7b0a5e746b383e2a1803777f4e7
@@ -1559,9 +1560,9 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:693 a84c738cc0b941f298d5787d0b3d83d7
 msgid ""
-"When calling such method, it will produce an artificial event "
-"``connection-established`` just after connection, to help avoiding race "
-"conditions during event handler registration."
+"When calling such method, it will produce an artificial event ``connection-"
+"established`` just after connection, to help avoiding race conditions during"
+" event handler registration."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:698 b5d8f3c4b2784a40902e16f9cad1d75b
@@ -1574,32 +1575,32 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:706 a58728c301e742fc92fbf6193b363b5b
 msgid ""
-"Traceback may be empty, can be enabled server-side as part of debug mode."
-" Delimiting zero-byte is always present."
+"Traceback may be empty, can be enabled server-side as part of debug mode. "
+"Delimiting zero-byte is always present."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:709 5c74e99de59040e2a41c1783c148456e
 msgid ""
 "Fields should be formatted to ``%``-style format string, possibly after "
-"client-side translation, to form final message to be displayed to the "
-"user. Server does not by itself support translation."
+"client-side translation, to form final message to be displayed to the user. "
+"Server does not by itself support translation."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:714 22d639c88e244201a6154fe157e5faf5
 msgid "Tags"
-msgstr ""
+msgstr "Balises"
 
 #: ../../developer/services/admin-api.rst:716 d3db29ca9a23484cb88fd3faa13dd818
 msgid ""
-"The tags provided can be used to write custom policies. They are not used"
-" in a default Qubes OS installation. However, they are created anyway."
+"The tags provided can be used to write custom policies. They are not used in"
+" a default Qubes OS installation. However, they are created anyway."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:720 68d504369abd4c208673b84e22054f32
 msgid ""
-"``created-by-<vm>`` — Created in an extension to `qubesd` at the moment "
-"of creation of the VM. Cannot be changed via API, which is also enforced "
-"by this extension."
+"``created-by-<vm>`` — Created in an extension to `qubesd` at the moment of "
+"creation of the VM. Cannot be changed via API, which is also enforced by "
+"this extension."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:723 be7a6ada72d947a2a84c83481c11be6c
@@ -1614,21 +1615,22 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:729 35027285536b473683dcb117bfcdfcd8
 msgid ""
-"Backup-related calls do not allow (yet) to specify what should be "
-"included in the backup. This needs to be configured separately in dom0, "
-"with a backup profile, stored in ``/etc/qubes/backup/<profile>.conf``. "
-"The file use yaml syntax and have following settings:"
+"Backup-related calls do not allow (yet) to specify what should be included "
+"in the backup. This needs to be configured separately in dom0, with a backup"
+" profile, stored in ``/etc/qubes/backup/<profile>.conf``. The file use yaml "
+"syntax and have following settings:"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:734 b64e8e4e5e394664a79f82d502242d48
 msgid ""
-"``include`` - list of VMs to include, can also contains tags using ``$tag"
-":some-tag`` syntax or all VMs of given type using ``$type:AppVM``, known "
-"from qrexec policy"
+"``include`` - list of VMs to include, can also contains tags using "
+"``$tag:some-tag`` syntax or all VMs of given type using ``$type:AppVM``, "
+"known from qrexec policy"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:737 d1b2c6cfd9ce4c2084371ce3f1de297e
-msgid "``exclude`` - list of VMs to exclude, after evaluating ``include`` setting"
+msgid ""
+"``exclude`` - list of VMs to exclude, after evaluating ``include`` setting"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:739 bfdc5bc413cf457192207b4bbca01d49
@@ -1638,35 +1640,35 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:740 6c1e4a03380b49539769de353c4bf7b7
 msgid ""
 "``destination_path`` - path to which backup should be written in "
-"``destination_vm``. This setting is given to ``qubes.Backup`` service and"
-" technically it’s up to it how to interpret it. In current implementation"
-" it is interpreted as a directory where a new file should be written "
-"(with a name based on the current timestamp), or a command where the "
-"backup should be piped to"
+"``destination_vm``. This setting is given to ``qubes.Backup`` service and "
+"technically it’s up to it how to interpret it. In current implementation it "
+"is interpreted as a directory where a new file should be written (with a "
+"name based on the current timestamp), or a command where the backup should "
+"be piped to"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:746 782ae1ef4ab14dc782def5948ef84d4d
 msgid ""
-"``compression`` - should the backup be compressed (default: True)? The "
-"value can be either ``False`` or ``True`` for default compression, or a "
+"``compression`` - should the backup be compressed (default: True)? The value"
+" can be either ``False`` or ``True`` for default compression, or a "
 "compression command (needs to accept ``-d`` argument for decompression)"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:750 1a5ae8a784044624ab437c5bf0614ff4
 msgid ""
-"``passphrase_text`` - passphrase used to encrypt and integrity protect "
-"the backup"
+"``passphrase_text`` - passphrase used to encrypt and integrity protect the "
+"backup"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:752 3f1b853cee9a49fdacf982061d5a6c08
 msgid ""
-"``passphrase_vm`` - VM which should be asked what backup passphrase "
-"should be used. The asking is performed using "
-"``qubes.BackupPassphrase+profile_name`` service, which is expected to "
-"output chosen passphrase to its stdout. Empty output cancel the backup "
-"operation. This service can be used either to ask the user interactively,"
-" or to have some automated passphrase handling (for example: generate "
-"randomly, then encrypt with a public key and send somewhere)"
+"``passphrase_vm`` - VM which should be asked what backup passphrase should "
+"be used. The asking is performed using "
+"``qubes.BackupPassphrase+profile_name`` service, which is expected to output"
+" chosen passphrase to its stdout. Empty output cancel the backup operation. "
+"This service can be used either to ask the user interactively, or to have "
+"some automated passphrase handling (for example: generate randomly, then "
+"encrypt with a public key and send somewhere)"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:761 f4ebfc568946462dbd6961058a8d135f
@@ -1688,15 +1690,14 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:807 9937c0158349449291f61c7d02d0ed33
 msgid ""
 "Both device and assignment serialization is ASCII-encoded and contains "
-"space-separated key-value pairs. The format includes an ``=`` between the"
-" key and value, and the value is always enclosed in single quotes "
-"(``'``). Values may contain spaces or even single quotes, which are "
-"escaped with a backslash. If a value is not set (``None``), it is "
-"represented as ``'unknown'``. For boolean values, ``True`` is represented"
-" as ``'yes'``, and ``False`` as ``'no'``. The order of key-value pairs is"
-" irrelevant. Keys starting with ``_`` are considered extra properties and"
-" are saved in ``data`` or ``options`` for device or assignment "
-"respectively."
+"space-separated key-value pairs. The format includes an ``=`` between the "
+"key and value, and the value is always enclosed in single quotes (``'``). "
+"Values may contain spaces or even single quotes, which are escaped with a "
+"backslash. If a value is not set (``None``), it is represented as "
+"``'unknown'``. For boolean values, ``True`` is represented as ``'yes'``, and"
+" ``False`` as ``'no'``. The order of key-value pairs is irrelevant. Keys "
+"starting with ``_`` are considered extra properties and are saved in "
+"``data`` or ``options`` for device or assignment respectively."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:809 d1eabf0c235648e0927f756ab670bea5
@@ -1714,14 +1715,14 @@ msgid "Detailed serialization format for a device:"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:819
-#: ../../developer/services/admin-api.rst:835 5ae33a27d654406d94db05ba00138890
-#: 98bdc990b5574a55bfaa6a736d3deaea
+#: ../../developer/services/admin-api.rst:835 98bdc990b5574a55bfaa6a736d3deaea
+#: 5ae33a27d654406d94db05ba00138890
 msgid "``ident='<ident>'``"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:820
-#: ../../developer/services/admin-api.rst:836 dd6263677d844447ba55bb058f395808
-#: f5610c8ddf3b46478207f54341582cd7
+#: ../../developer/services/admin-api.rst:836 f5610c8ddf3b46478207f54341582cd7
+#: dd6263677d844447ba55bb058f395808
 msgid "``backend_domain='<backend_domain.name>'``"
 msgstr ""
 
@@ -1759,9 +1760,9 @@ msgstr ""
 msgid ""
 "``interfaces='<interface1><interface2>...'`` Each device interface is "
 "represented with a 7-character length. Each device has at least one "
-"interface. Since the length of the interface representation is known, "
-"they are serialized as a single string with each interface representation"
-" concatenated one after another. The order is irrelevant."
+"interface. Since the length of the interface representation is known, they "
+"are serialized as a single string with each interface representation "
+"concatenated one after another. The order is irrelevant."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:829 0c38ec26921348a09e657e2b2cf6d5a2
@@ -1820,16 +1821,15 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:858 d083504dc0a94eb9a5bf8d33ae945664
 msgid ""
-"closing qrexec connection normally does *not* interrupt running "
-"operation; this is important to avoid leaving the system in inconsistent "
-"state"
+"closing qrexec connection normally does *not* interrupt running operation; "
+"this is important to avoid leaving the system in inconsistent state"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:861 931982114f504ed0be6dc3dcd1107fb4
 msgid ""
-"actual operation starts only after caller send all the parameters "
-"(including a payload), signaled by sending EOF mark; there is no support "
-"for interactive protocols, to keep the protocol reasonable simple"
+"actual operation starts only after caller send all the parameters (including"
+" a payload), signaled by sending EOF mark; there is no support for "
+"interactive protocols, to keep the protocol reasonable simple"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:867 7822ea46a754474da3b1a307024bb0a0
@@ -1839,8 +1839,8 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:869 42a7a4cfa503497f86263f6f919deabb
 msgid ""
 "There is also an API to view and update :doc:`Qubes RPC policy files "
-"</developer/services/qrexec>` in dom0. All of the following calls have "
-"dom0 as destination:"
+"</developer/services/qrexec>` in dom0. All of the following calls have dom0 "
+"as destination:"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:875 9134d72d170d46efb0c8ab370026e6e3
@@ -1878,33 +1878,33 @@ msgstr ""
 #: ../../developer/services/admin-api.rst:888 6f344686648b4c5590088b63063183aa
 msgid ""
 "The ``policy.*`` calls refer to main policy files "
-"(``/etc/qubes/policy.d/``), and the ``policy.include.*`` calls refer to "
-"the include directory (``/etc/qubes/policy.d/include/``). The ``.policy``"
-" extension for files in the main directory is always omitted."
+"(``/etc/qubes/policy.d/``), and the ``policy.include.*`` calls refer to the "
+"include directory (``/etc/qubes/policy.d/include/``). The ``.policy`` "
+"extension for files in the main directory is always omitted."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:893 b016ca7c80b24016ab9d783c2105df85
 msgid ""
-"The responses do not follow admin API protocol, but signal error using an"
-" exit code and a message on stdout."
+"The responses do not follow admin API protocol, but signal error using an "
+"exit code and a message on stdout."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:896 7f3e3f5834844c7e9b93a7aa8afb5a93
 msgid ""
-"The changes are validated before saving, so that the policy cannot end up"
-" in an invalid state (e.g. syntax error, missing include file)."
+"The changes are validated before saving, so that the policy cannot end up in"
+" an invalid state (e.g. syntax error, missing include file)."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:899 923fac0093304bb4b3a93a0f5153af4b
 msgid ""
-"In addition, there is a mechanism to prevent concurrent modifications of "
-"the policy files:"
+"In addition, there is a mechanism to prevent concurrent modifications of the"
+" policy files:"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:902 c8bd78ac63ba4133b48c523421202638
 msgid ""
-"A ``*.Get`` call returns a file along with a *token* (currently "
-"implemented as a hash of the file)."
+"A ``*.Get`` call returns a file along with a *token* (currently implemented "
+"as a hash of the file)."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:904 8be20c55dfab42aba52bd935b6b03744
@@ -1916,8 +1916,8 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:907 f027dbeb986d4d97a541a460618d0bd1
 msgid ""
-"When adding a new file using ``Replace``, pass ``new`` as token. This "
-"will ensure that the file does not exist before adding."
+"When adding a new file using ``Replace``, pass ``new`` as token. This will "
+"ensure that the file does not exist before adding."
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:909 71c25c2579b542379c42d9762ffeae68
@@ -1926,7 +1926,7 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:912 8b22af4f1d75411a9d1320ec57e81a3e
 msgid "TODO"
-msgstr ""
+msgstr "À FAIRE"
 
 #: ../../developer/services/admin-api.rst:914 c925e242e688411dadbe8b2375576344
 msgid "notifications"
@@ -1944,21 +1944,20 @@ msgstr ""
 
 #: ../../developer/services/admin-api.rst:920 3cd61cd6a286466cbbf938eec5872398
 msgid ""
-"how to constrain the possible values for ``admin.vm.property.Set`` etc, "
-"like “you can change ``netvm``, but you have to pick from this set”; this"
-" currently can be done by writing an extension"
+"how to constrain the possible values for ``admin.vm.property.Set`` etc, like"
+" “you can change ``netvm``, but you have to pick from this set”; this "
+"currently can be done by writing an extension"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:923 f80d0163786e492fb87aed30256cdd17
 msgid ""
-"a call for executing ``*.desktop`` file from ``/usr/share/applications``,"
-" for use with appmenus without giving access to ``qubes.VMShell``; "
-"currently this can be done by writing custom qrexec calls"
+"a call for executing ``*.desktop`` file from ``/usr/share/applications``, "
+"for use with appmenus without giving access to ``qubes.VMShell``; currently "
+"this can be done by writing custom qrexec calls"
 msgstr ""
 
 #: ../../developer/services/admin-api.rst:927 92002ab5376e45df864d01e5e52f8c21
 msgid ""
-"maybe some generator for ``.desktop`` for appmenus, which would wrap "
-"calls in ``qrexec-client-vm``"
+"maybe some generator for ``.desktop`` for appmenus, which would wrap calls "
+"in ``qrexec-client-vm``"
 msgstr ""
-

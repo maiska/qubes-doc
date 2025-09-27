@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:3
 #: 26a03ba6421e4b638b58939ccb1df68c
@@ -27,16 +25,16 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:6
 #: 4e75de9728ad4cea8c75247e28448197
 msgid ""
-"**Before attempting either an in-place upgrade or a clean installation, "
-"we strongly recommend that users** :doc:`back up their systems </user"
-"/how-to-guides/how-to-back-up-restore-and-migrate>` **.**"
+"**Before attempting either an in-place upgrade or a clean installation, we "
+"strongly recommend that users** :doc:`back up their systems </user/how-to-"
+"guides/how-to-back-up-restore-and-migrate>` **.**"
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:8
 #: bb20cfed8679424bb423cb9d276352f4
 msgid ""
-"Current Qubes R3.1 systems can be upgraded in-place to the latest R3.2 by"
-" following the procedure below."
+"Current Qubes R3.1 systems can be upgraded in-place to the latest R3.2 by "
+"following the procedure below."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:11
@@ -56,25 +54,26 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:18
 #: 683dc3791375478986109b62f1a9e0eb
-msgid "Install ``qubes-release`` package carrying R3.2 repository information."
+msgid ""
+"Install ``qubes-release`` package carrying R3.2 repository information."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:26
 #: d62af918c733486a83d07409814cf991
 msgid ""
-"If you made any manual changes to repository definitions, new definitions"
-" will be installed as ``/etc/yum.repos.d/qubes-dom0.repo.rpmnew`` (you’ll"
-" see a message about it during package installation). In such a case, you"
-" need to manually apply the changes to ``/etc/yum.repos.d/qubes-"
-"dom0.repo`` or simply replace it with .rpmnew file."
+"If you made any manual changes to repository definitions, new definitions "
+"will be installed as ``/etc/yum.repos.d/qubes-dom0.repo.rpmnew`` (you’ll see"
+" a message about it during package installation). In such a case, you need "
+"to manually apply the changes to ``/etc/yum.repos.d/qubes-dom0.repo`` or "
+"simply replace it with .rpmnew file."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:28
 #: 48476ab89a4c40bca55a2c3253677182
 msgid ""
-"If you are using Debian-based VM as UpdateVM (``sys-firewall`` by "
-"default), you need to download few more packages manually, but **do not "
-"install them** yet:"
+"If you are using Debian-based VM as UpdateVM (``sys-firewall`` by default), "
+"you need to download few more packages manually, but **do not install them**"
+" yet:"
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:49
@@ -85,19 +84,19 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:57
 #: ff51d9f2a21f480b87547c7861c7f018
 msgid ""
-"You may wish to disable the screensaver “Lock screen” feature for this "
-"step, as during the update XScreensaver may encounter an “Authentication "
-"failed” issue, requiring a hard reboot. Alternatively, you may simply "
-"move the mouse regularly."
+"You may wish to disable the screensaver “Lock screen” feature for this step,"
+" as during the update XScreensaver may encounter an “Authentication failed” "
+"issue, requiring a hard reboot. Alternatively, you may simply move the mouse"
+" regularly."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:61
 #: 43907b4626a644e495242dd29c3098aa
 msgid ""
 "If the previous step completed successfully, your ``qubes-core-dom0`` "
-"version should be ``3.2.3`` or higher. This can be verified with the "
-"command ``yum info qubes-core-dom0``. If it’s not, repeat the previous "
-"step with the ``--clean`` option."
+"version should be ``3.2.3`` or higher. This can be verified with the command"
+" ``yum info qubes-core-dom0``. If it’s not, repeat the previous step with "
+"the ``--clean`` option."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:63
@@ -116,10 +115,10 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:75
 #: d4ef7ae067904f8e81c8cccbf81bcedf
 msgid ""
-"This will happen for every configuration you have modified manually and "
-"for a few that has been modified by Qubes scripts. If you are not sure "
-"what to do about them, below is a list of commands to deal with few "
-"common cases (either keep the old one, or replace with the new one):"
+"This will happen for every configuration you have modified manually and for "
+"a few that has been modified by Qubes scripts. If you are not sure what to "
+"do about them, below is a list of commands to deal with few common cases "
+"(either keep the old one, or replace with the new one):"
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:91
@@ -130,14 +129,14 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:95
 #: da90aece63444ef6953d4a04889953e7
 msgid ""
-"Please note that if you use :doc:`Anti Evil Maid </user/security-in-qubes"
-"/anti-evil-maid>`, it won’t be able to unseal the passphrase the first "
-"time the system boots after performing this in-place upgrade procedure "
-"since the Xen, kernel, and initramfs binaries will have changed. Once the"
-" system boots up again, you can reseal your Anti Evil Maid passphrase to "
-"the new configuration. Please consult the Anti Evil Maid "
-":doc:`documentation </user/security-in-qubes/anti-evil-maid>` for "
-"instructions on how to do that."
+"Please note that if you use :doc:`Anti Evil Maid </user/security-in-"
+"qubes/anti-evil-maid>`, it won’t be able to unseal the passphrase the first "
+"time the system boots after performing this in-place upgrade procedure since"
+" the Xen, kernel, and initramfs binaries will have changed. Once the system "
+"boots up again, you can reseal your Anti Evil Maid passphrase to the new "
+"configuration. Please consult the Anti Evil Maid :doc:`documentation "
+"</user/security-in-qubes/anti-evil-maid>` for instructions on how to do "
+"that."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:97
@@ -155,8 +154,8 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:101
 #: ce95ca764aee4cb0b38ed4237b43785f
 msgid ""
-"This is result of upgrade KDE4 (``kde-plasma``) to KDE5 (``plasma``). "
-"Simply choose your favorite desktop environment and continue."
+"This is result of upgrade KDE4 (``kde-plasma``) to KDE5 (``plasma``). Simply"
+" choose your favorite desktop environment and continue."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:104
@@ -170,9 +169,9 @@ msgid ""
 "By default, in Qubes R3.1, there are few templates and no standalones. "
 "However, users are free to create standalones More information on using "
 "multiple templates, as well as standalones, can be found :doc:`here "
-"</user/how-to-guides/how-to-install-software>`. The steps described in "
-"this section should be repeated in **all** the user’s Template and "
-"Standalone VMs."
+"</user/how-to-guides/how-to-install-software>`. The steps described in this "
+"section should be repeated in **all** the user’s Template and Standalone "
+"VMs."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:110
@@ -184,8 +183,8 @@ msgstr ""
 #: 4b273f6b7fb7466194bf5cf83e96db50
 msgid ""
 "**Note:** This will only upgrade your Fedora template from Qubes 3.1 to "
-"Qubes 3.2. This will *not* upgrade your Fedora template from Fedora 23 to"
-" Fedora 24. In order to do that, please see the :ref:`Fedora 23 template "
+"Qubes 3.2. This will *not* upgrade your Fedora template from Fedora 23 to "
+"Fedora 24. In order to do that, please see the :ref:`Fedora 23 template "
 "upgrade instructions <user/templates/fedora/fedora:upgrading>`."
 msgstr ""
 
@@ -210,13 +209,13 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:133
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:169
-#: 47b5fda5938e45068d56bee7525e83f0 5b5738e8a1724f4bbfa3f99f32fe7a04
+#: 5b5738e8a1724f4bbfa3f99f32fe7a04 47b5fda5938e45068d56bee7525e83f0
 msgid "Add new packages (only needed in default template):"
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:141
 #: ../../user/downloading-installing-upgrading/upgrade/3_2.rst:185
-#: 53243d5ff60643b8abb1c46af67987ae 58dd6b5ee98d436f98641a68738b3946
+#: 58dd6b5ee98d436f98641a68738b3946 53243d5ff60643b8abb1c46af67987ae
 msgid "Shut down the template."
 msgstr ""
 
@@ -239,4 +238,3 @@ msgstr ""
 #: 234f2768f713413ba50b15850f1eb7f9
 msgid "Remove unnecessary now file:"
 msgstr ""
-

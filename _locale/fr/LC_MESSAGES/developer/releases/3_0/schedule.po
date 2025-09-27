@@ -1,32 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../developer/releases/3_0/schedule.rst:3 87bb38889dc44050be96f550002c20b6
+#: ../../developer/releases/3_0/schedule.rst:3
+#: 87bb38889dc44050be96f550002c20b6
 msgid "Qubes R3.0 release schedule"
 msgstr ""
 
 #: ../../developer/releases/3_0/schedule.rst:11
 #: e336f8aa54934d9881f4c08eaf2cea04
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../developer/releases/3_0/schedule.rst:12
 #: 8c4cfd7029f1415682de632679a2cfba
@@ -62,4 +65,3 @@ msgstr ""
 #: 9e70e5237bc34ca1a11b75f7aaea2c6d
 msgid "3.0 release"
 msgstr ""
-

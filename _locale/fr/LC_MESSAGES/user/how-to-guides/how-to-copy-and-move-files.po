@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Adriano Gomes, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Adriano Gomes, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:3
 #: dc3a3a0c580c46b3a03d3b10ac52c392
@@ -27,11 +29,11 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:6
 #: 94d7a552323d4637bf59a0bbc3ede715
 msgid ""
-"*This page is about copying and moving files. If you wish to simply copy "
-"and paste text, that can be done more easily using the inter-qube "
-"clipboard. See* :doc:`copying and pasting text between qubes </user/how-"
-"to-guides/how-to-copy-and-paste-text>` *. For dom0, see* :doc:`copying "
-"from (and to) dom0 </user/how-to-guides/how-to-copy-from-dom0>` *.*"
+"*This page is about copying and moving files. If you wish to simply copy and"
+" paste text, that can be done more easily using the inter-qube clipboard. "
+"See* :doc:`copying and pasting text between qubes </user/how-to-guides/how-"
+"to-copy-and-paste-text>` *. For dom0, see* :doc:`copying from (and to) dom0 "
+"</user/how-to-guides/how-to-copy-from-dom0>` *.*"
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:8
@@ -45,16 +47,16 @@ msgstr ""
 #: 9d684f52be67448d9234d6a97be378f7
 msgid ""
 "For simplicity, these instructions will refer to copying/moving a single "
-"file, but they apply equally well to groups of files and directories, "
-"which are copied recursively."
+"file, but they apply equally well to groups of files and directories, which "
+"are copied recursively."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:12
 #: 1922f9fc4bfd446da855967c07bf4c3b
 msgid ""
-"Open a file manager in the qube containing the file you wish to copy (the"
-" source qube), right-click on the file you wish to copy or move, and "
-"select ``Copy to Other AppVM...`` or ``Move to Other AppVM...``."
+"Open a file manager in the qube containing the file you wish to copy (the "
+"source qube), right-click on the file you wish to copy or move, and select "
+"``Copy to Other AppVM...`` or ``Move to Other AppVM...``."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:14
@@ -67,10 +69,9 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:16
 #: a1356fafcf2d4c9aa99ec7259c43bea8
 msgid ""
-"If the target qube is not already running, it will be started "
-"automatically, and the file will be copied there. It will show up in this"
-" directory (which will automatically be created if it does not already "
-"exist):"
+"If the target qube is not already running, it will be started automatically,"
+" and the file will be copied there. It will show up in this directory (which"
+" will automatically be created if it does not already exist):"
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:23
@@ -97,21 +98,21 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:44
 #: 1dbbe6e66d854d24ac26658a071a91f5
 msgid "Security"
-msgstr ""
+msgstr "Sécurité"
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:47
 #: aecec4fb11bb4b1da15ebdac8609b597
 msgid ""
 "The inter-qube file copy system is secure because it doesn’t allow other "
 "qubes to steal the files that are being copied, and it doesn’t allow the "
-"source qube to overwrite arbitrary files on the destination qube. "
-"Moreover, this system doesn’t use any sort of virtual block device for "
-"file copy. Instead, we use Xen shared memory, which eliminates a lot of "
-"processing of untrusted data. For example, the receiving qube is *not* "
-"forced to parse untrusted partitions or file systems. In this respect, "
-"the inter-qube file copy system provides even more security than file "
-"copy between two physically separated (air-gapped) machines! (See "
-"`Software compartmentalization vs. physical separation "
+"source qube to overwrite arbitrary files on the destination qube. Moreover, "
+"this system doesn’t use any sort of virtual block device for file copy. "
+"Instead, we use Xen shared memory, which eliminates a lot of processing of "
+"untrusted data. For example, the receiving qube is *not* forced to parse "
+"untrusted partitions or file systems. In this respect, the inter-qube file "
+"copy system provides even more security than file copy between two "
+"physically separated (air-gapped) machines! (See `Software "
+"compartmentalization vs. physical separation "
 "<https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf>`__"
 " for more on this.)"
 msgstr ""
@@ -119,25 +120,23 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:49
 #: 9d172654145a4bf385cfc10dc5066e45
 msgid ""
-"However, one should keep in mind that performing a data transfer from "
-"*less trusted* to *more trusted* qubes is always potentially insecure if "
-"the data will be parsed in the target qube. This is because the data that"
-" we copy could try to exploit some hypothetical bug in software running "
-"in the target qube. For example, a seemingly-innocent JPEG that we copy "
-"from an untrusted qube might contain a specially-crafted exploit for a "
-"bug in a JPEG-parsing application in the target qube. This is a general "
-"problem and applies to any data transfer from *less trusted* to *more "
-"trusted* qubes. It even applies to the scenario of copying files between "
-"air-gapped machines. Therefore, you should always copy data only from "
-"*more trusted* to *less trusted* qubes."
+"However, one should keep in mind that performing a data transfer from *less "
+"trusted* to *more trusted* qubes is always potentially insecure if the data "
+"will be parsed in the target qube. This is because the data that we copy "
+"could try to exploit some hypothetical bug in software running in the target"
+" qube. For example, a seemingly-innocent JPEG that we copy from an untrusted"
+" qube might contain a specially-crafted exploit for a bug in a JPEG-parsing "
+"application in the target qube. This is a general problem and applies to any"
+" data transfer from *less trusted* to *more trusted* qubes. It even applies "
+"to the scenario of copying files between air-gapped machines. Therefore, you"
+" should always copy data only from *more trusted* to *less trusted* qubes."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-copy-and-move-files.rst:51
 #: 90083d52cc314cd59fdccc67436c39e8
 msgid ""
-"See also `this article <https://blog.invisiblethings.org/2011/03/13"
-"/partitioning-my-digital-life-into.html>`__ for more information on this "
-"topic, and some ideas of how we might solve this problem in some future "
-"version of Qubes."
+"See also `this article "
+"<https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-"
+"into.html>`__ for more information on this topic, and some ideas of how we "
+"might solve this problem in some future version of Qubes."
 msgstr ""
-

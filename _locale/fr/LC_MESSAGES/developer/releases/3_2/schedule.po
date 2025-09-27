@@ -1,38 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../developer/releases/3_2/schedule.rst:3 9122b61b6f024f06846201654304ec5e
+#: ../../developer/releases/3_2/schedule.rst:3
+#: 9122b61b6f024f06846201654304ec5e
 msgid "Qubes R3.2 release schedule"
 msgstr ""
 
-#: ../../developer/releases/3_2/schedule.rst:6 a4b833127517434caa58b6c6756f7dc2
+#: ../../developer/releases/3_2/schedule.rst:6
+#: a4b833127517434caa58b6c6756f7dc2
 msgid ""
-"This schedule is based on :ref:`Version Scheme <developer/releases"
-"/version-scheme:release schedule>`."
+"This schedule is based on :ref:`Version Scheme <developer/releases/version-"
+"scheme:release schedule>`."
 msgstr ""
 
 #: ../../developer/releases/3_2/schedule.rst:13
 #: 4126cad8138e4e90933b762a72054f3e
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../../developer/releases/3_2/schedule.rst:14
 #: d2d3271d3ea74d8a8f635cb84a3e9b01
@@ -118,4 +122,3 @@ msgstr ""
 #: a459070417d74e50a51fa026d1181c71
 msgid "3.2 release"
 msgstr ""
-

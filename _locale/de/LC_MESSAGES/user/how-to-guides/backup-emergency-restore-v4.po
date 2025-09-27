@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tobias Killer, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Tobias Killer, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:3
 #: 68d70e02361f44b4b27ae5302d92d815
@@ -27,27 +29,26 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:6
 #: cfdeec1a8b25436fb20783e8adfbebbf
 msgid ""
-"This page describes how to perform an emergency restore of a backup "
-"created on Qubes R4.X (which uses backup format version 4)."
+"This page describes how to perform an emergency restore of a backup created "
+"on Qubes R4.X (which uses backup format version 4)."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:8
 #: 78178e9d610c4b2381e92e9034c1cdde
 msgid ""
 "The Qubes backup system is designed with emergency disaster recovery in "
-"mind. No special Qubes-specific tools are required to access data backed "
-"up by Qubes. In the event a Qubes system is unavailable, you can access "
-"your data on any GNU/Linux system by following the instructions on this "
-"page."
+"mind. No special Qubes-specific tools are required to access data backed up "
+"by Qubes. In the event a Qubes system is unavailable, you can access your "
+"data on any GNU/Linux system by following the instructions on this page."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:10
 #: 7e9d8d42d0364b778e01305968bc37ba
 msgid ""
-"**Important:** You may wish to store a copy of these instructions with "
-"your Qubes backups. All Qubes documentation, including this page, is "
-"available in plain text format in the `qubes-doc "
-"<https://github.com/QubesOS/qubes-doc>`__ Git repository."
+"**Important:** You may wish to store a copy of these instructions with your "
+"Qubes backups. All Qubes documentation, including this page, is available in"
+" plain text format in the `qubes-doc <https://github.com/QubesOS/qubes-"
+"doc>`__ Git repository."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:13
@@ -60,25 +61,25 @@ msgstr ""
 msgid ""
 "In Qubes 4.X, backups are encrypted and integrity-protected with `scrypt "
 "<https://www.tarsnap.com/scrypt.html>`__. You will need a copy of this "
-"utility in order to access your data. Since ``scrypt`` is not pre-"
-"installed on every GNU/Linux system, it is strongly recommended that you "
-"store a copy of it with your backups. If your distribution has ``scrypt``"
-" packaged (e.g., Debian), you can install the package in the standard way"
-" using your distribution’s package manager. Otherwise, you’ll need to "
-"obtain a compiled binary (instructions below) or compile the program from"
-" source yourself. (Don’t forget to :doc:`verify signatures </project-"
-"security/verifying-signatures>` first!) Note that versions of ``scrypt`` "
-"up to 1.2.0 (inclusive) do not support the ``-P`` option for easier "
-"scripting, which means you’ll need to enter the passphrase for each file "
-"separately, instead of using ``echo ... | scrypt``."
+"utility in order to access your data. Since ``scrypt`` is not pre-installed "
+"on every GNU/Linux system, it is strongly recommended that you store a copy "
+"of it with your backups. If your distribution has ``scrypt`` packaged (e.g.,"
+" Debian), you can install the package in the standard way using your "
+"distribution’s package manager. Otherwise, you’ll need to obtain a compiled "
+"binary (instructions below) or compile the program from source yourself. "
+"(Don’t forget to :doc:`verify signatures </project-security/verifying-"
+"signatures>` first!) Note that versions of ``scrypt`` up to 1.2.0 "
+"(inclusive) do not support the ``-P`` option for easier scripting, which "
+"means you’ll need to enter the passphrase for each file separately, instead "
+"of using ``echo ... | scrypt``."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:18
 #: 4c39375bb5f44a028a5d6beea411ab4a
 msgid ""
 "Here are instructions for obtaining a compiled ``scrypt`` binary. This "
-"example uses an RPM-based system (Fedora), but the same general procedure"
-" should work on any GNU/Linux system."
+"example uses an RPM-based system (Fedora), but the same general procedure "
+"should work on any GNU/Linux system."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:20
@@ -107,9 +108,8 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:51
 #: 949d1e4026054194be203153f21e9c6a
 msgid ""
-"The message ``digests signatures OK`` means that both the digest (i.e., "
-"the output of a hash function) and PGP signature verification were "
-"successful."
+"The message ``digests signatures OK`` means that both the digest (i.e., the "
+"output of a hash function) and PGP signature verification were successful."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:53
@@ -132,9 +132,11 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:76
 #: 06839d6a737d4c60b439041221153837
 msgid ""
-"**Note:** In the following example, the backup file is both *encrypted* "
-"and *compressed*."
+"**Note:** In the following example, the backup file is both *encrypted* and "
+"*compressed*."
 msgstr ""
+"**Anmerkung:** Im folgenden Beispiel wird angenommen, dass die "
+"Datensicherungsdatei sowohl *verschlüsselt* als auch *komprimiert* ist."
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:78
 #: 3922b0f136ed47e9bd15e6da86aaa639
@@ -144,44 +146,45 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:90
 #: 0217ca2190c6494a9211c9367991af47
 msgid ""
-"Set the backup passphrase environment variable. While this isn’t strictly"
-" required, it will be handy later and will avoid saving the passphrase in"
-" the shell’s history."
+"Set the backup passphrase environment variable. While this isn’t strictly "
+"required, it will be handy later and will avoid saving the passphrase in the"
+" shell’s history."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:97
 #: 354b32d4f6a54e79b7638f0e912c6b57
-msgid "Type in your passphrase (it will be visible on screen!) and press Enter."
+msgid ""
+"Type in your passphrase (it will be visible on screen!) and press Enter."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:99
 #: bd44cb538f3a419dae28f58060f8146e
 msgid ""
-"Verify the integrity of ``backup-header`` using ``backup-header.hmac`` "
-"(an encrypted *and integrity protected* version of ``backup-header``)."
+"Verify the integrity of ``backup-header`` using ``backup-header.hmac`` (an "
+"encrypted *and integrity protected* version of ``backup-header``)."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:110
 #: 5a852e65f7154e8384371c6418610fad
 msgid ""
-"**Note:** If this command fails, it may be that the backup was tampered "
-"with or is in a different format. In the latter case, look inside "
-"``backup-header`` at the ``version`` field. If it contains a value other "
-"than ``version=4``, go to the instructions for that format version:"
+"**Note:** If this command fails, it may be that the backup was tampered with"
+" or is in a different format. In the latter case, look inside ``backup-"
+"header`` at the ``version`` field. If it contains a value other than "
+"``version=4``, go to the instructions for that format version:"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:112
 #: 6d20048249714390801d85bb7d915855
 msgid ""
-":doc:`Emergency Backup Recovery without Qubes (v2) </user/how-to-guides"
-"/backup-emergency-restore-v2>`"
+":doc:`Emergency Backup Recovery without Qubes (v2) </user/how-to-"
+"guides/backup-emergency-restore-v2>`"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:114
 #: bdb18414c7b748d7805c8a8270e86151
 msgid ""
-":doc:`Emergency Backup Recovery without Qubes (v3) </user/how-to-guides"
-"/backup-emergency-restore-v3>`"
+":doc:`Emergency Backup Recovery without Qubes (v3) </user/how-to-"
+"guides/backup-emergency-restore-v3>`"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:118
@@ -192,9 +195,9 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:132
 #: fcd8597275b04f61a0bdfa20b0b17002
 msgid ""
-"Set ``backup_id`` to the value in the last line of ``backup-header``. "
-"(Note that there is a hyphen in ``backup-id`` in the file, whereas there "
-"is an underscore in ``backup_id`` in the variable you’re setting.)"
+"Set ``backup_id`` to the value in the last line of ``backup-header``. (Note "
+"that there is a hyphen in ``backup-id`` in the file, whereas there is an "
+"underscore in ``backup_id`` in the variable you’re setting.)"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:140
@@ -212,32 +215,32 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:152
 #: 55e1cc10512b466a8f672a535ecbe8db
 msgid ""
-"**Note:** If your backup was compressed with a program other than "
-"``gzip``, you must substitute the correct compression program in the "
-"command above. This information is contained in ``backup-header`` (see "
-"step 4). For example, if your backup is compressed with ``bzip2``, use "
-"``bzip2 -d`` instead of ``gzip -d`` in the command above. You might need "
-"to install a package of the same name (in this example, ``bzip2``) "
-"through your distribution’s package manager."
+"**Note:** If your backup was compressed with a program other than ``gzip``, "
+"you must substitute the correct compression program in the command above. "
+"This information is contained in ``backup-header`` (see step 4). For "
+"example, if your backup is compressed with ``bzip2``, use ``bzip2 -d`` "
+"instead of ``gzip -d`` in the command above. You might need to install a "
+"package of the same name (in this example, ``bzip2``) through your "
+"distribution’s package manager."
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:156
 #: fddbc43b538b4ab881a72b8707b9b04b
 msgid ""
-"Search inside of the ``qubes.xml`` file for the ``backup-path`` of the "
-"qube whose data you wish to restore. If you install the ``xmlstarlet`` "
-"package, the following command will convert ``qubes.xml`` to a friendlier"
-" listing for this purpose:"
+"Search inside of the ``qubes.xml`` file for the ``backup-path`` of the qube "
+"whose data you wish to restore. If you install the ``xmlstarlet`` package, "
+"the following command will convert ``qubes.xml`` to a friendlier listing for"
+" this purpose:"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:183
 #: fcc0961e2bca4f718d86d85463a870db
 msgid ""
-"The example output above shows that the backup file includes a qube named"
-" ``personal`` and a qube named ``vault``, with ``backup-path`` values of "
+"The example output above shows that the backup file includes a qube named "
+"``personal`` and a qube named ``vault``, with ``backup-path`` values of "
 "``vm123/`` and ``vm321/`` respectively. (Every other listed qube was not "
-"selected to be included in the backup file.) Use the corresponding value "
-"to untar the necessary data files of the qube:"
+"selected to be included in the backup file.) Use the corresponding value to "
+"untar the necessary data files of the qube:"
 msgstr ""
 
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:191
@@ -261,7 +264,6 @@ msgstr ""
 #: ../../user/how-to-guides/backup-emergency-restore-v4.rst:219
 #: cf806cc078494991bfc039bbe901e263
 msgid ""
-"Success! If you wish to recover data from more than one qube in your "
-"backup, simply repeat steps 7, 8, and 9 for each additional qube."
+"Success! If you wish to recover data from more than one qube in your backup,"
+" simply repeat steps 7, 8, and 9 for each additional qube."
 msgstr ""
-

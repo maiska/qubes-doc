@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Emma Peel, 2025
+# erinm, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: erinm, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/releases/4_0/release-notes.rst:3
 #: 724d39a2965a4195a42ca53002e58245
@@ -42,8 +45,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:12
 #: 019e93271504483a857e85582265dd27
 msgid ""
-"`Admin API <https://www.qubes-os.org/news/2017/06/27/qubes-admin-api/>`__"
-" allowing strictly controlled managing from non-dom0"
+"`Admin API <https://www.qubes-os.org/news/2017/06/27/qubes-admin-api/>`__ "
+"allowing strictly controlled managing from non-dom0"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:14
@@ -54,8 +57,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:16
 #: df4a0d3c8484481db389eda83612634a
 msgid ""
-"Renaming VM directly is prohibited, there is GUI to clone under new name "
-"and remove old VM"
+"Renaming VM directly is prohibited, there is GUI to clone under new name and"
+" remove old VM"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:18
@@ -65,8 +68,8 @@ msgid ""
 "secpack/blob/master/QSBs/qsb-037-2018.txt>`__ and `HVM "
 "<https://github.com/QubesOS/qubes-issues/issues/2185>`__ by default to "
 "`mitigate Meltdown & Spectre <https://github.com/QubesOS/qubes-"
-"secpack/blob/master/QSBs/qsb-037-2018.txt>`__ and lower the `attack "
-"surface on Xen <https://github.com/QubesOS/qubes-"
+"secpack/blob/master/QSBs/qsb-037-2018.txt>`__ and lower the `attack surface "
+"on Xen <https://github.com/QubesOS/qubes-"
 "secpack/blob/master/QSBs/qsb-024-2016.txt>`__"
 msgstr ""
 
@@ -78,15 +81,15 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:22
 #: 3afc44af535743478614f546dbf62bbb
 msgid ""
-"`Multiple DisposableVMs templates support <https://github.com/QubesOS"
-"/qubes-issues/issues/2253>`__"
+"`Multiple DisposableVMs templates support <https://github.com/QubesOS/qubes-"
+"issues/issues/2253>`__"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:24
 #: 475c3bfa46294aafb15d02a4d10e8609
 msgid ""
-"New :doc:`backup format </user/how-to-guides/backup-emergency-"
-"restore-v4>` using scrypt key-derivation function"
+"New :doc:`backup format </user/how-to-guides/backup-emergency-restore-v4>` "
+"using scrypt key-derivation function"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:26
@@ -97,48 +100,47 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:28
 #: eb5dd16ad412422e9c3a85368a0a750c
 msgid ""
-"`split VM packages <https://github.com/QubesOS/qubes-"
-"issues/issues/2771>`__, for better support minimal, specialized templates"
+"`split VM packages <https://github.com/QubesOS/qubes-issues/issues/2771>`__,"
+" for better support minimal, specialized templates"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:30
 #: db65bca6b7994314b2076edcf14d0a86
 msgid ""
 "`Qubes Manager decomposition <https://github.com/QubesOS/qubes-"
-"issues/issues/2132>`__ - domains and devices widgets instead of full "
-"Qubes Manager; devices widget support also USB"
+"issues/issues/2132>`__ - domains and devices widgets instead of full Qubes "
+"Manager; devices widget support also USB"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:32
 #: 09d73ae68a45464ebe7a1a8a187f7e2b
 msgid ""
-":doc:`More flexible firewall interface </developer/debugging/vm-"
-"interface>` for ease unikernel integration"
+":doc:`More flexible firewall interface </developer/debugging/vm-interface>` "
+"for ease unikernel integration"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:34
 #: 805a8ee83eef4951bbe9c25230146469
 msgid ""
-"Template VMs do not have network interface by default, `qrexec-based "
-"updates proxy <https://github.com/QubesOS/qubes-issues/issues/1854>`__ is"
-" used instead"
+"Template VMs do not have network interface by default, `qrexec-based updates"
+" proxy <https://github.com/QubesOS/qubes-issues/issues/1854>`__ is used "
+"instead"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:36
 #: a5b4823261c74153a473373206845f77
 msgid ""
 "More flexible IP addressing for VMs - `custom IP "
-"<https://github.com/QubesOS/qubes-issues/issues/1477>`__, `hidden from "
-"the IP <https://github.com/QubesOS/qubes-issues/issues/1143>`__"
+"<https://github.com/QubesOS/qubes-issues/issues/1477>`__, `hidden from the "
+"IP <https://github.com/QubesOS/qubes-issues/issues/1143>`__"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:38
 #: f55411e6634b4132818d3e12f96c7bc4
 msgid ""
 "More flexible Qubes RPC policy - `related ticket "
-"<https://github.com/QubesOS/qubes-issues/issues/865>`__, "
-":ref:`documentation <developer/services/qrexec:specifying vms: tags, "
-"types, targets, etc.>`"
+"<https://github.com/QubesOS/qubes-issues/issues/865>`__, :ref:`documentation"
+" <developer/services/qrexec:specifying vms: tags, types, targets, etc.>`"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:40
@@ -169,9 +171,8 @@ msgstr ""
 #: 5807acc7f19e41deb319a662ced3f99b
 msgid ""
 "You can get detailed description in `completed github issues "
-"<https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+sort"
-"%3Aupdated-desc+milestone%3A%22Release+4.0%22+label%3Arelease-"
-"notes+is%3Aclosed>`__"
+"<https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+sort%3Aupdated-"
+"desc+milestone%3A%22Release+4.0%22+label%3Arelease-notes+is%3Aclosed>`__"
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:53
@@ -182,8 +183,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:56
 #: a0eb55953e524994ba2d71547cc9f959
 msgid ""
-"PV VMs migrated from 3.2 to 4.0-rc4 or later are automatically set to PVH"
-" mode in order to protect against Meltdown (see `QSB #37 "
+"PV VMs migrated from 3.2 to 4.0-rc4 or later are automatically set to PVH "
+"mode in order to protect against Meltdown (see `QSB #37 "
 "<https://github.com/QubesOS/qubes-"
 "secpack/blob/master/QSBs/qsb-037-2018.txt>`__). However, PV VMs migrated "
 "from any earlier 4.0 release candidate (RC1, RC2, or RC3) are not "
@@ -193,9 +194,9 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:58
 #: e2070632962d40d8a9b8c43645552d24
 msgid ""
-"The following steps may need to be applied in dom0 and Fedora 26 "
-"TemplateVMs in order to receive updates (see `#3737 "
-"<https://github.com/QubesOS/qubes-issues/issues/3737>`__)."
+"The following steps may need to be applied in dom0 and Fedora 26 TemplateVMs"
+" in order to receive updates (see `#3737 <https://github.com/QubesOS/qubes-"
+"issues/issues/3737>`__)."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:60
@@ -207,8 +208,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:83
 #: 2ac8139353524c36a3e0444313e69d87 d2a0a6f77d85421f838682b5d3d8c83a
 msgid ""
-"Open the Qubes Menu by clicking on the “Q” icon in the top-left corner of"
-" the screen."
+"Open the Qubes Menu by clicking on the “Q” icon in the top-left corner of "
+"the screen."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:64
@@ -224,8 +225,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:74
 #: ee72c93212fe45b59d6d37d057c7b2d3
 msgid ""
-"This opens the nano text editor. Change all four instances of ``http`` to"
-" ``https``."
+"This opens the nano text editor. Change all four instances of ``http`` to "
+"``https``."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:76
@@ -235,7 +236,7 @@ msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:78
 #: ../../developer/releases/4_0/release-notes.rst:102
-#: 3a525905c3394cfba087d0b80efd83e5 8f22b6eade5747daa7a0334aeb4bb3d1
+#: 8f22b6eade5747daa7a0334aeb4bb3d1 3a525905c3394cfba087d0b80efd83e5
 msgid "Check for updates normally."
 msgstr ""
 
@@ -257,8 +258,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:96
 #: 1ed93b8fc7254f0ea07db6840c72f38c
 msgid ""
-"This opens the gedit text editor in a window. Change all four instances "
-"of ``http`` to ``https``."
+"This opens the gedit text editor in a window. Change all four instances of "
+"``http`` to ``https``."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:98
@@ -279,7 +280,7 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:111
 #: 6b3ebee77f044a4d84eb58ddad3d0e2f
 msgid "Known issues"
-msgstr ""
+msgstr "Bekannte Probleme"
 
 #: ../../developer/releases/4_0/release-notes.rst:114
 #: bf8a3a3383e240469742f4ac5b9a6c97
@@ -294,9 +295,9 @@ msgstr ""
 #: a0a08c691b0e4c4584d2e3059567af41
 msgid ""
 "In the middle of installation, `keyboard layout reset to US "
-"<https://github.com/QubesOS/qubes-issues/issues/3352>`__. Be careful what"
-" is the current layout while setting default user password (see upper "
-"right screen corner)."
+"<https://github.com/QubesOS/qubes-issues/issues/3352>`__. Be careful what is"
+" the current layout while setting default user password (see upper right "
+"screen corner)."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:118
@@ -315,14 +316,14 @@ msgstr ""
 #: 233f18cc62654018a2faadd91cad240e
 msgid ""
 "With R4.0.1, which ships kernel-4.19, you may never reach the anaconda "
-"startup and be block on an idle black screen with blinking cursor. You "
-"can try to add ``plymouth.ignore-serial-consoles`` in the grub installer "
-"boot menu right after ``quiet rhgb``. With legacy mode, you can do it "
-"directly when booting the DVD or USB key. In UEFI mode, follow the same "
-"procedure described for :ref:`disabling <user/troubleshooting/uefi-"
+"startup and be block on an idle black screen with blinking cursor. You can "
+"try to add ``plymouth.ignore-serial-consoles`` in the grub installer boot "
+"menu right after ``quiet rhgb``. With legacy mode, you can do it directly "
+"when booting the DVD or USB key. In UEFI mode, follow the same procedure "
+"described for :ref:`disabling <user/troubleshooting/uefi-"
 "troubleshooting:installation freezes before displaying installer>` "
-"``nouveau`` module (related `solved issue <https://github.com/QubesOS"
-"/qubes-issues/issues/3849>`__ in further version of Qubes)."
+"``nouveau`` module (related `solved issue <https://github.com/QubesOS/qubes-"
+"issues/issues/3849>`__ in further version of Qubes)."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:124
@@ -336,14 +337,14 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:128
 #: a28507cc6cc3436aa6eac5b38952a77b
 msgid ""
-"It is advised to install updates just after system installation to apply "
-"bug fixes for (some of) the above problems."
+"It is advised to install updates just after system installation to apply bug"
+" fixes for (some of) the above problems."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:131
 #: 37e23fa9f4b74cef860828556fbc4ffe
 msgid "Downloads"
-msgstr ""
+msgstr "Downloads"
 
 #: ../../developer/releases/4_0/release-notes.rst:134
 #: f8002a691a504b57a9997166b10e4e6d
@@ -358,8 +359,8 @@ msgstr ""
 #: ../../developer/releases/4_0/release-notes.rst:140
 #: 06f5162bf7ab4787a27ad4ea1b29504c
 msgid ""
-"See :doc:`Installation Guide </user/downloading-installing-upgrading"
-"/installation-guide>`."
+"See :doc:`Installation Guide </user/downloading-installing-"
+"upgrading/installation-guide>`."
 msgstr ""
 
 #: ../../developer/releases/4_0/release-notes.rst:143
@@ -371,10 +372,9 @@ msgstr ""
 #: e7d95cd7124042e98496658ef6adf5e0
 msgid ""
 "There is no in-place upgrade path from earlier Qubes versions. The only "
-"supported option to upgrade to Qubes R4.0 is to install it from scratch "
-"and use :doc:`qubes backup and restore tools </user/how-to-guides/how-to-"
-"back-up-restore-and-migrate>` for migrating of all of the user VMs. We "
-"also provide :doc:`detailed instruction </user/downloading-installing-"
+"supported option to upgrade to Qubes R4.0 is to install it from scratch and "
+"use :doc:`qubes backup and restore tools </user/how-to-guides/how-to-back-"
+"up-restore-and-migrate>` for migrating of all of the user VMs. We also "
+"provide :doc:`detailed instruction </user/downloading-installing-"
 "upgrading/upgrade/4_0>` for this procedure."
 msgstr ""
-

@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Boxoa590, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Boxoa590, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../developer/general/website-style-guide.rst:3
 #: b276172a359c4d59b5c67e56e0ccfcb3
@@ -27,11 +29,11 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:6
 #: 785ae92306324b63a994276979c7a33c
 msgid ""
-"This page explains the standards we follow for building and maintaining "
-"the website. Please follow these guidelines and conventions when "
-"modifying the website. For the standards governing the documentation in "
-"particular, please see the :doc:`documentation style guide "
-"</developer/general/rst-documentation-style-guide>`."
+"This page explains the standards we follow for building and maintaining the "
+"website. Please follow these guidelines and conventions when modifying the "
+"website. For the standards governing the documentation in particular, please"
+" see the :doc:`documentation style guide </developer/general/rst-"
+"documentation-style-guide>`."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:10
@@ -46,8 +48,8 @@ msgid ""
 "everything written in HTML, CSS, YAML, and Liquid. These conventions are "
 "intended to keep the codebase consistent when multiple collaborators are "
 "working on it. They should be understood as a practical set of rules for "
-"maintaining order in this specific codebase rather than as a statement of"
-" what is objectively right or good."
+"maintaining order in this specific codebase rather than as a statement of "
+"what is objectively right or good."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:15
@@ -65,15 +67,15 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:20
 #: f52a9f6f7235459788f47a035c22cb90
 msgid ""
-"Use descriptive variable names. Never use one or two letter variable "
-"names. Avoid obscure abbreviations and made-up words."
+"Use descriptive variable names. Never use one or two letter variable names. "
+"Avoid obscure abbreviations and made-up words."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:22
 #: 25e3bcc2ea9642938da2d09047c8be21
 msgid ""
-"In general, make it easy for others to read your code. Your future self "
-"will thank you, and so will your collaborators!"
+"In general, make it easy for others to read your code. Your future self will"
+" thank you, and so will your collaborators!"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:24
@@ -103,9 +105,9 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:31
 #: 9435fb2beeda4c5080be00f4e2531484
 msgid ""
-"Whenever you add an opening tag, indent the following line. (Exception: "
-"If you open and close the tag on the same line, do not indent the "
-"following line.)"
+"Whenever you add an opening tag, indent the following line. (Exception: If "
+"you open and close the tag on the same line, do not indent the following "
+"line.)"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:32
@@ -116,15 +118,15 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:33
 #: a44f7eaad703491287c08a31d760d737
 msgid ""
-"In general, the starting columns of every adjacent pair of lines should "
-"be no more than two spaces apart (example below)."
+"In general, the starting columns of every adjacent pair of lines should be "
+"no more than two spaces apart (example below)."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:34
 #: db4e3c2332d84954b9fcaf938a39c991
 msgid ""
-"No blank or empty lines. (Hint: When you feel you need one, add a comment"
-" on that line instead.)"
+"No blank or empty lines. (Hint: When you feel you need one, add a comment on"
+" that line instead.)"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:38
@@ -152,12 +154,12 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:67
 #: 1557b523c0e141beb7905206cc99d5c2
 msgid ""
-"Some of the Qubes OS website pages are stored as plain text Markdown "
-"files in the `qubesos.github.io "
-"<https://github.com/QubesOS/qubesos.github.io>`__ repository. When making"
-" contributions to Markdown files, please observe the following style "
-"conventions. If you’re not familiar with Markdown syntax, `this "
-"<https://daringfireball.net/projects/markdown/>`__ is a great resource."
+"Some of the Qubes OS website pages are stored as plain text Markdown files "
+"in the `qubesos.github.io <https://github.com/QubesOS/qubesos.github.io>`__ "
+"repository. When making contributions to Markdown files, please observe the "
+"following style conventions. If you’re not familiar with Markdown syntax, "
+"`this <https://daringfireball.net/projects/markdown/>`__ is a great "
+"resource."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:71
@@ -168,10 +170,9 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:73
 #: e0ef231069c64820b1a4793948e67f7b
 msgid ""
-"Use non-reference-style links like "
-":code:`[website](https://example.com/)`. Do *not* use reference-style "
-"links like ``[website][example]``, ``[website][]`` or ``[website]``. This"
-" facilitates the localization process."
+"Use non-reference-style links like :code:`[website](https://example.com/)`. "
+"Do *not* use reference-style links like ``[website][example]``, "
+"``[website][]`` or ``[website]``. This facilitates the localization process."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:76
@@ -182,8 +183,8 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:78
 #: 4dcf512885f04eab8982577568e6d637
 msgid ""
-"Always use relative rather than absolute paths for internal website "
-"links. For example, use ``/donate/`` instead of ``https://www.qubes-"
+"Always use relative rather than absolute paths for internal website links. "
+"For example, use ``/donate/`` instead of ``https://www.qubes-"
 "os.org/donate/``."
 msgstr ""
 
@@ -209,9 +210,9 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:84
 #: 6953be213a074310996681896b26fd4d
 msgid ""
-"Git repo files like ``README.md`` and ``CONTRIBUTING.md``, since they’re "
-"not part of the website itself but rather of the auxiliary infrastructure"
-" supporting the website"
+"Git repo files like ``README.md`` and ``CONTRIBUTING.md``, since they’re not"
+" part of the website itself but rather of the auxiliary infrastructure "
+"supporting the website"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:87
@@ -239,8 +240,8 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:92
 #: 1f2d15d4058b4ffdb351cb6f9eb36535
 msgid ""
-"Automatically redirecting Tor Browser visitors to the correct page on the"
-" onion service mirror"
+"Automatically redirecting Tor Browser visitors to the correct page on the "
+"onion service mirror"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:96
@@ -250,29 +251,29 @@ msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:98
 #: 7d400fa261df49ca9662f945c0a8a074
-msgid "To add an image to a page, use the following syntax in the main document."
+msgid ""
+"To add an image to a page, use the following syntax in the main document."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:104
 #: 01c7f4cb6dfa45bd80215a65bf9b3118
 msgid ""
-"This will make the image a hyperlink to the image file, allowing the "
-"reader to click on the image in order to view the full image by itself. "
-"This is important. Following best practices, our website has a responsive"
-" design, which allows the website to render appropriately across all "
-"screen sizes. When viewing this page on a smaller screen, such as on a "
-"mobile device, the image will automatically shrink down to fit the "
-"screen. If visitors cannot click on the image to view it in full size, "
-"then, depending on their device, they may have no way see the details in "
-"the image clearly."
+"This will make the image a hyperlink to the image file, allowing the reader "
+"to click on the image in order to view the full image by itself. This is "
+"important. Following best practices, our website has a responsive design, "
+"which allows the website to render appropriately across all screen sizes. "
+"When viewing this page on a smaller screen, such as on a mobile device, the "
+"image will automatically shrink down to fit the screen. If visitors cannot "
+"click on the image to view it in full size, then, depending on their device,"
+" they may have no way see the details in the image clearly."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:106
 #: 3b070f5afe3045a59483e15eb7fc043e
 msgid ""
 "In addition, make sure to link only to images in the `qubes-attachment "
-"<https://github.com/QubesOS/qubes-attachment>`__ repository. Do not "
-"attempt to link to images hosted on other websites."
+"<https://github.com/QubesOS/qubes-attachment>`__ repository. Do not attempt "
+"to link to images hosted on other websites."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:109
@@ -284,9 +285,9 @@ msgstr ""
 #: da54555850054003a4f5759a567f9968
 msgid ""
 "Do not write HTML inside Markdown documents (except in rare, unavoidable "
-"cases, such as `alerts <#alerts>`__). In particular, never include HTML "
-"or CSS for styling, formatting, or white space control. That belongs in "
-"the (S)CSS files instead."
+"cases, such as `alerts <#alerts>`__). In particular, never include HTML or "
+"CSS for styling, formatting, or white space control. That belongs in the "
+"(S)CSS files instead."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:115
@@ -297,9 +298,8 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:117
 #: d8814cf9d2894564ab6cddac4e2358bd
 msgid ""
-"Do not use ``h1`` headings (single ``#`` or ``======`` underline). These "
-"are automatically generated from the ``title:`` line in the YAML front "
-"matter."
+"Do not use ``h1`` headings (single ``#`` or ``======`` underline). These are"
+" automatically generated from the ``title:`` line in the YAML front matter."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:119
@@ -316,20 +316,21 @@ msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:124
 #: 85217b93bd6045b18b53135a9bea9cc8
-msgid "Use spaces instead of tabs. Use hanging indentations where appropriate."
+msgid ""
+"Use spaces instead of tabs. Use hanging indentations where appropriate."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:127
 #: dcaa40da1d424b7baed3215911b4742c
 msgid "Lists"
-msgstr ""
+msgstr "Listes"
 
 #: ../../developer/general/website-style-guide.rst:129
 #: dc1710ad202640a4ab5cdd7864e07256
 msgid ""
 "If appropriate, make numerals in numbered lists match between Markdown "
-"source and HTML output. Some users read the Markdown source directly, and"
-" this makes numbered lists easier to follow."
+"source and HTML output. Some users read the Markdown source directly, and "
+"this makes numbered lists easier to follow."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:132
@@ -341,10 +342,10 @@ msgstr ""
 #: 9f05ed9c55be4e73bd74cbf608b63148
 msgid ""
 "When writing code blocks, use `syntax highlighting "
-"<https://github.github.com/gfm/#info-string>`__ where possible (see `here"
-" <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-"
-"lexers>`__ for a list of supported languages). Use ``[...]`` for anything"
-" omitted."
+"<https://github.github.com/gfm/#info-string>`__ where possible (see `here "
+"<https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-"
+"lexers>`__ for a list of supported languages). Use ``[...]`` for anything "
+"omitted."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:137
@@ -354,7 +355,8 @@ msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:139
 #: ea2d1cd2fdb4460db1b010871551c011
-msgid "Do not hard wrap text, except where necessary (e.g., inside code blocks)."
+msgid ""
+"Do not hard wrap text, except where necessary (e.g., inside code blocks)."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:142
@@ -365,15 +367,14 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:144
 #: 0831fc01d37344cd91face49b76f986e
 msgid ""
-"For example, there is a common temptation to use block quotations "
-"(created by beginning lines with the ``>`` character) in order to "
-"stylistically distinguish some portion of text from the rest of the "
-"document, e.g.:"
+"For example, there is a common temptation to use block quotations (created "
+"by beginning lines with the ``>`` character) in order to stylistically "
+"distinguish some portion of text from the rest of the document, e.g.:"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:152
 #: ../../developer/general/website-style-guide.rst:171
-#: 488fc8837b0443e4b4070d67926bfcbd 9babcc5305634740a80f8cd37d59d921
+#: 9babcc5305634740a80f8cd37d59d921 488fc8837b0443e4b4070d67926bfcbd
 msgid "This renders as:"
 msgstr ""
 
@@ -391,28 +392,27 @@ msgstr ""
 #: d0b868ff4f4748c491c5af873e355a36
 msgid ""
 "It is a violation of the `separation of content and presentation "
-"<https://en.wikipedia.org/wiki/Separation_of_content_and_presentation>`__,"
-" since it abuses markup syntax in order to achieve unintended stylistic "
-"results. The Markdown (and HTML, if any) should embody the *content* of "
-"the documentation, while the *presentation* is handled by (S)CSS."
+"<https://en.wikipedia.org/wiki/Separation_of_content_and_presentation>`__, "
+"since it abuses markup syntax in order to achieve unintended stylistic "
+"results. The Markdown (and HTML, if any) should embody the *content* of the "
+"documentation, while the *presentation* is handled by (S)CSS."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:160
 #: 58c9612e11dd412085ccc5ad3ae4bf2a
 msgid ""
 "It is an abuse of quotation syntax for text that is not actually a "
-"quotation. (You are not quoting anyone here. You’re just telling the "
-"reader to note something and trying to draw their attention to your note "
-"visually.)"
+"quotation. (You are not quoting anyone here. You’re just telling the reader "
+"to note something and trying to draw their attention to your note visually.)"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:164
 #: 58e2b5dbb7794302b93be64323dd0d95
 msgid ""
 "Instead, an example of an appropriate way to stylistically distinguish a "
-"portion of text is by using `alerts <#alerts>`__. Consider also that "
-"extra styling and visual distinction may not even be necessary. In most "
-"cases, traditional writing methods are perfectly sufficient, e.g.,:"
+"portion of text is by using `alerts <#alerts>`__. Consider also that extra "
+"styling and visual distinction may not even be necessary. In most cases, "
+"traditional writing methods are perfectly sufficient, e.g.,:"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:173
@@ -428,15 +428,15 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:178
 #: 90e3ab5c9d6d4193bc4631107c1f831c
 msgid ""
-"Alerts are sections of HTML used to draw the reader’s attention to "
-"important information, such as warnings, and for stylistic purposes. They"
-" are typically styled as colored text boxes, usually accompanied by "
-"icons. Alerts should generally be used somewhat sparingly, so as not to "
-"cause `alert fatigue <https://en.wikipedia.org/wiki/Alarm_fatigue>`__ and"
-" since they must be written in HTML instead of Markdown, which makes the "
-"source less readable and more difficult to work with for localization and"
-" automation purposes. Here are examples of several types of alerts and "
-"their recommended icons:"
+"Alerts are sections of HTML used to draw the reader’s attention to important"
+" information, such as warnings, and for stylistic purposes. They are "
+"typically styled as colored text boxes, usually accompanied by icons. Alerts"
+" should generally be used somewhat sparingly, so as not to cause `alert "
+"fatigue <https://en.wikipedia.org/wiki/Alarm_fatigue>`__ and since they must"
+" be written in HTML instead of Markdown, which makes the source less "
+"readable and more difficult to work with for localization and automation "
+"purposes. Here are examples of several types of alerts and their recommended"
+" icons:"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:216
@@ -452,8 +452,8 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:264
 #: d03834729edc43e78589d4501cdb54a6
 msgid ""
-"Depicts different alerts and messages: note, warning, danger and how they"
-" are rendered on the website"
+"Depicts different alerts and messages: note, warning, danger and how they "
+"are rendered on the website"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:221
@@ -465,8 +465,8 @@ msgstr ""
 #: ab5df4cd4c4247c0a8cc30c20852496f
 msgid ""
 "For writing guidelines please refer to the :ref:`appropriate section "
-"<developer/general/rst-documentation-style-guide:writing guidelines>` in "
-"the rST documentation style guide with the exemption of the following:"
+"<developer/general/rst-documentation-style-guide:writing guidelines>` in the"
+" rST documentation style guide with the exemption of the following:"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:227
@@ -482,17 +482,16 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:231
 #: 2fc101ed2b5b43348af39b24351aacbd
 msgid ""
-"Tell the reader where to open a terminal (dom0 or a specific domU), and "
-"show the command along with its output (if any) in a code block, e.g.:"
+"Tell the reader where to open a terminal (dom0 or a specific domU), and show"
+" the command along with its output (if any) in a code block, e.g.:"
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:242
 #: 8eabd3632a3741ab923d35c1548b13b3
 msgid ""
-"Precede each command with the appropriate command prompt: At a minimum, "
-"the prompt should contain a trailing ``#`` (for the user ``root``) or "
-"``$`` (for other users) on Linux systems and ``>`` on Windows systems, "
-"respectively."
+"Precede each command with the appropriate command prompt: At a minimum, the "
+"prompt should contain a trailing ``#`` (for the user ``root``) or ``$`` (for"
+" other users) on Linux systems and ``>`` on Windows systems, respectively."
 msgstr ""
 
 #: ../../developer/general/website-style-guide.rst:243
@@ -518,7 +517,6 @@ msgstr ""
 #: ../../developer/general/website-style-guide.rst:262
 #: 60e08957b35f4bf08d3d3847f8d7fc10
 msgid ""
-"Please follow our :ref:`Git commit message guidelines <developer/code"
-"/coding-style:commit message guidelines>`."
+"Please follow our :ref:`Git commit message guidelines "
+"<developer/code/coding-style:commit message guidelines>`."
 msgstr ""
-

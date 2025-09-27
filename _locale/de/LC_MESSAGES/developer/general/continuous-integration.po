@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/general/continuous-integration.rst:3
 #: e85edf5d42124831afa7c92f013251a8
@@ -43,18 +41,18 @@ msgid ""
 "The following commands may be useful as a way to interact with our CI "
 "infrastructure on website (`qubesos.github.io "
 "<https://github.com/QubesOS/qubesos.github.io>`__) and documentation "
-"(`qubes-doc <https://github.com/QubesOS/qubes-doc>`__) pull requests "
-"(PRs). Note that special permissions may be required to use some of these"
-" commands. These commands are generally issued by adding a comment to a "
-"PR containing only the command."
+"(`qubes-doc <https://github.com/QubesOS/qubes-doc>`__) pull requests (PRs). "
+"Note that special permissions may be required to use some of these commands."
+" These commands are generally issued by adding a comment to a PR containing "
+"only the command."
 msgstr ""
 
 #: ../../developer/general/continuous-integration.rst:14
 #: b6c455e38f574e5a9a9e590189338bff
 msgid ""
 "``PipelineRetry``: Attempts to run the entire build pipeline over again. "
-"This can be useful if CI incorrectly uses a stale branch instead of "
-"testing the PR as if it were merged into ``master``."
+"This can be useful if CI incorrectly uses a stale branch instead of testing "
+"the PR as if it were merged into ``master``."
 msgstr ""
 
 #: ../../developer/general/continuous-integration.rst:16
@@ -67,21 +65,20 @@ msgstr ""
 #: ../../developer/general/continuous-integration.rst:18
 #: 1568147dc0b74058807cf3880e4858fe
 msgid ""
-"``PipelineRefresh``: Like ``PipelineRetry``, except it only fetches the "
-"job status from GitLab. It doesn’t schedule a new build."
+"``PipelineRefresh``: Like ``PipelineRetry``, except it only fetches the job "
+"status from GitLab. It doesn’t schedule a new build."
 msgstr ""
 
 #: ../../developer/general/continuous-integration.rst:20
 #: 52c832ffa859441da95ecfd520756bac
 msgid ""
-"``TestDeploy``: Deploys a test website, which is a live version of the "
-"Qubes website as if this PR had been merged. This can be useful for "
-"previewing a PR on a live public website. **Note:** You must wait for the"
-" site to finish building before issuing this command, or else it will "
-"deploy an empty website. To find the URL of the test website, look for "
-"text similar to “This branch was successfully deployed” and a button "
-"named something like “View deployment.” Note that there are two different"
-" testing sites: ``wwwtest`` is manually updated, whereas ``wwwpreview`` "
-"is managed by the ``TestDeploy`` command."
+"``TestDeploy``: Deploys a test website, which is a live version of the Qubes"
+" website as if this PR had been merged. This can be useful for previewing a "
+"PR on a live public website. **Note:** You must wait for the site to finish "
+"building before issuing this command, or else it will deploy an empty "
+"website. To find the URL of the test website, look for text similar to “This"
+" branch was successfully deployed” and a button named something like “View "
+"deployment.” Note that there are two different testing sites: ``wwwtest`` is"
+" manually updated, whereas ``wwwpreview`` is managed by the ``TestDeploy`` "
+"command."
 msgstr ""
-

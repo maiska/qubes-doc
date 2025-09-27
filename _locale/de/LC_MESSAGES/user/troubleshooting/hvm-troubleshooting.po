@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:3
 #: 405386b48f714e3883b09d1fe19b5b89
@@ -32,8 +30,8 @@ msgstr ""
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:10
 #: eb681243f2fe47b2a3a62b7bd4f2c92f
 msgid ""
-"The HVM may pause on boot, showing a fixed cursor. After a while a series"
-" of warnings may be shown similar to this:"
+"The HVM may pause on boot, showing a fixed cursor. After a while a series of"
+" warnings may be shown similar to this:"
 msgstr ""
 
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:18
@@ -71,8 +69,7 @@ msgstr ""
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:32
 #: a0b76341f6a54980834686c15fa448f4
 msgid ""
-"If this solves the problem then you will want to make the change "
-"permanent:"
+"If this solves the problem then you will want to make the change permanent:"
 msgstr ""
 
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:34
@@ -115,9 +112,9 @@ msgstr ""
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:76
 #: e8d10f81b88f40b5a067bcedc16387c3
 msgid ""
-"If you see a screen popup with SeaBios and 4 lines, last one being "
-"``Probing EDD (edd=off to disable!... ok``, then enter the following "
-"command from a ``dom0`` prompt:"
+"If you see a screen popup with SeaBios and 4 lines, last one being ``Probing"
+" EDD (edd=off to disable!... ok``, then enter the following command from a "
+"``dom0`` prompt:"
 msgstr ""
 
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:84
@@ -136,8 +133,7 @@ msgstr ""
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:89
 #: 53aa1ddd5b6c4ff3bef868bdd7da79fc
 msgid ""
-"You can disable memory-balancing in the settings, under the “Advanced” "
-"tab."
+"You can disable memory-balancing in the settings, under the “Advanced” tab."
 msgstr ""
 
 #: ../../user/troubleshooting/hvm-troubleshooting.rst:91
@@ -159,4 +155,3 @@ msgid ""
 "<user/troubleshooting/resume-suspend-troubleshooting:attached devices in "
 "windows hvm stop working on suspend\\/resume>`."
 msgstr ""
-

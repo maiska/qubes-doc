@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:3
 #: 9ca6856fa2c146e0aa2dfc6f751993a6
@@ -27,8 +25,8 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:6
 #: 700b6f07fb4e4e0b9c9e7a9a234a3dca
 msgid ""
-"First check if there are any remarks for similar devices in the `Hardware"
-" Compatibility List (HCL) <https://www.qubes-os.org/hcl/>`__."
+"First check if there are any remarks for similar devices in the `Hardware "
+"Compatibility List (HCL) <https://www.qubes-os.org/hcl/>`__."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:9
@@ -39,17 +37,17 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:12
 #: fa8a019c52e840c2835eff73f13070a3
 msgid ""
-"These instructions may help with suspend/resume issues for more devices "
-"than just wireless cards, that is just the (unfortunately not uncommon) "
-"example used here."
+"These instructions may help with suspend/resume issues for more devices than"
+" just wireless cards, that is just the (unfortunately not uncommon) example "
+"used here."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:14
 #: 8b1507c88ec4442aa1bf81112fc6cac8
 msgid ""
 "If your wireless card works, but after suspending and resuming your "
-"computer, the Network-Manager applet just says “Device not ready”, then "
-"try un-loading and re-loading the driver."
+"computer, the Network-Manager applet just says “Device not ready”, then try "
+"un-loading and re-loading the driver."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:17
@@ -72,8 +70,8 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:34
 #: 8a465c2302c245d3b460bcd1ff3e6d13
 msgid ""
-"Here we see that the machine in question has an Intel wireless card, "
-"being used by the ``iwlwifi`` kernel module."
+"Here we see that the machine in question has an Intel wireless card, being "
+"used by the ``iwlwifi`` kernel module."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:37
@@ -85,8 +83,8 @@ msgstr ""
 #: bae6dd1fc68544cc95e8fcb5438f41b4
 msgid ""
 "View the output of ``dmesg`` in sys-net, and check if you see a bunch of "
-"wireless related errors. Depending on your hardware, they may look like "
-"the following (or not):"
+"wireless related errors. Depending on your hardware, they may look like the "
+"following (or not):"
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:60
@@ -97,8 +95,8 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:63
 #: 769d88a384854048a8c29ed4e54b06c3
 msgid ""
-"You can check which drivers are currently loaded with ``lsmod``, and view"
-" details about a module with ``modinfo <module_name>``."
+"You can check which drivers are currently loaded with ``lsmod``, and view "
+"details about a module with ``modinfo <module_name>``."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:65
@@ -129,9 +127,9 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:103
 #: aa807a8f36ea40c0bca24122868b7f8f
 msgid ""
-"If that is successful, see below about having Qubes automatically reload "
-"the driver for you. If not, try also reloading some dependent modules, in"
-" our example we must also reload iwlwifi:"
+"If that is successful, see below about having Qubes automatically reload the"
+" driver for you. If not, try also reloading some dependent modules, in our "
+"example we must also reload iwlwifi:"
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:124
@@ -164,10 +162,10 @@ msgid ""
 "This problem is related to the software method used to disable sibling "
 "threads and how it interacts with suspend/resume. To solve the problem, "
 "disable hyper-threading in the BIOS. This `external guide "
-"<https://www.pcmag.com/news/how-to-disable-hyperthreading>`__ explains "
-"how to disable hyper-threading. Since Qubes does disable hyperthreading "
-"by default (by not using secondary threads), you won’t pay any "
-"performance cost."
+"<https://www.pcmag.com/news/how-to-disable-hyperthreading>`__ explains how "
+"to disable hyper-threading. Since Qubes does disable hyperthreading by "
+"default (by not using secondary threads), you won’t pay any performance "
+"cost."
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:149
@@ -179,11 +177,11 @@ msgstr ""
 #: fa0b4ff795914204bcab9b20cff94875
 msgid ""
 "After the whole system gets suspended into S3 sleep and subsequently "
-"resumed, some attached devices may stop working. To make the devices "
-"work, they should be restarted within the VM. This can be achieved under "
-"a Windows HVM by opening the Device Manager, selecting the actual device "
-"(such as a USB controller), ‘Disabling’ the device, and then ‘Enabling’ "
-"the device again. This is illustrated on the screenshot below:"
+"resumed, some attached devices may stop working. To make the devices work, "
+"they should be restarted within the VM. This can be achieved under a Windows"
+" HVM by opening the Device Manager, selecting the actual device (such as a "
+"USB controller), ‘Disabling’ the device, and then ‘Enabling’ the device "
+"again. This is illustrated on the screenshot below:"
 msgstr ""
 
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:154
@@ -199,12 +197,11 @@ msgstr ""
 #: ../../user/troubleshooting/resume-suspend-troubleshooting.rst:163
 #: c03e5c1e5ab84c27a99ae6386511bd20
 msgid ""
-"On some devices suspend-to-RAM does not work and a hard power-off is "
-"needed to recover, because the system does not go into deep sleep. To get"
-" suspend to work, you need to add ``mem_sleep_default=deep`` kernel "
-"option. For legacy boot, or UEFI/legacy in R4.1+, add it to the "
-"``GRUB_CMDLINE_LINUX`` setting in ``/etc/default/grub``, update the grub "
-"config, and reboot. In R4.0 with UEFI boot, you need to add it to every "
-"``kernel=`` line in ``/boot/efi/EFI/qubes/xen.cfg`` and reboot."
+"On some devices suspend-to-RAM does not work and a hard power-off is needed "
+"to recover, because the system does not go into deep sleep. To get suspend "
+"to work, you need to add ``mem_sleep_default=deep`` kernel option. For "
+"legacy boot, or UEFI/legacy in R4.1+, add it to the ``GRUB_CMDLINE_LINUX`` "
+"setting in ``/etc/default/grub``, update the grub config, and reboot. In "
+"R4.0 with UEFI boot, you need to add it to every ``kernel=`` line in "
+"``/boot/efi/EFI/qubes/xen.cfg`` and reboot."
 msgstr ""
-

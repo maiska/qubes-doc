@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:5
 #: 8fe7bedc1d314af68a89f3de4ccb947c
@@ -51,9 +49,9 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:20
 #: 04aece91f6af4c53b685416f56dba8d4
 msgid ""
-"If you are interested in offering a mirror for Qubes downloads, thank "
-"you! We greatly appreciate your offer, and we hope these brief "
-"instructions are helpful in streamlining the process."
+"If you are interested in offering a mirror for Qubes downloads, thank you! "
+"We greatly appreciate your offer, and we hope these brief instructions are "
+"helpful in streamlining the process."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:22
@@ -64,16 +62,16 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:24
 #: 86de28af16e6452a9ca1f87eb318412c
 msgid ""
-"Our preferred frequency is **once every 24 hours**, but anything up to "
-"once every 6-8 hours is fine."
+"Our preferred frequency is **once every 24 hours**, but anything up to once "
+"every 6-8 hours is fine."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:26
 #: 87d7494b850e4644be04366ffd2913f1
 msgid ""
 "For technical accommodations, please contact `Wojtek <https://www.qubes-"
-"os.org/team/#wojtek-porczyk>`__ or `Marek <https://www.qubes-os.org/team"
-"/#marek-marczykowski-górecki>`__."
+"os.org/team/#wojtek-porczyk>`__ or `Marek <https://www.qubes-"
+"os.org/team/#marek-marczykowski-górecki>`__."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/download-mirrors.rst:28
@@ -82,4 +80,3 @@ msgid ""
 "For website updates and fixes, please contact `unman <https://www.qubes-"
 "os.org/team/#unman>`__."
 msgstr ""
-

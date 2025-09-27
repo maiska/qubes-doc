@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:5
 #: 6d427373a59e4691a85ed209e1432805
@@ -27,19 +25,19 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:10
 #: 9d68903aede4444783ca832514deb081
 msgid ""
-"**Warning:** The CPU in this computer no longer receives microcode "
-"updates from Intel. Without microcode updates, Qubes OS cannot ensure "
-"that this computer is secure against CPU vulnerabilities. While this "
-"computer remains certified for Qubes OS Release 4, we recommend that "
-"prospective buyers consider a newer Qubes-certified computer instead."
+"**Warning:** The CPU in this computer no longer receives microcode updates "
+"from Intel. Without microcode updates, Qubes OS cannot ensure that this "
+"computer is secure against CPU vulnerabilities. While this computer remains "
+"certified for Qubes OS Release 4, we recommend that prospective buyers "
+"consider a newer Qubes-certified computer instead."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:14
 #: ec75ca7d98544df88b91694b5d7d66cd
 msgid ""
-"**Note:** Please be advised that the i7-3632QM option is not compatible "
-"with Qubes OS, as it does not support VT-d. The option specifically "
-"tested by the Qubes team is the i5-3320M."
+"**Note:** Please be advised that the i7-3632QM option is not compatible with"
+" Qubes OS, as it does not support VT-d. The option specifically tested by "
+"the Qubes team is the i5-3320M."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:16
@@ -74,8 +72,8 @@ msgid ""
 "Tamper detection through measured boot with `coreboot "
 "<https://www.coreboot.org/>`__, `Heads "
 "<https://github.com/osresearch/heads/>`__, and Nitrokey USB hardware, "
-"including support for :doc:`Anti Evil Maid (AEM) </user/security-in-qubes"
-"/anti-evil-maid>`"
+"including support for :doc:`Anti Evil Maid (AEM) </user/security-in-"
+"qubes/anti-evil-maid>`"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:24
@@ -105,7 +103,6 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropad-t430.rst:32
 #: aa6baaf5e17d4d198d2b5558929d8f9e
 msgid ""
-"Security-conscious shipping to mitigate against third-party `interdiction"
-" <https://en.wikipedia.org/wiki/Interdiction>`__"
+"Security-conscious shipping to mitigate against third-party `interdiction "
+"<https://en.wikipedia.org/wiki/Interdiction>`__"
 msgstr ""
-

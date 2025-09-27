@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:3
 #: 7e20df637fc34bda8c6306aeab9bdc8b
@@ -27,16 +25,16 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:6
 #: f773ff9791dd4430afa10efc0924f867
 msgid ""
-"Passthrough reading and recording (a.k.a., “burning”) are not supported "
-"by Qubes OS. This is not a limitation of Xen, which provides scsiback and"
-" scsifront drivers, but of Qubes OS. It will be fixed in the future."
+"Passthrough reading and recording (a.k.a., “burning”) are not supported by "
+"Qubes OS. This is not a limitation of Xen, which provides scsiback and "
+"scsifront drivers, but of Qubes OS. It will be fixed in the future."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:8
 #: 68a4737ba42741bd993dd88652f0b767
 msgid ""
-"Currently, the only options for reading and recording optical discs "
-"(e.g., CDs, DVDs, BRDs) in Qubes are:"
+"Currently, the only options for reading and recording optical discs (e.g., "
+"CDs, DVDs, BRDs) in Qubes are:"
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:10
@@ -47,8 +45,8 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:12
 #: 27d4a15141ed4a47b76237cfdd087875
 msgid ""
-"Attach a SATA optical drive to a secondary SATA controller, then assign "
-"this secondary SATA controller to a VM."
+"Attach a SATA optical drive to a secondary SATA controller, then assign this"
+" secondary SATA controller to a VM."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-use-optical-discs.rst:14
@@ -63,12 +61,11 @@ msgstr ""
 #: ccc6abc694a743899074631856d26ff7
 msgid ""
 "To access an optical disc via USB follow the :ref:`typical procedure for "
-"attaching a USB device <user/how-to-guides/how-to-use-usb-devices:with "
-"the command line tool>`, then check with the **Qubes Devices** widget to "
-"see what device in the target qube the USB optical drive was attached to."
-" Typically this would be ``sr0``. For example, if ``sys-usb`` has device "
+"attaching a USB device <user/how-to-guides/how-to-use-usb-devices:with the "
+"command line tool>`, then check with the **Qubes Devices** widget to see "
+"what device in the target qube the USB optical drive was attached to. "
+"Typically this would be ``sr0``. For example, if ``sys-usb`` has device "
 "``3-2`` attached to the ``work`` qube’s ``sr0``, you would mount it with "
 "``mount /dev/sr0 /mnt/removable``. You could also write to a disc with "
 "``wodim -v dev=/dev/sr0 -eject /home/user/Qubes.iso``."
 msgstr ""
-

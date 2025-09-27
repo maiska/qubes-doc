@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# erinm, 2025
+# Emma Peel, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Emma Peel, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/releases/4_1/release-notes.rst:3
 #: 0c2e0e12d2e64c57943f7ec7ac7a85ca
@@ -33,12 +36,11 @@ msgstr ""
 #: dff74ca4ed624a089f880c02e7eb313b
 msgid ""
 "Optional qubes-remote-support package now available from repositories "
-"(strictly opt-in, no package installed by default; no new ports or "
-"network connections open by default; requires explicit connection "
-"initiation by the user, then requires sharing a code word with the remote"
-" party before a connection can be established; see `#6364 "
-"<https://github.com/QubesOS/qubes-issues/issues/6364>`__ for more "
-"information)"
+"(strictly opt-in, no package installed by default; no new ports or network "
+"connections open by default; requires explicit connection initiation by the "
+"user, then requires sharing a code word with the remote party before a "
+"connection can be established; see `#6364 <https://github.com/QubesOS/qubes-"
+"issues/issues/6364>`__ for more information)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:12
@@ -71,9 +73,9 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:22
 #: a66d672a35c34f439ce4955a5b4b71f3
 msgid ""
-"Experimental support for GUI running outside of dom0 (hybrid mode GUI "
-"domain without real GPU passthrough; see `#5662 "
-"<https://github.com/QubesOS/qubes-issues/issues/5662>`__ for details)"
+"Experimental support for GUI running outside of dom0 (hybrid mode GUI domain"
+" without real GPU passthrough; see `#5662 <https://github.com/QubesOS/qubes-"
+"issues/issues/5662>`__ for details)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:24
@@ -92,8 +94,8 @@ msgstr ""
 #: 400b96863d40435c8fa628607de7ded2
 msgid ""
 "UEFI boot now loads GRUB, which in turn loads Xen, making the boot path "
-"similar to legacy boot and allowing the user to modify boot parameters or"
-" choose an alternate boot menu entry"
+"similar to legacy boot and allowing the user to modify boot parameters or "
+"choose an alternate boot menu entry"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:30
@@ -106,8 +108,8 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:32
 #: 12508dae62584e4dbca3d415c832d736
 msgid ""
-"qrexec protocol improvements (see `#4909 <https://github.com/QubesOS"
-"/qubes-issues/issues/4909>`__ for details)"
+"qrexec protocol improvements (see `#4909 <https://github.com/QubesOS/qubes-"
+"issues/issues/4909>`__ for details)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:34
@@ -123,10 +125,10 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:38
 #: b4c75deceb8741b8b2472a376e4f09dd
 msgid ""
-"Windows USB and audio support courtesy of `tabit-pro <https://github.com"
-"/tabit-pro>`__ (see `#5802 <https://github.com/QubesOS/qubes-"
-"issues/issues/5802>`__ and `#2624 <https://github.com/QubesOS/qubes-"
-"issues/issues/2624>`__)"
+"Windows USB and audio support courtesy of `tabit-pro "
+"<https://github.com/tabit-pro>`__ (see `#5802 "
+"<https://github.com/QubesOS/qubes-issues/issues/5802>`__ and `#2624 "
+"<https://github.com/QubesOS/qubes-issues/issues/2624>`__)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:40
@@ -191,10 +193,9 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:62
 #: 1371fe9a35dc426bb91d91f186d060d1
 msgid ""
-"New Template Manager tool for installing, removing, and updating "
-"templates (meanwhile, the tool previously known as the “Template "
-"Manager,” which was for mass template switching, has been integrated into"
-" the Qube Manager)"
+"New Template Manager tool for installing, removing, and updating templates "
+"(meanwhile, the tool previously known as the “Template Manager,” which was "
+"for mass template switching, has been integrated into the Qube Manager)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:64
@@ -206,7 +207,8 @@ msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:66
 #: 92148c34f22a4197a0558e401eb2fa5a
-msgid "``property-del`` event renamed to ``property-reset`` to avoid confusion"
+msgid ""
+"``property-del`` event renamed to ``property-reset`` to avoid confusion"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:68
@@ -216,7 +218,8 @@ msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:70
 #: 7e5350a2b7594bed8241003225043dae
-msgid "qrexec components have been reorganized into the core-qrexec repository"
+msgid ""
+"qrexec components have been reorganized into the core-qrexec repository"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:72
@@ -259,47 +262,45 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:86
 #: bf22221076a8402ba0560c0eb260a3a0
 msgid ""
-"``qvm-run`` tool got ``--no-shell`` option to run a single command "
-"without using a shell inside the qube"
+"``qvm-run`` tool got ``--no-shell`` option to run a single command without "
+"using a shell inside the qube"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:88
 #: d16d8788637042cfb2b605bad1412010
 msgid ""
-"MAC Randomization for iwlwifi (see `#938 <https://github.com/QubesOS"
-"/qubes-issues/issues/938>`__)"
+"MAC Randomization for iwlwifi (see `#938 <https://github.com/QubesOS/qubes-"
+"issues/issues/938>`__)"
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:92
 #: 5d41d0b1ca2447499492c20aa082fc9a
-#, python-format
 msgid ""
 "For a full list, including more detailed descriptions, please see `here "
-"<https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+sort"
-"%3Aupdated-"
+"<https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+sort%3Aupdated-"
 "desc+milestone%3A%22Release+4.1%22+label%3A%22release+notes%22+is%3Aclosed>`__."
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:95
 #: 0fa76f551f8348e6a4ca27285d0a95d3
 msgid "Known issues"
-msgstr ""
+msgstr "Bekannte Probleme"
 
 #: ../../developer/releases/4_1/release-notes.rst:98
 #: d196dd01c3a2456ebee5d75c1452e884
 msgid ""
-"For a full list of known 4.1 issues with open bug reports, please see "
-"`here <https://github.com/QubesOS/qubes-"
+"For a full list of known 4.1 issues with open bug reports, please see `here "
+"<https://github.com/QubesOS/qubes-"
 "issues/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Release+4.1%22+label%3A%22T%3A+bug%22>`__."
-" We strongly recommend :doc:`updating Qubes OS </user/how-to-guides/how-"
-"to-update>` immediately after installation in order to apply any and all "
+" We strongly recommend :doc:`updating Qubes OS </user/how-to-guides/how-to-"
+"update>` immediately after installation in order to apply any and all "
 "available bug fixes."
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:101
 #: 138ae815ed224865b3ad7701383f7626
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: ../../developer/releases/4_1/release-notes.rst:104
 #: 74a7304f52c24a85889d7050e135261e
@@ -314,8 +315,8 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:110
 #: 437966a4dad546329f9812bc6d4e6d3d
 msgid ""
-"See the :doc:`installation guide </user/downloading-installing-upgrading"
-"/installation-guide>`."
+"See the :doc:`installation guide </user/downloading-installing-"
+"upgrading/installation-guide>`."
 msgstr ""
 
 #: ../../developer/releases/4_1/release-notes.rst:113
@@ -326,7 +327,6 @@ msgstr ""
 #: ../../developer/releases/4_1/release-notes.rst:116
 #: 8b93856926ae407194a2a1a8643e4db5
 msgid ""
-"Please see :doc:`how to upgrade to Qubes 4.1 </user/downloading-"
-"installing-upgrading/upgrade/4_1>`."
+"Please see :doc:`how to upgrade to Qubes 4.1 </user/downloading-installing-"
+"upgrading/upgrade/4_1>`."
 msgstr ""
-

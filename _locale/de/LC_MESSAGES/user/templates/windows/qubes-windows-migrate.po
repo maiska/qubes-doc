@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:3
 #: 4541d8fc210d447989bfd9f155961236
@@ -27,36 +29,35 @@ msgstr ""
 #: ../../user/templates/windows/qubes-windows-migrate.rst:6
 #: 0d14e2d4251b4d8cb7c1bd7c1b8a58a1
 msgid ""
-"For Windows 7, 10, and 11, there is a way to migrate backups created "
-"under Qubes R4.1 to R4.2. For this, a backup must be created under R4.1, "
-"and this backup has to be restored under Qubes R4.2, resulting in a VM "
-"well integrated into Qubes R4.2. If ``qvm-features <VMname> audio-model "
-"ich6`` is set, Windows will even have audio, although for Windows 10 and "
-"11, it is somewhat scratchy."
+"For Windows 7, 10, and 11, there is a way to migrate backups created under "
+"Qubes R4.1 to R4.2. For this, a backup must be created under R4.1, and this "
+"backup has to be restored under Qubes R4.2, resulting in a VM well "
+"integrated into Qubes R4.2. If ``qvm-features <VMname> audio-model ich6`` is"
+" set, Windows will even have audio, although for Windows 10 and 11, it is "
+"somewhat scratchy."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:10
 #: d6665b7fc9a24460adb99adc4acaf25a
 msgid "Preparation"
-msgstr ""
+msgstr "Vorbereitung"
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:13
 #: 4481f3ad4e5941bab5102b190b135cac
 msgid ""
-"While this is somewhat straightforward, things get difficult if QWT "
-"4.1.68-1 (or earlier) was installed in the VM. Prior to creating the "
-"backup, this old version has to be removed, which can be quite tricky for"
-" Windows 10 and 11. Otherwise, the restored backup will probably not "
-"start or run under Qubes R4.2, because this QWT version is incompatible "
-"with R4.2."
+"While this is somewhat straightforward, things get difficult if QWT 4.1.68-1"
+" (or earlier) was installed in the VM. Prior to creating the backup, this "
+"old version has to be removed, which can be quite tricky for Windows 10 and "
+"11. Otherwise, the restored backup will probably not start or run under "
+"Qubes R4.2, because this QWT version is incompatible with R4.2."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:15
 #: 942b7c98d23d487698d9022c63b7f704
 msgid ""
 "To uninstall the installed QWT version, proceed as described in the "
-":doc:`QWT installation documentation for R4.2 </user/templates/windows"
-"/qubes-windows-tools>`."
+":doc:`QWT installation documentation for R4.2 "
+"</user/templates/windows/qubes-windows-tools>`."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:19
@@ -77,16 +78,16 @@ msgstr ""
 #: ../../user/templates/windows/qubes-windows-migrate.rst:26
 #: dc6dd9ab107c47cc919240d3f0eed223
 msgid ""
-"If Qubes Windows Tools was installed under R4.1, the new version for R4.2"
-" can then be installed as described in the documentation."
+"If Qubes Windows Tools was installed under R4.1, the new version for R4.2 "
+"can then be installed as described in the documentation."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:29
 #: 8c55a267e5a54c9bad699a3954026c74
 msgid ""
-"**Note:** The Qubes application menus for the newly restored Windows "
-"qubes will be empty, but can be easily restored via the Qube Manager or "
-"by issuing the command ``qubes-sync-appmenus`` in ``dom0``."
+"**Note:** The Qubes application menus for the newly restored Windows qubes "
+"will be empty, but can be easily restored via the Qube Manager or by issuing"
+" the command ``qubes-sync-appmenus`` in ``dom0``."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:33
@@ -97,24 +98,23 @@ msgstr ""
 #: ../../user/templates/windows/qubes-windows-migrate.rst:36
 #: 4ab5eb28a54a4001b2932aa03c1e7a9c
 msgid ""
-"As the current new QWT version was developed primarily for Qubes R4.3, it"
-" is compatible with the version of Qubes. So, a Windows VM running under "
-"Qubes R4.2 should be transferable to R4.3 via backup/restore, without the"
-" need to remove and reinstall Qubes Windows Tools. At least, for the "
-"current pre-release of Qubes R4.3-rc1, this is possible. Currently, "
-"however, the new Qubes graphics driver is still very buggy, especially "
-"for Windows 11, so it is better not to use it there, since seamless mode "
-"is quite unreliable there, and changing the screen resolution may put the"
-" VM into an unusable state."
+"As the current new QWT version was developed primarily for Qubes R4.3, it is"
+" compatible with the version of Qubes. So, a Windows VM running under Qubes "
+"R4.2 should be transferable to R4.3 via backup/restore, without the need to "
+"remove and reinstall Qubes Windows Tools. At least, for the current pre-"
+"release of Qubes R4.3-rc1, this is possible. Currently, however, the new "
+"Qubes graphics driver is still very buggy, especially for Windows 11, so it "
+"is better not to use it there, since seamless mode is quite unreliable "
+"there, and changing the screen resolution may put the VM into an unusable "
+"state."
 msgstr ""
 
 #: ../../user/templates/windows/qubes-windows-migrate.rst:38
 #: 542b1bf83ad446d196d00f24b601a303
 msgid ""
 "Performing an in-place upgrade of Qubes itself from R4.2.4 to R4.3-rc1 "
-"preserves the functionality of Windows 7, 10, and 11 qubes including "
-"Qubes Windows Tools; so there is no need to perform an upgrade of these "
-"qubes. If, for Windos 10 or 11, the Qubes graphics driver was installed, "
-"its performance and (current) bugginess may change, however."
+"preserves the functionality of Windows 7, 10, and 11 qubes including Qubes "
+"Windows Tools; so there is no need to perform an upgrade of these qubes. If,"
+" for Windos 10 or 11, the Qubes graphics driver was installed, its "
+"performance and (current) bugginess may change, however."
 msgstr ""
-

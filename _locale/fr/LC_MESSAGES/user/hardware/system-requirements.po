@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/hardware/system-requirements.rst:3
 #: 736c294ca883404fbb9cd6744c0c489b
@@ -28,11 +30,11 @@ msgstr ""
 #: 9fb3d1305c004b7c802372caca6ccae1
 msgid ""
 "Notice: The system requirements on this page are *necessary, but not "
-"sufficient*, for Qubes compatibility at a minimal or recommended level. "
-"In other words, just because a computer satisfies these requirements "
-"doesn’t mean that Qubes will successfully install and run on it. We "
-"strongly recommend consulting the `resources below <#choosing-"
-"hardware>`__       when selecting hardware for Qubes."
+"sufficient*, for Qubes compatibility at a minimal or recommended level. In "
+"other words, just because a computer satisfies these requirements doesn’t "
+"mean that Qubes will successfully install and run on it. We strongly "
+"recommend consulting the `resources below <#choosing-hardware>`__       when"
+" selecting hardware for Qubes."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:11
@@ -43,8 +45,8 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:14
 #: 6e50227f681941639f512c4e3bc9d563
 msgid ""
-"**CPU:** 64-bit Intel or AMD processor (also known as ``x86_64``, "
-"``x64``, and ``AMD64``)"
+"**CPU:** 64-bit Intel or AMD processor (also known as ``x86_64``, ``x64``, "
+"and ``AMD64``)"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:16
@@ -63,10 +65,10 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:18
 #: 34cdf8becf0440aa8c275367aafe7311
 msgid ""
-"`Intel VT-d <https://en.wikipedia.org/wiki/X86_virtualization#Intel-"
-"VT-d>`__ or `AMD-Vi (also known as AMD IOMMU) "
-"<https://en.wikipedia.org/wiki/X86_virtualization#I.2FO_MMU_virtualization_"
-".28AMD-Vi_and_Intel_VT-d.29>`__"
+"`Intel VT-d <https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-d>`__"
+" or `AMD-Vi (also known as AMD IOMMU) "
+"<https://en.wikipedia.org/wiki/X86_virtualization#I.2FO_MMU_virtualization_.28AMD-"
+"Vi_and_Intel_VT-d.29>`__"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:22
@@ -82,7 +84,7 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:29
 #: a32687f3596f4f59bc5dd132803134f8
 msgid "Recommended"
-msgstr ""
+msgstr "Recommandé"
 
 #: ../../user/hardware/system-requirements.rst:32
 #: aa81081545a9432b8673a71a24a0587e
@@ -103,23 +105,21 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:36
 #: f77aaa0602764569951e669f8abe3766
 msgid ""
-"`Intel VT-d <https://en.wikipedia.org/wiki/X86_virtualization#Intel-"
-"VT-d>`__"
+"`Intel VT-d <https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-d>`__"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:38
 #: 88fb4022ea9146808183b8d0505d5f4e
 msgid ""
 "For security, we recommend processors that are recent enough to still be "
-"receiving microcode updates (see `below <#important-notes>`__ for "
-"details)."
+"receiving microcode updates (see `below <#important-notes>`__ for details)."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:40
 #: 4e97e4c2b401411ba66e7af84a621e80
 msgid ""
-"AMD processors are not recommended due to inconsistent security support "
-"on client platforms (see `below <#important-notes>`__ for details)."
+"AMD processors are not recommended due to inconsistent security support on "
+"client platforms (see `below <#important-notes>`__ for details)."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:44
@@ -140,22 +140,21 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:52
 #: e29911130b80442bb0e15228f4823a5a
 msgid ""
-"**Graphics:** Intel integrated graphics processor (IGP) strongly "
-"recommended"
+"**Graphics:** Intel integrated graphics processor (IGP) strongly recommended"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:54
 #: 1633dc29cf0a446590e878b3736ca40d
 msgid ""
-"Nvidia GPUs may require significant `troubleshooting <https://forum"
-".qubes-os.org/t/18987>`__."
+"Nvidia GPUs may require significant `troubleshooting <https://forum.qubes-"
+"os.org/t/18987>`__."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:56
 #: e44388e5fe8349a7b1c81554ef7f2997
 msgid ""
-"AMD GPUs have not been formally tested, but Radeons (especially RX580 and"
-" earlier) generally work well."
+"AMD GPUs have not been formally tested, but Radeons (especially RX580 and "
+"earlier) generally work well."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:60
@@ -166,8 +165,8 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:62
 #: f3e71684806747bb8489c19837a07660
 msgid ""
-"**TPM:** Trusted Platform Module (TPM) with proper BIOS support (required"
-" for :doc:`Anti Evil Maid </user/security-in-qubes/anti-evil-maid>`)"
+"**TPM:** Trusted Platform Module (TPM) with proper BIOS support (required "
+"for :doc:`Anti Evil Maid </user/security-in-qubes/anti-evil-maid>`)"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:67
@@ -187,7 +186,8 @@ msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:72
 #: cbf8cf1c9afd49b4a4a3336a6a62f84a
-msgid "Open-source boot firmware (e.g., `coreboot <https://www.coreboot.org/>`__)"
+msgid ""
+"Open-source boot firmware (e.g., `coreboot <https://www.coreboot.org/>`__)"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:74
@@ -198,9 +198,8 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:76
 #: 0e28c3ff703649a18f909767f6d8335b
 msgid ""
-"Either support for non-USB input devices (e.g., via PS/2, which most "
-"laptops already use internally) or a separate USB controller only for "
-"input devices"
+"Either support for non-USB input devices (e.g., via PS/2, which most laptops"
+" already use internally) or a separate USB controller only for input devices"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:81
@@ -211,8 +210,8 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:84
 #: d5f63171312d4c6981c640b741b8636b
 msgid ""
-"We recommend consulting these resources when selecting hardware for Qubes"
-" OS:"
+"We recommend consulting these resources when selecting hardware for Qubes "
+"OS:"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:86
@@ -244,8 +243,8 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:98
 #: 350e2f8db9cb4d698246d712ec6284b3
 msgid ""
-"**Installing Qubes in a virtual machine is not recommended, as it uses "
-"its own bare-metal hypervisor (Xen).**"
+"**Installing Qubes in a virtual machine is not recommended, as it uses its "
+"own bare-metal hypervisor (Xen).**"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:100
@@ -253,13 +252,13 @@ msgstr ""
 msgid ""
 "There is a class of security vulnerabilities that can be fixed only by "
 "microcode updates. If your computer or the CPU in it no longer receives "
-"microcode updates (e.g., because it is too old), it may not be possible "
-"for some of these vulnerabilities to be mitigated on your system, leaving"
-" you vulnerable. For this reason, we recommend using Qubes OS on systems "
-"that are still receiving microcode updates. Nonetheless, Qubes OS **can**"
-" run on systems that no longer receive microcode updates, and such "
-"systems will still offer significant security advantages over "
-"conventional operating systems on the same hardware."
+"microcode updates (e.g., because it is too old), it may not be possible for "
+"some of these vulnerabilities to be mitigated on your system, leaving you "
+"vulnerable. For this reason, we recommend using Qubes OS on systems that are"
+" still receiving microcode updates. Nonetheless, Qubes OS **can** run on "
+"systems that no longer receive microcode updates, and such systems will "
+"still offer significant security advantages over conventional operating "
+"systems on the same hardware."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:102
@@ -268,118 +267,115 @@ msgid ""
 "Intel maintains a `list "
 "<https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html>`__"
 " of end-of-support dates for its processors. However, this list seems to "
-"include only processors that are no longer supported or will soon no "
-"longer be supported. Many newer Intel processors are missing from this "
-"list. To our knowledge, Intel does not announce end-of-support dates for "
-"its newer processors in advance, nor does it have a public policy "
-"governing how long support will last."
+"include only processors that are no longer supported or will soon no longer "
+"be supported. Many newer Intel processors are missing from this list. To our"
+" knowledge, Intel does not announce end-of-support dates for its newer "
+"processors in advance, nor does it have a public policy governing how long "
+"support will last."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:106
 #: 8aeffa6d56e3403fbb425207a329f73e
 msgid ""
-"Intel and AMD handle microcode updates differently, which has significant"
-" security implications. On Intel platforms, microcode updates can "
-"typically be loaded from the operating system. This allows the Qubes "
-"security team to respond rapidly to new vulnerabilities by shipping "
-"microcode updates alongside other security updates directly to users. By "
-"contrast, on AMD client (as opposed to server) platforms, microcode "
-"updates are typically shipped only as part of system firmware and "
-"generally cannot be loaded from the operating system  [1]_. This means "
-"that AMD users typically must wait for:"
+"Intel and AMD handle microcode updates differently, which has significant "
+"security implications. On Intel platforms, microcode updates can typically "
+"be loaded from the operating system. This allows the Qubes security team to "
+"respond rapidly to new vulnerabilities by shipping microcode updates "
+"alongside other security updates directly to users. By contrast, on AMD "
+"client (as opposed to server) platforms, microcode updates are typically "
+"shipped only as part of system firmware and generally cannot be loaded from "
+"the operating system  [1]_. This means that AMD users typically must wait "
+"for:"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:108
 #: 201e01c62517405aba330c160112a300
 msgid ""
 "AMD to distribute microcode updates to original equipment manufacturers "
-"(OEMs), original design manufacturers (ODMs), and motherboard "
-"manufacturers (MB); and"
+"(OEMs), original design manufacturers (ODMs), and motherboard manufacturers "
+"(MB); and"
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:110
 #: 4e716dc3ab65423aac324369f6d09373
 msgid ""
-"The user’s OEM, ODM, or MB to provide a suitable BIOS or (U)EFI update "
-"for the user’s system."
+"The user’s OEM, ODM, or MB to provide a suitable BIOS or (U)EFI update for "
+"the user’s system."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:114
 #: 94d99ee08d0246ec9d97668dec3410da
 msgid ""
-"Historically, AMD has often been slow to complete step (1), at least for "
-"its client (as opposed to server) platforms  [2]_. In some cases, AMD has"
-" made fixes available for its server platforms very shortly after a "
-"security embargo was lifted, but it did not make fixes available for "
-"client platforms facing the same vulnerability until weeks or months "
-"later. (A “security embargo” is the practice of avoiding public "
-"disclosure of a security vulnerability prior to a designated date.) By "
-"contrast, Intel has consistently made fixes available for new CPU "
-"vulnerabilities across its supported platforms very shortly after "
-"security embargoes have been lifted."
+"Historically, AMD has often been slow to complete step (1), at least for its"
+" client (as opposed to server) platforms  [2]_. In some cases, AMD has made "
+"fixes available for its server platforms very shortly after a security "
+"embargo was lifted, but it did not make fixes available for client platforms"
+" facing the same vulnerability until weeks or months later. (A “security "
+"embargo” is the practice of avoiding public disclosure of a security "
+"vulnerability prior to a designated date.) By contrast, Intel has "
+"consistently made fixes available for new CPU vulnerabilities across its "
+"supported platforms very shortly after security embargoes have been lifted."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:116
 #: 93644dc160c64158b26bda6f8184f614
 msgid ""
-"Step (2) varies by vendor. Many vendors fail to complete step (2) at all,"
-" while some others take a very long time to complete it."
+"Step (2) varies by vendor. Many vendors fail to complete step (2) at all, "
+"while some others take a very long time to complete it."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:118
 #: 08e5b0e6061745ea966e717602b68428
 msgid ""
-"The bottom line is that Qubes OS **can** run on AMD systems, and the "
-"Qubes and Xen security teams do their best to provide security support "
-"for AMD systems. However, without the ability to ship microcode updates, "
-"there is only so much they can do."
+"The bottom line is that Qubes OS **can** run on AMD systems, and the Qubes "
+"and Xen security teams do their best to provide security support for AMD "
+"systems. However, without the ability to ship microcode updates, there is "
+"only so much they can do."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:122
 #: 87fbffc752e4405da882b91f5b54464a
 msgid ""
-"Qubes **can** be installed on many systems that do not meet the "
-"recommended requirements. Such systems will still offer significant "
-"security improvements over traditional operating systems, since things "
-"like GUI isolation and kernel protection do not require special hardware."
+"Qubes **can** be installed on many systems that do not meet the recommended "
+"requirements. Such systems will still offer significant security "
+"improvements over traditional operating systems, since things like GUI "
+"isolation and kernel protection do not require special hardware."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:124
 #: cf6cff541cec40f8b58c37d330bd1c04
 msgid ""
 "Qubes **can** be installed on a USB flash drive or external disk, and "
-"testing has shown that this works very well. A fast USB 3.0 flash drive "
-"is recommended for this. (As a reminder, its capacity must be at least 32"
-" GiB.) Simply plug the flash drive into the computer before booting into "
-"the Qubes installer from a separate installation medium, choose the flash"
-" drive as the target installation disk, and proceed with the installation"
-" normally. After Qubes has been installed on the flash drive, it can then"
-" be plugged into other computers in order to boot into Qubes. In addition"
-" to the convenience of having a portable copy of Qubes, this allows users"
-" to test for hardware compatibility on multiple machines (e.g., at a "
-"brick-and-mortar computer store) before deciding on which computer to "
-"purchase. (See :ref:`generating and submitting HCL reports <user/hardware"
-"/how-to-use-the-hcl:generating and submitting new reports>` for advice on"
-" hardware compatibility testing.) Remember to change the devices assigned"
-" to your NetVM and USB VM if you move between different machines."
+"testing has shown that this works very well. A fast USB 3.0 flash drive is "
+"recommended for this. (As a reminder, its capacity must be at least 32 GiB.)"
+" Simply plug the flash drive into the computer before booting into the Qubes"
+" installer from a separate installation medium, choose the flash drive as "
+"the target installation disk, and proceed with the installation normally. "
+"After Qubes has been installed on the flash drive, it can then be plugged "
+"into other computers in order to boot into Qubes. In addition to the "
+"convenience of having a portable copy of Qubes, this allows users to test "
+"for hardware compatibility on multiple machines (e.g., at a brick-and-mortar"
+" computer store) before deciding on which computer to purchase. (See "
+":ref:`generating and submitting HCL reports <user/hardware/how-to-use-the-"
+"hcl:generating and submitting new reports>` for advice on hardware "
+"compatibility testing.) Remember to change the devices assigned to your "
+"NetVM and USB VM if you move between different machines."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:126
 #: 1dc6fd761844449aa8f58aed72334a20
 msgid ""
-"You can check whether an Intel processor has VT-x and VT-d on "
-"`ark.intel.com "
-"<https://ark.intel.com/content/www/us/en/ark.html#@Processors>`__."
+"You can check whether an Intel processor has VT-x and VT-d on `ark.intel.com"
+" <https://ark.intel.com/content/www/us/en/ark.html#@Processors>`__."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:130
 #: 963828766c0f418dbd31bdce84de1058
 msgid ""
-"There is an ``amd-ucode-firmware`` package, but it only contains "
-"microcode for servers and outdated microcode for Chromebooks. Also, the "
-"`AMD security website <https://www.amd.com/en/resources/product-"
-"security.html>`__ only lists microcode as a mitigation for data center "
-"CPUs."
+"There is an ``amd-ucode-firmware`` package, but it only contains microcode "
+"for servers and outdated microcode for Chromebooks. Also, the `AMD security "
+"website <https://www.amd.com/en/resources/product-security.html>`__ only "
+"lists microcode as a mitigation for data center CPUs."
 msgstr ""
 
 #: ../../user/hardware/system-requirements.rst:132
@@ -397,7 +393,6 @@ msgstr ""
 #: ../../user/hardware/system-requirements.rst:134
 #: 90311b1a63eb43728eb0c9af0917e80c
 msgid ""
-"For Zenbleed, firmware was not available until 2024 for most client "
-"parts, even though server parts got microcode on 2023-06-06."
+"For Zenbleed, firmware was not available until 2024 for most client parts, "
+"even though server parts got microcode on 2023-06-06."
 msgstr ""
-

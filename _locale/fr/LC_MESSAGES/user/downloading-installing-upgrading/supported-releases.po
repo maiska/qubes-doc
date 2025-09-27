@@ -1,23 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# erinm, 2025
+# Caro Hadad, 2025
+# Towinet, 2025
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:3
 #: 6ac5ce9d854448e0955f3d2892f75957
@@ -27,35 +32,35 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:6
 #: c6a805f32e844845949ad81659e157b0
 msgid ""
-"This page details the level and period of support for releases of "
-"operating systems in the Qubes ecosystem."
+"This page details the level and period of support for releases of operating "
+"systems in the Qubes ecosystem."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:9
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:19
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:78
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:119
-#: 93e22dd4e6764c6992dcc102879e1166 9657806cc622415b8d256bd125801bf7
-#: a384f88535b64ad0a0a8fc88a22b5060 c1db6287a1394ccdb528e2e5b9a1b7fd
+#: c1db6287a1394ccdb528e2e5b9a1b7fd 93e22dd4e6764c6992dcc102879e1166
+#: a384f88535b64ad0a0a8fc88a22b5060 9657806cc622415b8d256bd125801bf7
 msgid "Qubes OS"
-msgstr ""
+msgstr "Qubes OS"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:12
 #: 916ad90e2f544872aed3d4ae61bbd4fb
 msgid ""
 "Qubes OS releases are supported for **six months** after each subsequent "
-"major or minor release (see :doc:`Version Scheme </developer/releases"
-"/version-scheme>`). The current release and past major releases are "
-"always available on the `Downloads <https://www.qubes-"
-"os.org/downloads/>`__ page, while all ISOs, including past minor "
-"releases, are available from our `download mirrors <https://www.qubes-"
+"major or minor release (see :doc:`Version Scheme "
+"</developer/releases/version-scheme>`). The current release and past major "
+"releases are always available on the `Downloads <https://www.qubes-"
+"os.org/downloads/>`__ page, while all ISOs, including past minor releases, "
+"are available from our `download mirrors <https://www.qubes-"
 "os.org/downloads/#mirrors>`__."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:20
 #: 3d0070c7ca4641c082d117b416206f31
 msgid "Start Date"
-msgstr ""
+msgstr "Date de début"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:21
 #: 771dbc5b76824fb1a535580ef48ed8a3
@@ -65,11 +70,11 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:22
 #: 31749fd69c2e4ed895dd2326cd848473
 msgid "Status"
-msgstr ""
+msgstr "Faible"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:23
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:80
-#: c5ae0dea892943f2ad247e844d36bac9 fdb8837fd2c2450ebccabdcd9aed949c
+#: fdb8837fd2c2450ebccabdcd9aed949c c5ae0dea892943f2ad247e844d36bac9
 msgid "Release 1"
 msgstr ""
 
@@ -90,16 +95,16 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:42
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:46
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:50
-#: 05bd675d2c604c4db9f3aef85cfac9ae 19d94472979745ae893b72b563e47dbc
-#: b9500bafa0c24a7ab83434d54e001720 befb9f7660d44deeafbb59febd78ddb7
-#: d09d134577364b6580ca2d18b551295e f1649b5ef4b846909369b97d6050823a
-#: fc2f4a669ea44ef388c0f392b0112d59
+#: fc2f4a669ea44ef388c0f392b0112d59 d09d134577364b6580ca2d18b551295e
+#: 05bd675d2c604c4db9f3aef85cfac9ae f1649b5ef4b846909369b97d6050823a
+#: befb9f7660d44deeafbb59febd78ddb7 b9500bafa0c24a7ab83434d54e001720
+#: 19d94472979745ae893b72b563e47dbc
 msgid "Unsupported"
-msgstr ""
+msgstr "Non pris en charge"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:27
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:82
-#: 8031ae60018f4ce28fee5146dc202470 c42ca078b99d4919a58d7915af0cbd89
+#: c42ca078b99d4919a58d7915af0cbd89 8031ae60018f4ce28fee5146dc202470
 msgid "Release 2"
 msgstr ""
 
@@ -115,7 +120,7 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:31
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:84
-#: 28995c2e66424bf5b70c50586361659a ba18863015b24586b4ee43d168ec401a
+#: ba18863015b24586b4ee43d168ec401a 28995c2e66424bf5b70c50586361659a
 msgid "Release 3.0"
 msgstr ""
 
@@ -131,7 +136,7 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:35
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:86
-#: 23341321389d4a4ab2f827bb247010ac 5d731008b904443d91369de9abbda7bc
+#: 5d731008b904443d91369de9abbda7bc 23341321389d4a4ab2f827bb247010ac
 msgid "Release 3.1"
 msgstr ""
 
@@ -147,7 +152,7 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:39
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:88
-#: 4e6b6d2bd49e4058ac3ce203bc08827e 4f9f08f0214b4a849b00a7768717fb88
+#: 4f9f08f0214b4a849b00a7768717fb88 4e6b6d2bd49e4058ac3ce203bc08827e
 msgid "Release 3.2"
 msgstr ""
 
@@ -209,8 +214,8 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:53
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:56
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:57
-#: 539bde10fe5a4025981b083293debe93 6d46ecb3d5404cf4b83018ce0e5e3433
-#: aba6cd6c76f14acea398877795dcef0f
+#: 539bde10fe5a4025981b083293debe93 aba6cd6c76f14acea398877795dcef0f
+#: 6d46ecb3d5404cf4b83018ce0e5e3433
 msgid "TBD"
 msgstr ""
 
@@ -222,8 +227,8 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:55
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:96
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:125
-#: 0413ad79f6294d8881f5984b42629135 387c62752c2143f5958a62cfe97aa0f1
-#: e96fdf0974c245d78065eec46c617fd1
+#: 0413ad79f6294d8881f5984b42629135 e96fdf0974c245d78065eec46c617fd1
+#: 387c62752c2143f5958a62cfe97aa0f1
 msgid "Release 4.3"
 msgstr ""
 
@@ -240,19 +245,19 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:65
 #: 885f57b0660d411cbf445365bba88181
 msgid ""
-"Please note that patch releases, such as 3.2.1 and 4.0.1, do not "
-"designate separate, new major or minor releases of Qubes OS. Rather, they"
-" designate their respective major or minor releases, such as 3.2 and 4.0,"
-" inclusive of all package updates up to a certain point. For example, "
-"installing Release 4.0 and fully updating it results in the same system "
-"as installing Release 4.0.1. Therefore, patch releases are not displayed "
-"as separate rows on any of the tables on this page."
+"Please note that patch releases, such as 3.2.1 and 4.0.1, do not designate "
+"separate, new major or minor releases of Qubes OS. Rather, they designate "
+"their respective major or minor releases, such as 3.2 and 4.0, inclusive of "
+"all package updates up to a certain point. For example, installing Release "
+"4.0 and fully updating it results in the same system as installing Release "
+"4.0.1. Therefore, patch releases are not displayed as separate rows on any "
+"of the tables on this page."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:68
 #: 18ce3bc32405472ebf791c79cd119cea
 msgid "Dom0"
-msgstr ""
+msgstr "Dom0"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:71
 #: 6a32b3c58984490aaa6627e0bc967a58
@@ -276,7 +281,7 @@ msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:85
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:87
-#: 2c41f6ca90624a80afc9f32913b5688e a55b67c3da724506824eae33e65edeae
+#: a55b67c3da724506824eae33e65edeae 2c41f6ca90624a80afc9f32913b5688e
 msgid "Fedora 20"
 msgstr ""
 
@@ -313,54 +318,53 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:104
 #: 297ecd1e58b2477f932aaf4ecba71818
 msgid ""
-"Dom0 is isolated from domUs. DomUs can access only a few interfaces, such"
-" as Xen, device backends (in the dom0 kernel and in other VMs, such as "
-"the NetVM), and Qubes tools (gui-daemon, qrexec-daemon, etc.). These "
-"components are :doc:`security-critical </developer/system/security-"
-"critical-code>`, and we provide updates for all of them (when necessary),"
-" regardless of the support status of the base distribution. For this "
-"reason, we consider it safe to continue using a given base distribution "
-"in dom0 even after it has reached end-of-life (EOL)."
+"Dom0 is isolated from domUs. DomUs can access only a few interfaces, such as"
+" Xen, device backends (in the dom0 kernel and in other VMs, such as the "
+"NetVM), and Qubes tools (gui-daemon, qrexec-daemon, etc.). These components "
+"are :doc:`security-critical </developer/system/security-critical-code>`, and"
+" we provide updates for all of them (when necessary), regardless of the "
+"support status of the base distribution. For this reason, we consider it "
+"safe to continue using a given base distribution in dom0 even after it has "
+"reached end-of-life (EOL)."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:107
 #: d25c580ee3b24c518c02f31ada8fe2f6
 msgid "Templates"
-msgstr ""
+msgstr "Modèles"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:110
 #: 3eedd10ffbc843eb8a77384b8c1058c4
 msgid ""
-"The following table shows select :doc:`template "
-"</user/templates/templates>` (and :doc:`standalone </user/advanced-topics"
-"/standalones-and-hvms>`) releases that are currently supported. "
-"Currently, only :doc:`Fedora </user/templates/fedora/fedora>` and "
-":doc:`Debian </user/templates/debian/debian>` templates are officially "
-"supported by the Qubes OS Project. `Whonix "
-"<https://www.whonix.org/wiki/Qubes>`__ templates are supported by our "
-"partner, the `Whonix Project <https://www.whonix.org/>`__. Qubes support "
-"for each template ends when that upstream release reaches end-of-life "
-"(EOL), even if that release is included in the table below. Please see "
-"below for distribution-specific notes."
+"The following table shows select :doc:`template </user/templates/templates>`"
+" (and :doc:`standalone </user/advanced-topics/standalones-and-hvms>`) "
+"releases that are currently supported. Currently, only :doc:`Fedora "
+"</user/templates/fedora/fedora>` and :doc:`Debian "
+"</user/templates/debian/debian>` templates are officially supported by the "
+"Qubes OS Project. `Whonix <https://www.whonix.org/wiki/Qubes>`__ templates "
+"are supported by our partner, the `Whonix Project "
+"<https://www.whonix.org/>`__. Qubes support for each template ends when that"
+" upstream release reaches end-of-life (EOL), even if that release is "
+"included in the table below. Please see below for distribution-specific "
+"notes."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:112
 #: 9fb736230c49474d997d6285b1b986ff
 msgid ""
-"It is the responsibility of each distribution to clearly notify its users"
-" in advance of its own EOL dates, and it is users’ responsibility to heed"
-" these notices by upgrading to supported releases. As a courtesy to Qubes"
-" users, we attempt to pass along upstream EOL notices we receive for "
-"select distributions, but our ability to do this reliably is dependent on"
-" the upstream distribution’s practices. For example, if a distribution "
-"provides a mailing list similar to :ref:`qubes-announce "
-"<introduction/support:qubes-announce>`, which allows us to receive only "
-"very important, infrequent messages, including EOL announcements, we are "
-"much more likely to be able to pass along EOL notices to Qubes users "
-"reliably. Qubes users can always check the EOL status of an upstream "
-"release on the upstream distribution’s website (see `Fedora EOL "
-"<https://fedoraproject.org/wiki/End_of_life>`__ and `Debian Releases "
-"<https://wiki.debian.org/DebianReleases>`__)."
+"It is the responsibility of each distribution to clearly notify its users in"
+" advance of its own EOL dates, and it is users’ responsibility to heed these"
+" notices by upgrading to supported releases. As a courtesy to Qubes users, "
+"we attempt to pass along upstream EOL notices we receive for select "
+"distributions, but our ability to do this reliably is dependent on the "
+"upstream distribution’s practices. For example, if a distribution provides a"
+" mailing list similar to :ref:`qubes-announce <introduction/support:qubes-"
+"announce>`, which allows us to receive only very important, infrequent "
+"messages, including EOL announcements, we are much more likely to be able to"
+" pass along EOL notices to Qubes users reliably. Qubes users can always "
+"check the EOL status of an upstream release on the upstream distribution’s "
+"website (see `Fedora EOL <https://fedoraproject.org/wiki/End_of_life>`__ and"
+" `Debian Releases <https://wiki.debian.org/DebianReleases>`__)."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:120
@@ -371,7 +375,7 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:121
 #: cef12ef74d794382a619488dbb7deeae
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:123
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:126
@@ -382,7 +386,7 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:124
 #: 0c3ae2ed6d8b4760ba83ba19018641b7
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:127
 #: 793826fa136f48c992d8046caf82a8e4
@@ -399,9 +403,9 @@ msgstr ""
 msgid ""
 "Debian releases have two EOL dates: regular and `long-term support (LTS) "
 "<https://wiki.debian.org/LTS>`__. See `Debian Production Releases "
-"<https://wiki.debian.org/DebianReleases#Production_Releases>`__ for a "
-"chart that illustrates this. Qubes support ends at the *regular* EOL "
-"date, *not* the LTS EOL date, unless a specific exception has been made."
+"<https://wiki.debian.org/DebianReleases#Production_Releases>`__ for a chart "
+"that illustrates this. Qubes support ends at the *regular* EOL date, *not* "
+"the LTS EOL date, unless a specific exception has been made."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:137
@@ -412,10 +416,9 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/supported-releases.rst:140
 #: 905004748cd84c79b7805bdbf065da6c
 msgid ""
-"`Whonix <https://www.whonix.org/wiki/Qubes>`__ templates are supported by"
-" our partner, the `Whonix Project <https://www.whonix.org/>`__. The "
-"Whonix Project has set its own support policy for Whonix templates in "
-"Qubes. Please see the `Qubes-Whonix version support policy "
+"`Whonix <https://www.whonix.org/wiki/Qubes>`__ templates are supported by "
+"our partner, the `Whonix Project <https://www.whonix.org/>`__. The Whonix "
+"Project has set its own support policy for Whonix templates in Qubes. Please"
+" see the `Qubes-Whonix version support policy "
 "<https://www.whonix.org/wiki/About#Qubes_Hosts>`__ for details."
 msgstr ""
-

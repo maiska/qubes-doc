@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:3
 #: e0977090b0d64e2d96088cae1174e454
@@ -27,16 +25,16 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:6
 #: 5faad4a0634e43de99bc770e0bb002ac
 msgid ""
-"**Before attempting either an in-place upgrade or a clean installation, "
-"we strongly recommend that users** :doc:`back up their systems </user"
-"/how-to-guides/how-to-back-up-restore-and-migrate>` **.**"
+"**Before attempting either an in-place upgrade or a clean installation, we "
+"strongly recommend that users** :doc:`back up their systems </user/how-to-"
+"guides/how-to-back-up-restore-and-migrate>` **.**"
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:8
 #: dcec224ee0554ac1b7b908ebb0280fe6
 msgid ""
-"Current Qubes R3.0 systems can be upgraded in-place to the latest R3.1 by"
-" following the procedure below."
+"Current Qubes R3.0 systems can be upgraded in-place to the latest R3.1 by "
+"following the procedure below."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:11
@@ -47,12 +45,12 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:14
 #: 20af99eac4f64eb3ada2dcf54cba1a3f
 msgid ""
-"By default, in Qubes R3.0, there is only one template. However, users are"
-" free to create more templates for special purposes, as well as "
-"standalones. More information on using multiple templates, as well as "
-"standalones, can be found :doc:`here </user/how-to-guides/how-to-install-"
-"software>`. The steps described in this section should be repeated in "
-"**all** the user’s Template and Standalone VMs."
+"By default, in Qubes R3.0, there is only one template. However, users are "
+"free to create more templates for special purposes, as well as standalones. "
+"More information on using multiple templates, as well as standalones, can be"
+" found :doc:`here </user/how-to-guides/how-to-install-software>`. The steps "
+"described in this section should be repeated in **all** the user’s Template "
+"and Standalone VMs."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:17
@@ -114,10 +112,10 @@ msgstr ""
 #: 36263af822bf47fc9bdf08138a2197e6
 msgid ""
 "**Important:** Do not perform the steps described in this section until "
-"**all** your Template and Standalone VMs have been upgraded as described "
-"in the previous section. Also, do not shut down ``sys-net`` or ``sys-"
-"firewall``, since you will not be able to start them again until after "
-"the entire in-place upgrade procedure is complete."
+"**all** your Template and Standalone VMs have been upgraded as described in "
+"the previous section. Also, do not shut down ``sys-net`` or ``sys-"
+"firewall``, since you will not be able to start them again until after the "
+"entire in-place upgrade procedure is complete."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:84
@@ -133,16 +131,16 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:93
 #: de4ca13580e34bd48c65c9c00526565c
 msgid ""
-"At this point, most of the ``qvm-*`` tools will stop working until after "
-"you reboot the system."
+"At this point, most of the ``qvm-*`` tools will stop working until after you"
+" reboot the system."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:95
 #: 8378ad50e4d2485ab291b8a836b741d1
 msgid ""
 "If the previous step completed successfully, your ``qubes-core-dom0`` "
-"version should be ``3.1.4`` or higher. If it’s not, repeat the previous "
-"step with the ``--clean`` option."
+"version should be ``3.1.4`` or higher. If it’s not, repeat the previous step"
+" with the ``--clean`` option."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:97
@@ -153,39 +151,38 @@ msgstr ""
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:99
 #: 1472dff36bb84f008b1b5d8b65b032f1
 msgid ""
-"The system may hang during the reboot. If that happens, do not panic. All"
-" the filesystems will have already been unmounted at this stage, so you "
-"can simply perform a hard reboot (e.g., hold the physical power button "
-"down until the machine shuts off, wait a moment, then press it again to "
-"start it back up)."
+"The system may hang during the reboot. If that happens, do not panic. All "
+"the filesystems will have already been unmounted at this stage, so you can "
+"simply perform a hard reboot (e.g., hold the physical power button down "
+"until the machine shuts off, wait a moment, then press it again to start it "
+"back up)."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:105
 #: 284e8a70299742cd8ab625dabfddc9b5
 msgid ""
-"Please note that if you use :doc:`Anti Evil Maid </user/security-in-qubes"
-"/anti-evil-maid>`, it won’t be able to unseal the passphrase the first "
-"time the system boots after performing this in-place upgrade procedure "
-"since the Xen, kernel, and initramfs binaries will have changed. Once the"
-" system boots up again, you can reseal your Anti Evil Maid passphrase to "
-"the new configuration. Please consult the Anti Evil Maid "
-":doc:`documentation </user/security-in-qubes/anti-evil-maid>` for "
-"instructions on how to do that."
+"Please note that if you use :doc:`Anti Evil Maid </user/security-in-"
+"qubes/anti-evil-maid>`, it won’t be able to unseal the passphrase the first "
+"time the system boots after performing this in-place upgrade procedure since"
+" the Xen, kernel, and initramfs binaries will have changed. Once the system "
+"boots up again, you can reseal your Anti Evil Maid passphrase to the new "
+"configuration. Please consult the Anti Evil Maid :doc:`documentation "
+"</user/security-in-qubes/anti-evil-maid>` for instructions on how to do "
+"that."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:107
 #: a799cb3764884fc8a784bcaed229eccc
 msgid ""
-"If you use USB VM, you may encounter problem with starting it on updated "
-"Xen version (because of strict default settings). Take a look at "
-":ref:`User FAQ <introduction/faq:i created a usb vm and assigned usb "
-"controllers to it. now the usb vm won't boot.>` for details."
+"If you use USB VM, you may encounter problem with starting it on updated Xen"
+" version (because of strict default settings). Take a look at :ref:`User FAQ"
+" <introduction/faq:i created a usb vm and assigned usb controllers to it. "
+"now the usb vm won't boot.>` for details."
 msgstr ""
 
 #: ../../user/downloading-installing-upgrading/upgrade/3_1.rst:109
 #: 618deed3c30949f6a4f199e73a6ebfcf
 msgid ""
-"Once you have upgraded dom0, you can install new templates from Qubes "
-"R3.1 repositories, in particular the new default Fedora 23 template:"
+"Once you have upgraded dom0, you can install new templates from Qubes R3.1 "
+"repositories, in particular the new default Fedora 23 template:"
 msgstr ""
-

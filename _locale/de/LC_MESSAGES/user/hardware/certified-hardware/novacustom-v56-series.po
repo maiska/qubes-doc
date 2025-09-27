@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Florencia Herra Vega <flohdot@gmail.com>, 2025
+# Torsten Grote, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Torsten Grote, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:5
 #: b9458379782d49e6b4c9ed24689a9312
@@ -29,8 +32,8 @@ msgstr ""
 msgid ""
 "The `NovaCustom V56 Series 16.0 inch coreboot laptop "
 "<https://novacustom.com/product/v56-series/>`__ is :doc:`officially "
-"certified </user/hardware/certified-hardware/certified-hardware>` for "
-"Qubes OS Release 4."
+"certified </user/hardware/certified-hardware/certified-hardware>` for Qubes "
+"OS Release 4."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:10
@@ -68,8 +71,8 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:26
 #: 727885a76a03438888231adf4d38f3d8
 msgid ""
-"**Note:** The 16-inch model (V560TU) and the 14-inch model (V540TU) are "
-"two separate products. :doc:`The 14-inch model is also certified. "
+"**Note:** The 16-inch model (V560TU) and the 14-inch model (V540TU) are two "
+"separate products. :doc:`The 14-inch model is also certified. "
 "</user/hardware/certified-hardware/novacustom-v54-series>`"
 msgstr ""
 
@@ -96,15 +99,13 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:42
 #: 6d22ae6ff2164cd7ba87897e1bd1e71f
 msgid ""
-"Certified: Intel Core Ultra 5 Processor 125H + Intel Arc iGPU with AI "
-"Boost"
+"Certified: Intel Core Ultra 5 Processor 125H + Intel Arc iGPU with AI Boost"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:44
 #: 0ddbec3026e947138e9de034ab1d3d73
 msgid ""
-"Certified: Intel Core Ultra 7 Processor 155H + Intel Arc iGPU with AI "
-"Boost"
+"Certified: Intel Core Ultra 7 Processor 155H + Intel Arc iGPU with AI Boost"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:46
@@ -115,7 +116,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:51
 #: 4094397267eb4ccb9ec0168fe75d39ec
 msgid "Memory"
-msgstr ""
+msgstr "Arbeitsspeicher"
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:54
 #: 61384dd6f2094c3eabc510bbb7efece7
@@ -125,7 +126,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:59
 #: c1b0bb2ca5ed4e32b45e8bfab11445d0
 msgid "Storage"
-msgstr ""
+msgstr "Speicher"
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:62
 #: c6a0a98ff2d04a4b9d299e73f2a26f4a
@@ -140,8 +141,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:70
 #: 58048d32734f44c78c3e8ae4933e7892
 msgid ""
-"This section is merely cosmetic and therefore does not affect "
-"certification."
+"This section is merely cosmetic and therefore does not affect certification."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:75
@@ -196,8 +196,8 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:98
 #: aa14a0fc70ec456396d4f5a4f83f2eb5
 msgid ""
-"You may choose either to have NovaCustom preinstall Qubes OS for you, or "
-"you may choose to install Qubes OS yourself. This choice does not affect "
+"You may choose either to have NovaCustom preinstall Qubes OS for you, or you"
+" may choose to install Qubes OS yourself. This choice does not affect "
 "certification."
 msgstr ""
 
@@ -209,22 +209,22 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:106
 #: 3475fdfb1ed24cc2bb8a2f7194f23c6f
 msgid ""
-"Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX"
-"/Wi-Fi6E + Bluetooth 5.3"
+"Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX/Wi-"
+"Fi6E + Bluetooth 5.3"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:108
 #: bda03b6707ee4d359aa275e5305cdd12
 msgid ""
-"Certified: Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 "
-"+ Bluetooth 5.42"
+"Certified: Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 + "
+"Bluetooth 5.42"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:110
 #: 24ebfa3a385149b29a6aa4e8145e18b9
 msgid ""
-"Certified: No Wi-Fi chip - no Bluetooth and Wi-Fi connection possible "
-"(only with USB adapter)"
+"Certified: No Wi-Fi chip - no Bluetooth and Wi-Fi connection possible (only "
+"with USB adapter)"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:115
@@ -235,26 +235,24 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:118
 #: 6a0d9d33440c453080dab999eca3a6fa
 msgid ""
-"In order for Wi-Fi to function properly, ``sys-net`` must currently be "
-"based on a Fedora template. The firmware package in Debian templates is "
-"currently too old for the certified Wi-Fi cards."
+"In order for Wi-Fi to function properly, ``sys-net`` must currently be based"
+" on a Fedora template. The firmware package in Debian templates is currently"
+" too old for the certified Wi-Fi cards."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:120
 #: 2e70b5be60124e68a69464a6cda92a6d
 msgid ""
-"Currently requires ``kernel-latest``: If you install Qubes OS yourself, "
-"you must select the ``Install Qubes OS RX using kernel-latest`` option on"
-" the GRUB menu when booting the installer. This non-default kernel option"
-" is currently required for the NovaCustom V56 Series to function "
-"properly."
+"Currently requires ``kernel-latest``: If you install Qubes OS yourself, you "
+"must select the ``Install Qubes OS RX using kernel-latest`` option on the "
+"GRUB menu when booting the installer. This non-default kernel option is "
+"currently required for the NovaCustom V56 Series to function properly."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v56-series.rst:122
 #: 21d36ce2809c47b596fa7fd3ab665d93
 msgid ""
 "Due to a `known bug <https://github.com/Dasharo/dasharo-"
-"issues/issues/976>`__, the bottom-right USB-C port is currently limited "
-"to USB 2.0 speeds."
+"issues/issues/976>`__, the bottom-right USB-C port is currently limited to "
+"USB 2.0 speeds."
 msgstr ""
-

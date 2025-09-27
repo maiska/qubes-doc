@@ -1,23 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Christian Nelke, 2025
+# Ettore Atalan <atalanttore@googlemail.com>, 2025
+# biggbang <mathias.porten@web.de>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: biggbang <mathias.porten@web.de>, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/general/gsod.rst:3 75343bedb95045f9b90d7db966cdd21f
 msgid "Google Season of Docs (GSoD)"
@@ -25,11 +29,11 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:6 76564897fbcb4282875416ea99b7370d
 msgid ""
-"Thank you for your interest in participating in the `2024 Google Season "
-"of Docs <https://developers.google.com/season-of-docs/>`__ program with "
-"the `Qubes OS team <https://www.qubes-os.org/team/>`__. This page details"
-" our 2024 project idea as well as completed past projects. You can read "
-"more about the Google Season of Docs in the official `guides "
+"Thank you for your interest in participating in the `2024 Google Season of "
+"Docs <https://developers.google.com/season-of-docs/>`__ program with the "
+"`Qubes OS team <https://www.qubes-os.org/team/>`__. This page details our "
+"2024 project idea as well as completed past projects. You can read more "
+"about the Google Season of Docs in the official `guides "
 "<https://developers.google.com/season-of-docs/docs/>`__ and `FAQ "
 "<https://developers.google.com/season-of-docs/docs/faq>`__."
 msgstr ""
@@ -44,26 +48,26 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:16 6ccffe438e904ab3aab20575498028fb
 msgid ""
-"Qubes OS is a security-focused operating system that allows you to "
-"organize your digital life into compartments called “qubes.” If one qube "
-"is compromised, the others remain safe, so a single cyberattack can no "
-"longer take down your entire digital life in one fell swoop. You can "
-"think of using Qubes OS as having many different computers on your desk "
-"for different activities but with the convenience of a single physical "
-"machine, a single unified desktop environment, and a set of tools for "
-"using qubes together securely as parts of a unified system."
+"Qubes OS is a security-focused operating system that allows you to organize "
+"your digital life into compartments called “qubes.” If one qube is "
+"compromised, the others remain safe, so a single cyberattack can no longer "
+"take down your entire digital life in one fell swoop. You can think of using"
+" Qubes OS as having many different computers on your desk for different "
+"activities but with the convenience of a single physical machine, a single "
+"unified desktop environment, and a set of tools for using qubes together "
+"securely as parts of a unified system."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:18 504c64c5976b4911b0936eee931c3c88
 msgid ""
-"Qubes OS was launched in 2011 and has `received praise from security "
-"experts and organizations <https://www.qubes-os.org/endorsements/>`__ "
-"like Edward Snowden, the Freedom of the Press Foundation, Micah Lee, and "
-"Let’s Encrypt. Qubes has :doc:`over 40,000 active users "
-"</introduction/statistics>`. From network-level to software-level "
-"protections, as well as protections against firmware and hardware "
-"attacks, Qubes OS is trying to protect the user from the most significant"
-" attacks they encounter so that they can get their work done safely."
+"Qubes OS was launched in 2011 and has `received praise from security experts"
+" and organizations <https://www.qubes-os.org/endorsements/>`__ like Edward "
+"Snowden, the Freedom of the Press Foundation, Micah Lee, and Let’s Encrypt. "
+"Qubes has :doc:`over 40,000 active users </introduction/statistics>`. From "
+"network-level to software-level protections, as well as protections against "
+"firmware and hardware attacks, Qubes OS is trying to protect the user from "
+"the most significant attacks they encounter so that they can get their work "
+"done safely."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:21 6f012b4df8b14084a8c70a28b853b7dd
@@ -72,15 +76,14 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:24 cb6fb170fe1d41ea9bd6ddd298dfbf25
 msgid ""
-"Some of the existing content is stale. It refers to previous Qubes "
-"releases and has not yet been updated to the cover the latest stable "
-"release."
+"Some of the existing content is stale. It refers to previous Qubes releases "
+"and has not yet been updated to the cover the latest stable release."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:26 127b0e8f76a840d7aa4c2d485ca4b451
 msgid ""
-"There are important topic areas that the current guides do not completely"
-" cover, such as “understanding Qubes OS,” “using Qubes OS in practice,” "
+"There are important topic areas that the current guides do not completely "
+"cover, such as “understanding Qubes OS,” “using Qubes OS in practice,” "
 "“Qubes OS workflow for coding,” “printing,” and “audio.”"
 msgstr ""
 
@@ -97,8 +100,8 @@ msgstr ""
 #: ../../developer/general/gsod.rst:32 f8b9b1900b0f4486a0f80af99cd10dbe
 msgid ""
 "When the developers update a software tool, they should update all the "
-"guides that mentions this tool. However, there is currently no way for "
-"the developers to know which guides mention which tools."
+"guides that mentions this tool. However, there is currently no way for the "
+"developers to know which guides mention which tools."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:37 1d614272321944de927982536750af85
@@ -108,9 +111,9 @@ msgstr ""
 #: ../../developer/general/gsod.rst:40 760fdf69314347db9ec2d1a970085059
 msgid ""
 "The project is estimated to need around six months to complete (see the "
-"timeline below). Qubes team members, including Michael Carbone, Andrew "
-"Wong, Marta Marczykowska-Górecka, and Marek Marczykowski-Górecki, will "
-"supervise and support the writer."
+"timeline below). Qubes team members, including Michael Carbone, Andrew Wong,"
+" Marta Marczykowska-Górecka, and Marek Marczykowski-Górecki, will supervise "
+"and support the writer."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:43 af79028e7f474bb2887d395600a5c764
@@ -123,8 +126,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:48 362dff7de1844ff4a1592592b2572741
 msgid ""
-"Existing guides are updated to describe currently supported Qubes OS "
-"version"
+"Existing guides are updated to describe currently supported Qubes OS version"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:50 ab2be78fe39b453ba3fbcaa2e61306e1
@@ -141,7 +143,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:65 a0e230c61aa64c2b8a06ea4cb8a097df
 msgid "Dates"
-msgstr ""
+msgstr "Kalenderdaten"
 
 #: ../../developer/general/gsod.rst:66 d9d4ae014f63452c80dcf829f2c518d6
 msgid "Action items"
@@ -149,7 +151,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:67 4ff7a04b72014ed29b38f8ced9b8bfb9
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: ../../developer/general/gsod.rst:68 bf7f20a84fbb4e62b1a79a02aa8c6aae
 msgid "Orientation"
@@ -165,7 +167,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:71 40e77398a1bb4a2394dc86f4e87bb370
 msgid "December"
-msgstr ""
+msgstr "Dezember"
 
 #: ../../developer/general/gsod.rst:72 a798ed3f12cd4f3cb13c3228779c1562
 msgid "Final project evaluation and case study"
@@ -181,7 +183,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:85 2ec2e12225f54eae8f8fae805ee454bd
 msgid "Amount"
-msgstr ""
+msgstr "Menge"
 
 #: ../../developer/general/gsod.rst:86 b72fc613851d4c44a0bc0bbc9b381cfa
 msgid "writer (10 hours/week, 6 months)"
@@ -202,13 +204,13 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:96 a29961cc5a8e4d26a85ed87b8dd65a5c
 msgid ""
-"Qubes OS regularly participates in Google Summer of Code and Google "
-"Season of Docs. This is our third time participating in Google Season of "
-"Docs. Our mentorships for GSoD 2019, 2020, and 2023 were successes, and "
-"the projects were completed within the times allotted. The past Google "
-"Season of Docs projects have given us experience in working with "
-"technical writers and have helped us to understand the benefits that "
-"technical writers can bring to our project."
+"Qubes OS regularly participates in Google Summer of Code and Google Season "
+"of Docs. This is our third time participating in Google Season of Docs. Our "
+"mentorships for GSoD 2019, 2020, and 2023 were successes, and the projects "
+"were completed within the times allotted. The past Google Season of Docs "
+"projects have given us experience in working with technical writers and have"
+" helped us to understand the benefits that technical writers can bring to "
+"our project."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:99 3feece2414bf4897897cfc2b1dfebf13
@@ -218,8 +220,8 @@ msgstr ""
 #: ../../developer/general/gsod.rst:102 3a11c51fbf7a4da38ab2effff0c51160
 msgid ""
 "You can view the project we had in 2019 in the `2019 GSoD archive "
-"<https://developers.google.com/season-of-docs/docs/2019/participants"
-"/project-qubes>`__ and the `2019 writer’s report "
+"<https://developers.google.com/season-of-"
+"docs/docs/2019/participants/project-qubes>`__ and the `2019 writer’s report "
 "<https://web.archive.org/web/20200928002746/https://refre.ch/report-"
 "qubesos/>`__."
 msgstr ""
@@ -227,22 +229,22 @@ msgstr ""
 #: ../../developer/general/gsod.rst:104 8e227da7361c4494adbc1aaefd3a3d38
 msgid ""
 "You can view the project we had in 2020 in the `2020 GSoD archive "
-"<https://developers.google.com/season-of-docs/docs/2020/participants"
-"/project-qubesos-c1e0>`__ and the `2020 writer’s report "
+"<https://developers.google.com/season-of-"
+"docs/docs/2020/participants/project-qubesos-c1e0>`__ and the `2020 writer’s "
+"report "
 "<https://web.archive.org/web/20210723170547/https://gist.github.com/PROTechThor/bfe9b8b28295d88c438b6f6c754ae733>`__."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:106 e8b36f55f4e74b259498cd722e976dfd
 msgid ""
 "You can view the results of the project we had in 2023 `here "
-"<https://www.youtube.com/playlist?list=PLjwSYc73nX6aHcpqub-"
-"6lzJbL0vhLleTB>`__."
+"<https://www.youtube.com/playlist?list=PLjwSYc73nX6aHcpqub-6lzJbL0vhLleTB>`__."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:108 7c801ccfaa094fe283d8799bb21744f3
 msgid ""
-"Here are some successful projects which have been implemented in the past"
-" by Google Season of Docs participants."
+"Here are some successful projects which have been implemented in the past by"
+" Google Season of Docs participants."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:111 cb6c6377f7ba48c490ae6e15431a2501
@@ -257,10 +259,10 @@ msgstr ""
 msgid ""
 "There is user demand for high-quality, up-to-date video guides that take "
 "users from zero Linux knowledge to using Qubes as a daily driver and "
-"performing specific tasks inside of Qubes, but almost no such videos "
-"exist. Although most of the required knowledge is documented, many users "
-"report that they would prefer to watch videos rather than read text or "
-"that they would find videos easier to understand and follow along with."
+"performing specific tasks inside of Qubes, but almost no such videos exist. "
+"Although most of the required knowledge is documented, many users report "
+"that they would prefer to watch videos rather than read text or that they "
+"would find videos easier to understand and follow along with."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:124 6a208c970aff4a47999cafd4613cd5b7
@@ -275,8 +277,8 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:131 6e0dc23177df48dbb205ee7220b1e131
 msgid ""
-"Prospective users who are not yet familiar with Linux or Qubes OS can "
-"easily understand and follow the videos."
+"Prospective users who are not yet familiar with Linux or Qubes OS can easily"
+" understand and follow the videos."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:133 8aa52416ef5b49f0b3bff9ce01cdbfe3
@@ -287,8 +289,8 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:135 1a4a9462fd434528b68d4bde933c9078
 msgid ""
-"Users can follow the videos step-by-step to install Qubes OS and "
-"accomplish various tasks."
+"Users can follow the videos step-by-step to install Qubes OS and accomplish "
+"various tasks."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:137 a0030c889e474297943a5f800e860c6c
@@ -300,16 +302,16 @@ msgstr ""
 #: ../../developer/general/gsod.rst:139 77cd456a937c42538c646b1378e44632
 msgid ""
 "The videos are technically accurate, include security warnings where "
-"appropriate, and use terminology in a way that is consistent with the "
-"rest of the documentation (also see the :doc:`glossary "
+"appropriate, and use terminology in a way that is consistent with the rest "
+"of the documentation (also see the :doc:`glossary "
 "</user/reference/glossary>`)."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:141 d15f3c5a7cbd4fc3b455ba6420aa3a3d
 msgid ""
-"The video series is comprehensive enough that users do not need to "
-"consult the documentation or ask questions (e.g., on the forum) in order "
-"to accomplish the most popular tasks and activities."
+"The video series is comprehensive enough that users do not need to consult "
+"the documentation or ask questions (e.g., on the forum) in order to "
+"accomplish the most popular tasks and activities."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:143 839daee18e4d458db5940e1d97166356
@@ -319,8 +321,7 @@ msgstr ""
 #: ../../developer/general/gsod.rst:145 58fd45e187c24a9aa189b8381f43ad35
 msgid ""
 "The quality of the videos is consistent with current standards regarding "
-"things like editing, transitions, animations, lighting, and audio "
-"quality."
+"things like editing, transitions, animations, lighting, and audio quality."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:147 63dd102f312043aaaf44efbed9acfa47
@@ -329,26 +330,25 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:149 b3ea755d5b8d41f9b1e7fc172d71d73c
 msgid ""
-"The videos are separated into a series, where each video is an "
-"appropriate length and is appropriately connected to the other videos in "
-"the series."
+"The videos are separated into a series, where each video is an appropriate "
+"length and is appropriately connected to the other videos in the series."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:151 10366bb9c9be458496d0fa001363c3c3
 msgid ""
-"The videos are suitable for upload and sharing on popular video-sharing "
-"and social-media platforms, such as YouTube and Twitter. (The account or "
-"channel under which the videos are uploaded is open to discussion on "
-"platforms where the Qubes OS Project does not already have a significant "
-"established presence, such as YouTube.)"
+"The videos are suitable for upload and sharing on popular video-sharing and "
+"social-media platforms, such as YouTube and Twitter. (The account or channel"
+" under which the videos are uploaded is open to discussion on platforms "
+"where the Qubes OS Project does not already have a significant established "
+"presence, such as YouTube.)"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:153 12fbd67d659e49ffaffb10a2566c1832
 msgid ""
 "The videos are suitable for embedding in appropriate places in the Qubes "
 "documentation. (E.g., a video on how to update Qubes OS should be "
-"appropriate for appearing on the :doc:`how to update </user/how-to-guides"
-"/how-to-update>` page.)"
+"appropriate for appearing on the :doc:`how to update </user/how-to-"
+"guides/how-to-update>` page.)"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:155 f8e35a582e534d0599a23d3156e136dc
@@ -361,8 +361,8 @@ msgstr ""
 #: ../../developer/general/gsod.rst:159 08377eec6ce2438c906e8ed70c193321
 msgid ""
 "Below is an example of the content (which is already :doc:`documented "
-"</index>`) that the video series is likely to cover. The precise scope of"
-" content is to be determined in consultation with the video creator."
+"</index>`) that the video series is likely to cover. The precise scope of "
+"content is to be determined in consultation with the video creator."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:161 76986a7188ae407aa36ddd9965c23471
@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:201 30871ea4a4b44a41abfab84ebae9aabb
 msgid "YubiKey"
-msgstr ""
+msgstr "YubiKey"
 
 #: ../../developer/general/gsod.rst:203 9734ce96f4a4457aad696a0e7827a83c
 msgid "Whonix"
@@ -470,9 +470,8 @@ msgstr ""
 #: ../../developer/general/gsod.rst:213 0a0ca2c0d01443b4a4fbf0a17e2f08c5
 msgid ""
 "The project is estimated to need around six months to complete (see the "
-"timeline below). Qubes team members, including Michael Carbone, Andrew "
-"Wong, and Marek Marczykowski-Górecki, will supervise and support the "
-"creator."
+"timeline below). Qubes team members, including Michael Carbone, Andrew Wong,"
+" and Marek Marczykowski-Górecki, will supervise and support the creator."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:218 4e50f097865c4a4aa5290212814a001c
@@ -481,15 +480,15 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:223 53126c73608549ee9eb3d53eccf51faa
 msgid ""
-"We will consider the project successful if, after publication of the "
-"video series:"
+"We will consider the project successful if, after publication of the video "
+"series:"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:225 b8a6189226804bb59f8e5d26363c4907
 msgid ""
-"Actual prospective users with no prior familiarity with Linux or Qubes OS"
-" are able to successfully install and use Qubes OS as intended by "
-"following along with the videos."
+"Actual prospective users with no prior familiarity with Linux or Qubes OS "
+"are able to successfully install and use Qubes OS as intended by following "
+"along with the videos."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:227 763d45f096c949ea9692738746496f79
@@ -522,8 +521,8 @@ msgid ""
 msgstr ""
 
 #: ../../developer/general/gsod.rst:241 ../../developer/general/gsod.rst:267
-#: ../../developer/general/gsod.rst:293 2bfa1bf5380d48359ecfdf85dd70af2a
-#: 51f5aea25fd64f548e2947e5f57ac2df f5759dd887e04bb08b969dd1885e558d
+#: ../../developer/general/gsod.rst:293 51f5aea25fd64f548e2947e5f57ac2df
+#: f5759dd887e04bb08b969dd1885e558d 2bfa1bf5380d48359ecfdf85dd70af2a
 msgid "**Expected results**:"
 msgstr ""
 
@@ -534,19 +533,19 @@ msgstr ""
 #: ../../developer/general/gsod.rst:245 527e8d8cebcd4ae98e9b350bf9695275
 msgid ""
 "Review `issues <https://github.com/QubesOS/qubes-"
-"issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22C%3A+doc%22>`__ "
-"containing common troubleshooting steps (checking specific logs etc)"
+"issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22C%3A+doc%22>`__ containing "
+"common troubleshooting steps (checking specific logs etc)"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:247 1f4388acf93c4d9ab6be0a9ee56ecb78
 msgid ""
-"Propose updated, consolidated troubleshooting documentation, including "
-"its layout"
+"Propose updated, consolidated troubleshooting documentation, including its "
+"layout"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:251 ../../developer/general/gsod.rst:275
-#: ../../developer/general/gsod.rst:303 4098d9edb455448b9b2d1e6bce98b6d2
-#: 5e19e8fd34124e368351585ea5fe0cf6 6de3843b25ac497c9d20545a75ce6bf6
+#: ../../developer/general/gsod.rst:303 6de3843b25ac497c9d20545a75ce6bf6
+#: 4098d9edb455448b9b2d1e6bce98b6d2 5e19e8fd34124e368351585ea5fe0cf6
 msgid "**Knowledge prerequisite**:"
 msgstr ""
 
@@ -559,10 +558,9 @@ msgid ""
 msgstr ""
 
 #: ../../developer/general/gsod.rst:257 ../../developer/general/gsod.rst:309
-#: 9dd31a46dc804c3f984057d7dc70fb1d de4031d2d8544662ae368f6c33ba9c7e
+#: de4031d2d8544662ae368f6c33ba9c7e 9dd31a46dc804c3f984057d7dc70fb1d
 msgid ""
-"**Mentor**: `Marek Marczykowski-Górecki <https://www.qubes-"
-"os.org/team/>`__"
+"**Mentor**: `Marek Marczykowski-Górecki <https://www.qubes-os.org/team/>`__"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:260 58cafb8344224d23b59e28b2ced87ff3
@@ -575,13 +573,14 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:265 10cc4ea54ccc47659fe8e786d3d706a8
 msgid ""
-"**Brief explanation**: The :doc:`Getting Started page </introduction"
-"/getting-started>` is the place a new user would go to understand better "
-"how to use Qubes. It is currently has old screenshots not using the "
-"default desktop environment and could have much better flow. In addition,"
-" this improved page content may end up being served more directly to the "
-"user via the `offline documentation <https://github.com/QubesOS/qubes-"
-"issues/issues/1019>`__ or the firstboot guide."
+"**Brief explanation**: The :doc:`Getting Started page "
+"</introduction/getting-started>` is the place a new user would go to "
+"understand better how to use Qubes. It is currently has old screenshots not "
+"using the default desktop environment and could have much better flow. In "
+"addition, this improved page content may end up being served more directly "
+"to the user via the `offline documentation "
+"<https://github.com/QubesOS/qubes-issues/issues/1019>`__ or the firstboot "
+"guide."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:269 fc4dc7f5f7934018acdbf610706e2589
@@ -610,28 +609,26 @@ msgstr ""
 
 #: ../../developer/general/gsod.rst:291 694c64ba4e2a40b0b10bb415271756c8
 msgid ""
-"**Brief explanation**: Current qrexec (qubes remote exec) documentation "
-"is hard to follow, important information is hidden within a wall of text."
-" Some parts are split into multiple sections, for example version "
-"specific to avoid duplication, but it doesn’t help reading it. "
-"Additionally, protocol documentation describes only few specific use "
-"cases, instead of being clear and precise protocol specification. Fixing "
-"this last point may require very close cooperation with developers, as "
-"the current documentation doesn’t multiple corner cases (that’s one of "
-"the issue with its current shape)."
+"**Brief explanation**: Current qrexec (qubes remote exec) documentation is "
+"hard to follow, important information is hidden within a wall of text. Some "
+"parts are split into multiple sections, for example version specific to "
+"avoid duplication, but it doesn’t help reading it. Additionally, protocol "
+"documentation describes only few specific use cases, instead of being clear "
+"and precise protocol specification. Fixing this last point may require very "
+"close cooperation with developers, as the current documentation doesn’t "
+"multiple corner cases (that’s one of the issue with its current shape)."
 msgstr ""
 
 #: ../../developer/general/gsod.rst:295 fd4d87b87561424a911e300b100b6e78
 msgid ""
-"Review existing :doc:`qrexec documentation </developer/services/qrexec>` "
-"and an `issue about it <https://github.com/QubesOS/qubes-"
-"issues/issues/1392>`__"
+"Review existing :doc:`qrexec documentation </developer/services/qrexec>` and"
+" an `issue about it <https://github.com/QubesOS/qubes-issues/issues/1392>`__"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:297 e63ecb97787e4f96a5bdd363d937f809
 msgid ""
-"Propose updated, consolidated admin documentation (policy writing, adding"
-" services)"
+"Propose updated, consolidated admin documentation (policy writing, adding "
+"services)"
 msgstr ""
 
 #: ../../developer/general/gsod.rst:299 814c83a9a58648e1af3dc222aa769aee
@@ -639,4 +636,3 @@ msgid ""
 "Propose consolidated protocol specification, based on the current "
 "documentation, and cooperation with developers"
 msgstr ""
-

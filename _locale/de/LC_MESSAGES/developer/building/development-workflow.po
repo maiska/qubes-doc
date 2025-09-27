@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# m, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: m, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../developer/building/development-workflow.rst:3
 #: d5b91a1a926041bb8e041a55294f018b
@@ -27,14 +29,13 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:6
 #: a689519cda7a413db8476788daed6277
 msgid "A workflow for developing Qubes OS+"
-msgstr ""
+msgstr "Prozess um Qubes OS zu entwickeln"
 
 #: ../../developer/building/development-workflow.rst:8
 #: aa889454eafa460385d58c314f83641a
 msgid ""
-"To begin, setup :doc:`QubesBuilder </developer/building/qubes-"
-"builder-v2>`. This guide assumes you’re using qubes-builder v2 to build "
-"Qubes."
+"To begin, setup :doc:`QubesBuilder </developer/building/qubes-builder-v2>`. "
+"This guide assumes you’re using qubes-builder v2 to build Qubes."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:11
@@ -45,20 +46,19 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:14
 #: 77c19fd566154b43b3f908ec9785887d
 msgid ""
-"Qubes source code is split into many git repos. These are all contained "
-"in the ``artifacts/sources`` directory under qubes-builder. "
-"Subdirectories there are separate components, stored in separate git "
-"repositories."
+"Qubes source code is split into many git repos. These are all contained in "
+"the ``artifacts/sources`` directory under qubes-builder. Subdirectories "
+"there are separate components, stored in separate git repositories."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:16
 #: 6fb1d03cb7ad45d9b9960d5d7a747b20
 msgid ""
-"The best way to write and contribute code is to create a git repo "
-"somewhere (e.g., GitHub) for the repo you are interested in editing "
-"(e.g., ``qubes-manager``, ``core-agent-linux``, etc). To integrate your "
-"repo with the rest of Qubes, cd to the repo directory and add your "
-"repository as a remote in git"
+"The best way to write and contribute code is to create a git repo somewhere "
+"(e.g., GitHub) for the repo you are interested in editing (e.g., ``qubes-"
+"manager``, ``core-agent-linux``, etc). To integrate your repo with the rest "
+"of Qubes, cd to the repo directory and add your repository as a remote in "
+"git"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:18
@@ -70,19 +70,19 @@ msgstr ""
 #: 44bb8bf53cf24d1095e5c1c2f95a2cab
 msgid ""
 "You can then proceed to easily develop in your own branches, pull in new "
-"commits from the dev branches, merge them, and eventually push to your "
-"own repo."
+"commits from the dev branches, merge them, and eventually push to your own "
+"repo."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:29
 #: aa5f236c2e7241be94ebef19357298b0
 msgid ""
-"When you are ready to submit your changes to Qubes to be merged, push "
-"your changes, then create a signed git tag (using ``git tag -s``). "
-"Finally, send a letter to the Qubes listserv describing the changes, and "
-"including a link to your repository. If you are using GitHub you can "
-"instead create a pull request. Don’t forget to include the public PGP key"
-" you use to sign your tags."
+"When you are ready to submit your changes to Qubes to be merged, push your "
+"changes, then create a signed git tag (using ``git tag -s``). Finally, send "
+"a letter to the Qubes listserv describing the changes, and including a link "
+"to your repository. If you are using GitHub you can instead create a pull "
+"request. Don’t forget to include the public PGP key you use to sign your "
+"tags."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:32
@@ -93,8 +93,7 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:36
 #: 83aeda89b6e940b5a105423941d1f377
 msgid ""
-"Prepare fresh version of kernel sources, with Qubes-specific patches "
-"applied"
+"Prepare fresh version of kernel sources, with Qubes-specific patches applied"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:39
@@ -155,9 +154,9 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:128
 #: bcec3c6f87fd4e338b47270a7c3de04d
 msgid ""
-"Now is a good moment to make sure you have changed the kernel release "
-"name in rel file. For example, if you change it to ‘1debug201211116c’ the"
-" resulting RPMs will be named "
+"Now is a good moment to make sure you have changed the kernel release name "
+"in rel file. For example, if you change it to ‘1debug201211116c’ the "
+"resulting RPMs will be named "
 "‘kernel-3.4.18-1debug20121116c.pvops.qubes.x86_64.rpm’. This will help "
 "distinguish between different versions of the same package."
 msgstr ""
@@ -177,14 +176,14 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:140
 #: 56df58a39c6e41b1ba280e757de13b23
 msgid ""
-"RPMs will appear in "
-"``artifacts/repository/destination_name/package_name`` (for example "
-"``artifacts/repository/host-fc37/linux-kernel-6.6.31-1.1/``"
+"RPMs will appear in ``artifacts/repository/destination_name/package_name`` "
+"(for example ``artifacts/repository/host-fc37/linux-kernel-6.6.31-1.1/``"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:143
 #: 063f25c062d942f48af5af99c24fb07e
-msgid "Useful :doc:`QubesBuilder </developer/building/qubes-builder-v2>` commands"
+msgid ""
+"Useful :doc:`QubesBuilder </developer/building/qubes-builder-v2>` commands"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:146
@@ -195,8 +194,8 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:148
 #: 1810f0d3e1b249acad612ef7fa01498f
 msgid ""
-"``./qb repository check-release-status-for-component`` and ``./qb "
-"repository check-release-status-for-template`` - show version of each "
+"``./qb repository check-release-status-for-component`` and ``./qb repository"
+" check-release-status-for-template`` - show version of each "
 "component/template (based on git tags)"
 msgstr ""
 
@@ -222,8 +221,8 @@ msgstr ""
 msgid ""
 "When developing it is convenient to be able to rapidly test changes. "
 "Assuming you’re developing Qubes on Qubes, you should be working in a "
-"special VM for Qubes and occasionally you will want to transfer code or "
-"RPMs back to dom0 for testing."
+"special VM for Qubes and occasionally you will want to transfer code or RPMs"
+" back to dom0 for testing."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:162
@@ -271,24 +270,23 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:239
 #: 4e92131ecf564bbe99bda73681e409e8
 msgid ""
-"Sometimes it’s useful to transfer git commits between VMs. You can use "
-"``git format-patch`` for that and simply copy the files. But you can also"
-" setup custom qrexec service for it."
+"Sometimes it’s useful to transfer git commits between VMs. You can use ``git"
+" format-patch`` for that and simply copy the files. But you can also setup "
+"custom qrexec service for it."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:241
 #: 50382ecb7cf349eabacbea17272ebdf3
 msgid ""
-"Below example assumes that you use ``builder-RX`` directory in target VM "
-"to store sources in qubes-builder layout (where ``X`` is some number). "
-"Make sure that all the scripts are executable."
+"Below example assumes that you use ``builder-RX`` directory in target VM to "
+"store sources in qubes-builder layout (where ``X`` is some number). Make "
+"sure that all the scripts are executable."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:243
 #: e00ce97d4f134d7aa03ff1e8294aeb93
 msgid ""
-"Service file (save in ``/usr/local/etc/qubes-rpc/local.Git`` in target "
-"VM):"
+"Service file (save in ``/usr/local/etc/qubes-rpc/local.Git`` in target VM):"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:272
@@ -316,11 +314,11 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:312
 #: de229bbad0a14987954b60799c9e9e8b
 msgid ""
-"It should be executed from component top level directory. This script "
-"takes one argument - remote name. If it is ``tb``, then it creates "
-"qrexec-based git remote to ``testbuilder`` VM. Otherwise it creates "
-"remote pointing at GitHub account of the same name. In any case it points"
-" at repository matching current directory name."
+"It should be executed from component top level directory. This script takes "
+"one argument - remote name. If it is ``tb``, then it creates qrexec-based "
+"git remote to ``testbuilder`` VM. Otherwise it creates remote pointing at "
+"GitHub account of the same name. In any case it points at repository "
+"matching current directory name."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:315
@@ -331,20 +329,20 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:318
 #: c3f4f96ea2e44db4b17ccfb288cec2b7
 msgid ""
-"Other useful script(s) can be used to setup local package repository "
-"hosted in some VM. This way you can keep your development VM behind "
-"firewall, while having an option to expose some yum/apt repository to the"
-" local network (to have them installed on test machine)."
+"Other useful script(s) can be used to setup local package repository hosted "
+"in some VM. This way you can keep your development VM behind firewall, while"
+" having an option to expose some yum/apt repository to the local network (to"
+" have them installed on test machine)."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:320
 #: 27dfd008139c4eca8feca3b6c74e7c70
 msgid ""
-"To achieve this goal, a dummy repository can be created, which instead of"
-" populating metadata locally, will upload the packages to some other VM "
-"and trigger repository update there (using qrexec). You can use "
-"``unstable`` repository flavor, because there is no release managing "
-"rules bundled (unlike current and current-testing)."
+"To achieve this goal, a dummy repository can be created, which instead of "
+"populating metadata locally, will upload the packages to some other VM and "
+"trigger repository update there (using qrexec). You can use ``unstable`` "
+"repository flavor, because there is no release managing rules bundled "
+"(unlike current and current-testing)."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:323
@@ -356,8 +354,8 @@ msgstr ""
 #: a1c12e4e3967466bbdf49bf4c7267b38
 msgid ""
 "In source VM, grab `linux-yum <https://GitHub.com/QubesOS/qubes-linux-"
-"yum>`__ repository (below is assumed you’ve made it in ``~/repo-yum-"
-"upload`` directory) and replace ``update_repo.sh`` script with:"
+"yum>`__ repository (below is assumed you’ve made it in ``~/repo-yum-upload``"
+" directory) and replace ``update_repo.sh`` script with:"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:343
@@ -366,9 +364,9 @@ msgid ""
 "In target VM, setup actual yum repository (also based on `linux-yum "
 "<https://GitHub.com/QubesOS/qubes-linux-yum>`__, this time without "
 "modifications). You will also need to setup some gpg key for signing "
-"packages (it is possible to force yum to install unsigned packages, but "
-"it isn’t possible for ``qubes-dom0-update`` tool). Fill ``~/.rpmmacros`` "
-"with key description:"
+"packages (it is possible to force yum to install unsigned packages, but it "
+"isn’t possible for ``qubes-dom0-update`` tool). Fill ``~/.rpmmacros`` with "
+"key description:"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:351
@@ -388,12 +386,12 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:387
 #: ec7234e62f9943b3baf966d34ad7a22b
 msgid ""
-"If you want to access the repository from network, you need to setup HTTP"
-" server serving it, and configure the system to let other machines "
-"actually reach this HTTP server. You can use for example using :ref:`port"
-" forwarding <user/security-in-qubes/firewall:port forwarding to a qube "
-"from the outside world>` or setting up Tor hidden service. Configuration "
-"details of those services are outside of the scope of this page."
+"If you want to access the repository from network, you need to setup HTTP "
+"server serving it, and configure the system to let other machines actually "
+"reach this HTTP server. You can use for example using :ref:`port forwarding "
+"<user/security-in-qubes/firewall:port forwarding to a qube from the outside "
+"world>` or setting up Tor hidden service. Configuration details of those "
+"services are outside of the scope of this page."
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:389
@@ -406,16 +404,16 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:397
 #: d1d2f5ad019247b79124b0d24e0698d5
 msgid ""
-"Then use ``make update-repo-unstable`` to upload the packages. You can "
-"also specify selected components on command line, then build them and "
-"upload to the repository:"
+"Then use ``make update-repo-unstable`` to upload the packages. You can also "
+"specify selected components on command line, then build them and upload to "
+"the repository:"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:405
 #: c755c852a56a4e4b93947309cfc3289b
 msgid ""
-"On the test machine, add yum repository (``/etc/yum.repos.d``) pointing "
-"at just configured HTTP server. For example:"
+"On the test machine, add yum repository (``/etc/yum.repos.d``) pointing at "
+"just configured HTTP server. For example:"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:415
@@ -431,16 +429,16 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:421
 #: 3072a444284b42d7b0844b01a2c4df16
 msgid ""
-"Steps are mostly the same as in the case of yum repo. The only details "
-"that differ:"
+"Steps are mostly the same as in the case of yum repo. The only details that "
+"differ:"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:423
 #: 4e6ed1d1aeeb4bd680caeb7ff374b94a
 msgid ""
-"use `linux-deb <https://GitHub.com/QubesOS/qubes-linux-deb>`__ instead of"
-" `linux-yum <https://GitHub.com/QubesOS/qubes-linux-yum>`__ as a base - "
-"both in source and target VM"
+"use `linux-deb <https://GitHub.com/QubesOS/qubes-linux-deb>`__ instead of "
+"`linux-yum <https://GitHub.com/QubesOS/qubes-linux-yum>`__ as a base - both "
+"in source and target VM"
 msgstr ""
 
 #: ../../developer/building/development-workflow.rst:425
@@ -480,7 +478,6 @@ msgstr ""
 #: ../../developer/building/development-workflow.rst:548
 #: 246cf756d63944f49ed9471a23c7b3c9
 msgid ""
-"Usage: add this line to ``/etc/apt/sources.list`` on test machine (adjust"
-" host and path):"
+"Usage: add this line to ``/etc/apt/sources.list`` on test machine (adjust "
+"host and path):"
 msgstr ""
-

@@ -1,37 +1,41 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2025
+# m, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Last-Translator: m, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:3
 #: 94cbbf4c7ad14eff91a2c079c80db6ca
 msgid "VPN troubleshooting"
-msgstr ""
+msgstr "VPN Fehlerbehebung"
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:7
 #: f97b47faab3b413c923f9b9a9075559e
 msgid "Tips"
-msgstr ""
+msgstr "Hinweise"
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:10
 #: 47ae7a2135f84b3c8c069a07e2ca180b
-msgid "If using qubes-vpn, check the VPN service’s log in the VPN VM by running:"
+msgid ""
+"If using qubes-vpn, check the VPN service’s log in the VPN VM by running:"
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:18
@@ -42,8 +46,8 @@ msgstr ""
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:20
 #: 9dad49d45a9c433497f028e33d6baa43
 msgid ""
-"Test DNS: Ping a familiar domain name from an appVM. It should print the "
-"IP address for the domain."
+"Test DNS: Ping a familiar domain name from an appVM. It should print the IP "
+"address for the domain."
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:22
@@ -67,8 +71,8 @@ msgstr ""
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:32
 #: a334fc00e2064dfaa44fc8e7d33a3ed0
 msgid ""
-"After suspend/resume, OpenVPN may not automatically reconnect. In order "
-"to get it to work, you must kill the OpenVPN process and restart it."
+"After suspend/resume, OpenVPN may not automatically reconnect. In order to "
+"get it to work, you must kill the OpenVPN process and restart it."
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:35
@@ -87,8 +91,8 @@ msgstr ""
 #: 2b16e7a71e7b4be49bfaa0b24e4dedec
 msgid ""
 "To figure out the root of the problem, check the VPN logs in "
-"``/var/log/syslog`` or use ``journalctl``. The logs may reveal issues "
-"like missing OpenVPN libraries, which you can then install."
+"``/var/log/syslog`` or use ``journalctl``. The logs may reveal issues like "
+"missing OpenVPN libraries, which you can then install."
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:43
@@ -101,9 +105,9 @@ msgstr ""
 msgid ""
 "`Some VPN guides <https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-"
 "gateway/19061>`__ use complex scripts that include a call to ``notify-"
-"send``, yet some images may not contain this tool or may not have it "
-"working properly. For instance calling ``notify-send`` on a ``fedora-36``"
-" template VM gives:"
+"send``, yet some images may not contain this tool or may not have it working"
+" properly. For instance calling ``notify-send`` on a ``fedora-36`` template "
+"VM gives:"
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:54
@@ -115,22 +119,19 @@ msgstr ""
 #: 18e5b162102b4183ac1dc08462b8f965
 msgid ""
 "You should see the ``info`` message appear on the top of your screen. If "
-"that is the case then ``notify-send`` is not the issue. If it is not, and"
-" you have an error of some sort you can:"
+"that is the case then ``notify-send`` is not the issue. If it is not, and "
+"you have an error of some sort you can:"
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:63
 #: 11366317f64940f5a9f677ebfc6020a3
 msgid ""
-"Remove all calls to ``notify-send`` from scripts you are using to start "
-"VPN"
+"Remove all calls to ``notify-send`` from scripts you are using to start VPN"
 msgstr ""
 
 #: ../../user/troubleshooting/vpn-troubleshooting.rst:65
 #: efc46f2602be4dc9b2b4919505963696
 msgid ""
-"Use another template qube that has a working ``notify-send`` or find "
-"proper guide and make your current template run ``notify-send`` work "
-"properly."
+"Use another template qube that has a working ``notify-send`` or find proper "
+"guide and make your current template run ``notify-send`` work properly."
 msgstr ""
-

@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Steve Dougherty, 2025
+# Richard Puckett, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Richard Puckett, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:3
 #: e982676c13b843ada7d4cab3c2939632
@@ -32,54 +35,53 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:9
 #: 2b99f34796404b5ca58d48732727dee7
 msgid ""
-"**Warning:** Installing software in dom0 is for advanced users only. "
-"Doing so has the potential to compromise your entire Qubes OS "
-"installation. Exercise extreme caution."
+"**Warning:** Installing software in dom0 is for advanced users only. Doing "
+"so has the potential to compromise your entire Qubes OS installation. "
+"Exercise extreme caution."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:12
 #: 5b6a11f2b6fd40e1aac90e2c7901fc3d
 msgid "Security"
-msgstr ""
+msgstr "Sicherheit"
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:15
 #: ecf1238d0300456ab112139d44d695b4
 msgid ""
-"Since there is no networking in dom0, any bugs discovered in dom0 desktop"
-" components (e.g., the window manager) are unlikely to pose a problem for"
-" Qubes, since none of the third-party software running in dom0 is "
-"accessible from VMs or the network in any way. Nonetheless, since "
-"software running in dom0 can potentially exercise full control over the "
-"system, it is important to install only trusted software in dom0."
+"Since there is no networking in dom0, any bugs discovered in dom0 desktop "
+"components (e.g., the window manager) are unlikely to pose a problem for "
+"Qubes, since none of the third-party software running in dom0 is accessible "
+"from VMs or the network in any way. Nonetheless, since software running in "
+"dom0 can potentially exercise full control over the system, it is important "
+"to install only trusted software in dom0."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:17
 #: 355079428cfc4b5ba46519d3870dea2c
 msgid ""
-"The install/update process is split into two phases: *resolve and "
-"download* and *verify and install*. The *resolve and download* phase is "
-"handled by the UpdateVM. (The role of UpdateVM can be assigned to any VM "
-"in the Qube Manager, and there are no significant security implications "
-"in this choice. By default, this role is assigned to the FirewallVM.) "
-"After the UpdateVM has successfully downloaded new packages, they are "
-"sent to dom0, where they are verified and installed. This separation of "
-"duties significantly reduces the attack surface, since all of the network"
-" and metadata processing code is removed from the TCB."
+"The install/update process is split into two phases: *resolve and download* "
+"and *verify and install*. The *resolve and download* phase is handled by the"
+" UpdateVM. (The role of UpdateVM can be assigned to any VM in the Qube "
+"Manager, and there are no significant security implications in this choice. "
+"By default, this role is assigned to the FirewallVM.) After the UpdateVM has"
+" successfully downloaded new packages, they are sent to dom0, where they are"
+" verified and installed. This separation of duties significantly reduces the"
+" attack surface, since all of the network and metadata processing code is "
+"removed from the TCB."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:19
 #: 73303d6769b44228ad7a46bcbf1e43cd
 msgid ""
 "Although this update scheme is far more secure than directly downloading "
-"updates in dom0, it is not invulnerable. For example, there is nothing "
-"that the Qubes OS Project can feasibly do to prevent a malicious RPM from"
-" exploiting a hypothetical bug in the cryptographic signature "
-"verification operation. At best, we could switch to a different distro or"
-" package manager, but any of them could be vulnerable to the same (or a "
-"similar) attack. While we could, in theory, write a custom solution, it "
-"would only be effective if Qubes repos included all of the regular "
-"template distro’s updates, and this would be far too costly for us to "
-"maintain."
+"updates in dom0, it is not invulnerable. For example, there is nothing that "
+"the Qubes OS Project can feasibly do to prevent a malicious RPM from "
+"exploiting a hypothetical bug in the cryptographic signature verification "
+"operation. At best, we could switch to a different distro or package "
+"manager, but any of them could be vulnerable to the same (or a similar) "
+"attack. While we could, in theory, write a custom solution, it would only be"
+" effective if Qubes repos included all of the regular template distro’s "
+"updates, and this would be far too costly for us to maintain."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:22
@@ -105,10 +107,10 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:39
 #: f58774c640024202ac37806cca8e1176
 msgid ""
-"You may also pass the ``--enablerepo=`` option in order to enable "
-"optional repositories (see yum configuration in dom0). However, this is "
-"only for advanced users who really understand what they are doing. You "
-"can also pass commands to ``dnf`` using ``--action=...``."
+"You may also pass the ``--enablerepo=`` option in order to enable optional "
+"repositories (see yum configuration in dom0). However, this is only for "
+"advanced users who really understand what they are doing. You can also pass "
+"commands to ``dnf`` using ``--action=...``."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:42
@@ -146,8 +148,8 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:71
 #: 4de391dfab88421b9909b63ae283400a
 msgid ""
-"If you’ve installed a package such as anti-evil-maid, you can remove it "
-"with the following command:"
+"If you’ve installed a package such as anti-evil-maid, you can remove it with"
+" the following command:"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:80
@@ -158,39 +160,39 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:83
 #: c585c304a7d24a32a75f3c61d8717e8d
 msgid ""
-"If you wish to install updates that are still in :doc:`testing </user"
-"/downloading-installing-upgrading/testing>`, you must enable the "
+"If you wish to install updates that are still in :doc:`testing "
+"</user/downloading-installing-upgrading/testing>`, you must enable the "
 "appropriate testing repositories."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:85
 #: 280e14577c964a2d8c798d462fc61306
 msgid ""
-"**Note:** The following repos are in dom0. For template testing repos, "
-"see :ref:`here <user/how-to-guides/how-to-install-software:testing "
+"**Note:** The following repos are in dom0. For template testing repos, see "
+":ref:`here <user/how-to-guides/how-to-install-software:testing "
 "repositories>`."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:87
 #: 694176749f1a4e99b693d9f06cf9ca53
 msgid ""
-"``qubes-dom0-current-testing`` – testing packages that will eventually "
-"land in the stable (``current``) repository"
+"``qubes-dom0-current-testing`` – testing packages that will eventually land "
+"in the stable (``current``) repository"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:89
 #: 68efd98318764d5ca501509b3b451387
 msgid ""
-"``qubes-dom0-security-testing`` – a subset of ``qubes-dom0-current-"
-"testing`` that contains packages that qualify as security fixes"
+"``qubes-dom0-security-testing`` – a subset of ``qubes-dom0-current-testing``"
+" that contains packages that qualify as security fixes"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:91
 #: 8aaca3caf1c54020a3e0c03f05c4b77a
 msgid ""
 "``qubes-dom0-unstable`` – packages that are not intended to land in the "
-"stable (``qubes-dom0-current``) repository; mostly experimental debugging"
-" packages"
+"stable (``qubes-dom0-current``) repository; mostly experimental debugging "
+"packages"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:95
@@ -223,8 +225,8 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:113
 #: 3dc0cc26d9cb4eb4b73667a14bbaf7ef
 msgid ""
-"Please see :doc:`installing contributed packages </user/advanced-topics"
-"/installing-contributed-packages>`."
+"Please see :doc:`installing contributed packages </user/advanced-"
+"topics/installing-contributed-packages>`."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:116
@@ -256,17 +258,16 @@ msgstr ""
 #: 63e17f75b161466fbf09c39235b48739
 msgid ""
 "``kernel``: an older LTS kernel that has passed Qubes :doc:`testing "
-"</user/downloading-installing-upgrading/testing>` (the default dom0 "
-"kernel)"
+"</user/downloading-installing-upgrading/testing>` (the default dom0 kernel)"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:131
 #: 98a9e11c6a83453085fddbf2294671c9
 msgid ""
-"``kernel-latest``: the latest release from kernel.org that has passed "
-"Qubes :doc:`testing </user/downloading-installing-upgrading/testing>` "
-"(useful for :doc:`troubleshooting newer hardware </user/troubleshooting"
-"/hardware-troubleshooting>`)"
+"``kernel-latest``: the latest release from kernel.org that has passed Qubes "
+":doc:`testing </user/downloading-installing-upgrading/testing>` (useful for "
+":doc:`troubleshooting newer hardware </user/troubleshooting/hardware-"
+"troubleshooting>`)"
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:135
@@ -277,8 +278,7 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:137
 #: 27f3cea7bd0c427f8e0500b73a1942fa
 msgid ""
-"``kernel``: the latest LTS kernel from kernel.org at the time it was "
-"built."
+"``kernel``: the latest LTS kernel from kernel.org at the time it was built."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:139
@@ -304,7 +304,7 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:150
 #: 82374a0ad16f413cb839146aa4715de8
 msgid "Example"
-msgstr ""
+msgstr "Beispiele"
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:153
 #: 4f5a8440aee8445f955e0ef17afd2076
@@ -316,8 +316,7 @@ msgstr ""
 msgid ""
 "If the update process does not automatically do it (you should see it "
 "mentioned in the CLI output from the update command), you may need to "
-"manually rebuild the EFI or grub config depending on which your system "
-"uses."
+"manually rebuild the EFI or grub config depending on which your system uses."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:164
@@ -344,9 +343,8 @@ msgstr ""
 #: dddf7c804cc54fd1b7d6fb91929fe088
 msgid ""
 "If you wish to upgrade to a kernel that is not available from the repos, "
-"then there is no easy way to do so, but `it may still be possible if "
-"you’re willing to do a lot of work yourself "
-"<https://groups.google.com/d/msg/qubes-"
+"then there is no easy way to do so, but `it may still be possible if you’re "
+"willing to do a lot of work yourself <https://groups.google.com/d/msg/qubes-"
 "users/m8sWoyV58_E/HYdReRIYBAAJ>`__."
 msgstr ""
 
@@ -358,10 +356,10 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:193
 #: 92085ad26b9e4ed5a0aa25f2130c4a93
 msgid ""
-"This section describes changing the default kernel in dom0. It is "
-"sometimes needed if you have upgraded to a newer kernel and are having "
-"problems booting, for example. On the next kernel update, the default "
-"will revert to the newest."
+"This section describes changing the default kernel in dom0. It is sometimes "
+"needed if you have upgraded to a newer kernel and are having problems "
+"booting, for example. On the next kernel update, the default will revert to "
+"the newest."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:201
@@ -377,10 +375,10 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:217
 #: faeb39e540e34076b04127bbe90eed6e
 msgid ""
-"Then, reboot. Once the grub menu appears, choose “Advanced Options for "
-"Qubes (with Xen hypervisor)”. Next, the top menu item (for example, “Xen "
-"hypervisor, version 4.8.5-9.fc25”). Select the kernel you want as "
-"default, and it will be remembered for next boot."
+"Then, reboot. Once the grub menu appears, choose “Advanced Options for Qubes"
+" (with Xen hypervisor)”. Next, the top menu item (for example, “Xen "
+"hypervisor, version 4.8.5-9.fc25”). Select the kernel you want as default, "
+"and it will be remembered for next boot."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:220
@@ -396,15 +394,14 @@ msgstr ""
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:225
 #: eb3b24eec92249d98dd82cbb60242df5
 msgid ""
-"Go to :menuselection:`Qubes VM Manager --> System --> Global Settings`. "
-"See the UpdateVM setting. Choose your desired Whonix-Gateway ProxyVM from"
-" the list. For example: sys-whonix."
+"Go to :menuselection:`Qubes VM Manager --> System --> Global Settings`. See "
+"the UpdateVM setting. Choose your desired Whonix-Gateway ProxyVM from the "
+"list. For example: sys-whonix."
 msgstr ""
 
 #: ../../user/advanced-topics/how-to-install-software-in-dom0.rst:227
 #: 05a74e0d61084c86a88ef5eb3f99d48b
 msgid ""
-":menuselection:`Qubes VM Manager --> System --> Global Settings --> "
-"UpdateVM --> sys-whonix`"
+":menuselection:`Qubes VM Manager --> System --> Global Settings --> UpdateVM"
+" --> sys-whonix`"
 msgstr ""
-

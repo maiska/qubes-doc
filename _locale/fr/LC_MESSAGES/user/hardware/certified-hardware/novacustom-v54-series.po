@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# Florencia Herra Vega <flohdot@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Florencia Herra Vega <flohdot@gmail.com>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:5
 #: ce91f1cb6eac455381085bce0c2f3017
@@ -29,8 +32,8 @@ msgstr ""
 msgid ""
 "The `NovaCustom V54 Series 14.0 inch coreboot laptop "
 "<https://novacustom.com/product/v54-series/>`__ is :doc:`officially "
-"certified </user/hardware/certified-hardware/certified-hardware>` for "
-"Qubes OS Release 4."
+"certified </user/hardware/certified-hardware/certified-hardware>` for Qubes "
+"OS Release 4."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:10
@@ -58,7 +61,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:19
 #: 8795d6b790dc4f3f997f5f5f569a4343
 msgid "Screen size"
-msgstr ""
+msgstr "Taille de l’écran"
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:22
 #: e6dd8e812eea4bac8f22be64a7507ad4
@@ -68,8 +71,8 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:26
 #: d058da3f5a60429094c945c7c2c4a0a7
 msgid ""
-"**Note:** The 14-inch model (V540TU) and the 16-inch model (V560TU) are "
-"two separate products. :doc:`The 16-inch model is also certified. "
+"**Note:** The 14-inch model (V540TU) and the 16-inch model (V560TU) are two "
+"separate products. :doc:`The 16-inch model is also certified. "
 "</user/hardware/certified-hardware/novacustom-v56-series>`"
 msgstr ""
 
@@ -95,12 +98,14 @@ msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:42
 #: 7fed30a16568427980fc961913cbe345
-msgid "Certified: Intel Core Ultra 5 Processor 125H, Intel Arc iGPU with AI Boost"
+msgid ""
+"Certified: Intel Core Ultra 5 Processor 125H, Intel Arc iGPU with AI Boost"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:44
 #: 1f59e6545a08430e9dade38066a7cc58
-msgid "Certified: Intel Core Ultra 7 Processor 155H, Intel Arc iGPU with AI Boost"
+msgid ""
+"Certified: Intel Core Ultra 7 Processor 155H, Intel Arc iGPU with AI Boost"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:46
@@ -111,7 +116,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:51
 #: 66ed650a7d4e4b85b3012b6f3ecd5be9
 msgid "Memory"
-msgstr ""
+msgstr "Mémoire"
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:54
 #: 3b62240da4ee4fc9a3497b57b07f5d59
@@ -121,7 +126,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:59
 #: eef656dedf664ed980a581b2d48c511a
 msgid "Storage"
-msgstr ""
+msgstr "Stockage"
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:62
 #: e7d6ce175ff64d8db1596d9e2391f752
@@ -136,8 +141,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:70
 #: 32f03699bf9a4b499ec01718b2055173
 msgid ""
-"This section is merely cosmetic and therefore does not affect "
-"certification."
+"This section is merely cosmetic and therefore does not affect certification."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:75
@@ -153,8 +157,8 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:80
 #: 449972c704054a3794a32bd87c775cb1
 msgid ""
-"The option to be kept up to date with firmware updates is merely an email"
-" notification service and therefore does not affect certification."
+"The option to be kept up to date with firmware updates is merely an email "
+"notification service and therefore does not affect certification."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:82
@@ -192,8 +196,8 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:98
 #: 3175f1aec5b242c6a39e0ff5c529da4e
 msgid ""
-"You may choose either to have NovaCustom preinstall Qubes OS for you, or "
-"you may choose to install Qubes OS yourself. This choice does not affect "
+"You may choose either to have NovaCustom preinstall Qubes OS for you, or you"
+" may choose to install Qubes OS yourself. This choice does not affect "
 "certification."
 msgstr ""
 
@@ -205,22 +209,22 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:106
 #: cd430cbf1bcb4cd399d03770be3b0d1a
 msgid ""
-"Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX"
-"/Wi-Fi6E + Bluetooth 5.3"
+"Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX/Wi-"
+"Fi6E + Bluetooth 5.3"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:108
 #: 706be79be08446ae9d5865757009b6d3
 msgid ""
-"Certified: Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 "
-"+ Bluetooth 5.42"
+"Certified: Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 + "
+"Bluetooth 5.42"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:110
 #: 019347590a5e4d65a83a8b09ad17a10c
 msgid ""
-"Certified: No Wi-Fi chip – no Bluetooth and Wi-Fi connection possible "
-"(only with USB adapter)"
+"Certified: No Wi-Fi chip – no Bluetooth and Wi-Fi connection possible (only "
+"with USB adapter)"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:115
@@ -231,26 +235,24 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:118
 #: fff6708eec814251b3cc33c4274e297b
 msgid ""
-"In order for Wi-Fi to function properly, ``sys-net`` must currently be "
-"based on a Fedora template. The firmware package in Debian templates is "
-"currently too old for the certified Wi-Fi cards."
+"In order for Wi-Fi to function properly, ``sys-net`` must currently be based"
+" on a Fedora template. The firmware package in Debian templates is currently"
+" too old for the certified Wi-Fi cards."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:120
 #: 211e2f4ecd0346078816fcbb6ae69037
 msgid ""
-"Currently requires ``kernel-latest``: If you install Qubes OS yourself, "
-"you must select the ``Install Qubes OS RX using kernel-latest`` option on"
-" the GRUB menu when booting the installer. This non-default kernel option"
-" is currently required for the NovaCustom V54 Series to function "
-"properly."
+"Currently requires ``kernel-latest``: If you install Qubes OS yourself, you "
+"must select the ``Install Qubes OS RX using kernel-latest`` option on the "
+"GRUB menu when booting the installer. This non-default kernel option is "
+"currently required for the NovaCustom V54 Series to function properly."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/novacustom-v54-series.rst:122
 #: 86611ce1f54b444bb8d4db0234652404
 msgid ""
 "Due to a `known bug <https://github.com/Dasharo/dasharo-"
-"issues/issues/976>`__, the bottom-right USB-C port is currently limited "
-"to USB 2.0 speeds."
+"issues/issues/976>`__, the bottom-right USB-C port is currently limited to "
+"USB 2.0 speeds."
 msgstr ""
-

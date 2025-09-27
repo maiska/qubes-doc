@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/reference/tools.rst:3 6fcd23c66b3f479da608e2c07d760c00
 msgid "Command-line tools"
@@ -25,7 +27,7 @@ msgstr ""
 
 #: ../../user/reference/tools.rst:7 af415028c8544d73a9dc086de98a2f51
 msgid "Dom0"
-msgstr ""
+msgstr "Dom0"
 
 #: ../../user/reference/tools.rst:10 d4b347df79ca4b169d35f231a262b7ee
 msgid ""
@@ -41,7 +43,7 @@ msgstr ""
 
 #: ../../user/reference/tools.rst:17 004be957426b4367ad5cdd99714b25f3
 msgid "DomU"
-msgstr ""
+msgstr "DomU"
 
 #: ../../user/reference/tools.rst:20 3d1064fd03e3411bb00c35b6d76f999b
 msgid ""
@@ -84,4 +86,3 @@ msgid ""
 "`qvm-convert-img <https://github.com/QubesOS/qubes-app-linux-img-"
 "converter/blob/master/README.md>`__"
 msgstr ""
-

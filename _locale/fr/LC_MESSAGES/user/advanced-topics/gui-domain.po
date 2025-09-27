@@ -1,53 +1,58 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../user/advanced-topics/gui-domain.rst:3 91f57e26ae434730bdec09d2c8a3f162
+#: ../../user/advanced-topics/gui-domain.rst:3
+#: 91f57e26ae434730bdec09d2c8a3f162
 msgid "GUI domain"
 msgstr ""
 
-#: ../../user/advanced-topics/gui-domain.rst:7 c25c14d0f4a3499bb4334b8306e77bb8
+#: ../../user/advanced-topics/gui-domain.rst:7
+#: c25c14d0f4a3499bb4334b8306e77bb8
 msgid "This page is intended for advanced users."
 msgstr ""
 
-#: ../../user/advanced-topics/gui-domain.rst:9 f6318737d1c34c878a85b57166945339
+#: ../../user/advanced-topics/gui-domain.rst:9
+#: f6318737d1c34c878a85b57166945339
 msgid ""
 "On this page, we describe how to set up a `GUI domain <https://www.qubes-"
 "os.org/news/2020/03/18/gui-domain/>`__. In all the cases, the base "
 "underlying TemplateVM used is ``Fedora`` with ``XFCE`` flavor to match "
 "current desktop choice in ``dom0``. That can be adapted very easily for "
 "other desktops and templates. By default, the configured GUI domain is a "
-"management qube with global admin permissions ``rwx`` but can be adjusted"
-" to ``ro`` (see `Introducing the Qubes Admin API <https://www.qubes-"
+"management qube with global admin permissions ``rwx`` but can be adjusted to"
+" ``ro`` (see `Introducing the Qubes Admin API <https://www.qubes-"
 "os.org/news/2017/06/27/qubes-admin-api/>`__) in pillar data of the "
-"corresponding GUI domain to setup. For example, pillar data for ``sys-"
-"gui`` located at ``/srv/pillar/base/qvm/sys-gui.sls``. Please note that "
-"each GUI domain has no ``NetVM``."
+"corresponding GUI domain to setup. For example, pillar data for ``sys-gui`` "
+"located at ``/srv/pillar/base/qvm/sys-gui.sls``. Please note that each GUI "
+"domain has no ``NetVM``."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:11
 #: cdba6cd5c0e54d6c9221992706d23d5f
 msgid ""
 "**Note:** The setup is done using ``SaltStack`` formulas with the "
-"``qubesctl`` tool. When executing it, apply step can take time because it"
-" needs to download latest Fedora XFCE TemplateVM and install desktop "
+"``qubesctl`` tool. When executing it, apply step can take time because it "
+"needs to download latest Fedora XFCE TemplateVM and install desktop "
 "dependencies."
 msgstr ""
 
@@ -82,8 +87,8 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:29
 #: ../../user/advanced-topics/gui-domain.rst:65
 #: ../../user/advanced-topics/gui-domain.rst:112
-#: 020041f9529f444c9e91e9818fa5d58d 022ed56f24b4425abd31fb7555b2f29b
-#: b6cbdd86af2f423a89d49692d2d34747
+#: 022ed56f24b4425abd31fb7555b2f29b b6cbdd86af2f423a89d49692d2d34747
+#: 020041f9529f444c9e91e9818fa5d58d
 msgid "then, execute it:"
 msgstr ""
 
@@ -97,17 +102,17 @@ msgstr ""
 msgid ""
 "At this point, you need to shutdown all your running qubes as the "
 "``default_guivm`` qubes global property has been set to ``sys-gui``. In "
-"order to use ``sys-gui`` as GUI domain, you need to logout and, in the "
-"top right corner, select ``lightdm`` session type to **GUI domain (sys-"
-"gui)**. Once logged, you are running ``sys-gui`` as fullscreen window and"
-" you can perform any operation as if you would be in ``dom0`` desktop."
+"order to use ``sys-gui`` as GUI domain, you need to logout and, in the top "
+"right corner, select ``lightdm`` session type to **GUI domain (sys-gui)**. "
+"Once logged, you are running ``sys-gui`` as fullscreen window and you can "
+"perform any operation as if you would be in ``dom0`` desktop."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:45
 #: 613c597ac76d43d8be982ad2df9a2a8b
 msgid ""
-"**Note:** In order to go back to ``dom0`` desktop, you need to logout and"
-" then, select ``lightdm`` session to *Session Xfce*."
+"**Note:** In order to go back to ``dom0`` desktop, you need to logout and "
+"then, select ``lightdm`` session to *Session Xfce*."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:48
@@ -118,17 +123,17 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:51
 #: b51db10d0deb407e8e219ad0f481096b
 msgid ""
-"Here, we describe how to setup ``sys-gui-gpu`` which is a GUI domain with"
-" *GPU passthrough* in `GUI domain <https://www.qubes-"
+"Here, we describe how to setup ``sys-gui-gpu`` which is a GUI domain with "
+"*GPU passthrough* in `GUI domain <https://www.qubes-"
 "os.org/news/2020/03/18/gui-domain/>`__."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:53
 #: cd6845d2434e499293c5eb6ea83d9e3c
 msgid ""
-"**Note:** the purpose of ``sys-gui-gpu`` is to improve Qubes OS security "
-"by detaching the GPU from dom0, this is not intended to improve GPU "
-"related performance within qubes, and this will not improve performance."
+"**Note:** the purpose of ``sys-gui-gpu`` is to improve Qubes OS security by "
+"detaching the GPU from dom0, this is not intended to improve GPU related "
+"performance within qubes, and this will not improve performance."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:55
@@ -154,9 +159,9 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:79
 #: 04dc42905ad24e7fb0aad3d18e5ad11b
 msgid ""
-"One more step is needed: attaching the actual GPU to ``sys-gui-gpu``. "
-"This can be done either manually via ``qvm-pci`` (remember to enable "
-"permissive option), or via:"
+"One more step is needed: attaching the actual GPU to ``sys-gui-gpu``. This "
+"can be done either manually via ``qvm-pci`` (remember to enable permissive "
+"option), or via:"
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:86
@@ -171,10 +176,10 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:88
 #: 54844645daa547e49d917b3012da13e5
 msgid ""
-"**Note:** Some platforms can have multiple GPU. For example on laptops, "
-"it is usual to have HDMI or DISPLAY port linked to the secondary GPU "
-"(generally called *discrete GPU*). In such case, you have to also attach "
-"the secondary GPU to ``sys-gui-gpu`` with permissive option."
+"**Note:** Some platforms can have multiple GPU. For example on laptops, it "
+"is usual to have HDMI or DISPLAY port linked to the secondary GPU (generally"
+" called *discrete GPU*). In such case, you have to also attach the secondary"
+" GPU to ``sys-gui-gpu`` with permissive option."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:90
@@ -189,19 +194,18 @@ msgstr ""
 msgid ""
 "**Note:** For some platforms, it can be sufficient to shutdown all the "
 "running qubes and starting ``sys-gui-gpu``. Unfortunately, it has been "
-"observed that detaching and attaching some GPU cards from ``dom0`` to "
-"``sys-gui-gpu`` can freeze computer. We encourage reboot to prevent any "
-"data loss."
+"observed that detaching and attaching some GPU cards from ``dom0`` to ``sys-"
+"gui-gpu`` can freeze computer. We encourage reboot to prevent any data loss."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:94
 #: a43da2cc59ba4f428ad66cbff429ea6c
 msgid ""
-"Once, ``lightdm`` is started, you can log as ``user`` where ``user`` "
-"refers to the first ``dom0`` user in ``qubes`` group and with "
-"corresponding ``dom0`` password. A better approach for handling password "
-"is currently discussed in `QubesOS/qubes-issues#6740 "
-"<https://github.com/QubesOS/qubes-issues/issues/6740>`__."
+"Once, ``lightdm`` is started, you can log as ``user`` where ``user`` refers "
+"to the first ``dom0`` user in ``qubes`` group and with corresponding "
+"``dom0`` password. A better approach for handling password is currently "
+"discussed in `QubesOS/qubes-issues#6740 <https://github.com/QubesOS/qubes-"
+"issues/issues/6740>`__."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:97
@@ -212,8 +216,8 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:100
 #: 1514c0985ef241c8ae628877e7c8aa11
 msgid ""
-"Here, we describe how to setup ``sys-gui-vnc`` that we call a *remote* "
-"GUI domain or referenced as *with a virtual server* in `GUI domain "
+"Here, we describe how to setup ``sys-gui-vnc`` that we call a *remote* GUI "
+"domain or referenced as *with a virtual server* in `GUI domain "
 "<https://www.qubes-os.org/news/2020/03/18/gui-domain/>`__."
 msgstr ""
 
@@ -248,45 +252,44 @@ msgstr ""
 #: ../../user/advanced-topics/gui-domain.rst:133
 #: 0510a49d81264f6182aca9b24e2e5bd9
 msgid ""
-"A VNC server session is running on ``localhost:5900`` in ``sys-gui-vnc``."
-" In order to reach the ``VNC`` server, we encourage to not connect ``sys-"
-"gui-vnc`` to a ``NetVM`` but rather to use another qube for remote "
-"access, say ``sys-remote``. First, you need to bind port 5900 of ``sys-"
-"gui-vnc`` into a ``sys-remote`` local port (you may want to use another "
-"port than 5900 to reach ``sys-remote`` from the outside). For that, use "
-"``qubes.ConnectTCP`` RPC service (see :doc:`Firewall </user/security-in-"
-"qubes/firewall>`. Then, you can use any ``VNC`` client to connect to you "
-"``sys-remote`` on the chosen local port (5900 if you kept the default "
-"one). For the first connection, you will reach ``lightdm`` for which you "
-"can log as ``user`` where ``user`` refers to the first ``dom0`` user in "
-"``qubes`` group and with corresponding ``dom0`` password."
+"A VNC server session is running on ``localhost:5900`` in ``sys-gui-vnc``. In"
+" order to reach the ``VNC`` server, we encourage to not connect ``sys-gui-"
+"vnc`` to a ``NetVM`` but rather to use another qube for remote access, say "
+"``sys-remote``. First, you need to bind port 5900 of ``sys-gui-vnc`` into a "
+"``sys-remote`` local port (you may want to use another port than 5900 to "
+"reach ``sys-remote`` from the outside). For that, use ``qubes.ConnectTCP`` "
+"RPC service (see :doc:`Firewall </user/security-in-qubes/firewall>`. Then, "
+"you can use any ``VNC`` client to connect to you ``sys-remote`` on the "
+"chosen local port (5900 if you kept the default one). For the first "
+"connection, you will reach ``lightdm`` for which you can log as ``user`` "
+"where ``user`` refers to the first ``dom0`` user in ``qubes`` group and with"
+" corresponding ``dom0`` password."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:135
 #: b950a90f75d7442eb29fa795235b0d96
 msgid ""
 "**Note:** ``lightdm`` session remains logged even if you disconnect your "
-"``VNC`` client. Ensure to lock or log out before disconnecting your "
-"``VNC`` client session."
+"``VNC`` client. Ensure to lock or log out before disconnecting your ``VNC`` "
+"client session."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:137
 #: ee4becacba3f400e922162368fac42a9
 msgid ""
-"**WARNING**: This setup raises multiple security issues: 1) Anyone who "
-"can reach the ``VNC`` server, can take over the control of the Qubes OS "
-"machine, 2) A second client can connect even if a connection is already "
-"active and potentially get disconnected, 3) You can get disconnected by "
-"some unrelated network issues. Generally, if this ``VNC`` server is "
-"exposed to open network, it must be protected with some other "
-"(cryptographic) layer like ``VPN``. The setup as is, is useful only for "
-"purely testing machine."
+"**WARNING**: This setup raises multiple security issues: 1) Anyone who can "
+"reach the ``VNC`` server, can take over the control of the Qubes OS machine,"
+" 2) A second client can connect even if a connection is already active and "
+"potentially get disconnected, 3) You can get disconnected by some unrelated "
+"network issues. Generally, if this ``VNC`` server is exposed to open "
+"network, it must be protected with some other (cryptographic) layer like "
+"``VPN``. The setup as is, is useful only for purely testing machine."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:140
 #: badd004e03254421bc91b5c11758dd50
 msgid "Known issues"
-msgstr ""
+msgstr "Problèmes connus"
 
 #: ../../user/advanced-topics/gui-domain.rst:144
 #: 1d65a614281b4a34a95e5e6bf5acc392
@@ -378,8 +381,8 @@ msgstr ""
 #: 06ae759ea48c410c81d9b9b0b02cc912
 msgid ""
 "**Note:** For the case of ``sys-gui-gpu``, you need to prevent Qubes OS "
-"autostart of any qube to reach ``dom0``. For that, you need to boot Qubes"
-" OS with ``qubes.skip_autostart`` GRUB parameter."
+"autostart of any qube to reach ``dom0``. For that, you need to boot Qubes OS"
+" with ``qubes.skip_autostart`` GRUB parameter."
 msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:187
@@ -396,6 +399,6 @@ msgstr ""
 
 #: ../../user/advanced-topics/gui-domain.rst:201
 #: dcad6f53c1874281923763d5302e1609
-msgid "You are now able to delete the GUI domain, for example ``sys-gui-gpu``:"
+msgid ""
+"You are now able to delete the GUI domain, for example ``sys-gui-gpu``:"
 msgstr ""
-

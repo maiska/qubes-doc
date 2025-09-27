@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/hardware/certified-hardware/nitropad-x230.rst:5
 #: 1f46674f106647b5823be5fd84a8e0e1
@@ -27,11 +25,11 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropad-x230.rst:10
 #: 7869285c3ef244e28973c3192c277b35
 msgid ""
-"**Warning:** The CPU in this computer no longer receives microcode "
-"updates from Intel. Without microcode updates, Qubes OS cannot ensure "
-"that this computer is secure against CPU vulnerabilities. While this "
-"computer remains certified for Qubes OS Release 4, we recommend that "
-"prospective buyers consider a newer Qubes-certified computer instead."
+"**Warning:** The CPU in this computer no longer receives microcode updates "
+"from Intel. Without microcode updates, Qubes OS cannot ensure that this "
+"computer is secure against CPU vulnerabilities. While this computer remains "
+"certified for Qubes OS Release 4, we recommend that prospective buyers "
+"consider a newer Qubes-certified computer instead."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropad-x230.rst:12
@@ -57,8 +55,8 @@ msgstr ""
 #: cfa660ebff3f40b4bdf846419225768d
 msgid ""
 "The `NitroPad X230 "
-"<https://shop.nitrokey.com/shop/product/nitropad-x230-67>`__ offers users"
-" unprecedented control over the security of their hardware. Key features "
+"<https://shop.nitrokey.com/shop/product/nitropad-x230-67>`__ offers users "
+"unprecedented control over the security of their hardware. Key features "
 "include:"
 msgstr ""
 
@@ -68,8 +66,8 @@ msgid ""
 "Tamper detection through measured boot with `coreboot "
 "<https://www.coreboot.org/>`__, `Heads "
 "<https://github.com/osresearch/heads/>`__, and Nitrokey USB hardware, "
-"including support for :doc:`Anti Evil Maid (AEM) </user/security-in-qubes"
-"/anti-evil-maid>`"
+"including support for :doc:`Anti Evil Maid (AEM) </user/security-in-"
+"qubes/anti-evil-maid>`"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/nitropad-x230.rst:20
@@ -99,7 +97,6 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/nitropad-x230.rst:28
 #: 017048a8f6094436b6b60124ae365b9e
 msgid ""
-"Security-conscious shipping to mitigate against third-party `interdiction"
-" <https://en.wikipedia.org/wiki/Interdiction>`__"
+"Security-conscious shipping to mitigate against third-party `interdiction "
+"<https://en.wikipedia.org/wiki/Interdiction>`__"
 msgstr ""
-

@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:3
 #: 20c27c4e32a8473c9e159c1d60417786
@@ -66,8 +64,8 @@ msgid ""
 "Normally, the Qubes GUI virtualization daemon restricts any qube from "
 "”owning” the full screen, ensuring that there are always clearly marked "
 "decorations drawn by the trusted Window Manager around each of the qubes "
-"windows. This allows the user to easily realize to which domain a "
-"specific window belongs."
+"windows. This allows the user to easily realize to which domain a specific "
+"window belongs."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:21
@@ -80,8 +78,8 @@ msgstr ""
 msgid ""
 "While browsing the page :doc:`/introduction/video-tours` in a disposable "
 "qube (*disp5596*), the user tries to enter fullscreen mode from the qube "
-"itself. Even if fullscreen mode is selected, the top bar of dom0 is still"
-" present. The window is decorated in red, providing the name of the qube."
+"itself. Even if fullscreen mode is selected, the top bar of dom0 is still "
+"present. The window is decorated in red, providing the name of the qube."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:26
@@ -92,21 +90,20 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:28
 #: d3e68e9104e54a509299899426912719
 msgid ""
-"If one allowed a qube to “own” the full screen, e.g. to show a movie on a"
-" full screen, it might not be possible for the user to know if the "
+"If one allowed a qube to “own” the full screen, e.g. to show a movie on a "
+"full screen, it might not be possible for the user to know if the "
 "application or the qube really “released” the full screen, or if it has "
 "started emulating the whole desktop and is pretending to be the trusted "
-"Window Manager, drawing shapes on the screen that look like other "
-"windows, belonging to other domains (e.g. to trick the user into entering"
-" a secret passphrase into a window that looks like belonging to some "
-"trusted domain)."
+"Window Manager, drawing shapes on the screen that look like other windows, "
+"belonging to other domains (e.g. to trick the user into entering a secret "
+"passphrase into a window that looks like belonging to some trusted domain)."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:30
 #: a82d52499b0347edbd661020e3b185b7
 msgid ""
-"That's why fullscreen mode is not allowed by default, when requested from"
-" a qube."
+"That's why fullscreen mode is not allowed by default, when requested from a "
+"qube."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:35
@@ -118,26 +115,25 @@ msgstr ""
 #: 287c65e73faf4b4ea25f9674a9744a38
 msgid ""
 "However, it is possible to deal with fullscreen mode in a secure way "
-"assuming there are mechanisms that can be used at any time to switch "
-"between windows or show the full desktop and that cannot be intercepted "
-"by the qube. The simplest example is the use of :kbd:`Alt` + :kbd:`Tab` "
-"for switching between windows, which is a shortcut handled by dom0."
+"assuming there are mechanisms that can be used at any time to switch between"
+" windows or show the full desktop and that cannot be intercepted by the "
+"qube. The simplest example is the use of :kbd:`Alt` + :kbd:`Tab` for "
+"switching between windows, which is a shortcut handled by dom0."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:39
 #: d65f01ce21424364b0ceffe07d2d1064
 msgid ""
-"Other examples of such mechanisms are the KDE “Present Windows” and "
-"“Desktop Grid” effects, which are similar to Mac’s “Expose” effect, and "
-"which can be used to immediately detect potential “GUI forgery”, as they "
-"cannot be intercepted by any of the qube (as the GUID never passes down "
-"the key combinations that got consumed by KDE Window Manager), and so the"
-" qube cannot emulate those. Those effects are enabled by default in KDE "
-"once Compositing gets enabled in KDE (:menuselection:`System Settings -->"
-" Desktop --> Enable Desktop Effects`), which is recommended anyway. By "
-"default, they are triggered by the :kbd:`Ctrl` + :kbd:`F8` and "
-":kbd:`Ctrl` + :kbd:`F9` key combinations, but can also be reassigned to "
-"other shortcuts."
+"Other examples of such mechanisms are the KDE “Present Windows” and “Desktop"
+" Grid” effects, which are similar to Mac’s “Expose” effect, and which can be"
+" used to immediately detect potential “GUI forgery”, as they cannot be "
+"intercepted by any of the qube (as the GUID never passes down the key "
+"combinations that got consumed by KDE Window Manager), and so the qube "
+"cannot emulate those. Those effects are enabled by default in KDE once "
+"Compositing gets enabled in KDE (:menuselection:`System Settings --> Desktop"
+" --> Enable Desktop Effects`), which is recommended anyway. By default, they"
+" are triggered by the :kbd:`Ctrl` + :kbd:`F8` and :kbd:`Ctrl` + :kbd:`F9` "
+"key combinations, but can also be reassigned to other shortcuts."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:42
@@ -148,17 +144,16 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:44
 #: 25ced724f9364c838d4639b9e7d4a7d7
 msgid ""
-"You can always put a window into fullscreen mode in Xfce4 using the "
-"trusted window manager by right-clicking on a window’s title bar and "
-"selecting :guilabel:`Fullscreen` or pressing :kbd:`Alt` + :kbd:`F11`. "
-"This functionality should still be considered safe, since a qube window "
-"still can’t voluntarily enter fullscreen mode. The user must select this "
-"option from the trusted window manager in dom0. To exit fullscreen mode "
-"from here, press :kbd:`Alt` + :kbd:`Space` to bring up the title bar menu"
-" again, then select :guilabel:`Leave Fullscreen` or simply press "
-":kbd:`Alt` + :kbd:`F11`. For :term:`HVM`, you should set the screen "
-"resolution in the qube to that of the host, (or larger), *before* setting"
-" fullscreen mode in Xfce4."
+"You can always put a window into fullscreen mode in Xfce4 using the trusted "
+"window manager by right-clicking on a window’s title bar and selecting "
+":guilabel:`Fullscreen` or pressing :kbd:`Alt` + :kbd:`F11`. This "
+"functionality should still be considered safe, since a qube window still "
+"can’t voluntarily enter fullscreen mode. The user must select this option "
+"from the trusted window manager in dom0. To exit fullscreen mode from here, "
+"press :kbd:`Alt` + :kbd:`Space` to bring up the title bar menu again, then "
+"select :guilabel:`Leave Fullscreen` or simply press :kbd:`Alt` + :kbd:`F11`."
+" For :term:`HVM`, you should set the screen resolution in the qube to that "
+"of the host, (or larger), *before* setting fullscreen mode in Xfce4."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:50
@@ -175,17 +170,17 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:54
 #: f0781550a727460b98826cdc487cc861
 msgid ""
-"As an alternative to the Xfce4 method, you can enable fullscreen mode for"
-" selected qubes by using the `gui-allow-fullscreen <https://dev.qubes-"
-"os.org/projects/core-admin-client/en/latest/manpages/qvm-features.html"
-"#gui-gui-default>`__ feature of a qube."
+"As an alternative to the Xfce4 method, you can enable fullscreen mode for "
+"selected qubes by using the `gui-allow-fullscreen <https://dev.qubes-"
+"os.org/projects/core-admin-client/en/latest/manpages/qvm-features.html#gui-"
+"gui-default>`__ feature of a qube."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:56
 #: ccaad5aca1bb4fd2883a6913f63959ed
 msgid ""
-"Be sure to restart the qube after modifying this feature, for the changes"
-" to take effect."
+"Be sure to restart the qube after modifying this feature, for the changes to"
+" take effect."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:59
@@ -196,10 +191,10 @@ msgstr ""
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:61
 #: dbf9ae578fad4486ba0a871a3de1f17d
 msgid ""
-"In the qube's settings, go to the second tab, called "
-":guilabel:`Advanced`. Under :guilabel:`Window options`, change the value "
-"of :guilabel:`Allow fullscreen`, from :guilabel:`(use system default) "
-"(current)` to :guilabel:`disallow`."
+"In the qube's settings, go to the second tab, called :guilabel:`Advanced`. "
+"Under :guilabel:`Window options`, change the value of :guilabel:`Allow "
+"fullscreen`, from :guilabel:`(use system default) (current)` to "
+":guilabel:`disallow`."
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:67
@@ -209,10 +204,9 @@ msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:69
 #: 2ad635b5dfe1446693184ad1dda51801
-#, python-brace-format
 msgid ""
-"In dom0, run the following command, replacing :samp:`{<QUBE_NAME>}` by "
-"the actual name of the qube:"
+"In dom0, run the following command, replacing :samp:`{<QUBE_NAME>}` by the "
+"actual name of the qube:"
 msgstr ""
 
 #: ../../user/how-to-guides/how-to-enter-fullscreen-mode.rst:76
@@ -243,4 +237,3 @@ msgstr ""
 #: c31153bf98b74be893201d69fe5737a0
 msgid "In dom0, run the following command:"
 msgstr ""
-

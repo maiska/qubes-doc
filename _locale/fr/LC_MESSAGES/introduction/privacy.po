@@ -1,42 +1,46 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# erinm, 2025
+# Sarath, 2025
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../introduction/privacy.rst:3 e6c240c595234c3182c6cc03e6eb2b09
 msgid "Privacy policy"
-msgstr ""
+msgstr "Politique de confidentialité"
 
 #: ../../introduction/privacy.rst:6 760fb87c6a134fb49a3aee8f522f90bb
 msgid ""
 "The short version is that we try to respect your privacy as much as "
-"possible. We absolutely do not sell any user data. In fact, we go out of "
-"our way to help you keep your data private from everyone, including us. "
-"For example, from the moment you :doc:`install Qubes OS </user"
-"/downloading-installing-upgrading/installation-guide>`, we offer to set "
-"up `Whonix <https://www.whonix.org/>`__ so that all of your updates are "
-"routed through `Tor <https://www.torproject.org/>`__."
+"possible. We absolutely do not sell any user data. In fact, we go out of our"
+" way to help you keep your data private from everyone, including us. For "
+"example, from the moment you :doc:`install Qubes OS </user/downloading-"
+"installing-upgrading/installation-guide>`, we offer to set up `Whonix "
+"<https://www.whonix.org/>`__ so that all of your updates are routed through "
+"`Tor <https://www.torproject.org/>`__."
 msgstr ""
 
 #: ../../introduction/privacy.rst:9 c6cf4e42ed874a0d892822223ee0de9d
 msgid "Website"
-msgstr ""
+msgstr "Site Web"
 
 #: ../../introduction/privacy.rst:12 9f471a9b5340491daf614e1708a1c167
 msgid ""
@@ -46,27 +50,27 @@ msgstr ""
 
 #: ../../introduction/privacy.rst:14 b6d4f8cfd4154448940b2b6ffeb7bd81
 msgid ""
-"This is just a static website generated with Jekyll and hosted from "
-"GitHub Pages. We try to use as little JavaScript as possible. We host all"
-" resources locally (no third-party CDNs) so that you only have to connect"
-" to one domain. The website should be easy to browse using Tor Browser "
-"and with scripts blocked. We also have an `onion service "
-"<http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/>`__"
-" (access is not logged). We even go out of our way to make it easy to "
+"This is just a static website generated with Jekyll and hosted from GitHub "
+"Pages. We try to use as little JavaScript as possible. We host all resources"
+" locally (no third-party CDNs) so that you only have to connect to one "
+"domain. The website should be easy to browse using Tor Browser and with "
+"scripts blocked. We also have an `onion service "
+"<http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/>`__ "
+"(access is not logged). We even go out of our way to make it easy to "
 "download `this website’s git repo "
-"<https://github.com/QubesOS/qubesos.github.io>`__, including all the "
-"website source code, so that you can host this entire site from your own "
-"local machine offline."
+"<https://github.com/QubesOS/qubesos.github.io>`__, including all the website"
+" source code, so that you can host this entire site from your own local "
+"machine offline."
 msgstr ""
 
 #: ../../introduction/privacy.rst:16 f220a3105cf442568456caa2cdf8a6ba
 msgid ""
 "Most of the website is written in Markdown so that the plain text can be "
-"enjoyed from the comfort of your terminal. Obviously, we don’t use any "
-"ads or trackers, but this is still a public website, so man-in-the-middle"
-" attacks and such are always a possibility. Please be careful. See "
-":ref:`FAQ: Should I trust this website? <introduction/faq:should i trust "
-"this website?>`"
+"enjoyed from the comfort of your terminal. Obviously, we don’t use any ads "
+"or trackers, but this is still a public website, so man-in-the-middle "
+"attacks and such are always a possibility. Please be careful. See :ref:`FAQ:"
+" Should I trust this website? <introduction/faq:should i trust this "
+"website?>`"
 msgstr ""
 
 #: ../../introduction/privacy.rst:20 5d40488e37834adc81e33e997301fe31
@@ -80,20 +84,20 @@ msgid ""
 ":doc:`documentation </index>` from Markdown to reStructuredText. You can "
 "enjoy the plain text from the comfort of your terminal. Here’s the `repo "
 "<https://github.com/QubesOS/qubes-doc>`__. (By the way, Git tags on our "
-"repos are PGP-signed so you can :doc:`verify </project-security"
-"/verifying-signatures>` the authenticity of the content.) We omit the "
-"ethical ads from RTD, but this is still a public website, so man-in-the-"
-"middle attacks and such are always a possibility. Please be careful. Also"
-" see :ref:`FAQ: Why is the documentation hosted on ReadTheDocs as opposed"
-" to the website? <introduction/faq:why is the documentation hosted on "
-"readthedocs as opposed to the website?>`."
+"repos are PGP-signed so you can :doc:`verify </project-security/verifying-"
+"signatures>` the authenticity of the content.) We omit the ethical ads from "
+"RTD, but this is still a public website, so man-in-the-middle attacks and "
+"such are always a possibility. Please be careful. Also see :ref:`FAQ: Why is"
+" the documentation hosted on ReadTheDocs as opposed to the website? "
+"<introduction/faq:why is the documentation hosted on readthedocs as opposed "
+"to the website?>`."
 msgstr ""
 
 #: ../../introduction/privacy.rst:25 82cf08e4497845be8b3dc1e69c5a6f57
 msgid ""
 "Please refer to RTD's `privacy policy "
-"<https://docs.readthedocs.com/platform/stable/privacy-policy.html>`__ for"
-" more information. As per RTD site, the TL;DR version is as follows:"
+"<https://docs.readthedocs.com/platform/stable/privacy-policy.html>`__ for "
+"more information. As per RTD site, the TL;DR version is as follows:"
 msgstr ""
 
 #: ../../introduction/privacy.rst:36 31c3792e0b4b49de8119bc2e259f82eb
@@ -102,70 +106,70 @@ msgstr ""
 
 #: ../../introduction/privacy.rst:39 52517e7cbcbf45dc994872fb6759851c
 msgid ""
-"We provide repositories at https://yum.qubes-os.org and https://deb"
-".qubes-os.org."
+"We provide repositories at https://yum.qubes-os.org and https://deb.qubes-"
+"os.org."
 msgstr ""
 
 #: ../../introduction/privacy.rst:41 409c95191dcb49d8aaa7eaf7c679bc79
 msgid ""
-"We collect and store standard server access and error logs, which include"
-" IP addresses. We use this data for generating :doc:`Qubes userbase "
-"statistics </introduction/statistics>` and for incident response."
+"We collect and store standard server access and error logs, which include IP"
+" addresses. We use this data for generating :doc:`Qubes userbase statistics "
+"</introduction/statistics>` and for incident response."
 msgstr ""
 
 #: ../../introduction/privacy.rst:43 2167491f4ea14a608a89aa3530852466
 msgid ""
-"The data is retained for up to three months so that we can re-calculate "
-"the previous two months’ statistics in case anything goes wrong. After "
-"that, the data is deleted. We never sell the data to anyone or share it "
-"with any third party."
+"The data is retained for up to three months so that we can re-calculate the "
+"previous two months’ statistics in case anything goes wrong. After that, the"
+" data is deleted. We never sell the data to anyone or share it with any "
+"third party."
 msgstr ""
 
 #: ../../introduction/privacy.rst:45 a754b209628641d7a77b5e5f3cb766f2
 msgid ""
-"If you would like to hide your IP address from us, we strongly encourage "
-"it and are happy to help you do so! Simply choose the Whonix option to "
-"route all of your updates over Tor when :doc:`installing Qubes OS </user"
-"/downloading-installing-upgrading/installation-guide>`."
+"If you would like to hide your IP address from us, we strongly encourage it "
+"and are happy to help you do so! Simply choose the Whonix option to route "
+"all of your updates over Tor when :doc:`installing Qubes OS "
+"</user/downloading-installing-upgrading/installation-guide>`."
 msgstr ""
 
 #: ../../introduction/privacy.rst:48 cd9229dd2a7d497089f0a76fdf04abf5
 msgid "Onion Services"
-msgstr ""
+msgstr "Les services oignon"
 
 #: ../../introduction/privacy.rst:51 22aef0eb1ccb4902800d626382ee4354
 msgid ""
 "We provide an `onion service "
 "<http://www.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion>`__"
-" for the website and onion service mirrors of the repositories. Access to"
-" these servers is not logged."
+" for the website and onion service mirrors of the repositories. Access to "
+"these servers is not logged."
 msgstr ""
 
 #: ../../introduction/privacy.rst:54 46fe288a38ce47b295ce7dfb70e3a212
 msgid "Mirrors"
-msgstr ""
+msgstr "Sites miroirs"
 
 #: ../../introduction/privacy.rst:57 0a5dcdd5de3547bfa56963faecd3f162
 msgid ""
 "There are also other third-party mirrors hosted by volunteers. These are "
 "used both for `ISO downloads <https://www.qubes-"
 "os.org/downloads/#mirrors>`__ and `updates <#update-servers-and-"
-"repositories>`__. We have no control over what data these mirrors collect"
-" or with whom they share it. Please see the privacy policy of each "
-"respective mirror operator."
+"repositories>`__. We have no control over what data these mirrors collect or"
+" with whom they share it. Please see the privacy policy of each respective "
+"mirror operator."
 msgstr ""
 
 #: ../../introduction/privacy.rst:60 08748ce1baac4e10a85469a2b5ecf71f
 msgid "Qubes OS"
-msgstr ""
+msgstr "Qubes OS"
 
 #: ../../introduction/privacy.rst:63 aad18818fe9b4077aa755933e6970f13
 msgid ""
-"We have specifically designed Qubes OS so that it is not possible to "
-"collect any data directly from Qubes OS installations. In other words, "
-"Qubes OS does not have the ability to “phone home” and is intentionally "
-"architected to forbid that from happening. This is mainly because we have"
-" ensured that dom0 has no network access."
+"We have specifically designed Qubes OS so that it is not possible to collect"
+" any data directly from Qubes OS installations. In other words, Qubes OS "
+"does not have the ability to “phone home” and is intentionally architected "
+"to forbid that from happening. This is mainly because we have ensured that "
+"dom0 has no network access."
 msgstr ""
 
 #: ../../introduction/privacy.rst:65 0ed24c95f8244491bf75afd288266c2e
@@ -180,10 +184,9 @@ msgstr ""
 
 #: ../../introduction/privacy.rst:67 42bd3e8c5bf349ff8de0bdd528cb15bb
 msgid ""
-"Of course, third-party software (including other operating systems) "
-"running inside of Qubes OS may not be as privacy-respecting, so please be"
-" mindful of what you install. We have no control over such third-party "
-"software."
+"Of course, third-party software (including other operating systems) running "
+"inside of Qubes OS may not be as privacy-respecting, so please be mindful of"
+" what you install. We have no control over such third-party software."
 msgstr ""
 
 #: ../../introduction/privacy.rst:69 3330bf7d678d4d7c98a40cfd0582fdb7
@@ -191,4 +194,3 @@ msgid ""
 "For more information, please see :ref:`FAQ: How does Qubes OS provide "
 "privacy? <introduction/faq:how does qubes os provide privacy?>`"
 msgstr ""
-

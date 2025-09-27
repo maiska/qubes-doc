@@ -1,32 +1,34 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# AO <ao@localizationlab.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../developer/general/research.rst:3 94f5de1ae2d84b7793266b89e72e5ae3
 msgid "Research"
-msgstr ""
+msgstr "Recherche"
 
 #: ../../developer/general/research.rst:5 08aa85780cfd4ee39069cb84de87d5c5
 msgid ""
-"Here are links to various research papers, projects, videos, and blog "
-"posts related to Qubes OS."
+"Here are links to various research papers, projects, videos, and blog posts "
+"related to Qubes OS."
 msgstr ""
 
 #: ../../developer/general/research.rst:9 2ceceb75bd0244119c0c3a1595b7d785
@@ -47,8 +49,8 @@ msgstr ""
 #: ../../developer/general/research.rst:17 719d1c9c85c54677832fb2a58c85d16f
 msgid ""
 "`Thoughts on the \"physically secure\" ORWL computer "
-"<https://blog.invisiblethings.org/2016/09/03/thoughts-about-orwl.html>`__"
-" by Joanna Rutkowska, September 2016"
+"<https://blog.invisiblethings.org/2016/09/03/thoughts-about-orwl.html>`__ by"
+" Joanna Rutkowska, September 2016"
 msgstr ""
 
 #: ../../developer/general/research.rst:18 70a67485666c4674a7be17ef5d3139d1
@@ -61,8 +63,8 @@ msgstr ""
 #: ../../developer/general/research.rst:19 8fbbfbe0399f4bf7912627d6cb01d86d
 msgid ""
 "`Intel x86 considered harmful "
-"<https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf>`__ by "
-"Joanna Rutkowska, October 2015"
+"<https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf>`__ by Joanna "
+"Rutkowska, October 2015"
 msgstr ""
 
 #: ../../developer/general/research.rst:23 9cfa68ebc35646ce8e39cf5bd326853a
@@ -104,8 +106,8 @@ msgstr ""
 #: ../../developer/general/research.rst:34 ea15e92e691c4f558c3451937c56e0fa
 msgid ""
 "`ACPI: Design Principles and Concerns "
-"<https://cyber.gouv.fr/sites/default/files/IMG/pdf/article_acpi.pdf>`__ "
-"by Loic Duflot, Olivier Levillain, and Benjamin Morin, 2009"
+"<https://cyber.gouv.fr/sites/default/files/IMG/pdf/article_acpi.pdf>`__ by "
+"Loic Duflot, Olivier Levillain, and Benjamin Morin, 2009"
 msgstr ""
 
 #: ../../developer/general/research.rst:35 50019a47bfc74f778fd5686ed4a07374
@@ -120,7 +122,6 @@ msgid "Software Attacks Coming Through Devices"
 msgstr ""
 
 #: ../../developer/general/research.rst:40 d0dd50a47e9c4d61855dd9c7e0092edb
-#, python-format
 msgid ""
 "`Following the White Rabbit: Software Attacks against Intel® VT-d "
 "<https://invisiblethingslab.com/resources/2011/Software%20Attacks%20on%20Intel%20VT-d.pdf>`__"
@@ -154,10 +155,9 @@ msgstr ""
 
 #: ../../developer/general/research.rst:48 6134d96dc24444d1ba9132520b6cb610
 msgid ""
-"`Virtics: A System for Privilege Separation of Legacy Desktop "
-"Applications "
-"<https://www2.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-70.pdf>`__ "
-"by Matt Piotrowski, May 2010"
+"`Virtics: A System for Privilege Separation of Legacy Desktop Applications "
+"<https://www2.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-70.pdf>`__ by "
+"Matt Piotrowski, May 2010"
 msgstr ""
 
 #: ../../developer/general/research.rst:52 e524d01b4628409da382396c8df067b6
@@ -174,8 +174,8 @@ msgstr ""
 #: ../../developer/general/research.rst:55 94b129700f0d47a99682264a613298df
 msgid ""
 "`Breaking Up is Hard to Do: Security and Functionality in a Commodity "
-"Hypervisor <https://tjd.phlegethon.org/words/sosp11-xoar.pdf>`__ by "
-"Patrick Colp at el., October 2011"
+"Hypervisor <https://tjd.phlegethon.org/words/sosp11-xoar.pdf>`__ by Patrick "
+"Colp at el., October 2011"
 msgstr ""
 
 #: ../../developer/general/research.rst:58 a8867d33ea8342438299e427d1de5139
@@ -184,8 +184,9 @@ msgstr ""
 
 #: ../../developer/general/research.rst:60 b3d9cc6a20f540349864e722505b0495
 msgid ""
-"`Qubes virtual mini-summit 2021 <https://www.qubes-os.org/news/2021/07/30"
-"/minisummit-agenda/>`__ by 3mdeb and the Qubes team, August 2021"
+"`Qubes virtual mini-summit 2021 <https://www.qubes-"
+"os.org/news/2021/07/30/minisummit-agenda/>`__ by 3mdeb and the Qubes team, "
+"August 2021"
 msgstr ""
 
 #: ../../developer/general/research.rst:61 5489d920b29341709b1051789c59f30e
@@ -203,14 +204,12 @@ msgstr ""
 #: ../../developer/general/research.rst:63 82c9acdebbd449a3a47171a3217267a5
 msgid ""
 "`Introducing the Qubes Admin API <https://www.qubes-"
-"os.org/news/2017/06/27/qubes-admin-api/>`__ by Joanna Rutkowska, June "
-"2017"
+"os.org/news/2017/06/27/qubes-admin-api/>`__ by Joanna Rutkowska, June 2017"
 msgstr ""
 
 #: ../../developer/general/research.rst:64 a041b880fdcf4a368ccdc8a8c465bc3b
 msgid ""
-"`Qubes OS Architecture Spec v0.3 <https://www.qubes-os.org/attachment/doc"
-"/arch-spec-0.3.pdf>`__ by Joanna Rutkowska and Rafal Wojtczuk, January "
-"2010"
+"`Qubes OS Architecture Spec v0.3 <https://www.qubes-"
+"os.org/attachment/doc/arch-spec-0.3.pdf>`__ by Joanna Rutkowska and Rafal "
+"Wojtczuk, January 2010"
 msgstr ""
-

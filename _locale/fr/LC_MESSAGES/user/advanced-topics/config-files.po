@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/advanced-topics/config-files.rst:3
 #: 694bd30c34bf4edcb99896424fe582f8
@@ -37,18 +35,18 @@ msgstr ""
 #: ../../user/advanced-topics/config-files.rst:13
 #: 299f88dd0e9d49369a6148bbe5e60d31
 msgid ""
-"These files are placed in ``/rw``, which survives a VM restart. That way,"
-" they can be used to customize a single VM instead of all VMs based on "
-"the same template. The scripts here all run as root."
+"These files are placed in ``/rw``, which survives a VM restart. That way, "
+"they can be used to customize a single VM instead of all VMs based on the "
+"same template. The scripts here all run as root."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:15
 #: 6df8c8bf45bf4277bcc69e47477a6635
 msgid ""
-"``/rw/config/rc.local`` - script runs at VM startup. Good place to change"
-" some service settings, replace config files with its copy stored in "
-"``/rw/config``, etc. The script need to have the executable permission "
-"set to be executed. Example usage:"
+"``/rw/config/rc.local`` - script runs at VM startup. Good place to change "
+"some service settings, replace config files with its copy stored in "
+"``/rw/config``, etc. The script need to have the executable permission set "
+"to be executed. Example usage:"
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:32
@@ -63,8 +61,8 @@ msgstr ""
 msgid ""
 "``/rw/config/rc.local-early.d/*.rc``, ``/rw/config/rc.local-early`` - "
 "scripts similar to ``/rw/config/rc.local``, but running earlier in the "
-"system startup sequence - just before ``sysinit.target``, and setting up "
-"the network."
+"system startup sequence - just before ``sysinit.target``, and setting up the"
+" network."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:36
@@ -77,44 +75,41 @@ msgstr ""
 #: ../../user/advanced-topics/config-files.rst:38
 #: 341f1262dbb542219a721ecf94398077
 msgid ""
-"In ProxyVMs (or app qubes with ``qubes-firewall`` service enabled), "
-"scripts placed in the following directories will be executed in the "
-"listed order followed by ``qubes-firewall-user-script`` at start up. Good"
-" place to write custom firewall rules."
+"In ProxyVMs (or app qubes with ``qubes-firewall`` service enabled), scripts "
+"placed in the following directories will be executed in the listed order "
+"followed by ``qubes-firewall-user-script`` at start up. Good place to write "
+"custom firewall rules."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:48
 #: 07bf70f2d0534b759c872a048c9f4378
 msgid ""
-"``/rw/config/suspend-module-blacklist`` - list of modules (one per line) "
-"to be unloaded before system goes to sleep. The file is used only in a VM"
-" with PCI devices attached. Intended for use with problematic device "
-"drivers."
+"``/rw/config/suspend-module-blacklist`` - list of modules (one per line) to "
+"be unloaded before system goes to sleep. The file is used only in a VM with "
+"PCI devices attached. Intended for use with problematic device drivers."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:50
 #: 9e08b4269e2b4ef2b193c69038ecd55d
 msgid ""
-"In NetVMs/ProxyVMs, scripts placed in ``/rw/config/network-hooks.d`` will"
-" be ran when configuring Qubes interfaces. For each script, the "
-"``command``, ``vif``, ``vif_type`` and ``ip`` is passed as arguments (see"
-" ``/etc/xen/scripts/vif-route-qubes``). For example, consider a PV app "
-"qube ``work`` with IP ``10.137.0.100`` and ``sys-firewall`` as NetVM. "
-"Assuming it’s Xen domain id is arbitrary ``12`` then, the following "
-"script located at ``/rw/config/network-hooks.d/hook-100.sh`` in ``sys-"
-"firewall``:"
+"In NetVMs/ProxyVMs, scripts placed in ``/rw/config/network-hooks.d`` will be"
+" ran when configuring Qubes interfaces. For each script, the ``command``, "
+"``vif``, ``vif_type`` and ``ip`` is passed as arguments (see "
+"``/etc/xen/scripts/vif-route-qubes``). For example, consider a PV app qube "
+"``work`` with IP ``10.137.0.100`` and ``sys-firewall`` as NetVM. Assuming "
+"it’s Xen domain id is arbitrary ``12`` then, the following script located at"
+" ``/rw/config/network-hooks.d/hook-100.sh`` in ``sys-firewall``:"
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:73
 #: 1aae382d8f3d4fdcb22f06bf19292beb
 msgid ""
 "will be executed with arguments ``online vif12.0 vif 10.137.0.100`` when "
-"starting ``work``. Please note that in case of an HVM, the script will be"
-" called twice - once with vif_type ``vif``, then with vif_type "
-"``vif_ioemu`` (and different interface names). As long as the ioemu "
-"interface exists, it should be preferred (up to the hook script). When "
-"the VM decides to use a PV interface (vif_type ``vif``), the ioemu one "
-"will be unplugged."
+"starting ``work``. Please note that in case of an HVM, the script will be "
+"called twice - once with vif_type ``vif``, then with vif_type ``vif_ioemu`` "
+"(and different interface names). As long as the ioemu interface exists, it "
+"should be preferred (up to the hook script). When the VM decides to use a PV"
+" interface (vif_type ``vif``), the ioemu one will be unplugged."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:77
@@ -125,9 +120,9 @@ msgstr ""
 #: ../../user/advanced-topics/config-files.rst:79
 #: 7c070537e7564d16b144eaf2b6242531
 msgid ""
-"Also, take a look at :doc:`bind-dirs </user/advanced-topics/bind-dirs>` "
-"for instructions on how to easily modify arbitrary system files in an app"
-" qube and have those changes persist."
+"Also, take a look at :doc:`bind-dirs </user/advanced-topics/bind-dirs>` for "
+"instructions on how to easily modify arbitrary system files in an app qube "
+"and have those changes persist."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:82
@@ -159,61 +154,58 @@ msgstr ""
 #: de3ecc254751447481f47b8325affe9f
 msgid ""
 "**Note:** Regardless of this setting, you can always put a window into "
-"fullscreen mode in Xfce4 using the trusted window manager by right-"
-"clicking on a window’s title bar and selecting “Fullscreen”. This "
-"functionality should still be considered safe, since a VM window still "
-"can’t voluntarily enter fullscreen mode. The user must select this option"
-" from the trusted window manager in dom0. To exit fullscreen mode from "
-"here, press ``alt`` + ``space`` to bring up the title bar menu again, "
-"then select “Leave Fullscreen”."
+"fullscreen mode in Xfce4 using the trusted window manager by right-clicking "
+"on a window’s title bar and selecting “Fullscreen”. This functionality "
+"should still be considered safe, since a VM window still can’t voluntarily "
+"enter fullscreen mode. The user must select this option from the trusted "
+"window manager in dom0. To exit fullscreen mode from here, press ``alt`` + "
+"``space`` to bring up the title bar menu again, then select “Leave "
+"Fullscreen”."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:127
 #: 2babea3c80ec42b196b008eca5d98a09
 msgid ""
-"``allow_utf8_titles`` - allow the use of UTF-8 in window titles; "
-"otherwise, non-ASCII characters are replaced by an underscore."
+"``allow_utf8_titles`` - allow the use of UTF-8 in window titles; otherwise, "
+"non-ASCII characters are replaced by an underscore."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:129
 #: 7ea47d328c2447e4bf9f21b2959323a7
 msgid ""
-"``secure_copy_sequence`` and ``secure_paste_sequence`` - key sequences "
-"used to trigger secure copy and paste."
+"``secure_copy_sequence`` and ``secure_paste_sequence`` - key sequences used "
+"to trigger secure copy and paste."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:131
 #: 3d4ce769bd344c4192c038dac9c97714
 msgid ""
-"``audio_low_latency`` - force low-latency audio mode (about 40ms compared"
-" to 200-500ms by default). Note that this will cause much higher CPU "
-"usage in dom0. It’s enabled by default, disabling it may save CPU in "
-"dom0."
+"``audio_low_latency`` - force low-latency audio mode (about 40ms compared to"
+" 200-500ms by default). Note that this will cause much higher CPU usage in "
+"dom0. It’s enabled by default, disabling it may save CPU in dom0."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:133
 #: d7762c3c15174a82ad31831a781d2db4
 msgid ""
-"``trayicon_mode`` - defines the trayicon coloring mode. Options are - "
-"``bg`` - color full icon background to the VM color - ``border1`` - add "
-"1px border at the icon edges - ``border2`` - add 1px border 1px from the "
-"icon edges - ``tint`` - tinttint icon to the VM color, can be used with "
-"additional modifiers (you can enable multiple of them) - "
-"``tint+border1,tint+border2`` - same as tint, but also add a border - "
-"``tint+saturation50`` - same as tint, but reduce icon saturation by 50% -"
-" ``tint+whitehack`` - same as tint, but change white pixels (0xffffff) to"
-" almost-white (0xfefefe)"
+"``trayicon_mode`` - defines the trayicon coloring mode. Options are - ``bg``"
+" - color full icon background to the VM color - ``border1`` - add 1px border"
+" at the icon edges - ``border2`` - add 1px border 1px from the icon edges - "
+"``tint`` - tinttint icon to the VM color, can be used with additional "
+"modifiers (you can enable multiple of them) - ``tint+border1,tint+border2`` "
+"- same as tint, but also add a border - ``tint+saturation50`` - same as "
+"tint, but reduce icon saturation by 50% - ``tint+whitehack`` - same as tint,"
+" but change white pixels (0xffffff) to almost-white (0xfefefe)"
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:135
 #: 80da6afdee354f019f81625a3bce7d7a
 msgid ""
-"``log level`` - defines the log options logs can take. It can have a "
-"value of 0 (only errors), 1 (some basic messages), and 2 (debug)."
+"``log level`` - defines the log options logs can take. It can have a value "
+"of 0 (only errors), 1 (some basic messages), and 2 (debug)."
 msgstr ""
 
 #: ../../user/advanced-topics/config-files.rst:137
 #: ed7b72edc40f4c28b63fc78a16926c37
 msgid "``startup_timeout`` - The timeout for startup."
 msgstr ""
-

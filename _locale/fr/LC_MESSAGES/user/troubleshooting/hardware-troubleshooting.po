@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:3
 #: ed07160797cb42c98d877d785be5d72c
@@ -32,28 +30,28 @@ msgstr ""
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:10
 #: dd6d7934f2f64f3396f75be2b9a1f981
 msgid ""
-"By default, the kernel that is installed in dom0 comes from the "
-"``kernel`` package, which is an older Linux LTS kernel. For most cases "
-"this works fine since the Linux kernel developers backport fixes to this "
-"kernel, but for some newer hardware, you may run into issues. For "
-"example, the audio might not work if the sound card is too new for the "
-"LTS kernel. To fix this, you can try the ``kernel-latest`` package – "
-"though be aware that it’s less tested! (See :ref:`here <user/advanced-"
-"topics/how-to-install-software-in-dom0:kernel upgrade>` for more "
-"information about upgrading kernels in dom0). In dom0:"
+"By default, the kernel that is installed in dom0 comes from the ``kernel`` "
+"package, which is an older Linux LTS kernel. For most cases this works fine "
+"since the Linux kernel developers backport fixes to this kernel, but for "
+"some newer hardware, you may run into issues. For example, the audio might "
+"not work if the sound card is too new for the LTS kernel. To fix this, you "
+"can try the ``kernel-latest`` package – though be aware that it’s less "
+"tested! (See :ref:`here <user/advanced-topics/how-to-install-software-in-"
+"dom0:kernel upgrade>` for more information about upgrading kernels in dom0)."
+" In dom0:"
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:18
 #: f0c2f55a00924018a29d39aceb5239c9
 msgid ""
-"Reboot when it’s done installing. You can double-check that the boot used"
-" the newer kernel with ``uname -r``, which prints the version of the "
-"currently-running kernel. Compare this with the output of ``rpm -q "
-"kernel``. If the start of ``uname -r`` matches one of the versions "
-"printed by ``rpm``, then you’re still using the Linux LTS kernel, and "
-"you’ll probably need to manually fix your boot settings. If ``uname -r`` "
-"reports a higher version number, then you’ve successfully booted with the"
-" kernel shipped by ``kernel-latest``."
+"Reboot when it’s done installing. You can double-check that the boot used "
+"the newer kernel with ``uname -r``, which prints the version of the "
+"currently-running kernel. Compare this with the output of ``rpm -q kernel``."
+" If the start of ``uname -r`` matches one of the versions printed by "
+"``rpm``, then you’re still using the Linux LTS kernel, and you’ll probably "
+"need to manually fix your boot settings. If ``uname -r`` reports a higher "
+"version number, then you’ve successfully booted with the kernel shipped by "
+"``kernel-latest``."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:21
@@ -64,8 +62,8 @@ msgstr ""
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:24
 #: 1ea4f037f1be43c58829351e1530c6c2
 msgid ""
-"See :ref:`Installation Troubleshooting <user/troubleshooting"
-"/installation-troubleshooting:\"unsupported hardware detected\" error>`."
+"See :ref:`Installation Troubleshooting <user/troubleshooting/installation-"
+"troubleshooting:\"unsupported hardware detected\" error>`."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:27
@@ -77,24 +75,23 @@ msgstr ""
 #: b157961950bf4cdd95b59362eb0b93db
 msgid ""
 "The best approach is to choose the right keyboard layout during the "
-"installation process. But if you want to change things afterwards, you "
-"can try this workaround."
+"installation process. But if you want to change things afterwards, you can "
+"try this workaround."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:32
 #: 0ea928e6bdca4a41ab6add51e2347834
 msgid ""
 "Assuming XFCE desktop: in ``Q`` → ``System Tools`` → ``Keyboard`` → "
-"``Layout``, leave the checkbox “ ``Use system defaults``” checked. Do not"
-" customize the keyboard layout here."
+"``Layout``, leave the checkbox “ ``Use system defaults``” checked. Do not "
+"customize the keyboard layout here."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:34
 #: 99f406c6a2c548d894e10e1f10f11fe5
 msgid ""
-"Set the system-wide layout and options for ``xorg`` with the "
-"``localectl`` command in ``dom0``. You can use ``localectl --help`` as a "
-"starting point."
+"Set the system-wide layout and options for ``xorg`` with the ``localectl`` "
+"command in ``dom0``. You can use ``localectl --help`` as a starting point."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:36
@@ -106,22 +103,22 @@ msgstr ""
 #: e01a4d24da76465eb7d9c64eb44ffc22
 msgid ""
 "This generates the appropriate configuration in "
-"``/etc/X11/xorg.conf.d/00-keyboard.conf``. This file is auto-generated. "
-"Do not edit it by hand, unless you know what you are doing."
+"``/etc/X11/xorg.conf.d/00-keyboard.conf``. This file is auto-generated. Do "
+"not edit it by hand, unless you know what you are doing."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:40
 #: 0f422aaee84d4dfaa1e308488b7597eb
 msgid ""
-"Restarting ``xorg`` is required. The most straightforward way is to "
-"reboot the system."
+"Restarting ``xorg`` is required. The most straightforward way is to reboot "
+"the system."
 msgstr ""
 
 #: ../../user/troubleshooting/hardware-troubleshooting.rst:42
 #: 494424547b134326a34c34ea39791c58
 msgid ""
-"More information in `this discussion <https://groups.google.com/d/topic"
-"/qubes-devel/d8ZQ_62asKI/discussion>`__ and `this GitHub issue "
-"<https://github.com/QubesOS/qubes-issues/issues/1396>`__."
+"More information in `this discussion "
+"<https://groups.google.com/d/topic/qubes-devel/d8ZQ_62asKI/discussion>`__ "
+"and `this GitHub issue <https://github.com/QubesOS/qubes-"
+"issues/issues/1396>`__."
 msgstr ""
-

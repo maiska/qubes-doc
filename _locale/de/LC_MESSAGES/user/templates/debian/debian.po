@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Emma Peel, 2025
+# IDRASSI Mounir <mounir.idrassi@idrix.fr>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Last-Translator: IDRASSI Mounir <mounir.idrassi@idrix.fr>, 2025\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/templates/debian/debian.rst:3 bd8a009b84e94b1ebddf20094fce5d56
 msgid "Debian templates"
@@ -25,25 +28,25 @@ msgstr ""
 
 #: ../../user/templates/debian/debian.rst:6 ebcf91805e17414faffa6a9edd67460f
 msgid ""
-"The Debian :term:`template` is an officially :ref:`supported <user"
-"/downloading-installing-upgrading/supported-releases:templates>` template"
-" in Qubes OS. The Current version is Debian |debian-version| (“|debian-"
-"codename|”). It is available in 3 versions - ``debian-12``, a standard "
-"template; ``debian-12-xfce``, a larger template with more installed "
-"applications, selected for :doc:`Xfce </user/templates/xfce-templates>`; "
+"The Debian :term:`template` is an officially :ref:`supported "
+"<user/downloading-installing-upgrading/supported-releases:templates>` "
+"template in Qubes OS. The Current version is Debian |debian-version| "
+"(“|debian-codename|”). It is available in 3 versions - ``debian-12``, a "
+"standard template; ``debian-12-xfce``, a larger template with more installed"
+" applications, selected for :doc:`Xfce </user/templates/xfce-templates>`; "
 "``debian-12-minimal``. This page is about the “full” templates. For the "
-"minimal version, please see the :doc:`Minimal templates </user/templates"
-"/minimal-templates>` page."
+"minimal version, please see the :doc:`Minimal templates "
+"</user/templates/minimal-templates>` page."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:9 d2168b28331f4270bf1176a5fdc7c239
 msgid "Installing"
-msgstr ""
+msgstr "Installiert"
 
 #: ../../user/templates/debian/debian.rst:12 9b904eb588e447509fedb4bc7512ced5
 msgid ""
-"To :ref:`install <user/templates/templates:installing>` a specific Debian"
-" template that is not currently installed in your system, use the Qubes "
+"To :ref:`install <user/templates/templates:installing>` a specific Debian "
+"template that is not currently installed in your system, use the Qubes "
 "Template Manager, or use the following command in a dom0 terminal:"
 msgstr ""
 
@@ -53,9 +56,9 @@ msgstr ""
 
 #: ../../user/templates/debian/debian.rst:22 10a8e028fc18463787f175c82ef03a19
 msgid ""
-"To reinstall a Debian template that is already installed in your system, "
-"see :doc:`How to Reinstall a template </user/how-to-guides/how-to-"
-"reinstall-a-template>`."
+"To reinstall a Debian template that is already installed in your system, see"
+" :doc:`How to Reinstall a template </user/how-to-guides/how-to-reinstall-a-"
+"template>`."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:25 cb7b3f6e94904f82a5e91f8db9d41467
@@ -69,13 +72,14 @@ msgid ""
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:30 f5582ff7296042c8b40e58ad03f68c75
-msgid ":doc:`Update the template </user/how-to-guides/how-to-install-software>`."
+msgid ""
+":doc:`Update the template </user/how-to-guides/how-to-install-software>`."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:32 811798ffd571451f9f044c59c6269365
 msgid ""
-":ref:`Switch any app qubes that are based on the old template to the new "
-"one <user/templates/templates:switching>`."
+":ref:`Switch any app qubes that are based on the old template to the new one"
+" <user/templates/templates:switching>`."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:34 b7163b141ce24ae6aaed742bc818fc20
@@ -96,12 +100,12 @@ msgstr ""
 
 #: ../../user/templates/debian/debian.rst:45 923b3f03c51244eca479883490a4ea9c
 msgid "Updating"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: ../../user/templates/debian/debian.rst:48 5a213a3253ae460faa4361c69fd792b3
 msgid ""
-"For routine daily updates within a given release, see :doc:`How to Update"
-" </user/how-to-guides/how-to-update>`."
+"For routine daily updates within a given release, see :doc:`How to Update "
+"</user/how-to-guides/how-to-update>`."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:51 49ab3f18397d4695a29a2589d2c8b371
@@ -115,22 +119,22 @@ msgstr ""
 #: ../../user/templates/debian/debian.rst:56 683c5d7a1e9f462d9fb1397fdc63bbf4
 msgid ""
 "**Recommended:** `Install a fresh template to replace the existing one. "
-"<#installing>`__ **This option may be simpler for less experienced "
-"users.** After you install the new template, redo all desired template "
-"modifications and :ref:`switch everything that was set to the old "
-"template to the new template <user/templates/templates:switching>`. You "
-"may want to write down the modifications you make to your templates so "
-"that you remember what to redo on each fresh install. In the old Debian "
-"template, see ``/var/log/dpkg.log`` and ``/var/log/apt/history.log`` for "
-"logs of package manager actions."
+"<#installing>`__ **This option may be simpler for less experienced users.** "
+"After you install the new template, redo all desired template modifications "
+"and :ref:`switch everything that was set to the old template to the new "
+"template <user/templates/templates:switching>`. You may want to write down "
+"the modifications you make to your templates so that you remember what to "
+"redo on each fresh install. In the old Debian template, see "
+"``/var/log/dpkg.log`` and ``/var/log/apt/history.log`` for logs of package "
+"manager actions."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:58 59a2831cff3a406da95a31631efdd0c9
 msgid ""
 "**Advanced:** :doc:`Perform an in-place upgrade of an existing Debian "
-"template. </user/templates/debian/debian-upgrade>` This option will "
-"preserve any modifications you’ve made to the template, **but it may be "
-"more complicated for less experienced users.**"
+"template. </user/templates/debian/debian-upgrade>` This option will preserve"
+" any modifications you’ve made to the template, **but it may be more "
+"complicated for less experienced users.**"
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:63 c751596c69824f2d8974e091af650008
@@ -156,10 +160,10 @@ msgstr ""
 
 #: ../../user/templates/debian/debian.rst:74 65047893ae7740aba0dec699590694b7
 msgid ""
-"If you have a Debian template from an earlier release that you want to "
-"use for salting Qubes, you **must** stop the salt-common and salt-ssh "
-"packages from being upgraded. Do this by marking these packages on hold "
-"*before* updating the template."
+"If you have a Debian template from an earlier release that you want to use "
+"for salting Qubes, you **must** stop the salt-common and salt-ssh packages "
+"from being upgraded. Do this by marking these packages on hold *before* "
+"updating the template."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:84 505e7378a8124221a0bfd8c80e45a860
@@ -174,11 +178,10 @@ msgstr ""
 
 #: ../../user/templates/debian/debian.rst:90 b29b6d985d884a75a13aa15018ccd659
 msgid ""
-"The Debian way (generally) is to start daemons if they are installed. "
-"This means that if you install (say) ssh-server in a template, *all* the "
-"qubes that use that template will run a ssh server when they start. (They"
-" will, naturally, all have the same server key.) This may not be what you"
-" want."
+"The Debian way (generally) is to start daemons if they are installed. This "
+"means that if you install (say) ssh-server in a template, *all* the qubes "
+"that use that template will run a ssh server when they start. (They will, "
+"naturally, all have the same server key.) This may not be what you want."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:92 813611dd0f324860b906e5a27ae009d2
@@ -212,7 +215,8 @@ msgid "Close down template"
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:108 3443910c9e80482592f4ae1d85466cfe
-msgid "Now the ssh service will **NOT** start in qubes based on this template."
+msgid ""
+"Now the ssh service will **NOT** start in qubes based on this template."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:110 a3460833b49148aaba9d5e160a8d9d51
@@ -232,10 +236,10 @@ msgstr ""
 #: ../../user/templates/debian/debian.rst:125 9dc6bcbd1a3944bd973cb882dcfdf03b
 msgid ""
 "Some users have noticed that on upgrading Debian templates, the "
-"``unattended-upgrade`` package is installed. This package is pulled in as"
-" part of a Recommend chain, and can be purged. The lesson is that you "
-"should carefully look at what is being installed to your system, "
-"particularly if you run ``dist-upgrade``."
+"``unattended-upgrade`` package is installed. This package is pulled in as "
+"part of a Recommend chain, and can be purged. The lesson is that you should "
+"carefully look at what is being installed to your system, particularly if "
+"you run ``dist-upgrade``."
 msgstr ""
 
 #: ../../user/templates/debian/debian.rst:128 89d8ffd04a8a4fb8aec06f09d055f20e
@@ -248,4 +252,3 @@ msgid ""
 "<user/troubleshooting/vm-troubleshooting:fixing package installation "
 "errors>`"
 msgstr ""
-

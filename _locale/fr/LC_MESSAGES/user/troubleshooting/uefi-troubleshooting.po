@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:3
 #: d236afd80479498284b28ac696503896
@@ -27,15 +25,14 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:6
 #: d86ce92e47cd4a05bc99c1466ee40c95
 msgid ""
-"Successfully installed in legacy mode, but had to change some xen "
-"parameters"
+"Successfully installed in legacy mode, but had to change some xen parameters"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:8
 #: bf7cbb0b6bdf4e6e8b2f7bd29fb6ffb4
 msgid ""
-"**Note**: If you make changes, you must boot from “Partition 1” "
-"explicitly from UEFI boot menu."
+"**Note**: If you make changes, you must boot from “Partition 1” explicitly "
+"from UEFI boot menu."
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:10
@@ -46,15 +43,15 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:12
 #: ca1f05cc9cea4087ae8b1923f5cd0491
 msgid ""
-"Attach the usb disk, mount the EFI partition (second partition available "
-"on the disk)"
+"Attach the usb disk, mount the EFI partition (second partition available on "
+"the disk)"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:14
 #: a03c032a392d4356bce024882d2a9036
 msgid ""
-"Open a terminal and enter the command ``sudo su -``. Use your preferred "
-"text editor (e.g ``vi``) to edit your xen config (``EFI/BOOT/grub.cfg``):"
+"Open a terminal and enter the command ``sudo su -``. Use your preferred text"
+" editor (e.g ``vi``) to edit your xen config (``EFI/BOOT/grub.cfg``):"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:20
@@ -118,8 +115,8 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:42
 #: 1a3310ef671042509d66555001f6edac
 msgid ""
-"Some laptops cannot read from an external boot device larger than 8GB. If"
-" you encounter a black screen when performing an installation from a USB "
+"Some laptops cannot read from an external boot device larger than 8GB. If "
+"you encounter a black screen when performing an installation from a USB "
 "stick, ensure you are using a USB drive less than 8GB, or a partition on "
 "that USB lesser than 8GB and of format FAT32."
 msgstr ""
@@ -127,8 +124,8 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:45
 #: 008638ae37434cf5ba28e90ce2998368
 msgid ""
-"Installation completes successfully but then system crash/restarts on "
-"next boot"
+"Installation completes successfully but then system crash/restarts on next "
+"boot"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:47
@@ -136,15 +133,16 @@ msgstr ""
 msgid ""
 "Some Dell systems and probably others have `another bug in UEFI firmware "
 "<https://web.archive.org/web/20170901231026/https://markmail.org/message/amw5336otwhdxi76>`__."
-" These systems need ``efi=attr=uc`` enabled at all times. Although this "
-"is enabled by default in the installer, it is disabled after the first "
-"stage of a successful install. You can re-enable it either as part of the"
-" install process:"
+" These systems need ``efi=attr=uc`` enabled at all times. Although this is "
+"enabled by default in the installer, it is disabled after the first stage of"
+" a successful install. You can re-enable it either as part of the install "
+"process:"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:49
 #: 1eb05c35147042b6ae041bc1603d1125
-msgid "Perform installation normally, but don’t reboot the system at the end yet."
+msgid ""
+"Perform installation normally, but don’t reboot the system at the end yet."
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:51
@@ -165,7 +163,7 @@ msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:61
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:96
-#: 06a48937f3ac431f8b597c9b09afe478 96e2b52129984da0bb775267dde5f313
+#: 96e2b52129984da0bb775267dde5f313 06a48937f3ac431f8b597c9b09afe478
 msgid "Continue with setting up default templates and logging in to Qubes."
 msgstr ""
 
@@ -179,39 +177,39 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:65
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:103
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:137
-#: 200abcb77a8346d0b3bf3816b9202ab7 458ca03eb963487db4b26b04504199d8
-#: b244819608994e27a6fe39e64fc661b5
+#: b244819608994e27a6fe39e64fc661b5 200abcb77a8346d0b3bf3816b9202ab7
+#: 458ca03eb963487db4b26b04504199d8
 msgid ""
-"Boot Qubes OS install media into :ref:`rescue mode <user/troubleshooting"
-"/uefi-troubleshooting:accessing installer rescue mode on uefi>`"
+"Boot Qubes OS install media into :ref:`rescue mode "
+"<user/troubleshooting/uefi-troubleshooting:accessing installer rescue mode "
+"on uefi>`"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:67
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:105
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:139
-#: 381c08ec3e894752b37f2c17c074b2f9 3dd4130bb1f74e46877e044e8ba9bb04
-#: 5e6a81a73e354792ad488462c2af79d9
+#: 5e6a81a73e354792ad488462c2af79d9 3dd4130bb1f74e46877e044e8ba9bb04
+#: 381c08ec3e894752b37f2c17c074b2f9
 msgid "Press ‘3’ to go to the shell"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:69
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:107
-#: ecbf3f88744245c0815bc52ee884e13b f009195d5b604d33b8d5a11eadcf4d63
+#: f009195d5b604d33b8d5a11eadcf4d63 ecbf3f88744245c0815bc52ee884e13b
 msgid ""
 "Find and mount the EFI system partition. (replace ``/dev/sda`` with your "
-"disk name. If unsure, use the ``lsblk`` command to display a list of "
-"disks):"
+"disk name. If unsure, use the ``lsblk`` command to display a list of disks):"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:75
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:113
-#: 219b78760190409485fb2e6b0c819914 342047643b384381a5e6eef3d602cf1a
+#: 342047643b384381a5e6eef3d602cf1a 219b78760190409485fb2e6b0c819914
 msgid "The output should look like this:"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:81
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:119
-#: 0d07445432274ebd8ad32d6c085bf4c6 735fb5fd51114d1eab600b57989f6540
+#: 735fb5fd51114d1eab600b57989f6540 0d07445432274ebd8ad32d6c085bf4c6
 msgid "Then mount it:"
 msgstr ""
 
@@ -252,8 +250,8 @@ msgstr ""
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:141
 #: f62dcd0e3f4c45e082d3cda361fcdf33
 msgid ""
-"Create boot entry in EFI firmware (replace ``/dev/sda`` with your disk "
-"name and ``-p 1`` with ``/boot/efi`` partition number):"
+"Create boot entry in EFI firmware (replace ``/dev/sda`` with your disk name "
+"and ``-p 1`` with ``/boot/efi`` partition number):"
 msgstr ""
 
 #: ../../user/troubleshooting/uefi-troubleshooting.rst:148
@@ -265,4 +263,3 @@ msgstr ""
 #: a25883bcdd294fba8f52c73ab0f56350
 msgid "Choose “Rescue a Qubes OS system” from grub2 boot menu."
 msgstr ""
-

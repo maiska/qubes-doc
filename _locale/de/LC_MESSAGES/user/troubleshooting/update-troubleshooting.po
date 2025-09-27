@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: German (https://app.transifex.com/otf/teams/56717/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:3
 #: 093e2714f9fb4e60bcfe5b3bf461c118
@@ -34,31 +32,32 @@ msgstr ""
 #: ../../user/troubleshooting/update-troubleshooting.rst:10
 #: 0233a81b6c1b4c5c980fbaec9d3d64e9
 msgid ""
-"This is general Fedora issue, not a Qubes-specific issue. Usually, this "
-"is due to network problems (especially if downloading updates over Tor) "
-"or problems with the download mirrors. Often, the problem can be resolved"
-" by trying again on a different connection (a different Tor circuit, if "
-"using Tor) or waiting and trying again later. Here are some examples of "
-"non-Qubes reports about this problem:"
+"This is general Fedora issue, not a Qubes-specific issue. Usually, this is "
+"due to network problems (especially if downloading updates over Tor) or "
+"problems with the download mirrors. Often, the problem can be resolved by "
+"trying again on a different connection (a different Tor circuit, if using "
+"Tor) or waiting and trying again later. Here are some examples of non-Qubes "
+"reports about this problem:"
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:12
 #: c237c7c9b986470ab50fb3a25049b349
 msgid ""
-"https://ask.fedoraproject.org/en/question/88086/error-failed-to-"
-"synchronize-cache-for-repo-fedora/"
+"https://ask.fedoraproject.org/en/question/88086/error-failed-to-synchronize-"
+"cache-for-repo-fedora/"
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:14
 #: 82266a79c332410e9c39177aecf250b2
 msgid ""
-"https://unix.stackexchange.com/questions/390805/repos-not-working-on-"
-"fedora-error-failed-to-synchronize-cache-for-repo-update"
+"https://unix.stackexchange.com/questions/390805/repos-not-working-on-fedora-"
+"error-failed-to-synchronize-cache-for-repo-update"
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:16
 #: 5dc52b44ed364d009284c45f81956490
-msgid "https://www.reddit.com/r/Fedora/comments/74nldq/fedora_26_dnf_error_failed_to_synchronize_cache/"
+msgid ""
+"https://www.reddit.com/r/Fedora/comments/74nldq/fedora_26_dnf_error_failed_to_synchronize_cache/"
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:18
@@ -76,8 +75,8 @@ msgstr ""
 #: ../../user/troubleshooting/update-troubleshooting.rst:24
 #: 5badea5506564bc8bd03c3b0590f0174
 msgid ""
-"More examples can be found by searching for “Failed to synchronize cache "
-"for repo” (with quotation marks) on your preferred search engine."
+"More examples can be found by searching for “Failed to synchronize cache for"
+" repo” (with quotation marks) on your preferred search engine."
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:27
@@ -89,21 +88,20 @@ msgstr ""
 #: 6c91ecaefc9849caa94ef0addcdce204
 msgid ""
 "In earlier versions of Qubes, there were situations where qubes lost "
-"internet access after a template update. The following fix should be "
-"applied in recent versions of Qubes."
+"internet access after a template update. The following fix should be applied"
+" in recent versions of Qubes."
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:32
 #: cb86c9d0f11140f2a7f485063cdfb294
 msgid ""
-"Run ``systemctl enable NetworkManager-dispatcher.service`` in the "
-"template upon which your NetVM is based. You may have to reboot afterward"
-" for the change to take effect. (**Note:** This is an upstream problem. "
-"See `this Redhat ticket "
-"<https://bugzilla.redhat.com/show_bug.cgi?id=974811>`__). For details, "
-"see the qubes-users mailing list threads `here "
-"<https://groups.google.com/d/topic/qubes-users/xPLGsAJiDW4/discussion>`__"
-" and `here <https://groups.google.com/d/topic/qubes-"
+"Run ``systemctl enable NetworkManager-dispatcher.service`` in the template "
+"upon which your NetVM is based. You may have to reboot afterward for the "
+"change to take effect. (**Note:** This is an upstream problem. See `this "
+"Redhat ticket <https://bugzilla.redhat.com/show_bug.cgi?id=974811>`__). For "
+"details, see the qubes-users mailing list threads `here "
+"<https://groups.google.com/d/topic/qubes-users/xPLGsAJiDW4/discussion>`__ "
+"and `here <https://groups.google.com/d/topic/qubes-"
 "users/uN9G8hjKrGI/discussion>`__.)"
 msgstr ""
 
@@ -117,8 +115,8 @@ msgstr ""
 msgid ""
 "This has nothing to do with Qubes. It’s a longstanding Windows bug. More "
 "information about this issue and solutions can be found `here "
-"<https://superuser.com/questions/951960/windows-7-sp1-windows-update-"
-"stuck-checking-for-updates>`__."
+"<https://superuser.com/questions/951960/windows-7-sp1-windows-update-stuck-"
+"checking-for-updates>`__."
 msgstr ""
 
 #: ../../user/troubleshooting/update-troubleshooting.rst:41
@@ -152,4 +150,3 @@ msgstr ""
 #: 1c050f209b64416ea6a14a455bedc295
 msgid "Debian: ``apt-get update && apt-get dist-upgrade``"
 msgstr ""
-

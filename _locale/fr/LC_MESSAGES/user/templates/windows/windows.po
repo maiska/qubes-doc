@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:33+0000\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/templates/windows/windows.rst:3 964fb3454f6a4e948b64088a6a8a7132
 msgid "Windows qubes"
@@ -31,44 +29,47 @@ msgstr ""
 
 #: ../../user/templates/windows/windows.rst:8 11b83e1c85e34b568b7b8fd87a310fea
 msgid ""
-"Qubes Windows Tools (QWT) are then usually installed to provide "
-"integration with the rest of the Qubes system; they also include Xen’s "
-"paravirtualized (PV) drivers to increase performance compared to qemu "
-"emulated devices. Alternatively, only Xen’s PV drivers can be installed "
-"if integration with Qubes isn’t required or if the tools aren’t supported"
-" on a given version of Windows. In the latter case, one would have to "
-":ref:`enable inter-VM networking <user/security-in-"
-"qubes/firewall:enabling networking between two qubes>` to be able to "
-"exchange files with HVMs."
+"Qubes Windows Tools (QWT) are then usually installed to provide integration "
+"with the rest of the Qubes system; they also include Xen’s paravirtualized "
+"(PV) drivers to increase performance compared to qemu emulated devices. "
+"Alternatively, only Xen’s PV drivers can be installed if integration with "
+"Qubes isn’t required or if the tools aren’t supported on a given version of "
+"Windows. In the latter case, one would have to :ref:`enable inter-VM "
+"networking <user/security-in-qubes/firewall:enabling networking between two "
+"qubes>` to be able to exchange files with HVMs."
 msgstr ""
 
-#: ../../user/templates/windows/windows.rst:10 ba7d50d189db499ebcb17c3e982051cc
+#: ../../user/templates/windows/windows.rst:10
+#: ba7d50d189db499ebcb17c3e982051cc
 msgid ""
-"For more information about Windows VMs in Qubes OS, please see the "
-"following external resources:"
+"For more information about Windows VMs in Qubes OS, please see the following"
+" external resources:"
 msgstr ""
 
-#: ../../user/templates/windows/windows.rst:12 2c2db602a37d461da8f9a854b8930ee2
+#: ../../user/templates/windows/windows.rst:12
+#: 2c2db602a37d461da8f9a854b8930ee2
 msgid ""
-":doc:`Installing and Using Windows-based VMs </user/templates/windows"
-"/qubes-windows>`"
+":doc:`Installing and Using Windows-based VMs </user/templates/windows/qubes-"
+"windows>`"
 msgstr ""
 
-#: ../../user/templates/windows/windows.rst:14 45c5d669a94340d3b2d3a913c57ebc6d
+#: ../../user/templates/windows/windows.rst:14
+#: 45c5d669a94340d3b2d3a913c57ebc6d
 msgid ""
-":doc:`Installing and Using Qubes Windows Tools </user/templates/windows"
-"/qubes-windows-tools>`"
+":doc:`Installing and Using Qubes Windows Tools "
+"</user/templates/windows/qubes-windows-tools>`"
 msgstr ""
 
-#: ../../user/templates/windows/windows.rst:16 8a00b747332b4def94ce918d46e67251
+#: ../../user/templates/windows/windows.rst:16
+#: 8a00b747332b4def94ce918d46e67251
 msgid ""
-"`Create a Gaming HVM in Qubes <https://forum.qubes-os.org/t/create-a"
-"-gaming-hvm/19000>`__"
+"`Create a Gaming HVM in Qubes <https://forum.qubes-os.org/t/create-a-gaming-"
+"hvm/19000>`__"
 msgstr ""
 
-#: ../../user/templates/windows/windows.rst:18 2fe95db6bc1f498187d750be52385660
+#: ../../user/templates/windows/windows.rst:18
+#: 2fe95db6bc1f498187d750be52385660
 msgid ""
 ":doc:`Migrate Windows qubes from old Qubes versions "
 "</user/templates/windows/qubes-windows-migrate>`"
 msgstr ""
-

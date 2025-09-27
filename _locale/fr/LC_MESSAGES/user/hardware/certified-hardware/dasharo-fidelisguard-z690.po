@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Qubes OS Project
 # This file is distributed under the same license as the Qubes OS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Florencia Herra Vega <flohdot@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Qubes OS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 09:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2025-09-27 00:32+0000\n"
+"Last-Translator: Florencia Herra Vega <flohdot@gmail.com>, 2025\n"
+"Language-Team: French (https://app.transifex.com/otf/teams/56717/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:5
 #: 6f502ad1b74f4834ad3debb3237c6d93
@@ -28,10 +30,10 @@ msgstr ""
 #: b3e23edffaf94638b0247438140c7c19
 msgid ""
 "The `Dasharo FidelisGuard Z690 "
-"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
-"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
-"is :doc:`officially certified </user/hardware/certified-hardware"
-"/certified-hardware>` for Qubes OS Release 4."
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop/open-"
+"source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ is "
+":doc:`officially certified </user/hardware/certified-hardware/certified-"
+"hardware>` for Qubes OS Release 4."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:10
@@ -48,12 +50,11 @@ msgstr ""
 #: 5c8dfa95368e4a70bc951a052da2407f
 msgid ""
 "The `Dasharo FidelisGuard Z690 "
-"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
-"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
-"is a full desktop PC build that brings the `Dasharo "
-"<https://dasharo.com/>`__ open-source firmware distribution to the MSI "
-"PRO Z690-A DDR4 motherboard with Qubes OS preinstalled. The full "
-"configuration includes:"
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop/open-"
+"source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ is a full "
+"desktop PC build that brings the `Dasharo <https://dasharo.com/>`__ open-"
+"source firmware distribution to the MSI PRO Z690-A DDR4 motherboard with "
+"Qubes OS preinstalled. The full configuration includes:"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:19
@@ -109,7 +110,7 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:29
 #: c766f755bfff48b78a01725e141d4d0e
 msgid "Storage"
-msgstr ""
+msgstr "Stockage"
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:30
 #: 60926feca57a4fe085cd7234d6a8bc5e
@@ -139,15 +140,15 @@ msgstr ""
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:37
 #: f351a4e37408451ca834ead9ffcd657d
 msgid ""
-"This computer comes with a “Dasharo Supporters Entrance Subscription,” "
-"which includes the following:"
+"This computer comes with a “Dasharo Supporters Entrance Subscription,” which"
+" includes the following:"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:39
 #: dadf6772e9324589b6cc02a974a5ac91
 msgid ""
-"Full access to `Dasharo Tools Suite (DTS) <https://docs.dasharo.com"
-"/dasharo-tools-suite/overview/>`__"
+"Full access to `Dasharo Tools Suite (DTS) <https://docs.dasharo.com/dasharo-"
+"tools-suite/overview/>`__"
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:41
@@ -184,9 +185,9 @@ msgstr ""
 #: c64ea533d24a432a895dcc1869a82399
 msgid ""
 "For further details, please see the `Dasharo FidelisGuard Z690 "
-"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop"
-"/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ "
-"product page."
+"<https://web.archive.org/web/20240917145232/https://shop.3mdeb.com/shop/open-"
+"source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/>`__ product "
+"page."
 msgstr ""
 
 #: ../../user/hardware/certified-hardware/dasharo-fidelisguard-z690.rst:55
@@ -198,4 +199,3 @@ msgstr ""
 #: a8953d8f87d0478796054d8857aa1843
 msgid "Photo of the outside of the Dasharo FidelisGuard Z690"
 msgstr ""
-
