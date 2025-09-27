@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:3
+#: ba19326dee8643cb9497eebf9025a8a7
+msgid "USB troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:7
+#: 01558a10186b4ca0b92ca78d60e678c4
+msgid "disp-sys-usb does not start"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:10
+#: 00397dd06de54befb541360088f096cf
+msgid "If the disp-sys-usb does not start, it could be due to a PCI passthrough problem. For more details on this issue along with possible solutions, look at :ref:`PCI passthrough issues <user/troubleshooting/pci-troubleshooting:pci passthrough issues>`."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:13
+#: cfb030787ea84cb7a22f097a49bb93cf
+msgid "Can't attach a USB device / USB device not showing in qvm-usb"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:16
+#: 2cc5dea297444790aff32399c89c09c5
+msgid "To successfully attach a USB device, you require a VM dedicated to handling the USB input and output. For guidance setting up a USB qube, see the :ref:`USB documentation <user/how-to-guides/how-to-use-usb-devices:creating and using a usb qube>`."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:18
+#: d82605d552314823a60877bb0b78757d
+msgid "Currently (until issue `1082 <https://github.com/QubesOS/qubes-issues/issues/1082>`__ gets implemented), if you remove the device before detaching it from the qube, Qubes OS (more precisely, ``libvirtd``) will think that the device is still attached to the qube and will not allow attaching further devices under the same name. This may be characterized by VM manager crashes and the error message: ``Houston, we have a problem``. The easiest way to recover from such a situation is to reboot the qube to which the device was attached. If this isn’t an option, you can manually recover from the situation by following the instructions at the :ref:`Block Devices documentation <user/how-to-guides/how-to-use-block-storage-devices:what if i removed the device before detaching it from the vm?>`."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:21
+#: 92960c0f1c464e2baf351408e0b4898b
+msgid "\"Device attach failed\" error"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:24
+#: a9827b83e9a84e1caef048afa124c2cb
+msgid "Upon trying to attach a USB device using the ``qvm-usb -a vm-name device-vm-name:device`` command, you may face the error ``Device attach failed: no device info received, connection failed, check backend side for details``. This error mainly arises due to problems specific to the particular device, such as the device being incompatible with qvm-usb or a broken cable."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:27
+#: c899bd6135d84dbd99f56704269071a9
+msgid "Attaching device to a qube works, but the device disconnects or disappears upon usage"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:30
+#: a589df2805b24bc2b25d91f594880253
+msgid "After attaching a device to a qube, upon attempting to use the device results in the device disappearing or disconnecting. This may be observed by the device no longer existing in the Devices widget or the application within the attached qube indicating the device is no longer found."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:32
+#: ab373fa3445549cf851d5592f83d997b
+msgid "As a first line of defense, increase the amount of memory given to the USB VM (sys-usb). High-bandwidth devices such as webcams have been `observed <https://github.com/QubesOS/qubes-issues/issues/6200>`__ to need more memory in sys-usb. If increasing the amount of memory does not resolve the issue, check kernel logs within sys-usb as well as the attached qube for errors before filing a bug report."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:35
+#: ba1b9b8bc1954d29a19e18c0a1b10cc6
+msgid "USB VM does not boot after creating and assigning USB controllers to it"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:38
+#: e6ccad3db193419892fa044791f97065
+msgid "This is probably because one of the controllers does not support reset. In Qubes R2 any such errors were ignored. In Qubes R3.x they are not. In R4.x, devices that are automatically added to sys-net and sys-usb on install but do not support FLR will be attached with the no-strict-reset option, but see the related warning in the last sentence in this answer."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:40
+#: 581af2fd325248a386a52dcf04f47dfd
+msgid "A device that does not support reset is not ideal and generally should not be assigned to a VM."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:42
+#: 7238f7ee438f4dddb13a10e0c3e4400b
+msgid "Most likely the offending controller is a USB 3.0 device. You can remove this controller from the USB VM, and see if this allows the VM to boot. Alternatively you may be able to disable USB 3.0 in the BIOS. If the BIOS does not have the option to disable USB 3.0, try running the following command in dom0 to force USB 2.0 modes for the USB ports:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:50
+#: a8a0fc1a0a5543eab0b29328b294d38c
+msgid "Errors suggesting this issue:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:52
+#: afbb3e596de648ea85a5fcb31c6337ef
+msgid "in ``xl dmesg`` output:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:61
+#: 7c72378eee50405181628acb15673df9
+msgid "during ``qvm-start sys-usb``:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:71
+#: fff70998d5a646fca2922709c427381c
+msgid "Another solution would be to set the pci_strictreset option in dom0:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:73
+#: 7d0b5fe15d414e839cebc17a1dee5a1a
+msgid "In Qubes R4.x, when attaching the PCI device to the VM (where ``<BDF>`` can be obtained from running ``qvm-pci``):"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:81
+#: 939b708269d44dbbb8ae7dd3605c183a
+msgid "In Qubes R3.x, by modifying the VM’s properties:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:91
+#: 5523ba0712db4e00b20ad2928b5f0c0d
+msgid "These options allow the VM to ignore the error and the VM will start. Please review the notes in the ``qvm-prefs`` man page and :doc:`here </user/how-to-guides/how-to-use-devices>` and be aware of the potential risks."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:94
+#: cf282c7efe6f45d8bf20d1b3098d1219
+msgid "Can't use keyboard or mouse after creating sys-usb"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:97
+#: dcb29975fd4f44ec84a22a5c522c6150
+msgid "You risk locking yourself out of your computer if you have a USB keyboard and use full disk encryption alongside sys-usb. On boot, the keyboard may be inactive, preventing you from entering your LUKS decryption password."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:99
+#: 3e8542f4d17a4266b3e897f59c6230cd
+msgid "When you enable a USB qube, it hides all the USB controllers from dom0, even before it gets started. So, if your only keyboard is on USB, you should undo this hiding."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:101
+#: 9eda70ee805748eb9a3d858d8c1c6ab5
+msgid "To solve the problem, disable the USB qube by not having it autostart, or unassigning your USB controller(s) from it. If you had created the USB qube by checking the box in the installer, then your USB controller(s) are probably hidden from dom0. To unhide them, reverse the procedure described in :ref:`how to hide USB controllers from dom0 <user/advanced-topics/usb-qubes:how to hide usb controllers from dom0>` (i.e., remove ``rd.qubes.hide_all_usb`` instead of adding it)."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:103
+#: a03f54671141485bb197b3732d4a9fdc
+msgid "Note that this procedure will attach your USB controllers to dom0, so do this only with USB devices you trust."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:105
+#: e2dbbfa0156a46b5a088cfae0749015a
+msgid "If your computer has a PS/2 port, you may instead use a PS/2 keyboard to enter the LUKS password."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:108
+#: 7a49c331cdf048d18fc3a1fb8307f44b
+msgid "\"qubes-usb-proxy not installed in the VM\" error"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:111
+#: e1206e08c3c44226994a35fdb75396b9
+msgid "When trying to :ref:`create and use a USB qube <user/how-to-guides/how-to-use-usb-devices:creating and using a usb qube>` with the ``qubes-usb-proxy`` package, you may receive this error: ``ERROR: qubes-usb-proxy not installed in the VM``."
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:113
+#: 2344da93a57b470d85d192aef281d9a8
+msgid "If you encounter this error, you can install the ``qubes-usb-proxy`` with the package manager in the VM you want to attach the USB device to. Depending on your operating system, open a terminal in the template and enter one of the following commands:"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:115
+#: b4a1f8a6624d4acf85fa3ac7f54f5c30
+msgid "Fedora: ``sudo dnf install qubes-usb-proxy``"
+msgstr ""
+
+#: ../../user/troubleshooting/usb-troubleshooting.rst:117
+#: 7aec527fb71446a0a0024fb5c94dcabf
+msgid "Debian/Ubuntu: ``sudo apt-get install qubes-usb-proxy``"
+msgstr ""

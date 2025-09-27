@@ -121,12 +121,16 @@ html_context = {
 
 # -- -- Options for internationalisation -------------------------------------
 
+# Language of the *source* documents (the language you write in)
+language = 'en'
+
 # Directories containing translation files
-locale_dirs = ['_translated']
+locale_dirs = ['_locale']
 
-gettext_compact = False
+# Prevents Sphinx from merging all messages into a single messages.pot. Keeping one .pot per source file makes the Transifex resources easier to map and maintain.
+gettext_compact = False # Keep one .pot per document 
 
-gettext_uuid = True
+gettext_uuid = True 
 
 # -- -- Options for markup ---------------------------------------------------
 

@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:5
+#: ea5890943646417da6165814f6cafc79
+msgid "Star Labs StarBook"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:8
+#: 43048444145b442f8594c579d4380a2c
+msgid ""
+"The `Star Labs StarBook <https://starlabs.systems/pages/starbook>`__ is "
+":doc:`officially certified </user/hardware/certified-hardware/certified-"
+"hardware>` for Qubes OS Release 4."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:10
+#: 552b01b9209f4887bd3b4beaa44cbba6
+msgid ""
+"The `Star Labs StarBook <https://starlabs.systems/pages/starbook>`__ is a"
+" 14-inch laptop featuring open-source coreboot and EDK II firmware."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:12
+#: 312cf90414fe4b608e400f0131164b3d
+msgid "|Photo of Star Labs StarBook|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:49
+#: 8b6171ef32e14dfdac0eda77bddd694c
+msgid "Photo of Star Labs StarBook"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:14
+#: f3a6afff8b194262a164f6cad339ac8d
+msgid ""
+"The Qubes developers have tested and certified the following StarBook "
+"configuration options for Qubes OS Release 4:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:21
+#: 52244c498cb94340950ca87eb59b2d56
+msgid "Component"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:22
+#: 9102e532ae554fd79d433682603a1c6d
+msgid "Qubes-certified options"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:23
+#: ec57bfaac2ea4a51af59d274c22e75b5
+msgid "Processor"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:24
+#: bf24cf8a07504e0ea83f8a76607d5fe8
+msgid "13th Generation Intel Core i3-1315U or i7-1360P"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:25
+#: 0f3b144c04c448e5a3913024c52ef5f2
+msgid "Memory"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:26
+#: 03524ce95ddb44e184ccdbb918337d83
+msgid "8 GB, 16 GB, 32 GB, or 64 GB RAM"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:27
+#: 3d40b99ad11e4305b5f856b25d1b3514
+msgid "Storage"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:28
+#: d19102feedc045ddb66c19fa78f36eac
+msgid "512 GB, 1 TB, or 2 TB SSD"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:29
+#: 5b5ba4708d61414585aba5d7315e14c7
+msgid "Graphics"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:30
+#: d5c8ad24c2ac4140a6b761a6aec0e821
+msgid "Intel (integrated graphics)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:31
+#: 62778760630c471e81cb5a2c35b4146b
+msgid "Networking"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:32
+#: 67663458ed594f18a5ef06a717212bc3
+msgid "Intel Wi-Fi 6 AX210 (no built-in wired Ethernet)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:33
+#: 1f1f4affcde5485ba21d86ca1c478bf2
+msgid "Firmware"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:34
+#: 2bf5bbffbb3b47b28d95a98d425fd8cb
+msgid "coreboot 8.97 (2023-10-03)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:35
+#: 0cb4efe832344dd5beaa2fe9817a881f
+msgid "Operating system"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:36
+#: cce9450eccc44a6f8980349434178301
+msgid "Qubes OS (pre-installation optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:39
+#: d3166950cac34204bbd8defe473bbd51
+msgid "|image1|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:52
+#: c68ac9e20fad4e4db3574466a3a270e3
+msgid "image1"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:41
+#: 6a7da6fb57fa4fba8e1442f3dcde03f8
+msgid ""
+"The StarBook features a true matte 14-inch IPS display at 1920x1080 full "
+"HD resolution with 400cd/m² of brightness, 178° viewing angles, and a "
+"180° hinge. The backlit keyboard is available in US English, UK English, "
+"French, German, Nordic, and Spanish layouts."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:43
+#: a39b3e13f3ef44a69fffb5edc0b23688
+msgid "|image2|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:55
+#: 4d28d90298514d2e816f6735386e08d8
+msgid "image2"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:45
+#: 6b6cd55eb5564134bfb6e7d8781b5547
+msgid ""
+"The StarBook includes four USB ports (1x USB-C with Thunderbolt 4, 2x USB"
+" 3.0, and 1x USB 2.0), one HDMI port, a microSD slot, an audio "
+"input/output combo jack, and a DC jack for charging. For more "
+"information, see the official `Star Labs StarBook "
+"<https://starlabs.systems/pages/starbook>`__ page."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:47
+#: 90cc4d696a934aeab9331a57fd9f03db
+msgid "|image3|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/starlabs-starbook.rst:58
+#: 4b7bf433c2e7473db180d44df12d45dd
+msgid "image3"
+msgstr ""
+

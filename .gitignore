@@ -1,4 +1,3 @@
-_build
 **/__pycache__/*
 uv.lock
 poetry.lock

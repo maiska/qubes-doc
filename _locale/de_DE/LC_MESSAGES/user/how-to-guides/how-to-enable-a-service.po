@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:3
+#: 037819a9283f41cca82d953b3796563c
+msgid "How to enable a qube service"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:5
+#: c757a5ba4ff34eee913ee8707330aad8
+msgid ""
+"To enable a :doc:`service </user/advanced-topics/qubes-service>` in a "
+"qube there are two options:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:7
+#: 3de6f6346382451cb81a471803979236
+msgid "Use the :program:`Settings` of the qube"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:8
+#: 58b1566f8a26445084943920ced41bfc
+msgid ""
+"Use `qvm-service <https://dev.qubes-os.org/projects/core-admin-"
+"client/en/latest/manpages/qvm-service.html>`__"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:10
+#: 84dacc21a8b549a299c026fffea5ad5a
+msgid "You might have to restart the qube for changes to be reflected."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:13
+#: e80d35e35cbb4d59a6a66965debb829f
+msgid "How to enable a service in the :program:`Settings`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:15
+#: c91e6401c7bd49fd9905104e3709bbe4
+msgid ""
+"Open the qube's :program:`Settings`, you can use :program:`Qubes "
+"Application menu`, select the qube and click on :guilabel:`Settings`."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:17
+#: 682e551a5b1f424eb0e0b5df264f55cd
+msgid "Go to the :guilabel:`Services` tab"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:19
+#: 751aa57b35c9435ba7179fdb8ca406ce
+msgid "You have two options, depending on the current list of the services:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:21
+#: f5ceb8acd1964c1d8891dd7f188296b4
+msgid ""
+"If the service is listed, you just have to check the box if front of the "
+"name."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:23
+#: f603ee65396e4e24bc5a09741697196c
+msgid "If the service is not listed:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:25
+#: 7a9837ac4e7c45aba08c73836b997d79
+msgid "Select it in the :guilabel:`Select a service` drop-down."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:27
+#: a1f3eede4a994b0681ddb47d94c42ae6
+msgid ""
+"If that service is not present in the drop-down, select the last item, "
+"called :guilabel:`(custom...)`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:29
+#: 4ba79061f69645bdbd57f294d24faa2c
+msgid "Click on :guilabel:`Add`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:31
+#: 8ab1b98c47b84c63b065fc20042e2d98
+msgid ""
+"If you have previously selected :guilabel:`(custom...)`, a pop-up will "
+"ask you the name of the service"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:33
+#: 7256dc9384ed4f1f83ff0443ac5d1fac
+msgid "Use :guilabel:`Apply` or :guilabel:`&OK` to validate the change."
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:36
+#: 75aba805f6374ae4a6dbd0b272812f63
+msgid "How to enable a service with :program:`qvm-service`"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:38
+#: c0ae0a90420549829d19ffe5fb9ae0c0
+msgid ""
+"In a dom0 terminal, enter the following command, replacing "
+":samp:`{<QUBE_NAME>}` by the name of the qube and "
+":samp:`{<SERVICE_NAME>}` by the name of the service:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:44
+#: e8ee7a1bb1944c25bc3f145ae60d3d5f
+msgid "This is equivalent to:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:50
+#: 6bf4517ae4324de58c17124256492a3b
+msgid ""
+"You can check the current status of the services of one qube with the "
+"following command:"
+msgstr ""
+
+#: ../../user/how-to-guides/how-to-enable-a-service.rst:56
+#: 8eff7a89f47149d898983fa975d8bd3e
+msgid ""
+"Or you can check only the current status of one service with the "
+"following command:"
+msgstr ""
+

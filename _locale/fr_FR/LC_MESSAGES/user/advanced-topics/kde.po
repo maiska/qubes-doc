@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/advanced-topics/kde.rst:3 920868d8c6ad4c85820064e42a900c20
+msgid "KDE (desktop environment)"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:7 7d69e57119f045ffa336fe5cb220322a
+msgid "This page is intended for advanced users."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:10 c1894dbf54e8480dacda524db8142b17
+msgid "Installation"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:13 0a9f80d7b0284007a3cec8e5420898ae
+msgid ""
+"Prior to R3.2, KDE was the default desktop environment in Qubes. "
+"Beginning with R3.2, however, :doc:`XFCE is the new default desktop "
+"environment </developer/releases/3_2/release-notes>`. Nonetheless, it is "
+"still possible to install KDE by issuing this command in dom0:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:20 30891ca7e7124d63b6227b289a310e3b
+msgid ""
+"You may notice some warnings and errors in the installation - it is safe "
+"to ignore these."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:22 8e4057e94b4e448e9523a64233aeb5c5
+msgid ""
+"After the installation is complete log out. At the top of the log in "
+"screen is a small icon with *X* on it - if you click on it you will see "
+"choices between Xfce and Plasma. Select the Plasma(X11) option, and log "
+"in - you will see that Plasma (the KDE desktop environment) loads."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:24 1b385575319942a39f5144964d9c4ad2
+msgid ""
+"KDE is very customisable, and there is a range of widgets to use. If you "
+"want to use the Menu widget, then you must edit "
+"``/etc/X11/xinit/xinitrc.d/55xfce-qubes.sh`` as follows:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:40 80af5532b21846e09a33ef6c81e9077f
+msgid ""
+"This allows you to edit the menu as you will. When editing the Menu *DO "
+"NOT use the option under* :menuselection:`Edit --> Restore to System "
+"Menu`"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:43 334a9e5fd37c426f8dc0d6ca629d8ca1
+msgid "Login manager"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:46 e1085ad2e52d474e9d5293764b819e0c
+msgid ""
+"You can also change your default login manager (lightdm) to the new KDE "
+"default: sddm"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:48 dd4c47ab327e429088a0e6a8d542b319
+msgid ""
+"first you need to edit the ``/etc/sddm.conf`` to make sure if the custom "
+"X parameter is set according to Qubes needs:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:57 f5a30793c65a426fbc01fe3a4cf18560
+msgid "disable the lightdm service:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:65 f8057260857447d89c6fa16e4e280e1b
+msgid "enable the sddm service:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:73 63f299589aa14f0cb727036664b4d654
+msgid "reboot"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:77 52ac0eaad0d84f8c9e934f044cabe9bd
+msgid ""
+"If you encounter performance issues with KDE, try switching back to "
+"LightDM."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:80 05508a7dcc5e44949acdd5d6ecdbffce
+msgid "Window Management"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:83 76419b5a35764c36834bba7f9fba97a5
+msgid "You can set each window’s position and size like this:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:98 6e6c455d34764009b2cdad9151bedd80
+msgid ""
+"You can also use ``kstart`` to control virtual desktop placement like "
+"this:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:106 c6ea2275784942a999e6c673c4c7a61d
+msgid "(Replace “3” with whichever virtual desktop you want the window to be on.)"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:108 8be0fdcfdd1c4f9e88cea866f339d00c
+msgid ""
+"This can be useful for creating a simple shell script which will set up "
+"your workspace the way you like."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:111 518220a297fb4c6fba9d0c7e8d3d97cf
+msgid "Wayland session"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:113 f40f8b0a296a4e65a85c50debc17c195
+msgid ""
+"Default installation includes KDE Plasma X11 session. KDE project primary"
+" focus is Wayland session, which in Qubes OS is currently experimental. "
+"To enable the experimental Wayland session support install the following "
+"package:"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:120 427ce7c80e6648fcba5c596353522aad
+msgid "Removal"
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:123 489dc59499e840ccb7d5b2a21681a93e
+msgid ""
+"If you decide to remove KDE do **not** use ``dnf remove @kde-desktop-"
+"qubes``. You will almost certainly break your system."
+msgstr ""
+
+#: ../../user/advanced-topics/kde.rst:125 3ca0cbdae87143ecb99a8a98fed3f9d1
+msgid "The safest way to remove (most of) KDE is:"
+msgstr ""
+

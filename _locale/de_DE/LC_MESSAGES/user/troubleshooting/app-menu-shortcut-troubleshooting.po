@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:5
+#: aa1e36824beb41488aef149a6606e8d5
+msgid "App menu shortcut troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:8
+#: a622baee140d454a8546ed4c8d355f45
+msgid ""
+"For ease of use Qubes aggregates shortcuts to applications that are "
+"installed in app qubes and shows them in one application menu (aka “app "
+"menu” or “start menu”) in dom0. Clicking on such shortcut runs the "
+"assigned application in its app qube."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:10
+#: baca41860a714a549e699941d69ed866
+msgid "|image1|"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:232
+#: d6bf905590b045948438c49ac814e01e
+msgid "image1"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:15
+#: 585abb4ee6504205ae4119978a5b63a6
+msgid "How-to add a shortcut"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:19
+#: 4b5dc02fd11240ef9597e2464d15fca9
+msgid "With the graphical user interface"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:22
+#: 401379170dba4b0195d131ecd819f207
+msgid ""
+"To make applications newly installed show up in the menu, you can use the"
+" qube’s *Settings*. Under the :guilabel:`Applications` tab, use the "
+":guilabel:`Refresh Applications` button. Linux qubes do this "
+"automatically, if the *Settings* are opened after the installation of the"
+" package."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:24
+#: ee9aa8e4bc3e454ca0066173316efb38
+msgid "|image2|"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:233
+#: 8f2326adc092498babbe1e95232c19b9
+msgid "image2"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:26
+#: e56dfe67fec04b03a11f6f20286a6e6d
+msgid ""
+"After that, use the directional buttons (:guilabel:`>`, :guilabel:`>>`, "
+":guilabel:`<` or :guilabel:`<<`) to customize which applications are "
+"shown, by moving them to the *Applications shown in App Menu* part (on "
+"the right side). Use the :guilabel:`Apply` (or :guilabel:`Ok`) button to "
+"see the changes in the app menu."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:29
+#: 3edba3cdba064879856140024f51164b
+msgid "With the command-line interface"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:32
+#: 9cfc5befa073444d80836fe3eb05b5fa
+msgid ""
+"To update the list of available applications, use the ``qvm-sync-"
+"appmenus`` command in dom0, replacing ``<QUBE_NAME>`` by the qube name:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:40
+#: 3fce8594e1a245cd8f2162cb8adff60e
+msgid ""
+"When using the :guilabel:`Refresh Applications` button in a qube’s "
+"settings, the command ``qvm-sync-appmenus`` is used at least one time. "
+"When refreshing an AppVM application, it is also run against the "
+"template. So the console equivalent of clicking the :guilabel:`Refresh "
+"Applications` button is the following (always in dom0):"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:49
+#: d0e8a2cd32004fe0a394e9d8017b2f4c
+msgid ""
+"In dom0, the ``qvm-appmenus`` tool allows the user to see the list of "
+"available applications (unstable feature), the whitelist of currently "
+"show application (unstable feature) and to change this list:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:57
+#: 01f234f7f836413fb457432a0e5fe8ca
+msgid ""
+"To change the whitelist shown in app menu, you need to provide a list of "
+"the desktop entries. Each line contains a desktop entry name, with its "
+"``.desktop`` extension, like this:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:67
+#: a99622b2860a4c978e665fb50984fd23
+msgid ""
+"You can replace the file path by a single hyphen (``-``) to read it from "
+"standard input."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:70
+#: 290a9b1c2ddc49d1ac857aab6cdeefa1
+msgid ""
+"What if my application has not been automatically included in the list of"
+" available apps?"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:74
+#: 27d51d8c77484439803d0f082cde4178
+msgid "Missing desktop entry"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:77
+#: 68911900c8d34f348ef35593cc74c962
+msgid ""
+"Sometimes applications may not have included a ``.desktop`` file and may "
+"not be detected by ``qvm-sync-appmenus``. Other times, you may want to "
+"make a web shortcut available from the Qubes start menu."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:79
+#: 1acfc60c3c2242ea80af54ac9d7995ba
+msgid ""
+"You can manually create new entries in the “available applications” list "
+"of shortcuts for all app qubes based on a template. To do this:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:81
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:100
+#: 35351f83c6f04cafa134e9753ae544ad b0c5caa990b64a0f926b24517eb69716
+msgid "Open a terminal window to the template."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:83
+#: 55acf1b3d1a147c3b611a7dc828fed31
+msgid ""
+"Create a custom ``.desktop`` file in :file:`/usr/share/applications` (you"
+" may need to first create the subdirectory). Look in "
+":file:`/usr/share/applications` for existing examples, or see the full "
+"`.desktop file format <https://standards.freedesktop.org/desktop-entry-"
+"spec/desktop-entry-spec-latest.html>`__ specification. It will be "
+"something like:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:94
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:104
+#: 06e5cb63fde6418095ca0bdb5d79d972 c98e39e746574663abcb2775e1fa8a53
+msgid "Follow the instructions in :ref:`how-to-add-a-shortcut`"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:98
+#: 0498aa24cae64257b799946e828834bf
+msgid "If you only want to create a shortcut for a single app qube:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:102
+#: ac274e1b21f842da8b59717218e6e75d
+msgid ""
+"Create a custom ``.desktop`` file in either "
+":file:`~/.local/share/applications` or "
+":file:`/usr/local/share/applications` (you may need to first create the "
+"subdirectory). See the previous instructions about the desktop entry "
+"format."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:108
+#: e22914ce16484777b245617c80a10628
+msgid "To add a custom menu entry instead:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:110
+#: d56577d87d7d4c8282cd27641aa10e9b
+msgid "Open a terminal window to Dom0."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:112
+#: c86877a3d702480e82f49575a75fc313
+msgid ""
+"Create a custom ``.desktop`` file in :file:`~/.local/share/applications`."
+" Look in the same directory for existing examples, or see the full `file "
+"specification <https://specifications.freedesktop.org/desktop-entry-spec"
+"/desktop-entry-spec-latest.html>`__. You may use ``qvm-run`` inside the "
+"``.desktop`` file; see :ref:`Behind the scenes <user/troubleshooting/app-"
+"menu-shortcut-troubleshooting:behind the scenes>` for more details."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:114
+#: ae18e5e5dbb641e0975089451953afd0
+msgid ""
+"Edit the :file:`~/.config/menus/applications-merged/{<vmname>}-vm.menu` "
+"file for the app qube."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:116
+#: b90e69fc58ba4108b856a900aa6d39a1
+msgid "Add a custom menu entry referring to your newly created ``.desktop`` file."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:132
+#: 51324800cfbe484f8eb2b19f1338ff7c
+msgid "Unavailable desktop entry"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:135
+#: d36d95f8194a487ab9dbfb12a8807029
+msgid ""
+"If you created a desktop entry but it doesn’t show up, there are some "
+"steps to run inside the qube, to identify the problem:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:137
+#: dbee570ba0dc47d9981badfedce16b33
+msgid ""
+"make sure the name is a valid name (only ASCII letters, numbers, hyphens "
+"and point)"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:139
+#: bed0fdb2ad1846c689596b26657f2298
+msgid ""
+"if this program is available, run :samp:`desktop-file-validate "
+"{<DESKTOP_FILE_PATH>}`"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:141
+#: 484bd3f117de447a99e86d01e3fdcab4
+msgid "run it through ``gtk-launch``"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:143
+#: 97c648bceb5f4fcb95b3748205e123e6
+msgid ""
+"run :file:`/etc/qubes-rpc/qubes.GetAppmenus` and check that your desktop "
+"entry is listed in the output"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:148
+#: 8b3636ae35cf417284b3ecb6ec363f50
+msgid "What about applications in disposables?"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:151
+#: bde5d335f6cc4aa9bf914a8e71037285
+msgid ""
+"See :ref:`Adding programs to the app menu in Disposable customization "
+"<user/advanced-topics/disposable-customization:adding programs to the app"
+" menu>`."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:154
+#: 29189dcec8004a15bb33041d873bc2d2
+msgid "What if a removed application is still in the app menu?"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:157
+#: 7832b09c34ca49dc97fc9eeb3f95accd
+msgid "First, try this in dom0:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:165
+#: daa2530d4c1e4bd8b748bf4bb9ebcf96
+msgid "You can also try:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:173
+#: dc44ff95e0d344eab26424666d87dcd8
+msgid ""
+"If that doesn’t work, you can manually modify the files in "
+":file:`~/.local/share/applications/` or in :file:`~/.local/share/qubes-"
+"appmenus/{<QUBE_NAME>}`."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:175
+#: 62213523343d46a092c1ffc265d9576a
+msgid ""
+"For example, suppose you’ve deleted ``my-old-vm``, but there is a "
+"leftover Application Menu shortcut, and you find a related file in "
+":file:`~/.local/share/applications/`, try to delete it. The hyphens in "
+"the name of the qube are replaced by an underscore and the letter, so "
+"instead of looking for ``my-old-vm``, try ``my_dold_dvm``."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:178
+#: f67c2c8428454a1cb341ab1401f16412
+msgid "What if my application is shown in app menu, but doesn't run anything?"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:181
+#: 2768c5d48b3f47f58b2cbaff761d59b2
+msgid ""
+"First, check in the corresponding ``.desktop`` file in "
+":file:`~/.local/share/qubes-appmenus/{<QUBE_NAME>}/`, inside dom0."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:183
+#: 036243cae7c644eca6a761b3a710faac
+msgid ""
+"The line starting with ``Exec=`` points out the exact command run by dom0"
+" to start the application. It should be something like:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:191
+#: f9bc3e05f3dd4bd3a3ad4c23ed2d1b79
+msgid ""
+"It’s possible to run the command to check the output, by copying this "
+"line without ``Exec=``, and remove ``-q`` (quiet option). But it could be"
+" more useful to run it in the qube, with the ``qubes.StartApp`` service:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:200
+#: c378e3883cfc49a7ac27e8649a4fee25
+msgid "Behind the scenes"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:203
+#: 234782f529e0471bb8f5af88c3255eb5
+msgid ""
+"``qvm-sync-appmenus`` works by invoking the *GetAppMenus* :doc:`Qubes "
+"service </developer/services/qrexec>` in the target domain. This service "
+"enumerates applications installed in that qube and sends formatted info "
+"back to dom0 which creates ``.desktop`` files in the app qube/template "
+"directory of dom0."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:205
+#: 8737a69614b04aedbfa884e9c6954a14
+msgid ""
+"For Linux qubes the service script is in :file:`/etc/qubes-"
+"rpc/qubes.GetAppMenus``. In Windows it’s a PowerShell script located in "
+":file:`c:\\Program Files\\Invisible Things Lab\\Qubes OS Windows Tools"
+"\\qubes-rpc-services\\get-appmenus.ps1` by default."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:207
+#: 805c8bd0b08c4466a1160466b4f8b758
+msgid ""
+"The list of installed applications for each app qube is stored in dom0’s "
+":file:`~/.local/share/qubes-appmenus/{<QUBE_NAME>}/apps.templates`. Each "
+"menu entry is a file that follows the `.desktop file format "
+"<https://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html>`__ with some wildcards (``%VMNAME%``, ``%VMDIR%``). "
+"Applications selected to appear in the menu are stored in "
+":file:`~/.local/share/qubes-appmenus/{<QUBE_NAME>}/apps` and in "
+":file:`~/.local/share/applications/`."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:209
+#: add548252d8c4a1d844e2c867e841e56
+msgid ""
+"The whitelist given to ``qvm-appmenu --set-whitelist`` is stored as a "
+"feature called ``menu-items``, where each desktop entry is separated by a"
+" space."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:211
+#: b19dc9d75d2940bab9ecfd3e0feebe2e
+msgid ""
+"Actual command lines for the menu shortcuts involve the ``qvm-run`` "
+"command which starts a process in another domain. Examples:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:220
+#: 0ea936632dd34937bc7448f40b2d8268
+msgid ""
+"Note that you can create a shortcut that points to a ``.desktop`` file in"
+" your app qube with e.g.:"
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:228
+#: d5f46be3a65e4b60b8aabc9377e1dd47
+msgid ""
+"While this works well for standard applications, creating a menu entry "
+"for Windows applications running under *wine* may need an additional step"
+" in order to establish the necessary environment in *wine*. Installing "
+"software under *wine* will create the needed ``.desktop`` file in the "
+"target Linux qube in the directory "
+":file:`~/.local/share/applications/wine/Programs/` or a subdirectory "
+"thereof, depending on the Windows menu structure seen under *wine*. If "
+"the name of this file contains spaces, it will not be found, because the "
+"``qvm-run`` command is falsely seen as terminating at this space. The "
+"solution is to remove these spaces by renaming the ``.desktop`` file "
+"accordingly, e.g. by renaming :file:`Microsoft Excel.desktop` to "
+":file:`Excel.desktop`. Refreshing the menu structure will then build "
+"working menu entries."
+msgstr ""
+
+#: ../../user/troubleshooting/app-menu-shortcut-troubleshooting.rst:230
+#: d3b15756dcb149d38ebc2e4fa26cfa03
+msgid ""
+"Applications installed under *wine* are installed in AppVMs, not in the "
+"template on which these AppVMs are based, as the file structure used by "
+"*wine* is stored under :file:`~/.wine`, which is part of the persistent "
+"data of the AppVM and not inherited from its template."
+msgstr ""
+

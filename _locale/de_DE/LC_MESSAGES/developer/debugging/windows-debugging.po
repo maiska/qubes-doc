@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../developer/debugging/windows-debugging.rst:3
+#: fc4eca57614d42c181f085b812893fe5
+msgid "Windows debugging"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:6
+#: 4ee5be0915894afbad03c15a0e300450
+msgid ""
+"Debugging Windows code can be tricky in a virtualized environment. The "
+"guide below assumes Qubes 4.2 and Windows 7 or later VMs."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:8
+#: 6b304cfe480f407f8d79c02050b75341
+msgid ""
+"User-mode debugging is usually straightforward if it can be done on one "
+"machine. Just duplicate your normal debugging environment in the VM."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:10
+#: 21bcce960bf544609ce52754b3cfdb0d
+msgid ""
+"Things get complicated if you need to perform kernel debugging or "
+"troubleshoot problems that only manifest on system boot, user logoff or "
+"similar. For that you need two Windows VMs: the *host* and the *target*. "
+"The *host* will contain the debugger, your source code and private "
+"symbols. The *target* will run the code being debugged. We will use "
+"kernel debugging over network which is supported from Windows 7 onwards. "
+"The main caveat is that Windows kernel supports only specific network "
+"adapters for this, and the default one in Qubes won’t work."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:13
+#: eaa50dab79a544d5ba6cb4b8bf11fd52
+msgid "Important note"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:16
+#: c997666b381f45d2a6efffb842747da4
+msgid ""
+"Do not install Xen network PV drivers in the target VM. Network kernel "
+"debugging needs a specific type of NIC or it won’t work, the network PV "
+"drivers interfere with that."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:18
+#: 0ff7401b58b24ce79fae0ac04fe8e5cd
+msgid ""
+"If you have kernel debugging active when the Xen PV drivers are being "
+"installed, make sure to disable it before rebooting (``bcdedit /set debug"
+" off``). You can re-enable debugging after the reboot. The OS won’t boot "
+"otherwise. I’m not sure what’s the exact cause. I know that busparams for"
+" the debugging NIC change when PV drivers are installed (see later), but "
+"even changing that accordingly in the debug settings doesn’t help – so "
+"it’s best to disable debug for this one reboot."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:23
+#: f4238d188cad4c69a00ad3375a63b0df
+msgid "Modifying the NIC of the target VM"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:26
+#: 2cbbb7ef347b4b3c8a46d20328223d5a
+msgid ""
+"You will need to create a custom libvirt config for the target VM. See "
+"`the documentation <https://dev.qubes-os.org/projects/core-"
+"admin/en/latest/libvirt.html>`__ for overview of how libvirt templates "
+"work in Qubes. The following assumes the target VM is named ``target-"
+"vm``."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:28
+#: c743946dd2a5440e827eeb6cb8b41eea
+msgid ""
+"Edit ``/usr/share/qubes/templates/libvirt/xen.xml`` to prepare our custom"
+" config to override just the NIC part of the global template:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:30
+#: 66ce77a4492b4b9497f0c709499884fd
+#, python-format
+msgid "add ``{% block network %}`` before ``{% if vm.netvm %}``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:32
+#: 393c897d62fa436ea088e9e02cf5a78f
+#, python-format
+msgid "add ``{% endblock %}`` after the matching ``{% endif %}``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:36
+#: 296621f95deb4157836ee76fad476a8a
+msgid ""
+"Copy ``/usr/share/qubes/templates/libvirt/devices/net.xml`` to "
+"``/etc/qubes/templates/libvirt/xen/by-name/target-vm.xml``."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:38
+#: ebc045d5d9bc451d9ef7a56724571fa2
+msgid "Add ``<model type='e1000'/>`` to the ``<interface>`` section."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:40
+#: d096d107de4d464e8173c3de11abf992
+#, python-format
+msgid "Enclose everything within ``{% block network %}`` + ``{% endblock %}``."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:42
+#: 75cd1fbea6bb4c72a8bd22e32e92025c
+#, python-format
+msgid "Add ``{% extends 'libvirt/xen.xml' %}`` at the start."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:44
+#: 490f1b0ddf9a440c854877164e850f96
+msgid "The final ``target-vm.xml`` should look something like this:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:65
+#: 9d1a5279975542c888d77ed47ac9a992
+msgid ""
+"Start ``target-vm`` and verify in the device manager that a “Intel "
+"PRO/1000 MT” adapter is present."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:70
+#: 563f4635749b430cb2ffe7825d9b8acb
+msgid "Host and target preparation"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:73
+#: b8fd31d8cf3a4db19e6b2dc20f893a90
+msgid ""
+"On ``host-vm`` you will need WinDbg, which is a part of the `Windows SDK "
+"<https://developer.microsoft.com/en-us/windows/downloads/windows-"
+"sdk/>`__."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:75
+#: a28dfbc18d9642faa76a5f8f9daab641
+msgid "Copy the ``Debuggers`` directory from Windows SDK to ``target-vm``."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:77
+#: 1576ae5d62d047bcab55828e07e90371
+msgid ""
+"In both ``host-vm`` and ``target-vm`` switch the windows network to "
+"private (it tends to be public by default)."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:79
+#: c9414a1e58404d0796e737897e68cafe
+msgid ""
+"Either turn off the windows firewall or enable all ICMP-in rules in both "
+"VMs."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:81
+#: 087bc2f91db74e3f83daa6d8a2cf6149
+msgid ""
+"In ``firewall-vm`` edit ``/rw/config/qubes-firewall-user-script`` to "
+"connect both Windows VMs, add:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:83
+#: ad4322391d1041089bee8d94b42f5d4b
+msgid "``iptables -I FORWARD 2 -s <target-vm-ip> -d <host-vm-ip> -j ACCEPT``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:85
+#: e8b81484d4f64f61b8617ec6756ce139
+msgid "``iptables -I FORWARD 2 -s <host-vm-ip> -d <target-vm-ip> -j ACCEPT``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:87
+#: bacfb0b9a5d04d0fb2f8ea4157359b5f
+msgid ""
+"run ``/rw/config/qubes-firewall-user-script`` so the changes take effect "
+"immediately"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:91
+#: 126ec7089bdb40cd8975136934c7729b
+msgid "Make sure both VMs can ping each other."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:93
+#: d9d1e3567a0f43b3840cc00328e61163
+msgid "In ``target-vm``:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:95
+#: 048b4d75aaeb436c9e56aa549d775a12
+msgid "start elevated ``cmd`` session"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:97
+#: 960e83d8fc0d4cd0bae7e51d32a9e694
+msgid "``cd sdk\\Debuggers\\x64``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:99
+#: dd7e1120f5694be78ac5c42e0fc4ca6f
+msgid "``kdnet`` should show that the NIC is supported, note the busparams:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:108
+#: f4bc71984c13425e9b24ba22be943311
+msgid "``bcdedit /debug on``"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:110
+#: 343d08e4d98442e89b7ba18dbc0a362b
+msgid ""
+"``bcdedit /dbgsettings net hostip:<host-vm-ip> port:50000 key:1.1.1.1`` "
+"(you can customize the key)"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:112
+#: 63e1c2db72b64292bb32dd661e638ea8
+msgid ""
+"``bcdedit /set \"{dbgsettings}\" busparams x.y.z`` (use the busparams "
+"``kdnet`` has shown earlier)"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:116
+#: bcf96d7066d34a9090680e4c6de0b369
+msgid ""
+"In ``host-vm`` start WinDbg: ``windbg -k net:port=50000,key=1.1.1.1``. It"
+" will listen for target’s connection."
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:118
+#: 94f31d48364f42738029f9b1dd055a4d
+msgid "Reboot ``target-vm``, debugging should start:"
+msgstr ""
+
+#: ../../developer/debugging/windows-debugging.rst:131
+#: 3767dc498ad546cf81e48aced9ab9014
+msgid "Happy debugging!"
+msgstr ""
+

@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/advanced-topics/config-files.rst:3
+#: 694bd30c34bf4edcb99896424fe582f8
+msgid "Config files"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:7
+#: 1d6e4bc2187748bdb448e73c26874dfb
+msgid "This page is intended for advanced users."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:10
+#: 03af830d7dfd4c02bad785173da3cec2
+msgid "Qubes-specific VM config files"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:13
+#: 299f88dd0e9d49369a6148bbe5e60d31
+msgid ""
+"These files are placed in ``/rw``, which survives a VM restart. That way,"
+" they can be used to customize a single VM instead of all VMs based on "
+"the same template. The scripts here all run as root."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:15
+#: 6df8c8bf45bf4277bcc69e47477a6635
+msgid ""
+"``/rw/config/rc.local`` - script runs at VM startup. Good place to change"
+" some service settings, replace config files with its copy stored in "
+"``/rw/config``, etc. The script need to have the executable permission "
+"set to be executed. Example usage:"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:32
+#: 0405c718f2f74444a0cf4b2583c12a80
+msgid ""
+"``/rw/config/rc.local.d/*.rc`` - scripts run at VM startup just before "
+"``/rw/config/rc.local``"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:34
+#: 31003378a082422c9e7032737d5fa34a
+msgid ""
+"``/rw/config/rc.local-early.d/*.rc``, ``/rw/config/rc.local-early`` - "
+"scripts similar to ``/rw/config/rc.local``, but running earlier in the "
+"system startup sequence - just before ``sysinit.target``, and setting up "
+"the network."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:36
+#: a6c188bae9d643588aa7981d3d745a4d
+msgid ""
+"``/rw/config/qubes-ip-change-hook`` - script runs in NetVM after every "
+"external IP change and on “hardware” link status change."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:38
+#: 341f1262dbb542219a721ecf94398077
+msgid ""
+"In ProxyVMs (or app qubes with ``qubes-firewall`` service enabled), "
+"scripts placed in the following directories will be executed in the "
+"listed order followed by ``qubes-firewall-user-script`` at start up. Good"
+" place to write custom firewall rules."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:48
+#: 07bf70f2d0534b759c872a048c9f4378
+msgid ""
+"``/rw/config/suspend-module-blacklist`` - list of modules (one per line) "
+"to be unloaded before system goes to sleep. The file is used only in a VM"
+" with PCI devices attached. Intended for use with problematic device "
+"drivers."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:50
+#: 9e08b4269e2b4ef2b193c69038ecd55d
+msgid ""
+"In NetVMs/ProxyVMs, scripts placed in ``/rw/config/network-hooks.d`` will"
+" be ran when configuring Qubes interfaces. For each script, the "
+"``command``, ``vif``, ``vif_type`` and ``ip`` is passed as arguments (see"
+" ``/etc/xen/scripts/vif-route-qubes``). For example, consider a PV app "
+"qube ``work`` with IP ``10.137.0.100`` and ``sys-firewall`` as NetVM. "
+"Assuming it’s Xen domain id is arbitrary ``12`` then, the following "
+"script located at ``/rw/config/network-hooks.d/hook-100.sh`` in ``sys-"
+"firewall``:"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:73
+#: 1aae382d8f3d4fdcb22f06bf19292beb
+msgid ""
+"will be executed with arguments ``online vif12.0 vif 10.137.0.100`` when "
+"starting ``work``. Please note that in case of an HVM, the script will be"
+" called twice - once with vif_type ``vif``, then with vif_type "
+"``vif_ioemu`` (and different interface names). As long as the ioemu "
+"interface exists, it should be preferred (up to the hook script). When "
+"the VM decides to use a PV interface (vif_type ``vif``), the ioemu one "
+"will be unplugged."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:77
+#: 990ccefbcfb946cfbc75e0c0f75f5e14
+msgid "Note that scripts need to be executable (``chmod +x``) to be used."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:79
+#: 7c070537e7564d16b144eaf2b6242531
+msgid ""
+"Also, take a look at :doc:`bind-dirs </user/advanced-topics/bind-dirs>` "
+"for instructions on how to easily modify arbitrary system files in an app"
+" qube and have those changes persist."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:82
+#: 00331c5853024c2dbd9a0f0a440131cb
+msgid "GUI and audio configuration in dom0"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:85
+#: 3f35b8227f7248f6aa15f872dfd655a1
+msgid ""
+"The GUI configuration file ``/etc/qubes/guid.conf`` in one of a few not "
+"managed by ``qubes-prefs`` or the Qubes Manager tool. Sample config "
+"(included in default installation):"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:119
+#: 6e09d2bd595f4d4fb90a721edbc65cb4
+msgid "Currently supported settings:"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:121
+#: 3b9b8b9ca4244f3ab12fa7359815baab
+msgid ""
+"``allow_fullscreen`` - allow VM to request its windows to go fullscreen "
+"(without any colorful frame)."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:123
+#: de3ecc254751447481f47b8325affe9f
+msgid ""
+"**Note:** Regardless of this setting, you can always put a window into "
+"fullscreen mode in Xfce4 using the trusted window manager by right-"
+"clicking on a window’s title bar and selecting “Fullscreen”. This "
+"functionality should still be considered safe, since a VM window still "
+"can’t voluntarily enter fullscreen mode. The user must select this option"
+" from the trusted window manager in dom0. To exit fullscreen mode from "
+"here, press ``alt`` + ``space`` to bring up the title bar menu again, "
+"then select “Leave Fullscreen”."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:127
+#: 2babea3c80ec42b196b008eca5d98a09
+msgid ""
+"``allow_utf8_titles`` - allow the use of UTF-8 in window titles; "
+"otherwise, non-ASCII characters are replaced by an underscore."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:129
+#: 7ea47d328c2447e4bf9f21b2959323a7
+msgid ""
+"``secure_copy_sequence`` and ``secure_paste_sequence`` - key sequences "
+"used to trigger secure copy and paste."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:131
+#: 3d4ce769bd344c4192c038dac9c97714
+msgid ""
+"``audio_low_latency`` - force low-latency audio mode (about 40ms compared"
+" to 200-500ms by default). Note that this will cause much higher CPU "
+"usage in dom0. It’s enabled by default, disabling it may save CPU in "
+"dom0."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:133
+#: d7762c3c15174a82ad31831a781d2db4
+msgid ""
+"``trayicon_mode`` - defines the trayicon coloring mode. Options are - "
+"``bg`` - color full icon background to the VM color - ``border1`` - add "
+"1px border at the icon edges - ``border2`` - add 1px border 1px from the "
+"icon edges - ``tint`` - tinttint icon to the VM color, can be used with "
+"additional modifiers (you can enable multiple of them) - "
+"``tint+border1,tint+border2`` - same as tint, but also add a border - "
+"``tint+saturation50`` - same as tint, but reduce icon saturation by 50% -"
+" ``tint+whitehack`` - same as tint, but change white pixels (0xffffff) to"
+" almost-white (0xfefefe)"
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:135
+#: 80da6afdee354f019f81625a3bce7d7a
+msgid ""
+"``log level`` - defines the log options logs can take. It can have a "
+"value of 0 (only errors), 1 (some basic messages), and 2 (debug)."
+msgstr ""
+
+#: ../../user/advanced-topics/config-files.rst:137
+#: ed7b72edc40f4c28b63fc78a16926c37
+msgid "``startup_timeout`` - The timeout for startup."
+msgstr ""
+

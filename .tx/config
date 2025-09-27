@@ -1,0 +1,1731 @@
+[main]
+host = https://app.transifex.com
+
+[o:otf:p:qubes:r:developer--building--development-workflow]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/building/development-workflow.po
+source_file            = _build/gettext/developer/building/development-workflow.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--building--development-workflow
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--building--qubes-builder]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/building/qubes-builder.po
+source_file            = _build/gettext/developer/building/qubes-builder.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--building--qubes-builder
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--building--qubes-builder-details]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/building/qubes-builder-details.po
+source_file            = _build/gettext/developer/building/qubes-builder-details.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--building--qubes-builder-details
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--building--qubes-builder-v2]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/building/qubes-builder-v2.po
+source_file            = _build/gettext/developer/building/qubes-builder-v2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--building--qubes-builder-v2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--building--qubes-iso-building]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/building/qubes-iso-building.po
+source_file            = _build/gettext/developer/building/qubes-iso-building.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--building--qubes-iso-building
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--code--code-signing]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/code/code-signing.po
+source_file            = _build/gettext/developer/code/code-signing.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--code--code-signing
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--code--coding-style]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/code/coding-style.po
+source_file            = _build/gettext/developer/code/coding-style.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--code--coding-style
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--code--license]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/code/license.po
+source_file            = _build/gettext/developer/code/license.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--code--license
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--code--source-code]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/code/source-code.po
+source_file            = _build/gettext/developer/code/source-code.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--code--source-code
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--automated-tests]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/automated-tests.po
+source_file            = _build/gettext/developer/debugging/automated-tests.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--automated-tests
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--mount-lvm-image]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/mount-lvm-image.po
+source_file            = _build/gettext/developer/debugging/mount-lvm-image.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--mount-lvm-image
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--safe-remote-ttys]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/safe-remote-ttys.po
+source_file            = _build/gettext/developer/debugging/safe-remote-ttys.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--safe-remote-ttys
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--test-bench]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/test-bench.po
+source_file            = _build/gettext/developer/debugging/test-bench.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--test-bench
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--vm-interface]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/vm-interface.po
+source_file            = _build/gettext/developer/debugging/vm-interface.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--vm-interface
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--debugging--windows-debugging]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/debugging/windows-debugging.po
+source_file            = _build/gettext/developer/debugging/windows-debugging.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--debugging--windows-debugging
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--continuous-integration]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/continuous-integration.po
+source_file            = _build/gettext/developer/general/continuous-integration.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--continuous-integration
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--devel-books]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/devel-books.po
+source_file            = _build/gettext/developer/general/devel-books.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--devel-books
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--developing-gui-applications]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/developing-gui-applications.po
+source_file            = _build/gettext/developer/general/developing-gui-applications.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--developing-gui-applications
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--gsoc]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/gsoc.po
+source_file            = _build/gettext/developer/general/gsoc.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--gsoc
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--gsod]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/gsod.po
+source_file            = _build/gettext/developer/general/gsod.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--gsod
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--how-to-edit-the-rst-documentation]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/how-to-edit-the-rst-documentation.po
+source_file            = _build/gettext/developer/general/how-to-edit-the-rst-documentation.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--how-to-edit-the-rst-documentation
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--how-to-edit-the-website]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/how-to-edit-the-website.po
+source_file            = _build/gettext/developer/general/how-to-edit-the-website.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--how-to-edit-the-website
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--package-contributions]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/package-contributions.po
+source_file            = _build/gettext/developer/general/package-contributions.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--package-contributions
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--research]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/research.po
+source_file            = _build/gettext/developer/general/research.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--research
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--rst-documentation-style-guide]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/rst-documentation-style-guide.po
+source_file            = _build/gettext/developer/general/rst-documentation-style-guide.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--rst-documentation-style-guide
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--usability-ux]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/usability-ux.po
+source_file            = _build/gettext/developer/general/usability-ux.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--usability-ux
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--general--website-style-guide]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/general/website-style-guide.po
+source_file            = _build/gettext/developer/general/website-style-guide.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--general--website-style-guide
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--1_0--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/1_0/release-notes.po
+source_file            = _build/gettext/developer/releases/1_0/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--1_0--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--2_0--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/2_0/release-notes.po
+source_file            = _build/gettext/developer/releases/2_0/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--2_0--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_0--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_0/release-notes.po
+source_file            = _build/gettext/developer/releases/3_0/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_0--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_0--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_0/schedule.po
+source_file            = _build/gettext/developer/releases/3_0/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_0--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_1--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_1/release-notes.po
+source_file            = _build/gettext/developer/releases/3_1/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_1--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_1--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_1/schedule.po
+source_file            = _build/gettext/developer/releases/3_1/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_1--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_2--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_2/release-notes.po
+source_file            = _build/gettext/developer/releases/3_2/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_2--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--3_2--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/3_2/schedule.po
+source_file            = _build/gettext/developer/releases/3_2/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--3_2--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_0--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_0/release-notes.po
+source_file            = _build/gettext/developer/releases/4_0/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_0--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_0--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_0/schedule.po
+source_file            = _build/gettext/developer/releases/4_0/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_0--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_1--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_1/release-notes.po
+source_file            = _build/gettext/developer/releases/4_1/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_1--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_1--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_1/schedule.po
+source_file            = _build/gettext/developer/releases/4_1/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_1--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_2--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_2/release-notes.po
+source_file            = _build/gettext/developer/releases/4_2/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_2--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_2--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_2/schedule.po
+source_file            = _build/gettext/developer/releases/4_2/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_2--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_3--release-notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_3/release-notes.po
+source_file            = _build/gettext/developer/releases/4_3/release-notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_3--release-notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--4_3--schedule]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/4_3/schedule.po
+source_file            = _build/gettext/developer/releases/4_3/schedule.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--4_3--schedule
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--notes]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/notes.po
+source_file            = _build/gettext/developer/releases/notes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--notes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--schedules]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/schedules.po
+source_file            = _build/gettext/developer/releases/schedules.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--schedules
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--todo]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/todo.po
+source_file            = _build/gettext/developer/releases/todo.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--todo
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--releases--version-scheme]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/releases/version-scheme.po
+source_file            = _build/gettext/developer/releases/version-scheme.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--releases--version-scheme
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--admin-api]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/admin-api.po
+source_file            = _build/gettext/developer/services/admin-api.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--admin-api
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--disposablevm-implementation]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/disposablevm-implementation.po
+source_file            = _build/gettext/developer/services/disposablevm-implementation.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--disposablevm-implementation
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--dom0-secure-updates]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/dom0-secure-updates.po
+source_file            = _build/gettext/developer/services/dom0-secure-updates.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--dom0-secure-updates
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qfilecopy]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qfilecopy.po
+source_file            = _build/gettext/developer/services/qfilecopy.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qfilecopy
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qfileexchgd]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qfileexchgd.po
+source_file            = _build/gettext/developer/services/qfileexchgd.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qfileexchgd
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qmemman]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qmemman.po
+source_file            = _build/gettext/developer/services/qmemman.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qmemman
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qrexec]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qrexec.po
+source_file            = _build/gettext/developer/services/qrexec.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qrexec
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qrexec-internals]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qrexec-internals.po
+source_file            = _build/gettext/developer/services/qrexec-internals.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qrexec-internals
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qrexec-socket-services]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qrexec-socket-services.po
+source_file            = _build/gettext/developer/services/qrexec-socket-services.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qrexec-socket-services
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--services--qrexec2]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/services/qrexec2.po
+source_file            = _build/gettext/developer/services/qrexec2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--services--qrexec2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--architecture]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/architecture.po
+source_file            = _build/gettext/developer/system/architecture.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--architecture
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--audio]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/audio.po
+source_file            = _build/gettext/developer/system/audio.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--audio
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--gui]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/gui.po
+source_file            = _build/gettext/developer/system/gui.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--gui
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--networking]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/networking.po
+source_file            = _build/gettext/developer/system/networking.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--networking
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--security-critical-code]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/security-critical-code.po
+source_file            = _build/gettext/developer/system/security-critical-code.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--security-critical-code
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--security-design-goals]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/security-design-goals.po
+source_file            = _build/gettext/developer/system/security-design-goals.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--security-design-goals
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--template-implementation]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/template-implementation.po
+source_file            = _build/gettext/developer/system/template-implementation.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--template-implementation
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--template-manager]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/template-manager.po
+source_file            = _build/gettext/developer/system/template-manager.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--template-manager
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:developer--system--vm-sudo]
+file_filter            = _locale/<lang>/LC_MESSAGES/developer/system/vm-sudo.po
+source_file            = _build/gettext/developer/system/vm-sudo.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = developer--system--vm-sudo
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:index]
+file_filter            = _locale/<lang>/LC_MESSAGES/index.po
+source_file            = _build/gettext/index.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = index
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--code-of-conduct]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/code-of-conduct.po
+source_file            = _build/gettext/introduction/code-of-conduct.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--code-of-conduct
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--contributing]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/contributing.po
+source_file            = _build/gettext/introduction/contributing.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--contributing
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--faq]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/faq.po
+source_file            = _build/gettext/introduction/faq.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--faq
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--getting-started]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/getting-started.po
+source_file            = _build/gettext/introduction/getting-started.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--getting-started
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--intro]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/intro.po
+source_file            = _build/gettext/introduction/intro.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--intro
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--issue-tracking]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/issue-tracking.po
+source_file            = _build/gettext/introduction/issue-tracking.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--issue-tracking
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--privacy]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/privacy.po
+source_file            = _build/gettext/introduction/privacy.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--privacy
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--screenshots]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/screenshots.po
+source_file            = _build/gettext/introduction/screenshots.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--screenshots
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--statistics]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/statistics.po
+source_file            = _build/gettext/introduction/statistics.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--statistics
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--support]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/support.po
+source_file            = _build/gettext/introduction/support.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--support
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:introduction--video-tours]
+file_filter            = _locale/<lang>/LC_MESSAGES/introduction/video-tours.po
+source_file            = _build/gettext/introduction/video-tours.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = introduction--video-tours
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:project-security--security]
+file_filter            = _locale/<lang>/LC_MESSAGES/project-security/security.po
+source_file            = _build/gettext/project-security/security.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = project-security--security
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:project-security--security-pack]
+file_filter            = _locale/<lang>/LC_MESSAGES/project-security/security-pack.po
+source_file            = _build/gettext/project-security/security-pack.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = project-security--security-pack
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:project-security--verifying-signatures]
+file_filter            = _locale/<lang>/LC_MESSAGES/project-security/verifying-signatures.po
+source_file            = _build/gettext/project-security/verifying-signatures.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = project-security--verifying-signatures
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--awesomewm]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/awesomewm.po
+source_file            = _build/gettext/user/advanced-topics/awesomewm.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--awesomewm
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--bind-dirs]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/bind-dirs.po
+source_file            = _build/gettext/user/advanced-topics/bind-dirs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--bind-dirs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--config-files]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/config-files.po
+source_file            = _build/gettext/user/advanced-topics/config-files.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--config-files
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--disposable-customization]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/disposable-customization.po
+source_file            = _build/gettext/user/advanced-topics/disposable-customization.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--disposable-customization
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--gui-configuration]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/gui-configuration.po
+source_file            = _build/gettext/user/advanced-topics/gui-configuration.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--gui-configuration
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--gui-domain]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/gui-domain.po
+source_file            = _build/gettext/user/advanced-topics/gui-domain.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--gui-domain
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--how-to-install-software-in-dom0]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/how-to-install-software-in-dom0.po
+source_file            = _build/gettext/user/advanced-topics/how-to-install-software-in-dom0.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--how-to-install-software-in-dom0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--i3]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/i3.po
+source_file            = _build/gettext/user/advanced-topics/i3.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--i3
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--installing-contributed-packages]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/installing-contributed-packages.po
+source_file            = _build/gettext/user/advanced-topics/installing-contributed-packages.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--installing-contributed-packages
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--kde]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/kde.po
+source_file            = _build/gettext/user/advanced-topics/kde.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--kde
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--managing-vm-kernels]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/managing-vm-kernels.po
+source_file            = _build/gettext/user/advanced-topics/managing-vm-kernels.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--managing-vm-kernels
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--mount-from-other-os]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/mount-from-other-os.po
+source_file            = _build/gettext/user/advanced-topics/mount-from-other-os.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--mount-from-other-os
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--qubes-service]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/qubes-service.po
+source_file            = _build/gettext/user/advanced-topics/qubes-service.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--qubes-service
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--resize-disk-image]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/resize-disk-image.po
+source_file            = _build/gettext/user/advanced-topics/resize-disk-image.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--resize-disk-image
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--rpc-policy]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/rpc-policy.po
+source_file            = _build/gettext/user/advanced-topics/rpc-policy.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--rpc-policy
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--salt]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/salt.po
+source_file            = _build/gettext/user/advanced-topics/salt.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--salt
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--secondary-storage]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/secondary-storage.po
+source_file            = _build/gettext/user/advanced-topics/secondary-storage.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--secondary-storage
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--standalones-and-hvms]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/standalones-and-hvms.po
+source_file            = _build/gettext/user/advanced-topics/standalones-and-hvms.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--standalones-and-hvms
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--usb-qubes]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/usb-qubes.po
+source_file            = _build/gettext/user/advanced-topics/usb-qubes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--usb-qubes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--advanced-topics--volume-backup-revert]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/advanced-topics/volume-backup-revert.po
+source_file            = _build/gettext/user/advanced-topics/volume-backup-revert.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--advanced-topics--volume-backup-revert
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--download-mirrors]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/download-mirrors.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/download-mirrors.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--download-mirrors
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--install-security]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/install-security.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/install-security.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--install-security
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--installation-guide]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/installation-guide.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/installation-guide.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--installation-guide
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--installation-guide-4_1]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/installation-guide-4.1.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/installation-guide-4.1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--installation-guide-4_1
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--supported-releases]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/supported-releases.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/supported-releases.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--supported-releases
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--testing]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/testing.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/testing.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--testing
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/2.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--2b1]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/2b1.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/2b1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--2b1
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--2b2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/2b2.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/2b2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--2b2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--2b3]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/2b3.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/2b3.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--2b3
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--3_0]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/3_0.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/3_0.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--3_0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--3_1]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/3_1.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/3_1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--3_1
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--3_2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/3_2.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/3_2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--3_2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--4_0]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/4_0.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/4_0.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--4_0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--4_1]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/4_1.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/4_1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--4_1
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--4_2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/4_2.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/4_2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--4_2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--4_3]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/4_3.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/4_3.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--4_3
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--downloading-installing-upgrading--upgrade--upgrade]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/downloading-installing-upgrading/upgrade/upgrade.po
+source_file            = _build/gettext/user/downloading-installing-upgrading/upgrade/upgrade.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--downloading-installing-upgrading--upgrade--upgrade
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--certified-hardware]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/certified-hardware.po
+source_file            = _build/gettext/user/hardware/certified-hardware/certified-hardware.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--certified-hardware
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--dasharo-fidelisguard-z690]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/dasharo-fidelisguard-z690.po
+source_file            = _build/gettext/user/hardware/certified-hardware/dasharo-fidelisguard-z690.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--dasharo-fidelisguard-z690
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--insurgo-privacybeast-x230]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/insurgo-privacybeast-x230.po
+source_file            = _build/gettext/user/hardware/certified-hardware/insurgo-privacybeast-x230.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--insurgo-privacybeast-x230
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--nitropad-t430]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/nitropad-t430.po
+source_file            = _build/gettext/user/hardware/certified-hardware/nitropad-t430.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--nitropad-t430
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--nitropad-v56]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/nitropad-v56.po
+source_file            = _build/gettext/user/hardware/certified-hardware/nitropad-v56.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--nitropad-v56
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--nitropad-x230]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/nitropad-x230.po
+source_file            = _build/gettext/user/hardware/certified-hardware/nitropad-x230.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--nitropad-x230
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--nitropc-pro]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/nitropc-pro.po
+source_file            = _build/gettext/user/hardware/certified-hardware/nitropc-pro.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--nitropc-pro
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--nitropc-pro-2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/nitropc-pro-2.po
+source_file            = _build/gettext/user/hardware/certified-hardware/nitropc-pro-2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--nitropc-pro-2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--novacustom-nv41-series]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/novacustom-nv41-series.po
+source_file            = _build/gettext/user/hardware/certified-hardware/novacustom-nv41-series.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--novacustom-nv41-series
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--novacustom-v54-series]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/novacustom-v54-series.po
+source_file            = _build/gettext/user/hardware/certified-hardware/novacustom-v54-series.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--novacustom-v54-series
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--novacustom-v56-series]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/novacustom-v56-series.po
+source_file            = _build/gettext/user/hardware/certified-hardware/novacustom-v56-series.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--novacustom-v56-series
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--certified-hardware--starlabs-starbook]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/certified-hardware/starlabs-starbook.po
+source_file            = _build/gettext/user/hardware/certified-hardware/starlabs-starbook.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--certified-hardware--starlabs-starbook
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--how-to-use-the-hcl]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/how-to-use-the-hcl.po
+source_file            = _build/gettext/user/hardware/how-to-use-the-hcl.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--how-to-use-the-hcl
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--hardware--system-requirements]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/hardware/system-requirements.po
+source_file            = _build/gettext/user/hardware/system-requirements.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--hardware--system-requirements
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--backup-emergency-restore-v2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/backup-emergency-restore-v2.po
+source_file            = _build/gettext/user/how-to-guides/backup-emergency-restore-v2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--backup-emergency-restore-v2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--backup-emergency-restore-v3]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/backup-emergency-restore-v3.po
+source_file            = _build/gettext/user/how-to-guides/backup-emergency-restore-v3.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--backup-emergency-restore-v3
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--backup-emergency-restore-v4]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/backup-emergency-restore-v4.po
+source_file            = _build/gettext/user/how-to-guides/backup-emergency-restore-v4.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--backup-emergency-restore-v4
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-back-up-restore-and-migrate]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-back-up-restore-and-migrate.po
+source_file            = _build/gettext/user/how-to-guides/how-to-back-up-restore-and-migrate.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-back-up-restore-and-migrate
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-copy-and-move-files]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-copy-and-move-files.po
+source_file            = _build/gettext/user/how-to-guides/how-to-copy-and-move-files.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-copy-and-move-files
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-copy-and-paste-text]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-copy-and-paste-text.po
+source_file            = _build/gettext/user/how-to-guides/how-to-copy-and-paste-text.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-copy-and-paste-text
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-copy-from-dom0]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-copy-from-dom0.po
+source_file            = _build/gettext/user/how-to-guides/how-to-copy-from-dom0.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-copy-from-dom0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-edit-a-policy]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-edit-a-policy.po
+source_file            = _build/gettext/user/how-to-guides/how-to-edit-a-policy.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-edit-a-policy
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-enable-a-service]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-enable-a-service.po
+source_file            = _build/gettext/user/how-to-guides/how-to-enable-a-service.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-enable-a-service
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-enter-fullscreen-mode]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-enter-fullscreen-mode.po
+source_file            = _build/gettext/user/how-to-guides/how-to-enter-fullscreen-mode.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-enter-fullscreen-mode
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-install-software]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-install-software.po
+source_file            = _build/gettext/user/how-to-guides/how-to-install-software.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-install-software
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-organize-your-qubes]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-organize-your-qubes.po
+source_file            = _build/gettext/user/how-to-guides/how-to-organize-your-qubes.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-organize-your-qubes
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-reinstall-a-template]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-reinstall-a-template.po
+source_file            = _build/gettext/user/how-to-guides/how-to-reinstall-a-template.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-reinstall-a-template
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-update]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-update.po
+source_file            = _build/gettext/user/how-to-guides/how-to-update.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-update
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-block-storage-devices]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-block-storage-devices.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-block-storage-devices.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-block-storage-devices
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-devices]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-devices.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-devices.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-devices
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-disposables]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-disposables.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-disposables.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-disposables
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-optical-discs]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-optical-discs.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-optical-discs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-optical-discs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-pci-devices]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-pci-devices.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-pci-devices.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-pci-devices
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--how-to-guides--how-to-use-usb-devices]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/how-to-guides/how-to-use-usb-devices.po
+source_file            = _build/gettext/user/how-to-guides/how-to-use-usb-devices.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--how-to-guides--how-to-use-usb-devices
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--reference--glossary]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/reference/glossary.po
+source_file            = _build/gettext/user/reference/glossary.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--reference--glossary
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--reference--tools]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/reference/tools.po
+source_file            = _build/gettext/user/reference/tools.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--reference--tools
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--anti-evil-maid]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/anti-evil-maid.po
+source_file            = _build/gettext/user/security-in-qubes/anti-evil-maid.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--anti-evil-maid
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--ctap-proxy]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/ctap-proxy.po
+source_file            = _build/gettext/user/security-in-qubes/ctap-proxy.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--ctap-proxy
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--data-leaks]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/data-leaks.po
+source_file            = _build/gettext/user/security-in-qubes/data-leaks.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--data-leaks
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--device-handling-security]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/device-handling-security.po
+source_file            = _build/gettext/user/security-in-qubes/device-handling-security.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--device-handling-security
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--firewall]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/firewall.po
+source_file            = _build/gettext/user/security-in-qubes/firewall.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--firewall
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--firewall_4_1]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/firewall_4.1.po
+source_file            = _build/gettext/user/security-in-qubes/firewall_4.1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--firewall_4_1
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--mfa]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/mfa.po
+source_file            = _build/gettext/user/security-in-qubes/mfa.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--mfa
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--split-gpg]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/split-gpg.po
+source_file            = _build/gettext/user/security-in-qubes/split-gpg.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--split-gpg
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--split-gpg-2]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/split-gpg-2.po
+source_file            = _build/gettext/user/security-in-qubes/split-gpg-2.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--split-gpg-2
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--security-in-qubes--vm-sudo]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/security-in-qubes/vm-sudo.po
+source_file            = _build/gettext/user/security-in-qubes/vm-sudo.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--security-in-qubes--vm-sudo
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--debian--debian]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/debian/debian.po
+source_file            = _build/gettext/user/templates/debian/debian.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--debian--debian
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--debian--debian-upgrade]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/debian/debian-upgrade.po
+source_file            = _build/gettext/user/templates/debian/debian-upgrade.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--debian--debian-upgrade
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--fedora--fedora]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/fedora/fedora.po
+source_file            = _build/gettext/user/templates/fedora/fedora.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--fedora--fedora
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--fedora--fedora-upgrade]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/fedora/fedora-upgrade.po
+source_file            = _build/gettext/user/templates/fedora/fedora-upgrade.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--fedora--fedora-upgrade
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--minimal-templates]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/minimal-templates.po
+source_file            = _build/gettext/user/templates/minimal-templates.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--minimal-templates
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--templates]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/templates.po
+source_file            = _build/gettext/user/templates/templates.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--templates
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--windows--qubes-windows]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/windows/qubes-windows.po
+source_file            = _build/gettext/user/templates/windows/qubes-windows.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--windows--qubes-windows
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--windows--qubes-windows-migrate]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/windows/qubes-windows-migrate.po
+source_file            = _build/gettext/user/templates/windows/qubes-windows-migrate.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--windows--qubes-windows-migrate
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--windows--qubes-windows-tools]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/windows/qubes-windows-tools.po
+source_file            = _build/gettext/user/templates/windows/qubes-windows-tools.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--windows--qubes-windows-tools
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--windows--windows]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/windows/windows.po
+source_file            = _build/gettext/user/templates/windows/windows.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--windows--windows
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--templates--xfce-templates]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/templates/xfce-templates.po
+source_file            = _build/gettext/user/templates/xfce-templates.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--templates--xfce-templates
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--app-menu-shortcut-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/app-menu-shortcut-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/app-menu-shortcut-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--app-menu-shortcut-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--autostart-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/autostart-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/autostart-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--autostart-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--debian-and-whonix-update-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/debian-and-whonix-update-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/debian-and-whonix-update-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--debian-and-whonix-update-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--disk-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/disk-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/disk-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--disk-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--gui-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/gui-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/gui-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--gui-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--hardware-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/hardware-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/hardware-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--hardware-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--hvm-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/hvm-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/hvm-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--hvm-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--installation-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/installation-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/installation-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--installation-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--media-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/media-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/media-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--media-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--pci-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/pci-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/pci-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--pci-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--resume-suspend-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/resume-suspend-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/resume-suspend-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--resume-suspend-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--uefi-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/uefi-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/uefi-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--uefi-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--update-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/update-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/update-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--update-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--usb-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/usb-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/usb-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--usb-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--vm-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/vm-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/vm-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--vm-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+
+[o:otf:p:qubes:r:user--troubleshooting--vpn-troubleshooting]
+file_filter            = _locale/<lang>/LC_MESSAGES/user/troubleshooting/vpn-troubleshooting.po
+source_file            = _build/gettext/user/troubleshooting/vpn-troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = user--troubleshooting--vpn-troubleshooting
+replace_edited_strings = false
+keep_translations      = false
+

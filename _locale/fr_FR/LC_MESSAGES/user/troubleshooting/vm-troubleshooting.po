@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:3
+#: f361efa192e44471be0a38b25232211f
+msgid "Qube troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:7
+#: 9d3ec82717e64bf9a7e3dc3202bf20c7
+msgid "VM Kernel troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:10
+#: c99514de072c48c79127eb76803bf949
+msgid ""
+"This troubleshoot applies to the non-default kernel choice described in "
+"the :ref:`Managing VM docs <user/advanced-topics/managing-vm-"
+"kernels:using kernel installed in the vm>`."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:12
+#: afcc2d89ae5747f3bdcb5adcfbb5e827
+msgid ""
+"In case of problems, you can access the VM console using ``qvm-console-"
+"dispvm VMNAME`` in dom0, then access the GRUB menu. You need to call it "
+"just after starting the VM (until ``GRUB_TIMEOUT`` expires); for example,"
+" in a separate dom0 terminal window."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:14
+#: b65166ac1f3947da9e23d449ee146be6
+msgid ""
+"In any case you can later access the VM’s logs (especially the VM console"
+" log ``/var/log/xen/console/guest-VMNAME.log``)."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:16
+#: fe14daeb524441d9963e962a524faa06
+msgid ""
+"You can always set the kernel back to some dom0-provided value to fix a "
+"VM kernel installation."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:19
+#: 72f2aa2c60ff478cbb1d60cdd03f817c
+msgid "Qubes starts, but no VMs load"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:22
+#: 784d71139e2244c0b2bf224e7c785456
+msgid ""
+"First, try to start a particular VM, check any failure message and direct"
+" further steps based on that."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:24
+#: d8c1f004db214ba09c72881c137fe39e
+msgid ""
+"This issue has been seen to occur if a dom0 update is interrupted halfway"
+" through and/or a hard power off is done without shutting down Qubes, "
+"which results in files getting corrupted."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:27
+#: 57be208bceda43b4bc0050724a63895d
+msgid ""
+"Can not uninstall a VM / \"ERROR: VM installed by package manager: "
+"template-vm-name\""
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:30
+#: f2f05648dac549b39d0242a788c06e64
+msgid "All of the following commands should be executed in a dom0 terminal."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:32
+#: 2eb23408affa43f085d067410066210d
+msgid ""
+"When a template is marked as ‘installed by package manager’, but cannot "
+"be uninstalled there, trying to uninstall manually will result in the "
+"error “ERROR: VM installed by package manager: template-vm-name”. Do as "
+"follows to be able to uninstall the template:"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:34
+#: a644ae26d50b49eab6886dd8447c5149
+msgid "Check the state of ``installed_by_rpm``"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:42
+#: 57c940cf397746e0bca5c3e2b86b6e86
+msgid ""
+"If ``installed_by_rpm - True``, mark the template as not installed by "
+"package manager"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:50
+#: 3744a280a79c488eb03cee59c26c2450
+msgid "Re-check the state of ``installed_by_rpm``"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:54
+#: 58ebdd38c1474347a2dbdd97eb402d9b
+msgid ""
+"If ``installed_by_rpm - False``, remove the template like you would a "
+"regular qube:"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:62
+#: 348060d381924dc6bf9304f686ca73a6
+msgid ""
+"If ``installed_by_rpm`` remains ``True``, reboot your computer to bring "
+"qubes.xml in sync with qubesd, and try again to remove the template."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:67
+#: 4298dbc1068c44c9afceaa58853c4c11
+msgid "Fixing package installation errors"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:70
+#: a51d1e6f7eed4284b43617de78231026
+msgid "By default, templates in 4.0 only have a loopback interface."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:72
+#: bdd7f08bcdad49289438f819652643b8
+msgid ""
+"Some packages will throw an error on installation in this situation. For "
+"example, Samba expects to be configured using a network interface post "
+"installation."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:74
+#: bced13262d4941a78b7dd9ef68632130
+msgid ""
+"One solution is to add a dummy interface to allow the package to install "
+"correctly:"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:85
+#: 26b01c11b8db4d83bc292683e6739cad
+msgid "\"Cannot connect to qrexec agent\" error"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:88
+#: cd6e90be43354f3b87d0de9aebcf7e27
+msgid ""
+"If you face this error when starting a VM, look into the VM logs at "
+"``/var/log/xen/console/guest-VMNAME.log``. Common reasons that may be "
+"revealed are: too low memory, corrupted files or a VM crash on startup."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:90
+#: 0491f6cff76b4d5aa237df5a66cd908d
+msgid ""
+"If the error occurs as a result of too little initial memory, increase "
+"the initial memory from 200MB to 400MB by navigating to VM settings » "
+"Advanced » Initial memory."
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:93
+#: 01f97fd8948a4cd69f4abd5ba14a8c04
+msgid "\"No match found\" when trying to install a template"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:96
+#: 8f3991e24b59495997674e200c37e8ab
+msgid "For example:"
+msgstr ""
+
+#: ../../user/troubleshooting/vm-troubleshooting.rst:106
+#: 1da010472c4b4d81a2af46339d8f34f3
+msgid ""
+"This normally means you already have the template installed. It may be "
+"that you have the matching package installed, but you removed or renamed "
+"the template. Check ``rpm -q qubes-template-<name>``. If it lists the "
+"package, but you don’t really have the template present (``qvm-ls`` "
+"doesn’t list it), you need to clean up leftovers of the package with "
+"``rpm -e --noscripts qubes-template-<name>``, then install it normally."
+msgstr ""
+

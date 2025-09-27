@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../developer/releases/4_2/release-notes.rst:3
+#: ddb20feec4034e1da3c885b9bd4bda35
+msgid "Qubes OS 4.2 release notes"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:7
+#: 69bb422713994c67981315c49e040c7b
+msgid "New features and improvements since Qubes 4.1"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:10
+#: fd73f5f3a5f447488df3facef13efc6d
+msgid ""
+"Dom0 upgraded to Fedora 37 (`#6982 <https://github.com/QubesOS/qubes-"
+"issues/issues/6982>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:12
+#: 980709370c824d5889b1883b100f7959
+msgid "Xen upgraded to version 4.17"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:14
+#: 82b166b63f0d4fea8f863732158eb400
+msgid "Default Debian template upgraded to Debian 12"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:16
+#: 5ebb12272dc2427a98d92f15a27a0be4
+msgid ""
+"Default Fedora and Debian templates use Xfce instead of GNOME (`#7784 "
+"<https://github.com/QubesOS/qubes-issues/issues/7784>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:18
+#: cabc15044d16470b942a286dddc89d26
+msgid ""
+"SELinux support in Fedora templates (`#4239 <https://github.com/QubesOS"
+"/qubes-issues/issues/4239>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:20
+#: 115b92747e5a498fa528b8150bc64a34
+msgid "Several GUI applications rewritten (screenshots below), including:"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:22
+#: c7ac0dffabb24fef85d041d1181f481e
+msgid ""
+"Applications Menu (also available as preview in R4.1) (`#6665 "
+"<https://github.com/QubesOS/qubes-issues/issues/6665>`__), (`#5677 "
+"<https://github.com/QubesOS/qubes-issues/issues/5677>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:24
+#: 6e4595267d584541ae883ac1a4d37e0a
+msgid ""
+"Qubes Global Settings (`#6898 <https://github.com/QubesOS/qubes-"
+"issues/issues/6898>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:26
+#: 388172501b064ca98141457d6d0a4a32
+msgid "Create New Qube"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:28
+#: faf45ac308254a0f91027f8251ceac56
+msgid ""
+"Qubes Update (`#7443 <https://github.com/QubesOS/qubes-"
+"issues/issues/7443>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:32
+#: de5d997d216442d68eafbd1cc425a4a5
+msgid ""
+"New ``qubes-vm-update`` tool (`#7443 <https://github.com/QubesOS/qubes-"
+"issues/issues/7443>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:34
+#: 26d05b5ccc154d379f092d91f81b384f
+msgid ""
+"Unified ``grub.cfg`` location for both UEFI and legacy boot (`#7985 "
+"<https://github.com/QubesOS/qubes-issues/issues/7985>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:36
+#: 844f8668cf934bc9bf9457bd5aba3e7a
+msgid ""
+"PipeWire support (`#6358 <https://github.com/QubesOS/qubes-"
+"issues/issues/6358>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:38
+#: ac1f35af6fc74b4aa351d2a1d45614f0
+msgid ""
+"fwupd integration for firmware updates (`#4855 "
+"<https://github.com/QubesOS/qubes-issues/issues/4855>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:40
+#: 4d166be7b0de4c299e8f1f02523850e7
+msgid ""
+"Optional automatic clipboard clearing (`#3415 <https://github.com/QubesOS"
+"/qubes-issues/issues/3415>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:42
+#: aa3350c41f8c4210a62cbe8f224e43f8
+msgid ""
+"Official packages built using Qubes Builder v2 (`#6486 "
+"<https://github.com/QubesOS/qubes-issues/issues/6486>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:44
+#: cc0d901f0b414bef971309f16ea13847
+msgid "Split GPG management in Qubes Global Settings"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:46
+#: 5c9a03043cde457fa0d7714ecad9b2b8
+msgid ""
+"Qrexec services use new qrexec policy format by default (but old format "
+"is still supported) (`#8000 <https://github.com/QubesOS/qubes-"
+"issues/issues/8000>`__)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:48
+#: 2d48904d5d874701872bab6feff353a4
+msgid "Improved keyboard layout switching"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:52
+#: bd78af38c22245948fae6adcc58eeb08
+#, python-format
+msgid ""
+"For a full list, including more detailed descriptions, please see `here "
+"<https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+sort"
+"%3Aupdated-"
+"desc+milestone%3A%22Release+4.2%22+label%3A%22release+notes%22+is%3Aclosed>`__."
+" Below are some screenshots of the new and improved Qubes GUI tools."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:54
+#: 023b58abdc714dfc84281f80ea0a5468
+msgid "The new Qubes OS Update tool:"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:56
+#: 4029711c7343417ca9517ec969fcf9bc
+msgid "|Screenshot of the Qubes OS Update tool|"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:126
+#: 2da4de58a62e4e21a6bc9a5c38d449d1
+msgid "Screenshot of the Qubes OS Update tool"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:58
+#: 431ace96eb5d43ddba1ecfc118c866be
+msgid "The new Qubes OS Global Config tool:"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:60
+#: 08b5f44622ac4b35ae16a442c55427f5
+msgid "|Screenshot of the Qubes OS Global Config tool| |image1|"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:129
+#: 8cfa107a37f8460fadffa7cc89a60389
+msgid "Screenshot of the Qubes OS Global Config tool"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:132
+#: d641615cef2344dca1d0731e7ecdaf2c
+msgid "image1"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:62
+#: c4a15de325e44aafa69c25379d11d957
+msgid "The new Qubes OS Policy Editor tool:"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:64
+#: 9de62099953942b2a6d38707917f7f19
+msgid "|Screenshot of the Qubes OS Policy Editor tool|"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:135
+#: ad4b4a36c47d464680defdb48fb0ee31
+msgid "Screenshot of the Qubes OS Policy Editor tool"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:67
+#: 2aee15102b34465ea86f71bd21a307bd
+msgid "Known issues"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:70
+#: 4ce00116912a4ad8a1f803514434b894
+msgid ""
+"DomU firewalls have completely switched to nftables. Users should add "
+"their custom rules to the ``custom-input`` and ``custom-forward`` chains."
+" (For more information, see issues `#5031 <https://github.com/QubesOS"
+"/qubes-issues/issues/5031>`__ and `#6062 <https://github.com/QubesOS"
+"/qubes-issues/issues/6062>`__.)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:72
+#: ce3cc0cade2b4ef08318e8c787748470
+msgid ""
+"Templates restored in 4.2 from a pre-4.2 backup continue to target their "
+"original Qubes OS release repos. If you are using fresh templates on a "
+"clean 4.2 installation, or if you performed an :ref:`in-place upgrade "
+"from 4.1 to 4.2 <user/downloading-installing-upgrading/upgrade/4_2:in-"
+"place upgrade>`, then this does not affect you. (For more information, "
+"see issue `#8701 <https://github.com/QubesOS/qubes-"
+"issues/issues/8701>`__.)"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:76
+#: 65ef8828d03a44d499d26127d674ed42
+msgid ""
+"Also see the `full list of open bug reports affecting Qubes 4.2 "
+"<https://github.com/QubesOS/qubes-"
+"issues/issues?q=is%3Aissue+label%3Aaffects-4.2+label%3A%22T%3A+bug%22+is%3Aopen>`__."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:78
+#: 76b8a8402eab48e491c47136d7b7007f
+msgid ""
+"We strongly recommend :doc:`updating Qubes OS </user/how-to-guides/how-"
+"to-update>` immediately after installation in order to apply all "
+"available bug fixes."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:81
+#: f653094857b84050bb5ca75bade4caa5
+msgid "Notes"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:84
+#: 9381d5538542481f9706b45ff06d1298
+msgid ""
+"Qubes 4.2 does not support Debian 11 templates (see :ref:`supported "
+"template releases <user/downloading-installing-upgrading/supported-"
+"releases:templates>`). Please :ref:`upgrade your Debian templates "
+"<user/templates/debian/debian:upgrading>` to Debian 12."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:86
+#: 5a2fe8c85f874a33b7388437f66d1ad1
+msgid ""
+"Qubes 4.2.2 includes a fix for `#8332: File-copy qrexec service is overly"
+" restrictive <https://github.com/QubesOS/qubes-issues/issues/8332>`__. As"
+" explained in the issue comments, we introduced a change in Qubes 4.2.0 "
+"that caused inter-qube file-copy/move actions to reject filenames "
+"containing, e.g., non-Latin characters and certain symbols. The rationale"
+" for this change was to mitigate the security risks associated with "
+"unusual unicode characters and invalid encoding in filenames, which some "
+"software might handle in an unsafe manner and which might cause confusion"
+" for users. Such a change represents a trade-off between security and "
+"usability."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:88
+#: 069b115cde87434da13762b529a939b8
+msgid ""
+"After the change went live, we received several user reports indicating "
+"more severe usability problems than we had anticipated. Moreover, these "
+"problems were prompting users to resort to dangerous workarounds (such as"
+" packing files into an archive format prior to copying) that carry far "
+"more risk than the original risk posed by the unrestricted filenames. In "
+"addition, we realized that this was a backward-incompatible change that "
+"should not have been introduced in a minor release in the first place."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:90
+#: 8de864d760cc4515b071bfdd2bc9c563
+msgid ""
+"Therefore, we have decided, for the time being, to restore the original "
+"(pre-4.2) behavior by introducing a new ``allow-all-names`` argument for "
+"the ``qubes.Filecopy`` service. By default, ``qvm-copy`` and similar "
+"tools will use this less restrictive service (``qubes.Filecopy +allow-"
+"all-names``) whenever they detect any files that would be have been "
+"blocked by the more restrictive service (``qubes.Filecopy +``). If no "
+"such files are detected, they will use the more restrictive service."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:92
+#: dacf9027c08f48a19cdec8bc74bfd8ab
+msgid ""
+"Users who wish to opt for the more restrictive 4.2.0 and 4.2.1 behavior "
+"can do so by modifying their RPC policy rules. To switch a single rule to"
+" the more restrictive behavior, change ``*`` in the argument column to "
+"``+`` (i.e., change “any argument” to “only empty”). To use the more "
+"restrictive behavior globally, add the following “deny” rule before all "
+"other relevant rules:"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:100
+#: b655d56ea9344ddba091cfb3adba24e3
+msgid ""
+"For more information, see :doc:`RPC policies </user/advanced-topics/rpc-"
+"policy>` and :ref:`Qube configuration interface <developer/debugging/vm-"
+"interface:qubes rpc>`."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:104
+#: 47ae60d04f624fbe9a6e2030a2a62060
+msgid ""
+"Beginning with Qubes 4.2, the recommended way to update Qubes OS via the "
+"command line has changed. Salt is no longer the preferred method, though "
+"it is still supported. Instead, ``qubes-dom0-update`` is recommended for "
+"updating dom0, and ``qubes-vm-update`` is recommended for updating "
+"templates and standalones. (The recommended way to update via the GUI has"
+" not changed. The Qubes Update tool is still the preferred method.) For "
+"more information, see :doc:`How to update </user/how-to-guides/how-to-"
+"update>`."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:109
+#: 9d7bcd4fdc17404aa0c45dd6cdf35ae5
+msgid "Download"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:112
+#: fef7f016d90b43868b7a7993f57be1af
+msgid ""
+"All Qubes ISOs and associated :doc:`verification files </project-security"
+"/verifying-signatures>` are available on the `downloads <https://www"
+".qubes-os.org/downloads/>`__ page."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:115
+#: 4e11e7b94ca8460b9e10aba2194d9bec
+msgid "Installation instructions"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:118
+#: 12112ca6492748d78c4d91d0cf800366
+msgid ""
+"See the :doc:`installation guide </user/downloading-installing-upgrading"
+"/installation-guide>`."
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:121
+#: 39e0974c1582432182c8bc5907267b88
+msgid "Upgrading"
+msgstr ""
+
+#: ../../developer/releases/4_2/release-notes.rst:124
+#: bbbde52dc6684fa085dffe89da0b3881
+msgid ""
+"Please see :doc:`how to upgrade to Qubes 4.2 </user/downloading-"
+"installing-upgrading/upgrade/4_2>`."
+msgstr ""
+

@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../introduction/getting-started.rst:3
+#: 1d573ba71a854c2db7b1096ec48a1543
+msgid "Getting started"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:6
+#: e33bcad6969c47599812f9dfe7552990
+msgid "After `downloading <https://www.qubes-os.org/downloads/>`__ and :doc:`installing </user/downloading-installing-upgrading/installation-guide>` Qubes OS, it’s time to dive in and get to work! (Already know your way around? Dive right in to :doc:`organizing your qubes </user/how-to-guides/how-to-organize-your-qubes>`.)"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:9
+#: cd179d9c7b38449296dd79b600823c8a
+msgid "The Basics"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:12
+#: ed69e1fcedac498c9ddff6cb10e997a4
+msgid "Qubes OS is an operating system built out of securely-isolated compartments, or :term:`qubes <qube>`. You can have a work qube, a personal qube, a banking qube, a web browsing qube, a standalone Windows qube and so on. You can have as many qubes as you want! Most of the time, you’ll be using an :term:`app qube`, a qube for running software programs like web browsers, email clients, and word processors. Each app qube is based on another type of qube called a :term:`template`. The same template can be a base for various qubes. Importantly, a qube cannot modify its template in any way. This means that, if a qube is ever compromised, its template and any other qubes based on that template will remain safe. This is what makes Qubes OS so secure. Even if an attack is successful, the damage is limited to a single qube."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:14
+#: 18dcb15210a94fd295695356958940fd
+msgid "Suppose you want to use your favorite web browser in several different qubes. You’d install the web browser in a template, then every qube based on that template would be able to run the web browser software (while still being forbidden from modifying the template and any other qubes). This way, you only have to install the web browser a single time, and updating the template updates all the qubes based on it. This elegant design saves time and space while enhancing security."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:16
+#: 6ae6798cd7594e9186110ab2d14eeccb
+msgid "There are also some “helper” qubes in your system. Each qube that connects to the Internet does so through a network-providing :term:`service qube`. If you need to access USB devices, another service qube will do that. There’s also a :term:`management qube` that automatically handles a lot of background housekeeping. For the most part, you won’t have to worry about it, but it’s nice to know that it’s there. As with app qubes, service qubes and management qubes are also based on templates. Templates are usually named after their operating system (often a `Linux distribution <https://en.wikipedia.org/wiki/Linux_distribution>`__) and corresponding version number. There are many ready-to-use :doc:`templates </user/templates/templates>` to choose from, and you can download and have as many as you like."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:18
+#: 07fd5eac775f42afb53d731ecc72ab53
+msgid "Last but not least, there’s a very special :term:`admin qube` used to administer your entire system. There’s only one admin qube, and it’s called :term:`dom0`. You can think of it as the master qube, holding ultimate power over everything that happens in Qubes OS. Dom0 is the most trusted one of all qubes. If dom0 were ever to be compromised, it would be “game over”- an effective compromise of the entire system. That’s why everything in Qubes OS is specifically designed to protect dom0 and ensure that doesn’t happen. Due to its overarching importance, dom0 has no network connectivity and is used only for running the `desktop environment <https://en.wikipedia.org/wiki/Desktop_environment>`__ and `window manager <https://en.wikipedia.org/wiki/Window_manager>`__. Dom0 should never be used for anything else. In particular, you should never run user applications in dom0. (That’s what your app qubes are for!) In short, be very careful when interacting with dom0."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:21
+#: 6ea5f48a40a1490e9214bfd0e520bd59
+msgid "Color & Security"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:24
+#: 8e9fb0a4bad04e6f8b0f620934588152
+msgid "You’ll choose a **color** for each of your qubes out of a predefined set of colors. The color of the frame of each window on your desktop will correspond to the color of that qube. These colored frames help you keep track of which qube you’re currently using. You may use them to show how trustworthy it is. This is especially helpful when you have the same program running in multiple qubes at the same time. For example, if you’re logged in to your bank account in one qube while doing some random web surfing in a different qube, you wouldn’t want to accidentally enter your banking password in the latter! The colored frames help to avoid such mistakes."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:26
+#: 5ad90461551e4e878af011d8df23c6b7
+msgid "|snapshot_41.png|"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:194
+#: a7cae32192ac43418ad29a048baafc3e
+msgid "snapshot_41.png"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:28
+#: e7c6fdb121854a968fdaf9fc4566c80f
+msgid "Most Qubes users associate red with what’s untrusted and dangerous (like a red stop light signalling danger), green with what’s safe and trusted, and yellow and orange with things in-between. This color scheme also includes blue and black, commonly interpreted as indicating progressively more trusted domains than green, with black being ultimately trusted. However, color and associated meanings are entirely up to you. The system itself does not treat the colors differently - they’re all equally safe on their own. If you create two identical qubes — black and red, say — they’ll be the same until you start using them differently. Feel free to use the colors in the way that best meets your needs. For example, you might decide to use three or four qubes for work activities and give them all the same color — or all different colors depending on the nature of the task they are used for."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:31
+#: 6aa1a04083b84de08b35414f76d894d5
+msgid "User Interface"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:34
+#: 8093908ca023483092d88dfca06f492c
+msgid "On operating systems like Windows and macOS, the desktop environment is unchangeable and part of that operating system. With Linux, any of a number of desktop environments are an option. Qubes OS is installed with XFCE as its default desktop environment, but it also supports :doc:`KDE </user/advanced-topics/kde>`, as well as the window managers :doc:`i3 </user/advanced-topics/i3>` and :doc:`AwesomeWM </user/advanced-topics/awesomewm>`."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:36
+#: 8e56ad01e59b4d2085c40ada0375bcda
+msgid "|r4.0-taskbar.png|"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:195
+#: 1f647b98fc474be0a6fdd65250630d45
+msgid "r4.0-taskbar.png"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:38
+#: 147b0f439eea4e24b3bf09eb45e77afc
+msgid "The bar at the top of your screen in Qubes 4.2 includes the following XFCE component areas:"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:40
+#: b24a8da696cb403a9f47462feb52bb9a
+msgid "The **App Menu**, where you go to open an application within a qube, to open a dom0 terminal, to access administrative UI tools such as the Qube Manager, or to access settings panels for your desktop environment."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:42
+#: da98c94d08e14b558c9a42a9fe6513a1
+msgid "The **Task Bar** where buttons for open and hidden windows live."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:44
+#: 8e18f09be497497b8ca81f20a69b7351
+msgid "**Spaces**, an interface for `virtual desktops <https://en.wikipedia.org/wiki/Virtual_desktop>`__. Virtual desktops do not have any inherent security isolation properties, but some users find them useful for organizing things."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:46
+#: 351516d4f59443f6b6e117e629055864
+msgid "The **Tray**, where many functional widgets live."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:50
+#: 41b2d07408ed42c3afa51154847df91d
+msgid "There are several tray widgets that are unique to Qubes OS:"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:52
+#: a55f7be5c1c443c0b37dbce638ca7315
+msgid "The **Whonix SDWDate** allows you to control the Tor connection in your `sys-whonix <https://www.whonix.org/wiki/Qubes>`__ qube."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:54
+#: 1139f2f1ec9c4029ad0a70127c6b7ee0
+msgid "The **Qubes Clipboard** lets you easily `copy text <https://wwwpreview.qubes-os.org/doc/how-to-copy-and-paste-text/>`__ between various qubes and from dom0."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:56
+#: 8c9ac9645a5f4893b7b8a8759b7819c3
+msgid "The **Qubes Devices** widget allows you to attach and detach devices — such as USB drives and cameras — to qubes."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:58
+#: c02e250b12944b5aaf2c76f7d03ba5f4
+msgid "The **Qubes Disk Space** widget shows you how much storage you’re using. It’ll notify you if you’re ever running out of space."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:60
+#: 419b39e2352348f0acc3d0ab1fae49ba
+msgid "The **Qubes Domains** widget allows you to manage running qubes, turn them on and off, and monitor RAM and CPU usage."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:62
+#: 5ccb5c6db858435f99fca5f6f3851135
+msgid "The **Qubes Updater** widget informs you when updates are available and helps you install them."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:66
+#: 75e1e36b7fff466c849a47c1b2e633a0
+msgid "|r4.1-widgets.png|"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:196
+#: 52fc849f070b4f22845e18895b08a0a1
+msgid "r4.1-widgets.png"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:68
+#: eefbf25592ee4bd3a5b158e8d7222247
+msgid "To learn more about how to customize your desktop environment, we recommend you go through `XFCE’s documentation <https://docs.xfce.org/>`__."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:71
+#: 40b4b7edc9a042eda67b1ece9ea2157a
+msgid "Qube Manager"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:74
+#: 14f44e75b5c347a58e591c0df29e6e3e
+msgid "To see all of your qubes at the same time, you can use the **Qube Manager**. It displays the states of all the qubes in your system, even the ones that aren’t running."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:76
+#: d2aaad88a87a4578853234c316121f1b
+msgid "To access Qube Manager go to: Qubes Icon (App Menu) → Settings Icon → Qubes Tools → **Qube Manager**"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:78
+#: baeefd2bf0db479ab54be29a2a91d4ba
+msgid "|r4.1-qubes-manager.png|"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:197
+#: f8a87e93130a4010a302505b08875454
+msgid "r4.1-qubes-manager.png"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:81
+#: d0985c7eb4064a9098aab2b5b213506c
+msgid "Command-line interface"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:84
+#: 856c09f7710a4f0bab7ef19cdf5735be
+msgid "All aspects of Qubes OS can be controlled using command-line tools such as the terminal emulator. The default terminal emulator in Qubes is Xfce Terminal. Opening a terminal emulator in dom0 can be done in several ways:"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:86
+#: 7862a23963ff4e9f9620ecdeececd53f
+msgid "Go to the App Menu, click on the Settings icon, choose Other from the drop-down menu, and select **Xfce Terminal Emulator** at the bottom."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:88
+#: c17f2b0010f34b60be7a1c1102e2d4d5
+msgid "Press ``Alt`` + ``F3`` and search for ``xfce terminal``."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:90
+#: 518c17de8ec743a98d56ae47df7fc897
+msgid "Right-click on the desktop and select **Open Terminal Here**."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:94
+#: 7b31352e76294b828c11ca452cc64f2a
+msgid "Various command-line tools are described as part of this guide, and the whole reference can be found :doc:`here </user/reference/tools>`. Terminal emulators can also be run in other qubes as normal programs."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:97
+#: f8f65875904649af804454d30c382cde
+msgid "First boot"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:100
+#: ea48b0981e4c47f9b0dcfc56bdda5f7f
+msgid "When you install Qubes OS, a number of qubes are pre-configured for you:"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:102
+#: 695313b12a5740e49da232bfeb8f1e0c
+msgid "**App qubes** such as ``work``, ``personal``, ``untrusted``, and ``vault`` are your “starter pack” qubes to compartmentalize tasks and types of data to suit most basic needs. (There is nothing special about these pre-configured qubes - they are identical in nature to more specific ones you might wish to create later.)"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:104
+#: c280673de7e04c5c8c63a6a254242a88
+msgid "**Templates:** ``fedora-XX``, ``debian-XX`` (``XX`` being the version number)"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:106
+#: 77a5c8e2b7164c6795ee53c0246f7e96
+msgid "**Service qubes:** ``sys-usb``, ``sys-net``, ``sys-firewall``, and ``sys-whonix``)"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:108
+#: eb8587a6789b442ba96deebb40d14556
+msgid "**Admin qube:** ``dom0``"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:112
+#: cc35ee5b569148f6bf8979a9935ce09a
+msgid "Other software installed in Qubes OS by default includes open-source applications such as file managers, command-line terminals, printer managers, text editors, and applets for configuring audio and user interface settings. Most of these applications are incorporated within each template."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:115
+#: ac25d14aa0654840bf8b6f0df52d853e
+msgid "Adding, removing, and listing qubes"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:118
+#: d67ac9b9a1ac4248b57180cff6ae3de7
+msgid "To create a new qube or remove one, use **Create Qubes VM** option in the App Menu."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:120
+#: 7b9125edf68544bdad09dbe9447f79b9
+msgid "Creating a New Qube: Qubes Icon → Settings → Qubes Tools → Qube Manager → Create Qubes VM → **New Qube**"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:122
+#: 7a85557632974db596960fab2aca680f
+msgid "Removing a qube: To remove a qube, use the **Delete qube button** as the final step instead."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:124
+#: 5b84a7144da146a2b8b219c99c68daad
+msgid "You can also add, remove, and list qubes from the command line using the following tools:"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:126
+#: 681f930df03e4f259a8c3ae038be01c5
+msgid "``qvm-create``"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:128
+#: 2f6a0b2125514237b279f2cc111e4fbb
+msgid "``qvm-remove``"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:130
+#: aafef6e0496d46f0ac46b5b045b6825b
+msgid "``qvm-ls``"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:135
+#: 3bf7226a11444e0d88b078e1c83288ba
+msgid "How many qubes do I need?"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:138
+#: b6b526b8de77424f8d140c3e4d2b7f58
+msgid "It’s a good idea to start out with the pre-installed app qubes: ``work``, ``personal``, ``untrusted``, and ``vault``. If you start to feel that some activity just doesn’t fit into any of your existing qubes, or you want to partition some part of your life, you can easily create a new qube for it. You’ll also be able to easily :doc:`copy any files </user/how-to-guides/how-to-copy-and-move-files>` you need to the newly-created qube."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:140
+#: ef562df6468341c99124b09fb3359daa
+msgid "Want to see some examples? Check out our in-depth guide on :doc:`how to organize your qubes </user/how-to-guides/how-to-organize-your-qubes>`, which walks through several common use cases based on our user research and years of experience from veteran Qubes users."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:143
+#: 9bf2f67339374905a6423945b7d431a1
+msgid "Secure Habits"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:146
+#: 1a5a9327957d4451bf3adee6c7073a23
+msgid "It is *very important* to :doc:`keep Qubes updated </user/how-to-guides/how-to-update>` to ensure you have the latest security updates. Frequently updating is one of the best ways to remain secure against new threats."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:148
+#: edaa98194b4940f2a3aa51ce82003bf8
+msgid "It’s also *very important* to make regular backups so that you don’t lose your data unexpectedly. The :doc:`Qubes backup system </user/how-to-guides/how-to-back-up-restore-and-migrate>` allows you to do this securely and easily."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:151
+#: a173f610db1f4b20819441ea0c562495
+msgid "How-To Guides"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:154
+#: 4e37e7f647624be1b8379257bb5d836f
+msgid "Here are some basic tasks you’re likely to want to perform often that are unique to Qubes as a multi-environment system. A full list is available in the :ref:`How-To Guides <how-to-guides>` section in the docs."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:156
+#: 77ed802d41ff4763a81de4d5c54d7bbb
+msgid ":doc:`How to organize your qubes </user/how-to-guides/how-to-organize-your-qubes>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:158
+#: 53c35ddfbbc0456b8c5f176ae6ee9f3c
+msgid ":doc:`How to Update </user/how-to-guides/how-to-update>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:160
+#: 1db8c03734f44d2a86e40ec6cc560575
+msgid ":doc:`How to Back Up, Restore, and Migrate </user/how-to-guides/how-to-back-up-restore-and-migrate>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:162
+#: 97553b39824749f6bfc77a2f501772e0
+msgid ":doc:`How to Copy and Paste Text </user/how-to-guides/how-to-copy-and-paste-text>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:164
+#: 3967ad16b29f4384af6a3aed9a8ba492
+msgid ":doc:`How to Copy and Move Files </user/how-to-guides/how-to-copy-and-move-files>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:166
+#: 624786eea2ec40e88ba707aacd2a4a07
+msgid ":doc:`How to Copy from Dom0 </user/how-to-guides/how-to-copy-from-dom0>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:168
+#: 2597cde14382478d897bf3fdd7192cc2
+msgid ":doc:`How to Install Software </user/how-to-guides/how-to-install-software>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:170
+#: d1107229e6c6471fa2c042f865a00829
+msgid ":doc:`How to Use Devices (block storage, USB, and PCI devices) </user/how-to-guides/how-to-use-devices>`"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:174
+#: 5f1a86f2ea304101b680d7a87f33c80e
+msgid "If you encounter any problems, please visit the :doc:`Help, Support, Mailing Lists, and Forum </introduction/support>` page."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:177
+#: 7c96a6198e044902a0bd3b03e427f17d
+msgid "Compatible Hardware"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:180
+#: ae5dd3903762401ebc25f1c7ca977363
+msgid "Make sure your hardware satisfies the :doc:`system requirements </user/hardware/system-requirements>`, as Qubes OS cannot run on every type of computer. You may also want to check out :doc:`Qubes-certified Hardware </user/hardware/certified-hardware/certified-hardware>` and take a look at the `Hardware Compatibility List (HCL) <https://www.qubes-os.org/hcl/>`__."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:183
+#: 759f623142144ca592e50725f5db9644
+msgid "Downloads"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:186
+#: 442d67ac68f34633b1a45b95e37f9a29
+msgid "`Download an ISO <https://www.qubes-os.org/downloads/>`__, learn how to :doc:`verify its authenticity </project-security/verifying-signatures>`, and follow our :doc:`guide to install Qubes OS </user/downloading-installing-upgrading/installation-guide>`. Looking for the :doc:`source code </developer/code/source-code>`? You’ll find it `on GitHub <https://github.com/QubesOS>`__."
+msgstr ""
+
+#: ../../introduction/getting-started.rst:189
+#: ba42965d07e243c0b2839bb68f3d3dab
+msgid "Documentation"
+msgstr ""
+
+#: ../../introduction/getting-started.rst:192
+#: 993fcfab1e9645769591ecb4776b290a
+msgid "Browse our extensive library of :doc:`documentation </index>` for users and developers of Qubes OS. You can even :doc:`help us improve it </developer/general/how-to-edit-the-rst-documentation>`!"
+msgstr ""

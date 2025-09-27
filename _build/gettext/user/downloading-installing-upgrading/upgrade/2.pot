@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:3
+#: 5df951a0bad94c4990d9528898e70bd4
+msgid "Upgrading to R2"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:6
+#: bf82b141fa17400ba1de26c44e85cc4b
+msgid "Current Qubes R2 Beta 3 (R2B3) systems can be upgraded in-place to the latest R2 (R2) release by following the procedure below."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:8
+#: 7029810ccb844db9956dc896d16df1af
+msgid "**Before attempting either an in-place upgrade or a clean installation, we strongly recommend that users back up the system by using the built-in** :doc:`backup tool </user/how-to-guides/how-to-back-up-restore-and-migrate>` **.**"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:11
+#: 624e16d7e4884b3f8c37810ef8592a4e
+msgid "Upgrade Template and Standalone VM(s)"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:14
+#: 18c5d4d848b344d29bf7a97602ee74dd
+msgid "Qubes R2 comes with new template based on Fedora 20. You can upgrade existing template according to procedure described :ref:`here <user/templates/fedora/fedora:upgrading>`."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:16
+#: aad145be5a274becb471fc8985f3810f
+msgid "**It also possible to download a new Fedora 20-based template from our repositories**. To do this please first upgrade the Dom0 distro as described in the section below."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:20
+#: 690ab6899e134cc1bb1e9cb650273d6e
+msgid "While technically it is possible to use old Fedora 18 template on R2, it is strongly recommended to upgrade all the templates and Standalone VMs, because Fedora 18 no longer receive security updates."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:22
+#: 4b73922423f94b7b886f494b1b0f7452
+msgid "By default, in Qubes R2, there is only one template, however users are free to create more templates for special purposes, as well as Standalone VMs. If more than one template and/or Standalone VMs are used, then it is recommended to upgrade/replace all of them. More information on using multiple templates, as well as Standalone VMs, can be found :doc:`here </user/how-to-guides/how-to-install-software>`."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:25
+#: 6915a438b8004c0aacc7ef1890932839
+msgid "Upgrading dom0"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:28
+#: 799f56d57f3a44149e2e69c190e45a5c
+msgid "Note that dom0 in R2 is based on Fedora 20, in contrast to Fedora 18 in previous release, so this operation will upgrade a lot of packages."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:30
+#: 4a237835f1c542788ac0840601758803
+msgid "Open terminal in Dom0. E.g. Start->System Settings->Konsole."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:32
+#: 5740a4ae3ad94f109f0abcd71716bf32
+msgid "Install all the updates for Dom0:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:42
+#: c52cbe9167984ddd9100502fd9166db9
+msgid "After this step you should have ``qubes-release-2-5`` in your Dom0. Important: if you happen to have ``qubes-release-2-6*`` then you should downgrade to ``qubes-release-2-5``! The ``qubes-release-2-6*`` packages have been uploaded to the testing repos and were kept there for a few hours, until we realized they bring incorrect repo definitions and so we removed them and also have changed the update procedure a bit (simplifying it)."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:44
+#: 15d7cce40e1e4aafa5b79f8e17c2b95b
+msgid "Upgrade dom0 to R2:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:50
+#: 28111185710645b79b72676c366cf0b1
+msgid "**Note:** be sure that the VM used as a update-downloading-vm (by default its the firewallvm based on the default template) has been updated to the latest Qubes packages, specifically ``qubes-core-vm-2.1.33`` or later. This doesn’t imply that the VM must already be upgraded to fc20 – for Dom0 upgrade we could still use an fc18-based VM (updatevm) it is only important to install the latest Qubes packages there."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:59
+#: e4d8a977b6cf42d497912f7dbb628b28
+msgid "If above step completed successfully you should have ``qubes-release-2-9`` or later. If not, repeat above step with additional ``--clean`` option."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:65
+#: 01ea005723aa4fd3b2a74e5f1b614e39
+msgid "4a. If you chose not to upgrade your fc18 templates, but instead to download our new fc20-based template you should now be able to do that by simply typing:"
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:73
+#: 304b73df48464d1f9aa311676f24edc0
+msgid "Reboot the system."
+msgstr ""
+
+#: ../../user/downloading-installing-upgrading/upgrade/2.rst:79
+#: 678e90eb0a2f4068a994ea5bd956f0cf
+msgid "Please note that if you use Anti Evil Maid, then it won’t be able to unseal the passphrase this time, because the Xen, kernel, and initramfs binaries have changed. Once the system boots up again, you could reseal your Anti Evil Maid’s passphrase to the new configuration. Please consult Anti Evil Maid documentation for explanation on how to do that."
+msgstr ""

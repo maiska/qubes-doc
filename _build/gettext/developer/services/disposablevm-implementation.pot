@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../developer/services/disposablevm-implementation.rst:3
+#: 2b54f9b0c4324d2ebe9e26b52bd5ca7c
+msgid "Disposable implementation"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:6
+#: 10fac0905f7641918cb6581beec25a40
+msgid "**Note: The content below applies to Qubes R3.2.**"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:9
+#: 0420b3ec2db64086b364343e7d92c62b
+msgid "DisposableVM image preparation"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:12
+#: 969280cd63434feca9c61b392266a802
+msgid "DisposableVM is not started like other VMs, by executing equivalent of ``xl create`` - it would be too slow. Instead, DisposableVM are started by restore from a savefile."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:14
+#: 96a4708cd6744462aa7c5cddba4a5f52
+msgid "Preparing a savefile is done by ``/usr/lib/qubes/qubes_prepare_saved_domain.sh`` script. It takes two mandatory arguments, appvm name (APPVM) and the savefile name, and optional path to “prerun” script. The script executes the following steps:"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:16
+#: 138a0a20182540959b75c546335bc1be
+msgid "APPVM is started by ``qvm-start``"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:18
+#: 7d7b490ae241461ebbd3399962987268
+msgid "xenstore key ``/local/domain/appvm_domain_id/qubes_save_request`` is created"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:20
+#: 8836cab9168e48d5aabf08995d0d7a88
+msgid "if prerun script was specified, copy it to ``qubes_save_script`` xenstore key"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:22
+#: f95dd36936f742a3a6dd599407a8804b
+msgid "wait for the ``qubes_used_mem`` key to appear"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:24
+#: f7cea813ec064a24a1a80664fdaa7cf7
+msgid "(in APPVM) APPVM boots normally, up to the point in ``/etc/init.d/qubes_core`` script when the presence of ``qubes_save_request`` key is tested. If it exists, then"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:26
+#: de70e398a3d64bdfb19d38cec7ff4055
+msgid "(in APPVM) if exists, prerun script is retrieved from the respective xenstore key and executed. This preloads filesystem cache with useful applications, so that they will start faster."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:28
+#: fd3f0a6cd64f4723874dde774b453b8d
+msgid "(in APPVM) the amount of used memory is stored to ``qubes_used_mem`` xenstore key"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:30
+#: 01855631835e4f08985ce42506447da0
+msgid "(in APPVM) busy-waiting for ``qubes_restore_complete`` xenstore key to appear"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:34
+#: 05898063134041db8ef85255c3e1de48
+msgid "when ``qubes_used_mem`` key appears, the domain memory is reduced to this amount, to make the savefile smaller."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:36
+#: cf5f7ddda173462184c6cc792c2b2fe1
+msgid "APPVM private image is detached"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:38
+#: 5ed7a8adf51d47bda735ab2ef4163047
+msgid "the domain is saved via ``xl save``"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:40
+#: 7a743e38bac74402b7e0fec0b177f6c0
+msgid "the COW file volatile.img (cow for root fs and swap) is packed to ``saved_cows.tar`` archive"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:44
+#: 076b88bbae2f41f9b7bd28cfcf8c9360
+msgid "The ``qubes_prepare_saved_domain.sh`` script is lowlevel. It is usually called by ``qvm-create-default-dvm`` script, that takes care of creating a special AppVM (named template_name-dvm) to be passed to ``qubes_prepare_saved_domain.sh``, as well as copying the savefile to /dev/shm (the latter action is not done if the ``/var/lib/qubes/dvmdata/dont_use_shm`` file exists)."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:47
+#: 4000737d610e453190f61724e273e906
+msgid "Restoring a DisposableVM from the savefile"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:50
+#: 7af5b71b257a4fa592e92644ab8ad457
+msgid "Normally, disposable VM is created when qubes rpc request with target *$dispvm* is received. Then, as a part of rpc connection setup, the ``qfile-daemon-dvm`` program is executed; it executes ``/usr/lib/qubes/qubes_restore`` program. It is crucial that this program executes quickly, to make DisposableVM creation overhead bearable for the user. Its main steps are:"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:52
+#: 99528bffa0bf48e5b9b9aa36dc7e2908
+msgid "modify the savefile so that the VM name, VM UUID, MAC address and IP address are unique"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:54
+#: 4797958dae2b4cb5b4023fe1dd765cd6
+msgid "restore the COW files from the ``saved_cows.tar``"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:56
+#: dcaa3955f41f4aa5b7837c70b9238f5d
+msgid "create the ``/var/run/qubes/fast_block_attach`` file, whose presence tells the ``/etc/xen/scripts/block`` script to bypass some redundant checks and execute as fast as possible."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:58
+#: 04f500b10be44b27ac358cc28dc83b0b
+msgid "execute ``xl restore`` in order to restore a domain."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:60
+#: 59d3d6db46bf4144b4cda0cd6b9d5b93
+msgid "create the same xenstore keys as normally created when AppVM boots (e.g. ``qubes_ip``)"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:62
+#: bf7e1fad30744663bc0ca9562d0963a0
+msgid "create the ``qubes_restore_complete`` xenstore key. This allows the boot process in DisposableVM to continue."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:66
+#: 206ea591b59c45c8a744bb93c51c56b4
+msgid "The actual passing of files between AppVM and a DisposableVM is implemented via qubes rpc."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:69
+#: 68e3c73573a14112ac09557984ac9ecc
+msgid "Validating the DisposableVM savefile"
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:72
+#: 6b99d1832188496ba9e37b78efa8b0c0
+msgid "DisposableVM savefile contains references to template rootfs and to COW files. The COW files are restored before each DisposableVM start, so they cannot change. On the other hand, if templateVM is started, the template rootfs will change, and it may not be coherent with the COW files."
+msgstr ""
+
+#: ../../developer/services/disposablevm-implementation.rst:74
+#: f4a224df7bab433c8b060d4e23699537
+msgid "Therefore, the check for template rootfs modification time being older than DisposableVM savefile modification time is required. It is done in ``qfilexchgd`` daemon, just before restoring DisposableVM. If necessary, an attempt is made to recreate the DisposableVM savefile, using the last template used (or default template, if run for the first time) and the default prerun script, residing at ``/var/lib/qubes/vm-templates/templatename/dispvm_prerun.sh``. Unfortunately, the prerun script takes a lot of time to execute - therefore, after template rootfs modification, the next DisposableVM creation can be longer by about 2.5 minutes."
+msgstr ""

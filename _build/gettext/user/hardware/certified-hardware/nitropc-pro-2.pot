@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:5
+#: c49f4e0fc32341e6bf6e31a347efafe7
+msgid "NitroPC Pro 2"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:10
+#: 3b3ab81d9e6a48fd961cfe1f5fb2df37
+msgid "**Note:** When configuring your NitroPC Pro 2 on the Nitrokey website, there is an option for a discrete graphics card (e.g., Nvidia GeForce RTX 4070 or 4090) in addition to integrated graphics (e.g., Intel UHD 770, which is always included because it is physically built into the CPU). NitroPC Pro 2 configurations that include discrete graphics cards are *not* Qubes-certified. The only NitroPC Pro 2 configurations that are Qubes-certified are those that contain *only* integrated graphics."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:14
+#: 13083b48870647ab8ac749a259224f7c
+msgid "**Note:** Only the “Dasharo TianoCore UEFI without Measured Boot, without Nitrokey” firmware option is certified. The “HEADS with Measured Boot, requires Nitrokey!” firmware option is *not* certified."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:16
+#: fa4d9c1b096a4e08b24909e35ee5baf7
+msgid "The `NitroPC Pro 2 <https://shop.nitrokey.com/shop/nitropc-pro-2-523>`__ is :doc:`officially certified </user/hardware/certified-hardware/certified-hardware>` for Qubes OS Release 4."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:18
+#: 2031d600423642d3b4d670ea3009ac78
+msgid "|Photo of NitroPC Pro 2|"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:67
+#: a2725bd08c774d5f82b43c166ff0a861
+msgid "Photo of NitroPC Pro 2"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:20
+#: e1ed08535dee4667ab1a216db774393a
+msgid "Here’s a summary of the main component options available for this mid-tower desktop PC:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:27
+#: b074c1ade3b0461e9b5b9fbbb05e214b
+msgid "Component"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:28
+#: 167fd6bf88314a91890ae0a532d27a4f
+msgid "Options"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:29
+#: 2a35c69aaa64406d97a70a83803e5e7f
+msgid "Motherboard"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:30
+#: 9e85ea617b9a4e3abc5a6e1109a3de94
+msgid "MSI PRO Z790-P DDR5 (Wi-Fi optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:31
+#: 20b80c0d65a048419fb952b44739935b
+msgid "Processor"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:32
+#: e0a6ba12448b47f5b7a28e9d1332acbf
+msgid "14th Generation Intel Core i5-14600K or i9-14900K"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:33
+#: 26fb38ab61df4850b5e4b297529c018f
+msgid "Memory"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:34
+#: cfc5d45c0c284fd086ff47ae6ea814d5
+msgid "16 GB to 128 GB DDR5"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:35
+#: 43b845f377bd43f6b158bcf753d91aa8
+msgid "NVMe storage (optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:36
+#: cb2077ceef71472792012ad6cd9941db
+msgid "Up to two NVMe PCIe 4.0 x4 SSDs, up to 2 TB each"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:37
+#: 57264580981b410eb21a2a57de4c946c
+msgid "SATA storage (optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:38
+#: 0e04593229f14207afdb371bb1844a52
+msgid "Up to two SATA SSDs, up to 7.68 TB each"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:39
+#: fa6e71ad3d1d4dad81cd5fcb0ab9f572
+msgid "Wireless (optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:40
+#: 9f52fb4a785948adbad1b3c61df0bbf5
+msgid "Wi-Fi 6E, 2400 Mbps, 802.11/a/b/g/n/ac/ax, Bluetooth 5.2"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:41
+#: 22251dc682a44d569684d8f248a5f6c0
+msgid "Operating system (optional)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:42
+#: 28ed7eec1b1a46a1b9204f7b493bf05f
+msgid "Qubes OS 4.2 or Ubuntu 22.04 LTS"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:45
+#: 81ccd914fa8e45739e3b211144e75980
+msgid "Of special note for Qubes users, the NitroPC Pro 2 features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. With this option, the case screws will be individually sealed and photographed, and the NitroPC Pro 2 will be packed inside a sealed bag. Photographs of the seals will be sent to you by email, which you can use to determine whether the case was opened during transit."
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:47
+#: a232c3a85fcb40afa4e122752151e60f
+msgid "The NitroPC Pro 2 also comes with a “Dasharo Entry Subscription,” which includes the following:"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:49
+#: 25bb3644cb9948b7a2742e29c5758184
+msgid "Accesses to the latest firmware releases"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:51
+#: 66c7f5e792ea4be6bf036cd16a43d1db
+msgid "Exclusive newsletter"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:53
+#: baad1ce879164b41a29393fd147d1190
+msgid "Special updates, including early access to updates enhancing privacy, security, performance, and compatibility"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:55
+#: 8732b8c8ca38421e96b0e9d38e93920f
+msgid "Early access to new firmware releases for `newly-supported desktop platforms <https://docs.dasharo.com/variants/overview/#desktop>`__ (please see the `roadmap <https://github.com/Dasharo/presentations/blob/main/dasharo_roadmap.md#dasharo-desktop-roadmap>`__)"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:57
+#: 2016979a95df403bbb5a591ea010cee9
+msgid "Access to the Dasharo Premier Support invite-only live chat channel on the Matrix network, allowing direct access to the Dasharo Team and fellow subscribers with personalized and priority assistance"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:59
+#: 632958bb33d54211a06543e791d2478a
+msgid "Insider’s view and influence on the Dasharo feature roadmap for a real impact on Dasharo development"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:61
+#: 78e936ea9792431ba831692460478249
+msgid "`Dasharo Tools Suite Entry Subscription <https://docs.dasharo.com/osf-trivia-list/dts/#what-is-dasharo-tools-suite-supporters-entrance>`__ keys"
+msgstr ""
+
+#: ../../user/hardware/certified-hardware/nitropc-pro-2.rst:65
+#: cb2f9ecf2e9541c7ae0da024505e0467
+msgid "For further product details, please see the official `NitroPC Pro 2 <https://shop.nitrokey.com/shop/nitropc-pro-2-523>`__ page."
+msgstr ""

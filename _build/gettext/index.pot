@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:13
+#: 
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:40
+#: 
+msgid "Community-recommended hardware"
+msgstr ""
+
+#: ../../index.rst:40
+#: 
+msgid "Hardware compatibility list (HCL)"
+msgstr ""
+
+#: ../../index.rst:40
+#: 
+msgid "Choosing Your Hardware"
+msgstr ""
+
+#: ../../index.rst:53
+#: 
+msgid "Download Qubes OS"
+msgstr ""
+
+#: ../../index.rst:53
+#: 
+msgid "Download mirrors"
+msgstr ""
+
+#: ../../index.rst:53
+#: 
+msgid "Downloading, Installing, and Upgrading Qubes"
+msgstr ""
+
+#: ../../index.rst:68
+#: 
+msgid "How-to guides"
+msgstr ""
+
+#: ../../index.rst:93
+#: 
+msgid "Templates"
+msgstr ""
+
+#: ../../index.rst:109
+#: 
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:134
+#: 
+msgid "Security in Qubes"
+msgstr ""
+
+#: ../../index.rst:150
+#: 
+msgid "Advanced topics"
+msgstr ""
+
+#: ../../index.rst:178
+#: 
+msgid "Reference"
+msgstr ""
+
+#: ../../index.rst:188
+#: 
+msgid "Project Security"
+msgstr ""
+
+#: ../../index.rst:206
+#: 
+msgid "Visual style guide"
+msgstr ""
+
+#: ../../index.rst:206
+#: 
+msgid "Developers - general"
+msgstr ""
+
+#: ../../index.rst:227
+#: 
+msgid "Developers - code"
+msgstr ""
+
+#: ../../index.rst:239
+#: 
+msgid "Qubes core admin"
+msgstr ""
+
+#: ../../index.rst:239
+#: 
+msgid "Qubes core admin client"
+msgstr ""
+
+#: ../../index.rst:239
+#: 
+msgid "Qubes core stack"
+msgstr ""
+
+#: ../../index.rst:239
+#: 
+msgid "Developers - system"
+msgstr ""
+
+#: ../../index.rst:258
+#: 
+msgid "Developers - services"
+msgstr ""
+
+#: ../../index.rst:276
+#: 
+msgid "Developers - debugging"
+msgstr ""
+
+#: ../../index.rst:290
+#: 
+msgid "Qubes template configs"
+msgstr ""
+
+#: ../../index.rst:290
+#: 
+msgid "Developers - building"
+msgstr ""
+
+#: ../../index.rst:303
+#: 
+msgid "Developers - releases"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Template: CentOS"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Template: Gentoo"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Pentesting: BlackArch"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Pentesting: Kali"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Pentesting: PTF"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Tips for Using Linux in an HVM"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "Creating a NetBSD VM"
+msgstr ""
+
+#: ../../index.rst:322
+#: 
+msgid "External - Operating System Guides"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "Security Guidelines"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "Using Multi-factor Authentication with Qubes"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "How to Set Up a Split Bitcoin Wallet in Qubes"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "Split dm-crypt"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "Split SSH"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "Using OnlyKey with Qubes OS"
+msgstr ""
+
+#: ../../index.rst:337
+#: 
+msgid "External - Security Guides"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "Whonix for Privacy & Anonymity"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "Running Tails in Qubes"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "Anonymizing your MAC Address"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "Signal"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "Reducing the fingerprint of the text-based web browser w3m"
+msgstr ""
+
+#: ../../index.rst:351
+#: 
+msgid "External - Privacy Guides"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "How to set up a ProxyVM as a VPN Gateway"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Multibooting"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Changing your Time Zone"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Installing ZFS in Qubes"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Mutt Guide"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Postfix Guide"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Fetchmail Guide"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Creating Custom NetVMs and ProxyVMs"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "How to make proxy for individual tcp connection from networkless VM"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Adding Bridge Support to the NetVM (EXPERIMENTAL)"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Screen Sharing"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Enabling TRIM for SSD disks"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Configuring a Network Printer"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Using External Audio Devices"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Rxvt Guide"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "Adding SSD storage cache"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "How to Make a Multimedia TemplateVM"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "How to install an Nvidia driver in dom0"
+msgstr ""
+
+#: ../../index.rst:364
+#: 
+msgid "External - Configuration Guides"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "Customizing Fedora minimal templates"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "Customizing Windows 7 templates"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "Language Localization"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "Dark Theme in Dom0 and DomU"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "Safely Removing TemplateVM Packages (Example: Thunderbird)"
+msgstr ""
+
+#: ../../index.rst:390
+#: 
+msgid "External - Customization Guides"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Nvidia troubleshooting guide"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Lenovo ThinkPad Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Apple MacBook Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Sony Vaio Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Intel Integrated Graphics Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Multiboot Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Application Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "Tails Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:403
+#: 
+msgid "External - Troubleshooting"
+msgstr ""
+
+#: ../../index.rst:419
+#: 
+msgid "Building a TemplateVM based on a new OS (ArchLinux example)"
+msgstr ""
+
+#: ../../index.rst:419
+#: 
+msgid "Building the Archlinux Template"
+msgstr ""
+
+#: ../../index.rst:419
+#: 
+msgid "Building the Whonix Templates"
+msgstr ""
+
+#: ../../index.rst:419
+#: 
+msgid "How to compile kernels for dom0"
+msgstr ""
+
+#: ../../index.rst:419
+#: 
+msgid "External - Building Guides"
+msgstr ""
+
+#: ../../index.rst:3
+#: b7ddd9502b5a4d7885aa3a01327f2e56
+msgid "Documentation"
+msgstr ""
+
+#: ../../index.rst:8
+#: 46ce60ac897d474190c8ddbc100cc346
+msgid "Table of contents"
+msgstr ""
+
+#: ../../index.rst:32
+#: bd236886d2cf4cf7b24cc883d717b590
+msgid "User Documentation"
+msgstr ""
+
+#: ../../index.rst:35
+#: 7c9ec5b1241447aa8ab82f6a7cb6e863
+msgid "Core documentation for Qubes users."
+msgstr ""
+
+#: ../../index.rst:199
+#: dbf35eeafb9b420f8a6679d3d6f7e7fa
+msgid "Developer Documentation"
+msgstr ""
+
+#: ../../index.rst:202
+#: dc68b78103484eedbf6f4e3e33faa3b7
+msgid "Core documentation for Qubes developers and advanced users."
+msgstr ""
+
+#: ../../index.rst:315
+#: f300ecda6b3b43789e818600afd78817
+msgid "External Documentation"
+msgstr ""
+
+#: ../../index.rst:317
+#: 1704dc30ca374ba5993e060990e38949
+msgid "Unofficial, third-party documentation from the Qubes community and others."
+msgstr ""

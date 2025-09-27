@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:3
+#: d236afd80479498284b28ac696503896
+msgid "UEFI troubleshooting"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:6
+#: d86ce92e47cd4a05bc99c1466ee40c95
+msgid ""
+"Successfully installed in legacy mode, but had to change some xen "
+"parameters"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:8
+#: bf7cbb0b6bdf4e6e8b2f7bd29fb6ffb4
+msgid ""
+"**Note**: If you make changes, you must boot from “Partition 1” "
+"explicitly from UEFI boot menu."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:10
+#: b8f1c24b72644e8dbacbd9cc5c161d36
+msgid "**Change the xen configuration on a USB media**"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:12
+#: ca1f05cc9cea4087ae8b1923f5cd0491
+msgid ""
+"Attach the usb disk, mount the EFI partition (second partition available "
+"on the disk)"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:14
+#: a03c032a392d4356bce024882d2a9036
+msgid ""
+"Open a terminal and enter the command ``sudo su -``. Use your preferred "
+"text editor (e.g ``vi``) to edit your xen config (``EFI/BOOT/grub.cfg``):"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:20
+#: 687c31259ee44d03b232c511eb6bc5b2
+msgid ""
+"Change the ``multiboot2 /images/pxeboot/xen.gz`` line to add your xen "
+"parameters on the boot entry of your choice"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:22
+#: 949b5583c1f74b128d4604cdcf57fd7d
+msgid "Install using your modified boot entry"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:24
+#: 391931ef43d74e27a8ce42f6796f5190
+msgid "**Change xen configuration directly in an iso image**"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:26
+#: c20242c00fbc46fba1fb7ba24ddf4eae
+msgid ""
+"Set up a loop device (replacing ``X`` with your ISO’s version name): "
+"``losetup -P /dev/loop0 Qubes-RX-x86_64.iso``"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:28
+#: 4a4756ed27c445949bef3ddaf9be7370
+msgid "Mount the loop device: ``sudo mount /dev/loop0p2 /mnt``"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:30
+#: 0b51aa286eb94209b4124cee9e1e056b
+msgid ""
+"Edit ``EFI/BOOT/grub.cfg`` to add your params to the ``multiboot2 "
+"/images/pxeboot/xen.gz`` line"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:32
+#: fc16c801fe334f08929f8fe9b3028c68
+msgid "Save your changes, unmount and dd to usb device"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:35
+#: 2086b1220bb74fa0b39f9257f25c1066
+msgid "Installation freezes before displaying installer"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:37
+#: 1c7e90a4d7184106ac224157e3abaa60
+msgid ""
+"If you have an Nvidia card, see also `Nvidia Troubleshooting "
+"<https://forum.qubes-os.org/t/19021#disabling-nouveau>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:40
+#: a46b081c175b47a5ac6ccbef34722abb
+msgid "Installation from USB stick hangs on black screen"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:42
+#: 1a3310ef671042509d66555001f6edac
+msgid ""
+"Some laptops cannot read from an external boot device larger than 8GB. If"
+" you encounter a black screen when performing an installation from a USB "
+"stick, ensure you are using a USB drive less than 8GB, or a partition on "
+"that USB lesser than 8GB and of format FAT32."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:45
+#: 008638ae37434cf5ba28e90ce2998368
+msgid ""
+"Installation completes successfully but then system crash/restarts on "
+"next boot"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:47
+#: ab24aad1dd014daab0359f4837575ada
+msgid ""
+"Some Dell systems and probably others have `another bug in UEFI firmware "
+"<https://web.archive.org/web/20170901231026/https://markmail.org/message/amw5336otwhdxi76>`__."
+" These systems need ``efi=attr=uc`` enabled at all times. Although this "
+"is enabled by default in the installer, it is disabled after the first "
+"stage of a successful install. You can re-enable it either as part of the"
+" install process:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:49
+#: 1eb05c35147042b6ae041bc1603d1125
+msgid "Perform installation normally, but don’t reboot the system at the end yet."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:51
+#: 7670d7e62df74153adfc2629b628d493
+msgid "Go to ``tty2`` (Ctrl-Alt-F2)."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:53
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:88
+#: 726d6e3e0f9647af8fede1ab0bca2f7d dc048f610ffd46eb8d66ff04477e7aad
+msgid "Execute:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:59
+#: b40e34859f764028ae1f664d25f3f872
+msgid "Go back to ``tty6`` (Ctrl-Alt-F6) and click ``Reboot``."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:61
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:96
+#: 06a48937f3ac431f8b597c9b09afe478 96e2b52129984da0bb775267dde5f313
+msgid "Continue with setting up default templates and logging in to Qubes."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:63
+#: 78bdc22a40e84236812bed46ceb00da0
+msgid ""
+"Or if you have already rebooted after the first stage install and have "
+"encountered this issue, by:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:65
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:103
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:137
+#: 200abcb77a8346d0b3bf3816b9202ab7 458ca03eb963487db4b26b04504199d8
+#: b244819608994e27a6fe39e64fc661b5
+msgid ""
+"Boot Qubes OS install media into :ref:`rescue mode <user/troubleshooting"
+"/uefi-troubleshooting:accessing installer rescue mode on uefi>`"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:67
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:105
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:139
+#: 381c08ec3e894752b37f2c17c074b2f9 3dd4130bb1f74e46877e044e8ba9bb04
+#: 5e6a81a73e354792ad488462c2af79d9
+msgid "Press ‘3’ to go to the shell"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:69
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:107
+#: ecbf3f88744245c0815bc52ee884e13b f009195d5b604d33b8d5a11eadcf4d63
+msgid ""
+"Find and mount the EFI system partition. (replace ``/dev/sda`` with your "
+"disk name. If unsure, use the ``lsblk`` command to display a list of "
+"disks):"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:75
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:113
+#: 219b78760190409485fb2e6b0c819914 342047643b384381a5e6eef3d602cf1a
+msgid "The output should look like this:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:81
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:119
+#: 0d07445432274ebd8ad32d6c085bf4c6 735fb5fd51114d1eab600b57989f6540
+msgid "Then mount it:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:94
+#: 1732168b4bcc41828e91690d79bb0255
+msgid "Type ``reboot``."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:99
+#: 058293977209465693f2afa6ae23dd4c
+msgid "Boot device not recognized after installing"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:101
+#: d8ef31ed2013480b9fa01ded3b6a29f9
+msgid ""
+"Some firmware will not recognize the default Qubes EFI configuration. As "
+"such, it will have to be manually edited to be bootable."
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:126
+#: 87c9e53648de46729db1cbd349d45a3c
+msgid "Copy ``grubx64.efi`` to the fallback path:"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:132
+#: b4352089136e4f80b0944b158c98bfe3
+msgid "Type ``reboot``"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:135
+#: 8ae6c8aa31064c919d686aa95f9203eb
+msgid ""
+"\"Qubes\" boot option is missing after removing / attaching a disk or "
+"updating the BIOS"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:141
+#: f62dcd0e3f4c45e082d3cda361fcdf33
+msgid ""
+"Create boot entry in EFI firmware (replace ``/dev/sda`` with your disk "
+"name and ``-p 1`` with ``/boot/efi`` partition number):"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:148
+#: 42299370a8fa45c0ad7fd1f3d5470df2
+msgid "Accessing installer Rescue mode on UEFI"
+msgstr ""
+
+#: ../../user/troubleshooting/uefi-troubleshooting.rst:150
+#: a25883bcdd294fba8f52c73ab0f56350
+msgid "Choose “Rescue a Qubes OS system” from grub2 boot menu."
+msgstr ""
+

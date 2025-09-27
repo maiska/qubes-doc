@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../introduction/intro.rst:8
+#: 4b39704db2734a43ad57b5c801861367
+msgid "Introduction"
+msgstr ""
+
+#: ../../introduction/intro.rst:11
+#: a59a2ace563747af804b8ed88e7fa2be
+msgid "What is Qubes OS?"
+msgstr ""
+
+#: ../../introduction/intro.rst:13
+#: 3881b70f809a470285b75df9d6229a44
+msgid "Qubes OS is a free and open-source, security-oriented operating system for single-user desktop computing. Qubes OS `leverages Xen-based virtualization <https://wiki.xen.org/wiki/Xen_Project_Software_Overview>`__ to allow for the creation and management of isolated compartments called :term:`qubes <qube>`."
+msgstr ""
+
+#: ../../introduction/intro.rst:17
+#: 3ad8ae2b60604c96beceaeb997d75527
+msgid "These qubes, which are implemented as :term:`virtual machines (VMs)<VM>`, have specific:"
+msgstr ""
+
+#: ../../introduction/intro.rst:19
+#: 9afc40a51eb14477bec90d3270452fac
+msgid "**Purposes:** with a predefined set of one or many isolated applications, for personal or professional projects, to manage the :doc:`network stack </developer/system/networking>`, :doc:`the firewall </user/security-in-qubes/firewall>`, or to fulfill other user-defined purposes."
+msgstr ""
+
+#: ../../introduction/intro.rst:24
+#: 9dc4da055a80489582bc73ff9d03937f
+msgid "**Natures:** :doc:`full-fledged </user/advanced-topics/standalones-and-hvms>` or :doc:`stripped-down </introduction/getting-started/>` virtual machines based on popular operating systems, such as :doc:`Fedora </user/templates/fedora/fedora>`, :doc:`Debian </user/templates/debian/debian>`, and :doc:`Windows </user/templates/windows/windows>`."
+msgstr ""
+
+#: ../../introduction/intro.rst:29
+#: 17a0e97467cb4e459acc5dfd0e2622ff
+msgid "**Levels of trust:** from complete to non-existent. All windows are displayed in a unified desktop environment with :doc:`unforgeable colored window borders </introduction/getting-started>` so that different security levels are easily identifiable."
+msgstr ""
+
+#: ../../introduction/intro.rst:32
+#: 3056cfbb59fa4362b34d49b413dccb9c
+msgid "Qubes system diagram"
+msgstr ""
+
+#: ../../introduction/intro.rst:38
+#: a38e79bde5654f7b9c0f787dc2cce61a
+msgid "**Note:** See our :doc:`glossary </user/reference/glossary>` and :doc:`FAQ </introduction/faq>` for more information."
+msgstr ""
+
+#: ../../introduction/intro.rst:42
+#: 19c993e2fe584cdc9182f2bc72235629
+msgid "Features"
+msgstr ""
+
+#: ../../introduction/intro.rst:44
+#: 859af89a669e44059374f59521887f00
+msgid "**Strong isolation** Isolate different pieces of software as if they were installed on separate physical machines using advanced virtualization techniques."
+msgstr ""
+
+#: ../../introduction/intro.rst:47
+#: 4a87d1c4c5a54ceaa16ad75563a2c2a1
+msgid "**Template system** Use :term:`app qubes  <app qube>` to share a root file system without sacrificing security using the innovative :doc:`Template system </user/templates/templates>`."
+msgstr ""
+
+#: ../../introduction/intro.rst:52
+#: a09488b8429645e0a2f8f858aaae0629
+msgid "**Multiple operating systems** Use multiple operating systems at the same time, including :doc:`Fedora </user/templates/fedora/fedora>`, :doc:`Debian </user/templates/debian/debian/>`, and :doc:`Windows </user/templates/windows/windows>`"
+msgstr ""
+
+#: ../../introduction/intro.rst:56
+#: 827a3947d5884c5ca6bc9bb6cad02e88
+msgid "**Disposables** Create :doc:`disposables </user/how-to-guides/how-to-use-disposables>` on the fly that self-destruct when shut down."
+msgstr ""
+
+#: ../../introduction/intro.rst:58
+#: 58fc2c5ebf544abeb100393fa9e025bd
+msgid "**Whonix integration** Run `Tor <https://www.torproject.org/>`__ securely system-wide using `Whonix with Qubes <https://www.whonix.org/wiki/Qubes>`__."
+msgstr ""
+
+#: ../../introduction/intro.rst:60
+#: c2b486914bf14b6488fa58f82f80fb93
+msgid "**Device isolation** Secure :doc:`device handling </user/how-to-guides/how-to-use-devices>` through isolation of network cards and USB controllers."
+msgstr ""
+
+#: ../../introduction/intro.rst:62
+#: 9df4ae53bb30479b821105dde748539a
+msgid "**Split GPG** Utilize :doc:`Split GPG </user/security-in-qubes/split-gpg>` to keep your private keys safe."
+msgstr ""
+
+#: ../../introduction/intro.rst:64
+#: 1579a84b4c494cc2b967181a5d6e26bb
+msgid "**CTAP proxy** Operate :doc:`Qubes CTAP proxy </user/security-in-qubes/ctap-proxy>` to use your two-factor authentication devices without exposing your web browser to the full USB stack."
+msgstr ""
+
+#: ../../introduction/intro.rst:66
+#: b300ee6198694c818cfb3546204f5089
+msgid "**Open-source** Users are free to use, copy, and modify Qubes OS and :doc:`are encouraged to do so! </introduction/contributing>`"
+msgstr ""
+
+#: ../../introduction/intro.rst:71
+#: da3fea0d1d3b4a73b4c09b1334f52bb1
+msgid "**Note:** Given the technical nature of Qubes OS, prior experience with Linux can be helpful."
+msgstr ""
+
+#: ../../introduction/intro.rst:75
+#: 4d0c6648b0ca467793934d7a78f3534f
+msgid "Why Qubes OS?"
+msgstr ""
+
+#: ../../introduction/intro.rst:79
+#: a6973467044348439239dcde1937595c
+msgid "Physical isolation is a given safeguard that the digital world lacks"
+msgstr ""
+
+#: ../../introduction/intro.rst:81
+#: e9e896a1f98a464197ee1f0a7bae6f80
+msgid "Throughout our lives, we engage in various activities, such as going to school, working, voting, taking care of our families, and visiting with friends. These activities are spatially and temporally bound: They happen in isolation from one another, in their own compartments, which often represent an essential safeguard, as in the case of voting."
+msgstr ""
+
+#: ../../introduction/intro.rst:87
+#: 2a4c4f6fce1c454ea6583ec10e04afe2
+msgid "In our digital lives, the situation is quite different: All of our activities typically happen on a single device. This causes us to worry about whether it's safe to click on a link or install an app, since being hacked imperils our entire digital existence."
+msgstr ""
+
+#: ../../introduction/intro.rst:92
+#: a07760b2083747268b30a51e497db30b
+msgid "Qubes eliminates this concern by allowing us to divide a device into many compartments, much as we divide a physical building into many rooms. Better yet, it allows us to create new compartments whenever we need them, and it gives us sophisticated tools for securely managing our activities and data across these compartments."
+msgstr ""
+
+#: ../../introduction/intro.rst:98
+#: 6519be27151547fa895906df32b7818f
+msgid "Qubes manager"
+msgstr ""
+
+#: ../../introduction/intro.rst:104
+#: 6bd5c20f8a0d43479b59a36923bd2243
+msgid "Qubes allows you to compartmentalize your digital life"
+msgstr ""
+
+#: ../../introduction/intro.rst:106
+#: 6489d76981b743d9af3f6e90be51b36b
+msgid "Many of us are initially surprised to learn that our devices do not support the kind of secure compartmentalization that our lives demand, and we're disappointed that software vendors rely on generic defenses that repeatedly succumb to new attacks."
+msgstr ""
+
+#: ../../introduction/intro.rst:111
+#: d7797e9b27204c2ea1f46f4342251d0b
+msgid "In building Qubes, our working assumption is that all software contains bugs. Not only that, but in their stampeding rush to meet deadlines, the world's stressed-out software developers are pumping out new code at a staggering rate - far faster than the comparatively smaller population of security experts could ever hope to analyze it for vulnerabilities, much less fix everything. Rather than pretend that we can prevent these inevitable vulnerabilities from being exploited, we've designed Qubes under the assumption that they **will** be exploited. It's only a matter of time until the next zero-day attack."
+msgstr ""
+
+#: ../../introduction/intro.rst:121
+#: 3cbc6db5168d44b8a254a7604b8d6358
+msgid "In light of this sobering reality, Qubes takes an eminently practical approach: confine, control, and contain the damage. It allows you to keep valuable data separate from risky activities, preventing cross-contamination. This means you can do everything on the same physical computer without having to worry about a single successful cyberattack taking down your entire digital life in one fell swoop. In fact, Qubes has `distinct advantages over physical air gaps <https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf>`__."
+msgstr ""
+
+#: ../../introduction/intro.rst:129
+#: 4dd0868322b045c985fb0af07f2a9ceb
+msgid "Compartmentalization example"
+msgstr ""
+
+#: ../../introduction/intro.rst:133
+#: 9bd8230d7e0542c6bc03f9fd3693d0af
+msgid "Made to support vulnerable users and power users alike"
+msgstr ""
+
+#: ../../introduction/intro.rst:136
+#: 05b08ce0647b432884620b9ab77017c5
+msgid "Qubes provides practical, usable security to vulnerable and actively-targeted individuals, such as journalists, activists, whistleblowers, and researchers. Qubes is designed with the understanding that people make mistakes, and it allows you to protect yourself from your own mistakes. It's a place where you can click on links, open attachments, plug in devices, and install software free from worry. It's a place where **you** have control over your software, not the other way around. (See some :doc:`examples of how different types of users organize their qubes </user/how-to-guides/how-to-organize-your-qubes>`.)"
+msgstr ""
+
+#: ../../introduction/intro.rst:145
+#: c96c30ab650449ae953085a17b2cc28e
+msgid "Qubes is also powerful. Organizations like the `Freedom of the Press Foundation <https://securedrop.org/news/piloting-securedrop-workstation-qubes-os>`__, `Mullvad <https://twitter.com/mullvadnet/status/631010362083643392>`__, and `Let's Encrypt <https://twitter.com/letsencrypt/status/1239934557710737410>`__ rely on Qubes as they build and maintain critical privacy and security internet technologies that are in turn relied upon by countless users around the world every day. Renowned security `experts <https://qubes-os.org/endorsements/>`__ like Edward Snowden, Daniel J. Bernstein, Micah Lee, Christopher Soghoian, Isis Agora Lovecruft, Peter Todd, Bill Budington, and Kenn White use and recommend Qubes."
+msgstr ""
+
+#: ../../introduction/intro.rst:154
+#: 1a480edb7adf4d3798af392ee58a3d7b
+msgid "Qubes is one of the few operating systems that places the security of its users above all else. It is, and always will be, free and open-source software, because the fundamental operating system that constitutes the core infrastructure of our digital lives **must** be free and open-source in order to be trustworthy."
+msgstr ""
+
+#: ../../introduction/intro.rst:161
+#: a7e1346a014d4c819abe7b2c094360d6
+msgid "Qubes desktop screenshot"
+msgstr ""
+
+#: ../../introduction/intro.rst:167
+#: a838946d3b7e4f09bd570e7d8f510f86
+msgid "Video Tours"
+msgstr ""
+
+#: ../../introduction/intro.rst:169
+#: 64ccde3f06654f8bbbc16026d963577a
+msgid "Want to see Qubes OS in action? Sit back and watch a guided :doc:`tour! </introduction/video-tours/>`"
+msgstr ""
+
+#: ../../introduction/intro.rst:173
+#: 37d80839618d48b28a1d5c95502a4317
+msgid "Screenshots"
+msgstr ""
+
+#: ../../introduction/intro.rst:175
+#: e310cedfb83544aca1fc910fa3362ec1
+msgid "See what using Qubes actually looks like with these :doc:`screenshots </introduction/screenshots/>` of various applications running in Qubes."
+msgstr ""
+
+#: ../../introduction/intro.rst:180
+#: 9a7e468ca6a3435da2d1645e125074cf
+msgid "Getting Started"
+msgstr ""
+
+#: ../../introduction/intro.rst:182
+#: 54b61fd092274b7e92ab6293d1e0c3ba
+msgid "Ready to get started with Qubes? :doc:`Here's </introduction/getting-started>` what you need to know after installing."
+msgstr ""
+
+#: ../../introduction/intro.rst:187
+#: 74572533a8d34dc8b2a81ba003b6ba75
+msgid "More information"
+msgstr ""
+
+#: ../../introduction/intro.rst:189
+#: 1a755bad667d4c0da4e89a13420691bf
+msgid "This page is just a brief introduction to what Qubes is all about, and many technical details have been omitted here for the sake of presentation."
+msgstr ""
+
+#: ../../introduction/intro.rst:194
+#: f4b3fdeff57d4f2f8b218c83ecfbf110
+msgid "If you’re a current or potential Qubes user, you may want to check out the :doc:`documentation </index>` and the :ref:`user FAQ <introduction/faq:users>`."
+msgstr ""
+
+#: ../../introduction/intro.rst:195
+#: adaa2d724c954be49eca01acadd48d6e
+msgid "If you’re a developer, there’s dedicated :ref:`index:Developer Documentation` and a :ref:`developer FAQ <introduction/faq:developers>` just for you."
+msgstr ""
+
+#: ../../introduction/intro.rst:196
+#: 8411c2d1ad664d41b222d9d0ed480c8a
+msgid "Ready to give Qubes a try? Head on over to the `downloads page <https://www.qubes-os.org/downloads/>`__, and read the :doc:`Installation guide </user/downloading-installing-upgrading/installation-guide>`."
+msgstr ""
+
+#: ../../introduction/intro.rst:197
+#: c9dde757ca2b40e0983a7b82cae09aa7
+msgid "Need help, or just want to join the conversation? Learn more about :doc:`help, support, the mailing lists, and the forum </introduction/support>`."
+msgstr ""

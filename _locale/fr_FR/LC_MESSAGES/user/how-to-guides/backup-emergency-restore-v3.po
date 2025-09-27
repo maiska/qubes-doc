@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:3
+#: 248851373ac6444faafbbeba627afcc6
+msgid "Emergency backup recovery (v3)"
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:6
+#: d2da042ab3cc431b96e7364c3c6e5b5e
+msgid ""
+"This page describes how to perform an emergency restore of a backup "
+"created on Qubes R2 or later (which uses backup format version 3)."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:8
+#: 2fdc7e89e2d445bba2eaa951444b42ec
+msgid ""
+"The Qubes backup system has been designed with emergency disaster "
+"recovery in mind. No special Qubes-specific tools are required to access "
+"data backed up by Qubes. In the event a Qubes system is unavailable, you "
+"can access your data on any GNU/Linux system with the following "
+"procedure."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:10
+#: f78a013a362649c6a6299abb5ad5d42c
+msgid ""
+"**Note:** In the following example, the backup file is both *encrypted* "
+"and *compressed*."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:12
+#: bf446ceac8a049839ccf671c1098e272
+msgid "Untar the main backup file."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:34
+#: 28f0938dbeb34ddc942c592c2df70bfb
+msgid ""
+"Set the backup passphrase environment variable. While this isn’t strictly"
+" required, it will be handy later and will avoid saving the passphrase in"
+" the shell’s history."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:42
+#: 4bcc8851832b41bc96026e55023e5de4
+msgid ""
+"Verify the integrity of the ``backup-header`` file, which contains basic "
+"information about your backup."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:53
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:86
+#: 0e0ce4d5fa554ba6976a4aa91c8181c1 562f8f17870d426796202977ffd23ee4
+msgid ""
+"**Note:** The hash values should match. If they do not match, then the "
+"backup file may have been tampered with, or there may have been a storage"
+" error."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:55
+#: cd0437dbb318417a853479a31068dad6
+msgid ""
+"**Note:** If your backup was hashed with a message digest algorithm other"
+" than ``sha512``, you must substitute the correct message digest command."
+" This information is contained in the ``backup-header`` file (see step "
+"4), however it is not recommended to open this file until its integrity "
+"and authenticity has been verified (the current step). A complete list of"
+" supported message digest algorithms can be found with ``openssl list-"
+"message-digest-algorithms``."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:59
+#: c74acd03878d4333b4b644bf80a42438
+msgid ""
+"Read the ``backup-header``. You’ll need some of this information later. "
+"The file will look similar to this:"
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:72
+#: 2e1fd4833e724907a47bf3632e954491
+msgid ""
+"**Note:** If you see ``version=2`` here, go to :doc:`Emergency Backup "
+"Recovery - format version 2 </user/how-to-guides/backup-emergency-"
+"restore-v2>` instead."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:74
+#: 9f5427499bc14732befeb6042e5074ff
+msgid "Verify the integrity of the ``private.img`` file which houses your data."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:88
+#: 14c7b080844443e48b841bcfb77d581c
+msgid ""
+"**Note:** If your backup was hashed with a message digest algorithm other"
+" than ``sha512``, you must substitute the correct message digest command."
+" This information is contained in the ``backup-header`` file (see step "
+"4). A complete list of supported message digest algorithms can be found "
+"with ``openssl list-message-digest-algorithms``."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:92
+#: ebe7dd7ba1b74d8c8b29b0f41f6d1e5e
+msgid "Decrypt the ``private.img`` file."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:99
+#: 7421375e610340a682969e68c99d02f6
+msgid ""
+"**Note:** If your backup was encrypted with a cipher algorithm other than"
+" ``aes-256-cbc``, you must substitute the correct cipher command. This "
+"information is contained in the ``backup-header`` file (see step 4). A "
+"complete list of supported cipher algorithms can be found with ``openssl "
+"list-cipher-algorithms``."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:101
+#: 036b5fe09bbd4038b07ad0083882df7f
+msgid "Decompress the decrypted ``private.img`` file."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:110
+#: 1d9cefe4e15e477fb5a0f28de9e0090c
+msgid ""
+"**Note:** If your backup was compressed with a program other than "
+"``gzip``, you must substitute the correct compression program. This "
+"information is contained in the ``backup-header`` file (see step 4). For "
+"example, if you used ``bzip2``, then you should do this:"
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:119
+#: 10aa626944d7430192c146a34183d45f
+msgid "Untar the decrypted and decompressed ``private.img`` file."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:128
+#: 39af000d5fdc4fcf87b7a9c292a7e0fb
+msgid "Mount the private.img file and access your data."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:139
+#: 6700bcb743874e4db374261e9067d37b
+msgid ""
+"Success! If you wish to recover data from more than one VM in your "
+"backup, simply repeat steps 5–9 for each additional VM."
+msgstr ""
+
+#: ../../user/how-to-guides/backup-emergency-restore-v3.rst:141
+#: c5711279537143adad34505ccec1e13a
+msgid ""
+"**Note:** You may wish to store a copy of these instructions with your "
+"Qubes backups in the event that you fail to recall the above procedure "
+"while this web page is inaccessible. All Qubes documentation, including "
+"this page, is available in plain text format in the following Git "
+"repository: https://github.com/QubesOS/qubes-doc.git"
+msgstr ""
+

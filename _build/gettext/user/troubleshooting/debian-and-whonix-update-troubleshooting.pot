@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Qubes OS Project
+# This file is distributed under the same license as the Qubes OS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubes OS 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 09:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:3
+#: ab5d7bab1d03407bad1c3081e69a5746
+msgid "Updating Debian and Whonix"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:6
+#: 578dff1423044645b979b7c746e49ed0
+msgid "Despite Qubes shipping with :doc:`Debian Templates </user/templates/debian/debian>`, most of Qubes core components run on Fedora and thus our documentation has better coverage for Fedora. However, Qubes has been working closely with the `Whonix <https://whonix.org>`__ project which is based on Debian."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:8
+#: c994157576384bad997fc0a25e65a6f1
+msgid "This troubleshooting guide is collection of tips about updating Whonix that also pertain to updating the normal Debian package manager. If you plan to use Debian heavily, **we highly recommend you install the Whonix templates and use them to update your normal Debian template.**"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:10
+#: d8c41172de4c4e30a6d639c4c8234228
+msgid "**Note: some of the links on this page go to documentation on Whonix’s website**"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:13
+#: e983ff12cdad43ce890c31e822b7a3be
+msgid "Updating Error Messages"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:16
+#: 77821aaa5f464abba0e3e4931eba9b0b
+msgid "After running the commands to update Debian or Whonix, hopefully everything will complete perfectly."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:24
+#: 228a7b225d794d039533d856e63be9dc
+msgid "However, if you see something like the following, then something went wrong."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:51
+#: 060a0c948ece4186ae29b67f0873f031
+msgid "This could be a temporary Tor exit relay or server failure that should fix itself. Here are some simple things to try:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:53
+#: ab6304da1d684f9e9bc3f5c27cda765e
+msgid "Check if your network connection is functional"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:55
+#: a05af09f8e6c42f387ce4b408c8e510f
+msgid "Try to `change your Tor circuit <https://www.whonix.org/wiki/Arm>`__, then try again"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:57
+#: 3adea8bbfd424193a5e8b91d82711636
+msgid "Running `whonixcheck <https://www.whonix.org/wiki/Whonixcheck>`__ might also help diagnose the problem"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:61
+#: 8a8c5d0bdcb9475cb8ae623e0d0ac355
+msgid "Sometimes if you see a message such as:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:69
+#: dba5a7ad0d944f7885ecca53cac27227
+msgid "It helps to run the following command:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:77
+#: 4d9309f9cf82435596f8dc8bdbc7808d
+msgid "And then trying running the ``update`` and ``upgrade`` commands again."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:85
+#: 1764d4dbfc2846f7acf4d7fb91950a84
+msgid "*Please note: if you* `disabled the Whonix APT Repository <https://www.whonix.org/wiki/Whonix-APT-Repository#Disable_Whonix_APT_Repository>`__ *you’ll have to manually check for new Whonix releases and* `manually install them from source code <https://www.whonix.org/wiki/Dev/Build_Documentation>`__ *.*"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:88
+#: 80548ef82ac745fa860fcd92a040157c
+msgid "Never Install Unsigned Packages"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:91
+#: b1f7628bf35d4fef8d9b4fc47be274a6
+msgid "If you see something like this:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:101
+#: 463ad9abbc8d4ca1bbb59ae0eaba74b2
+msgid "Don’t proceed! Press ``N`` and ``<enter>``. Running ``apt-get update`` again should fix it. If not, something is broken or it’s a `Man in the middle attack <https://www.whonix.org/wiki/Warning#Man-in-the-middle_attacks>`__, which isn’t that unlikely, since we are updating over Tor exit relays and some of them are malicious. Try to `change your Tor circuit <https://www.whonix.org/wiki/Arm#Arm>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:104
+#: 1a5f10ec8e8b416c984565da3f7442ed
+msgid "Signature Verification Warnings"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:107
+#: 2406ba245d6b481a98bf6f5c3b409154
+msgid "There should be none at the moment. If there was such a warning, it would look like this:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:115
+#: 914e8fc1d44740e0856e44d9d5afe24a
+msgid "Even though, ``apt-get`` will automatically ignore repositories with expired keys or signatures, you will not receive upgrades from that repository. Unless the issue is already known/documented, it should be reported so it can be further investigated."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:117
+#: 84d445bbbad5495996335e2d48781b4e
+msgid "There are two possible reasons why this could happen, either there is an issue with the repository that the maintainers have to fix, or you are victim of a `Man-in-the-middle_attacks <https://www.whonix.org/wiki/Warning#Man-in-the-middle_attacks>`__. The latter would not be a big issue and might go away after a while automatically or try to `change your Tor circuit <https://www.whonix.org/wiki/Arm#Arm>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:119
+#: d3ec3b34d9b74ec48d92e553be0ea219
+msgid "In past various apt repositories were signed with expired key: `The Tor Project’s apt repository key was expired <https://trac.torproject.org/projects/tor/ticket/12994>`__."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:121
+#: 52b13e0864d84b7fa50689d13e61e442
+msgid "You saw the following warning:"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:132
+#: 39fc5852be6b47ee866f70c93d68a706
+msgid "It had already been `reported <https://trac.torproject.org/projects/tor/ticket/12994>`__. There was no immediate danger. You could have just ignored it. Just make sure, you never install unsigned packages as explained above."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:134
+#: 40b37638fd7a479880073bb82b4aa526
+msgid "If you were to see other signature verification errors, those should be reported, but it shouldn’t happen at this time."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:137
+#: 963bfa91dd1b4ff896d835f7ec38fcb3
+msgid "Changed Configuration Files"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:140
+#: ca7f3f7c703542f2bb7cb5435140bef1
+msgid "If you see something like the following."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:158
+#: 6e0594af7ca148169a81bcea2d7e56ea
+msgid "Be careful. If the updated file isn’t coming from Whonix specific package (some are called ``whonix-...``), then press ``n``. Otherwise anonymity/privacy/security settings deployed with Whonix might get lost. If you are an advanced user and know better, you can of course manually check the difference and merge them."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:160
+#: 1810884130ae4c11b23c1b0e2e57740b
+msgid "How could you find out if the file is coming from a Whonix specific package or not?"
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:162
+#: 347567150e944eb59dc73cfe826a67cd
+msgid "Whonix specific packages are sometimes called ``whonix-...``. In the example above it’s saying ``Setting up ifupdown ...``, so the file isn’t coming from a Whonix specific package. In this case, you should press ``n`` as advised in the paragraph above."
+msgstr ""
+
+#: ../../user/troubleshooting/debian-and-whonix-update-troubleshooting.rst:164
+#: d2a04ec0a11948ac8ab186b0dac81603
+msgid "If the package name does include ``whonix-...``, it’s a Whonix specific package. In that case, your safest bet should be pressing ``y``, but then you would lose your customized settings. You can re-add them afterwards. Such conflicts will hopefully rarely happen, if you use `Whonix modular flexible .d style configuration folders <https://www.whonix.org/wiki/Whonix_Configuration_Files>`__."
+msgstr ""
